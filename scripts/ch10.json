@@ -1,0 +1,498 @@
+[
+  {
+    "id": "cs11-ch10-1m-1",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the alternative name for conditional operator (? :)?",
+    "questionTextTamil": "நிபந்தனை செயற்குறியின் மாற்றுப் பெயர் என்ன?",
+    "options": {
+      "A": "Unary operator",
+      "B": "Binary operator",
+      "C": "Ternary operator",
+      "D": "Bitwise operator"
+    },
+    "optionsTamil": {
+      "A": "ஒரும செயற்குறி",
+      "B": "இருமை செயற்குறி",
+      "C": "மும்ம செயற்குறி (Ternary operator)",
+      "D": "பிட்நிலை செயற்குறி"
+    },
+    "correctOption": "C",
+    "answer": "C) Ternary operator",
+    "answerTamil": "C) மும்ம செயற்குறி",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-2",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement provides a multi-way branch selection based on an integer or character constant?",
+    "questionTextTamil": "முழு எண் அல்லது உரு மாறிலியின் அடிப்படையில் பலவழி கிளைப்பிரிவை வழங்கும் கூற்று எது?",
+    "options": {
+      "A": "if-else",
+      "B": "switch",
+      "C": "while",
+      "D": "for"
+    },
+    "optionsTamil": {
+      "A": "if-else",
+      "B": "switch",
+      "C": "while",
+      "D": "for"
+    },
+    "correctOption": "B",
+    "answer": "B) switch",
+    "answerTamil": "B) switch",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-3",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement is used to terminate a loop or switch statement prematurely?",
+    "questionTextTamil": "ஒரு மடங்கு அல்லது switch கூற்றிலிருந்து உடனடியாக வெளியேற பயன்படும் கூற்று எது?",
+    "options": {
+      "A": "continue",
+      "B": "break",
+      "C": "goto",
+      "D": "exit"
+    },
+    "optionsTamil": {
+      "A": "continue",
+      "B": "break",
+      "C": "goto",
+      "D": "exit"
+    },
+    "correctOption": "B",
+    "answer": "B) break",
+    "answerTamil": "B) break",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-4",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement skips the remaining statements in current loop iteration and moves to the next iteration?",
+    "questionTextTamil": "மடங்கின் தற்போதைய சுழற்சியின் எஞ்சிய கூற்றுகளைத் தவிர்த்து அடுத்த சுழற்சிக்குச் செல்ல உதவும் கூற்று எது?",
+    "options": {
+      "A": "break",
+      "B": "continue",
+      "C": "return",
+      "D": "goto"
+    },
+    "optionsTamil": {
+      "A": "break",
+      "B": "continue",
+      "C": "return",
+      "D": "goto"
+    },
+    "correctOption": "B",
+    "answer": "B) continue",
+    "answerTamil": "B) continue",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-5",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which loop is an exit-controlled / post-tested loop in C++?",
+    "questionTextTamil": "C++ மொழியில் வெளியேறும் இடத்தில் நிபந்தனையை சோதிக்கும் மடங்கு (Exit-controlled loop) எது?",
+    "options": {
+      "A": "while",
+      "B": "for",
+      "C": "do-while",
+      "D": "nested for"
+    },
+    "optionsTamil": {
+      "A": "while",
+      "B": "for",
+      "C": "do-while",
+      "D": "பின்னலான for"
+    },
+    "correctOption": "C",
+    "answer": "C) do-while",
+    "answerTamil": "C) do-while",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-6",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many times does the loop body execute at minimum in a do-while loop?",
+    "questionTextTamil": "do-while மடங்கில் நிபந்தனை பொய்யாக இருந்தாலும் உடற்பகுதி குறைந்தது எத்தனை முறை இயங்கும்?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "Infinite",
+      "D": "Compiler error"
+    },
+    "optionsTamil": {
+      "A": "0",
+      "B": "1",
+      "C": "முடிவிலி",
+      "D": "பிழை"
+    },
+    "correctOption": "B",
+    "answer": "B) 1 time",
+    "answerTamil": "B) 1 முறை",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-7",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is an entry-controlled loop in C++?",
+    "questionTextTamil": "நுழைவு சோதிப்பு மடங்கு (Entry-controlled loop) எது?",
+    "options": {
+      "A": "while",
+      "B": "for",
+      "C": "Both while and for",
+      "D": "do-while"
+    },
+    "optionsTamil": {
+      "A": "while",
+      "B": "for",
+      "C": "while மற்றும் for இரண்டும்",
+      "D": "do-while"
+    },
+    "correctOption": "C",
+    "answer": "C) Both while and for",
+    "answerTamil": "C) while மற்றும் for இரண்டும்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-8",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What happens if the test condition in for( ; ; ) is omitted?",
+    "questionTextTamil": "for( ; ; ) என்பதில் நிபந்தனை விடுபட்டால் என்ன நிகழும்?",
+    "options": {
+      "A": "Compile error",
+      "B": "Loop does not execute",
+      "C": "Infinite loop occurs",
+      "D": "Executes once"
+    },
+    "optionsTamil": {
+      "A": "தொகுப்பு பிழை",
+      "B": "மடங்கு இயங்காது",
+      "C": "முடிவிலா சுழற்சி (Infinite loop) ஏற்படும்",
+      "D": "ஒரு முறை இயங்கும்"
+    },
+    "correctOption": "C",
+    "answer": "C) Infinite loop occurs",
+    "answerTamil": "C) முடிவிலா சுழற்சி ஏற்படும்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-9",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In a switch statement, what is executed if none of the cases match?",
+    "questionTextTamil": "switch கூற்றில் எந்த கேஸும் பொருந்தாத போது இயங்கும் பகுதி எது?",
+    "options": {
+      "A": "case 0",
+      "B": "default:",
+      "C": "else",
+      "D": "break"
+    },
+    "optionsTamil": {
+      "A": "case 0",
+      "B": "default:",
+      "C": "else",
+      "D": "break"
+    },
+    "correctOption": "B",
+    "answer": "B) default:",
+    "answerTamil": "B) default:",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-1m-10",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A loop placed inside the body of another loop is called:",
+    "questionTextTamil": "ஒரு மடங்கின் உடற்பகுதிக்குள் மற்றொரு மடங்கு அமைவது எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "Compound loop",
+      "B": "Nested loop",
+      "C": "Recursive loop",
+      "D": "Parallel loop"
+    },
+    "optionsTamil": {
+      "A": "கூட்டு மடங்கு",
+      "B": "பின்னலான மடங்கு (Nested loop)",
+      "C": "தற்சுழற்சி மடங்கு",
+      "D": "இணை மடங்கு"
+    },
+    "correctOption": "B",
+    "answer": "B) Nested loop",
+    "answerTamil": "B) பின்னலான மடங்கு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-1",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are Control Statements? Mention their three main types.",
+    "questionTextTamil": "கட்டுப்பாட்டுக் கூற்றுகள் என்றால் என்ன? அவற்றின் மூன்று முதன்மை வகைகளைக் குறிப்பிடுக.",
+    "answer": "Control statements alter the default sequential flow of execution.\nTypes:\n1. Sequential Statements\n2. Selection / Decision-making Statements (if, switch)\n3. Iteration / Looping Statements (for, while, do-while).",
+    "answerTamil": "நிரலின் தொடர்ச்சியான செயலாக்க வரிசையை மாற்றியமைக்கும் கூற்றுகள் கட்டுப்பாட்டுக் கூற்றுகள் ஆகும்.\nவகைகள்: தொடர் கூற்றுகள், தேர்ந்தெடுப்பு கூற்றுகள் (if, switch), சுழற்சிக் கூற்றுகள் (for, while, do-while).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-2",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write the syntax of simple 'if' statement in C++.",
+    "questionTextTamil": "C++ மொழியில் எளிய 'if' கூற்றின் தொடரியலை எழுதுக.",
+    "answer": "Syntax:\nif (condition) {\n    // statement(s) to execute if condition is true;\n}",
+    "answerTamil": "தொடரியல்:\nif (நிபந்தனை) {\n    // நிபந்தனை மெய்யாக இருக்கும் போது இயங்கும் கூற்றுகள்;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-3",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write the syntax of 'if-else' statement in C++.",
+    "questionTextTamil": "C++ மொழியில் 'if-else' கூற்றின் தொடரியலை எழுதுக.",
+    "answer": "Syntax:\nif (condition) {\n    // true block statements;\n} else {\n    // false block statements;\n}",
+    "answerTamil": "தொடரியல்:\nif (நிபந்தனை) {\n    // மெய் பகுதி கூற்றுகள்;\n} else {\n    // பொய் பகுதி கூற்றுகள்;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-4",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Entry-controlled loop? Give examples.",
+    "questionTextTamil": "நுழைவு சோதிப்பு மடங்கு என்றால் என்ன? எடுத்துக்காட்டுகள் தருக.",
+    "answer": "An entry-controlled loop checks the test condition before entering the loop body. If condition is false initially, the loop body never executes.\nExamples: while loop, for loop.",
+    "answerTamil": "மடங்கின் உடற்பகுதிக்குள் நுழைவதற்கு முன்பாகவே நிபந்தனையை சோதிக்கும் மடங்கு நுழைவு சோதிப்பு மடங்கு ஆகும் (எ.கா: while, for).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-5",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Exit-controlled loop? Give an example.",
+    "questionTextTamil": "வெளியேறும் சோதிப்பு மடங்கு என்றால் என்ன? எடுத்துக்காட்டு தருக.",
+    "answer": "An exit-controlled loop executes the loop body first and checks the test condition at the end of each iteration. Thus, it executes at least once.\nExample: do-while loop.",
+    "answerTamil": "மடங்கின் உடற்பகுதியை ஒருமுறை இயக்கிய பின், வெளியேறும் இடத்தில் நிபந்தனையைச் சோதிக்கும் மடங்கு வெளியேறும் சோதிப்பு மடங்கு எனப்படும் (எ.கா: do-while).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-6",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the purpose of 'break' statement?",
+    "questionTextTamil": "'break' கூற்றின் பயன்பாடு யாது?",
+    "answer": "The 'break' statement terminates the execution of the nearest enclosing loop (for, while, do-while) or switch block and transfers control to the statement following it.",
+    "answerTamil": "'break' கூற்றானது ஒரு சுழற்சி (for, while, do-while) அல்லது switch தொகுதியிலிருந்து கட்டுப்பாட்டை உடனடியாக வெளியேற்றி அடுத்த கூற்றுக்கு வழிநடத்துகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-7",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the purpose of 'continue' statement?",
+    "questionTextTamil": "'continue' கூற்றின் பயன்பாடு யாது?",
+    "answer": "The 'continue' statement skips the remaining statements inside the current iteration of the loop body and transfers control directly to the next iteration / increment step.",
+    "answerTamil": "'continue' கூற்றானது மடங்கின் உடற்பகுதியில் உள்ள மீதமுள்ள கூற்றுகளைத் தவிர்த்துவிட்டு, நேரடியாக அடுத்த சுழற்சிக்குக் கட்டுப்பாட்டைக் கொண்டு செல்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-2m-8",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Infinite Loop? Give an example.",
+    "questionTextTamil": "முடிவிலா சுழற்சி (Infinite loop) என்றால் என்ன? எடுத்துக்காட்டு தருக.",
+    "answer": "An infinite loop is a loop whose test condition never becomes false, causing it to repeat indefinitely.\nExample:\nwhile (true) {\n    cout << \"Infinite loop\";\n}",
+    "answerTamil": "சுழற்சியின் நிபந்தனை எப்போதும் பொய்யாகாமல், முடிவில்லாமல் தொடர்ந்து இயங்கிக் கொண்டே இருக்கும் மடங்கு முடிவிலா சுழற்சி எனப்படும்.\nஎ.கா: for( ; ; ) அல்லது while(1).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-3m-1",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between 'while' and 'do-while' loops.",
+    "questionTextTamil": "'while' மற்றும் 'do-while' மடங்குகளை வேறுபடுத்துக.",
+    "answer": "while loop:\n1. Entry-controlled loop (checks condition before body).\n2. If condition is false initially, body executes 0 times.\n3. Syntax: while (condition) { ... }\n\ndo-while loop:\n1. Exit-controlled loop (checks condition after body).\n2. Executes at least once even if condition is false.\n3. Syntax: do { ... } while (condition);",
+    "answerTamil": "while மடங்கு:\n1. நுழைவு சோதிப்பு மடங்கு (தொடங்குமுன் நிபந்தனை சோதிக்கப்படும்).\n2. தொடக்க நிபந்தனை பொய்யானால் உடற்பகுதி ஒருமுறை கூட இயங்காது.\n\ndo-while மடங்கு:\n1. வெளியேறும் சோதிப்பு மடங்கு (முடிவில் நிபந்தனை சோதிக்கப்படும்).\n2. நிபந்தனை பொய்யானாலும் உடற்பகுதி குறைந்தது ஒருமுறை இயங்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-3m-2",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the syntax and components of 'for' loop in C++.",
+    "questionTextTamil": "C++ மொழியில் 'for' மடங்கின் தொடரியல் மற்றும் அதன் பாகங்களை விளக்குக.",
+    "answer": "Syntax: for (initialization; test-condition; update-expression) { body; }\nComponents:\n1. Initialization: Initializes loop counter variable once at start.\n2. Test Condition: Evaluated before each iteration; if true, body runs.\n3. Update Expression: Increments/decrements counter after each iteration.",
+    "answerTamil": "தொடரியல்: for (தொடக்கமதிப்பிருத்தல்; நிபந்தனை; புதுப்பித்தல்) { உடற்பகுதி; }\nபாகங்கள்:\n1. தொடக்கமதிப்பிருத்தல்: சுழற்சி மாறியைத் தொடக்கத்தில் அமைக்கிறது.\n2. நிபந்தனை: ஒவ்வொரு சுழற்சிக்கு முன்பும் சோதிக்கப்படும்.\n3. புதுப்பித்தல்: சுழற்சி மாறியின் மதிப்பை கூட்டவோ குறைக்கவோ செய்யும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-3m-3",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between 'break' and 'continue' statements.",
+    "questionTextTamil": "'break' மற்றும் 'continue' கூற்றுகளை வேறுபடுத்துக.",
+    "answer": "break statement:\n1. Terminates the entire loop immediately.\n2. Control jumps out of the loop construct.\n3. Can be used in loops and switch statements.\n\ncontinue statement:\n1. Skips only the rest of the current iteration.\n2. Control proceeds to next iteration.\n3. Used only inside loops.",
+    "answerTamil": "break கூற்று:\n1. மொத்த மடங்கையும் உடனடியாக முடித்து வெளியேற்றும்.\n2. மடங்கிற்கு வெளியே உள்ள அடுத்த கூற்றுக்கு செல்லும்.\n3. மடங்குகள் மற்றும் switch-ல் பயன்படும்.\n\ncontinue கூற்று:\n1. தற்போதைய சுழற்சியை மட்டும் தவிர்த்து அடுத்த சுழற்சிக்குச் செல்லும்.\n2. மடங்கிற்குள்ளேயே அடுத்த சுழற்சி தொடங்கும்.\n3. மடங்குகளில் மட்டுமே பயன்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-3m-4",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a C++ program using 'switch' to display day of week for a given number (1 to 7).",
+    "questionTextTamil": "1 முதல் 7 வரையிலான எண்களுக்குரிய வாரத்தின் நாளைக் காட்டும் C++ switch நிரலை எழுதுக.",
+    "answer": "#include <iostream>\nusing namespace std;\nint main() {\n    int day;\n    cout << \"Enter day number (1-7): \";\n    cin >> day;\n    switch (day) {\n        case 1: cout << \"Sunday\"; break;\n        case 2: cout << \"Monday\"; break;\n        case 3: cout << \"Tuesday\"; break;\n        case 4: cout << \"Wednesday\"; break;\n        case 5: cout << \"Thursday\"; break;\n        case 6: cout << \"Friday\"; break;\n        case 7: cout << \"Saturday\"; break;\n        default: cout << \"Invalid Day Number!\";\n    }\n    return 0;\n}",
+    "answerTamil": "#include <iostream>\nusing namespace std;\nint main() {\n    int day;\n    cout << \"நாளின் எண்ணை உள்ளிடவும் (1-7): \";\n    cin >> day;\n    switch (day) {\n        case 1: cout << \"ஞாயிறு\"; break;\n        case 2: cout << \"திங்கள்\"; break;\n        case 3: cout << \"செவ்வாய்\"; break;\n        case 4: cout << \"புதன்\"; break;\n        case 5: cout << \"வியாழன்\"; break;\n        case 6: cout << \"வெள்ளி\"; break;\n        case 7: cout << \"சனி\"; break;\n        default: cout << \"தவறான எண்!\";\n    }\n    return 0;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-3m-5",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is Nested 'if' statement? Give an example.",
+    "questionTextTamil": "பின்னலான 'if' கூற்று (Nested if) என்றால் என்ன? எடுத்துக்காட்டு தருக.",
+    "answer": "An 'if' statement placed inside the body of another 'if' or 'else' block is called a nested if statement.\nExample:\nif (marks >= 35) {\n    if (marks >= 75)\n        cout << \"Distinction\";\n    else\n        cout << \"Passed\";\n} else {\n    cout << \"Failed\";\n}",
+    "answerTamil": "ஒரு 'if' அல்லது 'else' கூற்றின் உடற்பகுதிக்குள் மற்றொரு 'if' கூற்று அமைந்திருப்பது பின்னலான if கூற்று எனப்படும்.\nஎடுத்துக்காட்டு:\nif (mark >= 35) {\n    if (mark >= 80) cout << \"சிறப்பு தேர்ச்சி\";\n    else cout << \"தேர்ச்சி\";\n} else cout << \"தோல்வி\";",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-5m-1",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain 'switch' statement in C++ with syntax, rules, and example program.",
+    "questionTextTamil": "C++ மொழியில் 'switch' கூற்றினை அதன் தொடரியல், விதிகள் மற்றும் மாதிரி நிரலுடன் விரிவாக விளக்குக.",
+    "answer": "The 'switch' statement is a multi-way branch selection control statement that tests the value of an integer or character expression against a list of constant case labels.\n\nRules:\n1. Expression must evaluate to integral (int, char, enum) type.\n2. Case values must be constants or literal values; duplicate values are not allowed.\n3. 'break' statement terminates execution of switch body and prevents fall-through.\n4. 'default' executes if no case matches.\n\nExample Program:\n#include <iostream>\nusing namespace std;\nint main() {\n    char op;\n    float a, b;\n    cout << \"Enter operator (+, -, *, /): \";\n    cin >> op;\n    cout << \"Enter two numbers: \";\n    cin >> a >> b;\n    switch(op) {\n        case '+': cout << a + b; break;\n        case '-': cout << a - b; break;\n        case '*': cout << a * b; break;\n        case '/': cout << (b != 0 ? a/b : 0); break;\n        default: cout << \"Invalid operator\";\n    }\n    return 0;\n}",
+    "answerTamil": "switch கூற்று என்பது ஒரு கோவையின் மதிப்பை பல கேஸ் மாறிலிகளோடு ஒப்பிட்டு தகுந்த பகுதியை இயக்கும் பலவழி கிளைப்பிரிவு கூற்றாகும்.\n\nவிதிகள்:\n1. switch கோவை int அல்லது char வகையாக இருக்க வேண்டும்.\n2. case மாறிலிகள் தனித்துவமானதாக இருக்க வேண்டும்.\n3. ஒவ்வொரு case-ன் முடிவிலும் 'break' கொடுத்து அடுத்த case இயங்குவதைத் தடுக்க வேண்டும்.\n4. எந்த case-ம் பொருந்தாவிடில் 'default' பகுதி இயங்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-5m-2",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain various Iterative (Looping) statements in C++ with syntax and examples.",
+    "questionTextTamil": "C++ மொழியில் உள்ள பல்வேறு சுழற்சிக் கூற்றுகளை (for, while, do-while) தொடரியல் மற்றும் எடுத்துக்காட்டுகளுடன் விளக்குக.",
+    "answer": "1. while Loop: Entry-controlled loop.\nSyntax: while (condition) { statements; }\n2. for Loop: Entry-controlled compact loop having initialization, condition, and update in one line.\nSyntax: for (init; condition; update) { statements; }\n3. do-while Loop: Exit-controlled loop executing at least once.\nSyntax: do { statements; } while (condition);\n\nExample Program:\n#include <iostream>\nusing namespace std;\nint main() {\n    cout << \"While loop: \";\n    int i = 1; while (i <= 5) { cout << i << \" \"; i++; }\n    cout << \"\\nFor loop: \";\n    for (int j = 1; j <= 5; j++) { cout << j << \" \"; }\n    cout << \"\\nDo-While loop: \";\n    int k = 1; do { cout << k << \" \"; k++; } while (k <= 5);\n    return 0;\n}",
+    "answerTamil": "1. while மடங்கு: நுழைவு சோதிப்பு மடங்கு.\nதொடரியல்: while (நிபந்தனை) { கூற்றுகள்; }\n2. for மடங்கு: தொடக்கமதிப்பிருத்தல், நிபந்தனை, புதுப்பித்தல் மூன்றையும் ஒரே வரியில் கொண்ட நுழைவு சோதிப்பு மடங்கு.\nதொடரியல்: for (தொடக்க; நிபந்தனை; புதுப்பி) { கூற்றுகள்; }\n3. do-while மடங்கு: வெளியேறும் சோதிப்பு மடங்கு (குறைந்தது 1 முறை இயங்கும்).\nதொடரியல்: do { கூற்றுகள்; } while (நிபந்தனை);",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-5m-3",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain Nested Loops in C++ with an example program to print a number pattern.",
+    "questionTextTamil": "C++ மொழியில் பின்னலான மடங்குகள் (Nested loops) பற்றி எண் வடிவ அமைப்பை (Pattern) அச்சிடும் நிரலுடன் விளக்குக.",
+    "answer": "A nested loop is a loop inside the body of another loop. For each single iteration of the outer loop, the inner loop executes its complete cycle.\n\nPattern Program:\n#include <iostream>\nusing namespace std;\nint main() {\n    int n = 5;\n    for (int i = 1; i <= n; i++) {\n        for (int j = 1; j <= i; j++) {\n            cout << j << \" \";\n        }\n        cout << endl;\n    }\n    return 0;\n}\nOutput:\n1\n1 2\n1 2 3\n1 2 3 4\n1 2 3 4 5",
+    "answerTamil": "ஒரு மடங்கின் உள்ளே மற்றொரு மடங்கு அமைவது பின்னலான மடங்கு எனப்படும். வெளிப்புற மடங்கின் ஒவ்வொரு சுழற்சிக்கும், உட்புற மடங்கு தனது அனைத்து சுழற்சிகளையும் முழுமையாக இயக்கும்.\n\nவடிவமைப்பு நிரல்:\n#include <iostream>\nusing namespace std;\nint main() {\n    for (int i = 1; i <= 5; i++) {\n        for (int j = 1; j <= i; j++) {\n            cout << j << \" \";\n        }\n        cout << endl;\n    }\n    return 0;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch10-5m-4",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write a C++ program to check whether a given integer is Prime or Not.",
+    "questionTextTamil": "கொடுக்கப்பட்ட எண் பகா எண் (Prime Number) அல்லது பகு எண் என சரிபார்க்கும் C++ நிரலை எழுதுக.",
+    "answer": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    bool isPrime = true;\n    cout << \"Enter a positive integer: \";\n    cin >> n;\n    if (n <= 1) {\n        isPrime = false;\n    } else {\n        for (int i = 2; i * i <= n; i++) {\n            if (n % i == 0) {\n                isPrime = false;\n                break;\n            }\n        }\n    }\n    if (isPrime)\n        cout << n << \" is a Prime Number.\" << endl;\n    else\n        cout << n << \" is NOT a Prime Number (Composite).\" << endl;\n    return 0;\n}",
+    "answerTamil": "#include <iostream>\nusing namespace std;\nint main() {\n    int n;\n    bool isPrime = true;\n    cout << \"ஒரு நேர்மறை முழு எண்ணை உள்ளிடவும்: \";\n    cin >> n;\n    if (n <= 1) isPrime = false;\n    else {\n        for (int i = 2; i * i <= n; i++) {\n            if (n % i == 0) {\n                isPrime = false;\n                break;\n            }\n        }\n    }\n    if (isPrime)\n        cout << n << \" என்பது பகா எண் ஆகும்.\" << endl;\n    else\n        cout << n << \" என்பது பகா எண் அல்ல.\" << endl;\n    return 0;\n}",
+    "isBookBack": true,
+    "isCompulsoryEligible": true
+  },
+  {
+    "id": "cs11-ch10-5m-5",
+    "chapterNo": 10,
+    "chapterName": "Flow of Control",
+    "chapterNameTamil": "பாய்ச்சல் கட்டுப்பாடு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write a C++ program to find the Sum of Digits and Reverse of a given positive integer.",
+    "questionTextTamil": "கொடுக்கப்பட்ட எண்ணின் இலக்கங்களின் கூடுதல் மற்றும் தலைகீழ் எண்ணைக் காணும் C++ நிரலை எழுதுக.",
+    "answer": "#include <iostream>\nusing namespace std;\nint main() {\n    int num, temp, digit, sum = 0, reverse = 0;\n    cout << \"Enter an integer: \";\n    cin >> num;\n    temp = num;\n    while (temp > 0) {\n        digit = temp % 10;\n        sum += digit;\n        reverse = reverse * 10 + digit;\n        temp /= 10;\n    }\n    cout << \"Given number: \" << num << endl;\n    cout << \"Sum of digits: \" << sum << endl;\n    cout << \"Reversed number: \" << reverse << endl;\n    return 0;\n}",
+    "answerTamil": "#include <iostream>\nusing namespace std;\nint main() {\n    int num, temp, rem, sum = 0, rev = 0;\n    cout << \"ஒரு எண்ணை உள்ளிடவும்: \";\n    cin >> num;\n    temp = num;\n    while (temp > 0) {\n        rem = temp % 10;\n        sum += rem;\n        rev = rev * 10 + rem;\n        temp /= 10;\n    }\n    cout << \"இலக்கங்களின் கூடுதல்: \" << sum << endl;\n    cout << \"தலைகீழ் எண்: \" << rev << endl;\n    return 0;\n}",
+    "isBookBack": true,
+    "isCompulsoryEligible": true
+  }
+]

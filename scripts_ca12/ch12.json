@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ca12-ch12-1m-1",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "DNS stands for _________.",
+    "questionTextTamil": "DNS என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Domain Name System",
+      "B": "Data Network Service",
+      "C": "Digital Name Server",
+      "D": "Direct Name Storage"
+    },
+    "optionsTamil": {
+      "A": "Domain Name System",
+      "B": "Data Network Service",
+      "C": "Digital Name Server",
+      "D": "Direct Name Storage"
+    },
+    "correctOption": "A",
+    "answer": "A) Domain Name System",
+    "answerTamil": "A) Domain Name System",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-2",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which organization coordinates the global assignment of domain names and IP addresses?",
+    "questionTextTamil": "டொமைன் பெயர்கள் மற்றும் IP முகவரிகளின் உலகளாவிய ஒதுக்கீட்டை ஒருங்கிணைக்கும் அமைப்பு எது?",
+    "options": {
+      "A": "ICANN",
+      "B": "IEEE",
+      "C": "W3C",
+      "D": "ISO"
+    },
+    "optionsTamil": {
+      "A": "ஐகான் (ICANN)",
+      "B": "IEEE",
+      "C": "W3C",
+      "D": "ISO"
+    },
+    "correctOption": "A",
+    "answer": "A) ICANN",
+    "answerTamil": "A) ஐகான் (ICANN)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-3",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many bits are used in an IPv4 address?",
+    "questionTextTamil": "IPv4 முகவரியில் எத்தனை பிட்டுகள் பயன்படுத்தப்படுகின்றன?",
+    "options": {
+      "A": "16 bits",
+      "B": "32 bits",
+      "C": "64 bits",
+      "D": "128 bits"
+    },
+    "optionsTamil": {
+      "A": "16 பிட்டுகள்",
+      "B": "32 பிட்டுகள்",
+      "C": "64 பிட்டுகள்",
+      "D": "128 பிட்டுகள்"
+    },
+    "correctOption": "B",
+    "answer": "B) 32 bits",
+    "answerTamil": "B) 32 பிட்டுகள்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-4",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many bits are used in an IPv6 address?",
+    "questionTextTamil": "IPv6 முகவரியில் எத்தனை பிட்டுகள் பயன்படுத்தப்படுகின்றன?",
+    "options": {
+      "A": "32 bits",
+      "B": "64 bits",
+      "C": "128 bits",
+      "D": "256 bits"
+    },
+    "optionsTamil": {
+      "A": "32 பிட்டுகள்",
+      "B": "64 பிட்டுகள்",
+      "C": "128 பிட்டுகள்",
+      "D": "256 பிட்டுகள்"
+    },
+    "correctOption": "C",
+    "answer": "C) 128 bits",
+    "answerTamil": "C) 128 பிட்டுகள்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-5",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In the URL 'www.tn.gov.in', which part represents the Top Level Domain (TLD)?",
+    "questionTextTamil": "'www.tn.gov.in' என்ற முகவரியில் முதல் நிலை டொமைன் (TLD) எது?",
+    "options": {
+      "A": "www",
+      "B": "tn",
+      "C": "gov",
+      "D": ".in"
+    },
+    "optionsTamil": {
+      "A": "www",
+      "B": "tn",
+      "C": "gov",
+      "D": ".in (மற்றும் .gov)"
+    },
+    "correctOption": "D",
+    "answer": "D) .in",
+    "answerTamil": "D) .in",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-6",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which generic Top Level Domain (gTLD) is intended for commercial organizations?",
+    "questionTextTamil": "வணிக அமைப்புகளுக்கான பொதுவான முதல் நிலை டொமைன் எது?",
+    "options": {
+      "A": ".org",
+      "B": ".edu",
+      "C": ".com",
+      "D": ".mil"
+    },
+    "optionsTamil": {
+      "A": ".org",
+      "B": ".edu",
+      "C": ".com",
+      "D": ".mil"
+    },
+    "correctOption": "C",
+    "answer": "C) .com",
+    "answerTamil": "C) .com",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-7",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "URL stands for _________.",
+    "questionTextTamil": "URL என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Uniform Resource Locator",
+      "B": "Universal Resource Link",
+      "C": "Uniform Record Locator",
+      "D": "United Resource Location"
+    },
+    "optionsTamil": {
+      "A": "Uniform Resource Locator",
+      "B": "Universal Resource Link",
+      "C": "Uniform Record Locator",
+      "D": "United Resource Location"
+    },
+    "correctOption": "A",
+    "answer": "A) Uniform Resource Locator",
+    "answerTamil": "A) Uniform Resource Locator",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-8",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which country code TLD (ccTLD) belongs to India?",
+    "questionTextTamil": "இந்தியாவிற்கான நாட்டின் குறியீட்டு டொமைன் (ccTLD) எது?",
+    "options": {
+      "A": ".us",
+      "B": ".in",
+      "C": ".uk",
+      "D": ".au"
+    },
+    "optionsTamil": {
+      "A": ".us",
+      "B": ".in",
+      "C": ".uk",
+      "D": ".au"
+    },
+    "correctOption": "B",
+    "answer": "B) .in",
+    "answerTamil": "B) .in",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-9",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the primary role of a DNS Server?",
+    "questionTextTamil": "DNS சேவையகத்தின் முதன்மைப் பணி என்ன?",
+    "options": {
+      "A": "Translating domain names into IP addresses",
+      "B": "Creating web pages",
+      "C": "Connecting hard drives",
+      "D": "Compressing images"
+    },
+    "optionsTamil": {
+      "A": "டொமைன் பெயர்களை IP முகவரிகளாக மாற்றுதல்",
+      "B": "வலைப்பக்கங்களை உருவாக்குதல்",
+      "C": "வன்வட்டுகளை இணைத்தல்",
+      "D": "படங்களை சுருக்குதல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Translating domain names into IP addresses",
+    "answerTamil": "A) டொமைன் பெயர்களை IP முகவரிகளாக மாற்றுதல்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-10",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A DNS root name server is represented by a single _________.",
+    "questionTextTamil": "DNS ரூட் சேவையகம் எந்தக் குறியீட்டால் குறிக்கப்படுகிறது?",
+    "options": {
+      "A": "slash (/)",
+      "B": "dot (.)",
+      "C": "colon (:)",
+      "D": "hyphen (-)"
+    },
+    "optionsTamil": {
+      "A": "சாய்வுக் கோடு (/)",
+      "B": "புள்ளி (.)",
+      "C": "முக்காற்புள்ளி (:)",
+      "D": "இணைப்புக் கோடு (-)"
+    },
+    "correctOption": "B",
+    "answer": "B) dot (.)",
+    "answerTamil": "B) புள்ளி (.)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-1",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is DNS (Domain Name System)?",
+    "questionTextTamil": "டொமைன் பெயர் முறைமை (DNS) என்றால் என்ன?",
+    "answer": "DNS is a hierarchical distributed naming system that translates human-readable domain names (like www.google.com) into numerical IP addresses (like 142.250.190.46) used by computers.",
+    "answerTamil": "DNS என்பது மனிதர்கள் எளிதில் நினைவில் வைத்துக் கொள்ளக்கூடிய டொமைன் பெயர்களை (எ.கா: www.google.com) கணினிகள் புரிந்துகொள்ளும் எண்வடிவ IP முகவரிகளாக மாற்றும் படிநிலை பெயரிடல் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-2",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an IP address?",
+    "questionTextTamil": "IP முகவரி என்றால் என்ன?",
+    "answer": "An IP (Internet Protocol) address is a unique numerical identifier assigned to every device connected to a computer network that uses the Internet Protocol for communication.",
+    "answerTamil": "IP முகவரி என்பது இணையத்தில் இணைக்கப்பட்டுள்ள ஒவ்வொரு சாதனத்திற்கும் தனித்துவமாக ஒதுக்கப்படும் எண்வடிவ முகவரியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-3",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is URL and write its parts?",
+    "questionTextTamil": "URL என்றால் என்ன? அதன் பகுதிகளை எழுதுக.",
+    "answer": "URL (Uniform Resource Locator) is the global web address of a resource. Its components are: Protocol (http://), Domain Name / Host (www.example.com), and File Path (/index.html).",
+    "answerTamil": "URL என்பது இணையத்தில் உள்ள ஒரு வளத்தின் உலகளாவிய முகவரியாகும். அதன் பகுதிகள்: நெறிமுறை (http://), டொமைன் பெயர் (www.example.com) மற்றும் கோப்புப் பாதை (/index.html).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-4",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is ICANN?",
+    "questionTextTamil": "ICANN என்றால் என்ன?",
+    "answer": "ICANN (Internet Corporation for Assigned Names and Numbers) is a non-profit global organization that oversees the management of IP addresses, domain names, and root server systems.",
+    "answerTamil": "ICANN என்பது உலகளவில் IP முகவரிகள், டொமைன் பெயர்கள் மற்றும் ரூட் சேவையகங்களை ஒருங்கிணைத்து நிர்வகிக்கும் ஒரு சர்வதேச லாப நோக்கற்ற அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-5",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are generic Top Level Domains (gTLD)? Give examples.",
+    "questionTextTamil": "பொதுவான முதல் நிலை டொமைன்கள் (gTLD) என்றால் என்ன? உதாரணம் தருக.",
+    "answer": "gTLDs are top-level domains classified by organization type, such as .com (commercial), .org (organization), .edu (educational), and .gov (government).",
+    "answerTamil": "gTLD என்பது அமைப்புகளின் வகையைக் குறிக்கும் பொதுவான முதல்நிலை டொமைன்கள் ஆகும். எ.கா: .com (வணிகம்), .org (அமைப்பு), .edu (கல்வி), .gov (அரசு).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-1",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate IPv4 and IPv6.",
+    "questionTextTamil": "IPv4 மற்றும் IPv6 ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "1. IPv4 is a 32-bit address written in dotted-decimal format (e.g., 192.168.1.1); provides ~4.3 billion addresses.\n2. IPv6 is a 128-bit address written in hexadecimal separated by colons (e.g., 2001:0db8::1); provides virtually unlimited addresses (~3.4 x 10^38).",
+    "answerTamil": "1. IPv4: 32 பிட் முகவரி, புள்ளிகளால் பிரிக்கப்பட்ட பதின்ம வடிவம் (எ.கா: 192.168.1.1), சுமார் 4.3 பில்லியன் முகவரிகள் மட்டுமே.\n2. IPv6: 128 பிட் முகவரி, முக்காற்புள்ளிகளால் பிரிக்கப்பட்ட பதினாறும வடிவம் (எ.கா: 2001:db8::1), எண்ணற்ற வரம்பற்ற முகவரிகளை வழங்குகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-2",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the components of DNS?",
+    "questionTextTamil": "DNS-ன் முக்கிய கூறுகள் யாவை?",
+    "answer": "The three main components of DNS are:\n1. Domain Name Space: A tree-structured database hierarchy.\n2. Name Server: Server that stores and resolves DNS records.\n3. DNS Resolver: Client program that requests IP address translation from name servers.",
+    "answerTamil": "DNS-ன் மூன்று முக்கிய கூறுகள்:\n1. டொமைன் பெயர் வெளி (Domain Name Space): மரம் போன்ற படிநிலை அமைப்பு.\n2. பெயர் சேவையகம் (Name Server): DNS பதிவுகளை சேமித்து வழங்கும் சேவையகம்.\n3. DNS தீர்வி (Resolver): பயனர் கணினியிலிருந்து IP முகவரியைக் கேட்டுப் பெறும் நிரல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-3",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is Country Code Top Level Domain (ccTLD)? Give examples.",
+    "questionTextTamil": "நாட்டின் குறியீட்டு முதல் நிலை டொமைன் (ccTLD) என்றால் என்ன? உதாரணம் தருக.",
+    "answer": "ccTLDs are two-letter country code domain suffixes reserved for specific sovereign nations or territories.\nExamples: .in (India), .uk (United Kingdom), .us (United States), .au (Australia), .ca (Canada).",
+    "answerTamil": "ccTLD என்பது ஒரு குறிப்பிட்ட நாட்டைக் குறிக்கப் பயன்படும் இரண்டு எழுத்து முதல்நிலை டொமைன் ஆகும்.\nஎடுத்துக்காட்டுகள்: .in (இந்தியா), .uk (இங்கிலாந்து), .us (அமெரிக்கா), .au (ஆஸ்திரேலியா).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-5m-1",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the step-by-step working process of DNS resolution.",
+    "questionTextTamil": "DNS செயல்படும் வழிமுறையை (DNS Resolution Process) படிநிலைகளுடன் விரிவாக விளக்குக.",
+    "answer": "Step-by-step DNS Resolution Workflow:\n\n1. User Query: User types a domain name (e.g., www.example.com) into a web browser.\n2. Local Resolver & Cache: The browser/OS checks local cache. If not found, request is forwarded to the ISP DNS Recursive Resolver.\n3. Root Name Server: Resolver queries the DNS Root Server (represented by .), which returns the authoritative TLD Server address (e.g., .com TLD server).\n4. TLD Name Server: Resolver queries the .com TLD server, which responds with the IP address of the authoritative nameserver for example.com.\n5. Authoritative Name Server: Resolver queries authoritative server, which returns the exact matching IP address.\n6. Response & Caching: Resolver caches the IP and returns it to browser, which immediately establishes HTTP/HTTPS connection.",
+    "answerTamil": "DNS செயல்படும் படிநிலைகள்:\n\n1. பயனர் வினவல்: பயனர் வலை உலாவியில் டொமைன் பெயரை (எ.கா: www.example.com) உள்ளிடுகிறார்.\n2. உள்ளூர் தீர்வி (Resolver): உலாவியின் தற்காலிக நினைவகம் சரிபார்க்கப்பட்டு, ISP-யின் DNS தீர்விக்கு அனுப்பப்படுகிறது.\n3. ரூட் சேவையகம் (Root Server): தீர்வி ரூட் சேவையகத்தை அணுக, அது TLD சேவையகத்தின் (.com) முகவரியைத் தருகிறது.\n4. TLD சேவையகம்: .com சேவையகம் குறிப்பிட்ட டொமைனுக்கான அதிகாரப்பூர்வ சேவையக முகவரியைத் தரும்.\n5. அதிகாரப்பூர்வ சேவையகம் (Authoritative Server): இது சரியான IP முகவரியை தீர்விக்குத் தரும்.\n6. முடிவு & சேமிப்பு: தீர்வி IP முகவரியைப் பெற்று உலாவிக்கு அனுப்ப, உலாவி இணையப் பக்கத்தைத் திறக்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-5m-2",
+    "chapterNo": 12,
+    "chapterName": "DNS (Domain Name System)",
+    "chapterNameTamil": "டொமைன் பெயர் முறைமை (DNS)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain Domain Name Space and its hierarchical structure with a neat diagram description.",
+    "questionTextTamil": "டொமைன் பெயர் வெளி (Domain Name Space) மற்றும் அதன் படிநிலை அமைப்பை விரிவாக விளக்குக.",
+    "answer": "Domain Name Space is an inverted tree hierarchical structure with the Root at the top:\n\n1. Root Level (represented by '.' dot):\nThe top of the hierarchy managed by 13 root server clusters globally.\n\n2. Top Level Domains (TLD):\nImmediately below root. Divided into:\n- Generic TLDs (gTLD): .com, .org, .edu, .net\n- Country Code TLDs (ccTLD): .in, .uk, .us, .au\n\n3. Second Level Domains (SLD):\nDomain name registered by organizations/companies (e.g., 'google' in google.com, 'tn' in tn.gov.in).\n\n4. Subdomains / Third Level Domains:\nSpecific division under domain (e.g., 'mail' in mail.google.com or 'www').",
+    "answerTamil": "டொமைன் பெயர் வெளி என்பது தலைகீழ் மரக் கிளை வடிவிலான படிநிலை அமைப்பாகும்:\n\n1. ரூட் நிலை (Root Level - .):\nபடிநிலையின் உச்சிப்பகுதி; உலகளவில் 13 ரூட் சேவையகக் குழுக்களால் நிர்வகிக்கப்படுகிறது.\n\n2. முதல் நிலை டொமைன்கள் (TLD):\n- பொதுவானவை (gTLD): .com, .org, .net, .edu.\n- நாடுகளுக்கானவை (ccTLD): .in, .uk, .us, .au.\n\n3. இரண்டாம் நிலை டொமைன்கள் (SLD):\nநிறுவனங்கள் தங்களின் பெயரில் பதிவு செய்வது (எ.கா: google.com-ல் google).\n\n4. துணை டொமைன்கள் (Sub-domains):\nகுறிப்பிட்ட சேவைப் பிரிவு (எ.கா: mail.google.com அல்லது www).",
+    "isBookBack": true
+  }
+]

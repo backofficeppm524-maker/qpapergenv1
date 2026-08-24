@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ca12-ch9-1m-1",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which PHP extension function is used to establish a connection to a MySQL database server?",
+    "questionTextTamil": "MySQL தரவுத்தள சேவையகத்துடன் இணைப்பை ஏற்படுத்த பயன்படும் PHP செயற்கூறு எது?",
+    "options": {
+      "A": "mysqli_connect()",
+      "B": "mysql_open()",
+      "C": "db_connect()",
+      "D": "sql_connect()"
+    },
+    "optionsTamil": {
+      "A": "mysqli_connect()",
+      "B": "mysql_open()",
+      "C": "db_connect()",
+      "D": "sql_connect()"
+    },
+    "correctOption": "A",
+    "answer": "A) mysqli_connect()",
+    "answerTamil": "A) mysqli_connect()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-2",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function is used to execute an SQL query in PHP MySQLi?",
+    "questionTextTamil": "PHP MySQLi-ல் SQL வினவலை இயக்க பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "mysqli_query()",
+      "B": "mysqli_execute()",
+      "C": "mysqli_run()",
+      "D": "mysqli_sql()"
+    },
+    "optionsTamil": {
+      "A": "mysqli_query()",
+      "B": "mysqli_execute()",
+      "C": "mysqli_run()",
+      "D": "mysqli_sql()"
+    },
+    "correctOption": "A",
+    "answer": "A) mysqli_query()",
+    "answerTamil": "A) mysqli_query()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-3",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function closes an open database connection in PHP?",
+    "questionTextTamil": "திறக்கப்பட்ட தரவுத்தள இணைப்பை மூட பயன்படும் PHP செயற்கூறு எது?",
+    "options": {
+      "A": "mysqli_close()",
+      "B": "mysqli_exit()",
+      "C": "mysqli_end()",
+      "D": "mysqli_disconnect()"
+    },
+    "optionsTamil": {
+      "A": "mysqli_close()",
+      "B": "mysqli_exit()",
+      "C": "mysqli_end()",
+      "D": "mysqli_disconnect()"
+    },
+    "correctOption": "A",
+    "answer": "A) mysqli_close()",
+    "answerTamil": "A) mysqli_close()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-4",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does the letter 'i' in mysqli stand for?",
+    "questionTextTamil": "mysqli-ல் உள்ள 'i' எழுத்தின் பொருள் என்ன?",
+    "options": {
+      "A": "improved",
+      "B": "internet",
+      "C": "interface",
+      "D": "integrated"
+    },
+    "optionsTamil": {
+      "A": "மேம்படுத்தப்பட்ட (improved)",
+      "B": "இணையம்",
+      "C": "இடைமுகம்",
+      "D": "ஒருங்கிணைந்த"
+    },
+    "correctOption": "A",
+    "answer": "A) improved",
+    "answerTamil": "A) மேம்படுத்தப்பட்ட (improved)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-5",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function returns the number of rows in a query result set?",
+    "questionTextTamil": "வினவலின் முடிவுத் தொகுப்பில் உள்ள வரிசைகளின் எண்ணிக்கையைத் தரும் செயற்கூறு எது?",
+    "options": {
+      "A": "mysqli_num_rows()",
+      "B": "mysqli_count()",
+      "C": "mysqli_rows()",
+      "D": "mysqli_total()"
+    },
+    "optionsTamil": {
+      "A": "mysqli_num_rows()",
+      "B": "mysqli_count()",
+      "C": "mysqli_rows()",
+      "D": "mysqli_total()"
+    },
+    "correctOption": "A",
+    "answer": "A) mysqli_num_rows()",
+    "answerTamil": "A) mysqli_num_rows()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-6",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function fetches a result row as an associative array in PHP MySQLi?",
+    "questionTextTamil": "வினவலின் வரிசையை தொடர்பு இருத்தப்பட்ட அணியாகப் பெற உதவும் செயற்கூறு எது?",
+    "options": {
+      "A": "mysqli_fetch_assoc()",
+      "B": "mysqli_fetch_array()",
+      "C": "mysqli_get_row()",
+      "D": "mysqli_fetch_row()"
+    },
+    "optionsTamil": {
+      "A": "mysqli_fetch_assoc()",
+      "B": "mysqli_fetch_array()",
+      "C": "mysqli_get_row()",
+      "D": "mysqli_fetch_row()"
+    },
+    "correctOption": "A",
+    "answer": "A) mysqli_fetch_assoc()",
+    "answerTamil": "A) mysqli_fetch_assoc()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-7",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the default username for MySQL in local XAMPP/WAMP server?",
+    "questionTextTamil": "உள்ளூர் XAMPP/WAMP சேவையகத்தில் MySQL-ன் முன்னிருப்பு பயனர் பெயர் என்ன?",
+    "options": {
+      "A": "root",
+      "B": "admin",
+      "C": "user",
+      "D": "system"
+    },
+    "optionsTamil": {
+      "A": "root",
+      "B": "admin",
+      "C": "user",
+      "D": "system"
+    },
+    "correctOption": "A",
+    "answer": "A) root",
+    "answerTamil": "A) root",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-8",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the default server name / host address for local MySQL connections?",
+    "questionTextTamil": "MySQL உள்ளூர் சேவையகத்தின் முன்னிருப்பு ஹோஸ்ட் பெயர் என்ன?",
+    "options": {
+      "A": "localhost",
+      "B": "127.0.0.1",
+      "C": "both A and B",
+      "D": "server.com"
+    },
+    "optionsTamil": {
+      "A": "localhost",
+      "B": "127.0.0.1",
+      "C": "A மற்றும் B இரண்டும்",
+      "D": "server.com"
+    },
+    "correctOption": "C",
+    "answer": "C) both A and B",
+    "answerTamil": "C) A மற்றும் B இரண்டும்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-9",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function returns the error description from the last connection error?",
+    "questionTextTamil": "கடைசி இணைப்புப் பிழையின் விளக்கக் குறிப்பைத் தரும் செயற்கூறு எது?",
+    "options": {
+      "A": "mysqli_connect_error()",
+      "B": "mysqli_error()",
+      "C": "mysqli_fail()",
+      "D": "db_error()"
+    },
+    "optionsTamil": {
+      "A": "mysqli_connect_error()",
+      "B": "mysqli_error()",
+      "C": "mysqli_fail()",
+      "D": "db_error()"
+    },
+    "correctOption": "A",
+    "answer": "A) mysqli_connect_error()",
+    "answerTamil": "A) mysqli_connect_error()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-1m-10",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many parameters are commonly passed to mysqli_connect(host, user, password, dbname)?",
+    "questionTextTamil": "mysqli_connect() செயற்கூறுக்கு வழக்கமாக எத்தனை அளவுருக்கள் அனுப்பப்படுகின்றன?",
+    "options": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "5"
+    },
+    "optionsTamil": {
+      "A": "4",
+      "B": "3",
+      "C": "2",
+      "D": "5"
+    },
+    "correctOption": "A",
+    "answer": "A) 4",
+    "answerTamil": "A) 4",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-2m-1",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is MySQLi in PHP?",
+    "questionTextTamil": "PHP-ல் MySQLi என்றால் என்ன?",
+    "answer": "MySQLi (MySQL Improved) is a relational database driver extension in PHP that provides procedural and object-oriented interfaces to connect and execute queries on MySQL databases.",
+    "answerTamil": "MySQLi (MySQL Improved) என்பது PHP-ல் உள்ள ஒரு மேம்படுத்தப்பட்ட தரவுத்தள நீட்டிப்பாகும். இது MySQL தரவுத்தளத்துடன் பாதுகாப்பாக தொடர்பு கொண்டு வினவல்களை இயக்க உதவுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-2m-2",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write the syntax for mysqli_connect() function in PHP.",
+    "questionTextTamil": "PHP-ல் mysqli_connect() செயற்கூறின் தொடரியலை எழுதுக.",
+    "answer": "mysqli_connect(\"servername\", \"username\", \"password\", \"dbname\");",
+    "answerTamil": "mysqli_connect(\"சேவையகப் பெயர்\", \"பயனர் பெயர்\", \"கடவுச்சொல்\", \"தரவுத்தள பெயர்\");",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-2m-3",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the purpose of mysqli_close() function?",
+    "questionTextTamil": "mysqli_close() செயற்கூறின் பயன்பாடு என்ன?",
+    "answer": "mysqli_close() is used to close an existing open MySQL database connection to release system resources and server memory.",
+    "answerTamil": "mysqli_close() என்பது திறக்கப்பட்டுள்ள MySQL தரவுத்தள இணைப்பை மூடி, கணினி நினைவகத்தை விடுவிக்கப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-2m-4",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the use of mysqli_query() function?",
+    "questionTextTamil": "mysqli_query() செயற்கூறின் பயன்பாடு என்ன?",
+    "answer": "mysqli_query() sends and executes an SQL command or query (SELECT, INSERT, UPDATE, DELETE) on the connected MySQL database.",
+    "answerTamil": "mysqli_query() என்பது இணைக்கப்பட்டுள்ள MySQL தரவுத்தளத்தில் SQL வினவல்களை (SELECT, INSERT, UPDATE, DELETE) செயல்படுத்தப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-2m-5",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the function of mysqli_fetch_assoc()?",
+    "questionTextTamil": "mysqli_fetch_assoc() செயற்கூறின் செயல்பாடு என்ன?",
+    "answer": "mysqli_fetch_assoc() fetches a single result row from a query result set and returns it as an associative array indexed by column names.",
+    "answerTamil": "mysqli_fetch_assoc() என்பது வினவலின் முடிவுத் தொகுப்பிலிருந்து ஒரு வரிசையை நெடுவரிசைப் பெயர்களைத் திறவுகோலாகக் கொண்ட தொடர்பு இருத்தப்பட்ட அணியாகப் பெறுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-3m-1",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the four essential parameters required to connect PHP with MySQL using mysqli_connect()?",
+    "questionTextTamil": "PHP-MySQL இணைப்பிற்கு mysqli_connect() செயற்கூறில் தேவைப்படும் நான்கு முக்கிய அளவுருக்கள் யாவை?",
+    "answer": "1. Server Name / Host (e.g., \"localhost\")\n2. User Name (e.g., \"root\")\n3. Password (e.g., \"\" blank for localhost)\n4. Database Name (e.g., \"school_db\").",
+    "answerTamil": "1. சேவையகப் பெயர் (Host - எ.கா: \"localhost\")\n2. பயனர் பெயர் (Username - எ.கா: \"root\")\n3. கடவுச்சொல் (Password)\n4. தரவுத்தளப் பெயர் (Database Name - எ.கா: \"school_db\").",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-3m-2",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a PHP script to establish a connection to MySQL database and check whether connection succeeded.",
+    "questionTextTamil": "MySQL தரவுத்தளத்துடன் இணைப்பை ஏற்படுத்தி, இணைப்பு வெற்றிகரமானதா என சரிபார்க்கும் PHP குறிமுறையை எழுதுக.",
+    "answer": "<?php\n$conn = mysqli_connect(\"localhost\", \"root\", \"\", \"testdb\");\nif (!$conn) {\n    die(\"Connection failed: \" . mysqli_connect_error());\n}\necho \"Connected successfully!\";\n?>",
+    "answerTamil": "<?php\n$conn = mysqli_connect(\"localhost\", \"root\", \"\", \"testdb\");\nif (!$conn) {\n    die(\"Connection failed: \" . mysqli_connect_error());\n}\necho \"Connected successfully!\";\n?>",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-3m-3",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the purpose of mysqli_num_rows() with a brief example.",
+    "questionTextTamil": "mysqli_num_rows() செயற்கூறின் நோக்கத்தை சிறிய எடுத்துக்காட்டுடன் விளக்குக.",
+    "answer": "mysqli_num_rows() returns the count of rows present in a SELECT query result.\n\nExample:\n$result = mysqli_query($conn, \"SELECT * FROM students\");\n$count = mysqli_num_rows($result);\necho \"Total students: \" . $count;",
+    "answerTamil": "mysqli_num_rows() என்பது ஒரு SELECT வினவலின் முடிவில் எத்தனை வரிசைகள் உள்ளன என்ற எண்ணிக்கையைத் தருகிறது.\n\nஎடுத்துக்காட்டு:\n$result = mysqli_query($conn, \"SELECT * FROM students\");\n$count = mysqli_num_rows($result);\necho \"Total students: \" . $count;",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-5m-1",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various MySQLi functions in PHP used for database manipulation in detail.",
+    "questionTextTamil": "PHP-ல் தரவுத்தள பயன்பாட்டிற்குப் பயன்படும் பல்வேறு MySQLi செயற்கூறுகளை விரிவாக விளக்குக.",
+    "answer": "Essential MySQLi Functions in PHP:\n\n1. mysqli_connect(host, user, pass, db): Opens a connection to a MySQL server.\n2. mysqli_connect_error(): Returns error message string if connection fails.\n3. mysqli_query(conn, sql): Executes SQL queries like SELECT, INSERT, UPDATE, DELETE.\n4. mysqli_fetch_assoc(result): Returns a row as an associative array.\n5. mysqli_num_rows(result): Returns the total number of rows returned by a query.\n6. mysqli_close(conn): Closes the database connection.",
+    "answerTamil": "முக்கிய MySQLi செயற்கூறுகள்:\n\n1. mysqli_connect(): MySQL சேவையகத்துடன் இணைப்பை ஏற்படுத்துகிறது.\n2. mysqli_connect_error(): இணைப்புத் தோல்விக்கான காரணத்தைத் தருகிறது.\n3. mysqli_query(): SQL வினவல்களை இயக்குகிறது.\n4. mysqli_fetch_assoc(): வினவல் வரிசையை தொடர்பு இருத்தப்பட்ட அணியாகப் பெறுகிறது.\n5. mysqli_num_rows(): வரிசைகளின் எண்ணிக்கையைக் கணக்கிடுகிறது.\n6. mysqli_close(): தரவுத்தள இணைப்பை மூடுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch9-5m-2",
+    "chapterNo": 9,
+    "chapterName": "Connecting PHP and MySQL",
+    "chapterNameTamil": "PHP மற்றும் MySQL-ஐ இணைத்தல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write a complete PHP script to connect to a MySQL database, fetch student records from a table, and display them in an HTML table.",
+    "questionTextTamil": "MySQL தரவுத்தளத்தை இணைத்து, மாணவர் அட்டவணையில் உள்ள பதிவுகளைப் பெற்று HTML அட்டவணையில் காட்டும் முழுமையான PHP நிரலை எழுதுக.",
+    "answer": "<?php\n$conn = mysqli_connect(\"localhost\", \"root\", \"\", \"school\");\nif (!$conn) { die(\"Connection failed: \" . mysqli_connect_error()); }\n\n$sql = \"SELECT id, name, marks FROM students\";\n$result = mysqli_query($conn, $sql);\n\necho \"<table border='1'><tr><th>ID</th><th>Name</th><th>Marks</th></tr>\";\nif (mysqli_num_rows($result) > 0) {\n    while($row = mysqli_fetch_assoc($result)) {\n        echo \"<tr><td>\".$row[\"id\"].\"</td><td>\".$row[\"name\"].\"</td><td>\".$row[\"marks\"].\"</td></tr>\";\n    }\n}\necho \"</table>\";\nmysqli_close($conn);\n?>",
+    "answerTamil": "<?php\n$conn = mysqli_connect(\"localhost\", \"root\", \"\", \"school\");\nif (!$conn) { die(\"Connection failed: \" . mysqli_connect_error()); }\n\n$sql = \"SELECT id, name, marks FROM students\";\n$result = mysqli_query($conn, $sql);\n\necho \"<table border='1'><tr><th>ID</th><th>Name</th><th>Marks</th></tr>\";\nif (mysqli_num_rows($result) > 0) {\n    while($row = mysqli_fetch_assoc($result)) {\n        echo \"<tr><td>\".$row[\"id\"].\"</td><td>\".$row[\"name\"].\"</td><td>\".$row[\"marks\"].\"</td></tr>\";\n    }\n}\necho \"</table>\";\nmysqli_close($conn);\n?>",
+    "isBookBack": true
+  }
+]

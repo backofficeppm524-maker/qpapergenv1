@@ -1,0 +1,340 @@
+[
+  {
+    "id": "ca12-ch10-1m-1",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A collection of interconnected computers and autonomous computing devices is called a _________.",
+    "questionTextTamil": "ஒன்றோடொன்று இணைக்கப்பட்ட கணினிகள் மற்றும் சாதனங்களின் தொகுப்பு எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "Computer Network",
+      "B": "Database",
+      "C": "Search Engine",
+      "D": "Operating System"
+    },
+    "optionsTamil": {
+      "A": "கணினி வலையமைப்பு (Computer Network)",
+      "B": "தரவுத்தளம்",
+      "C": "தேடு பொறி",
+      "D": "இயக்க முறைமை"
+    },
+    "correctOption": "A",
+    "answer": "A) Computer Network",
+    "answerTamil": "A) கணினி வலையமைப்பு (Computer Network)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-2",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which was the world's first packet-switching computer network founded by the US Department of Defense?",
+    "questionTextTamil": "அமெரிக்க பாதுகாப்புத் துறையால் உருவாக்கப்பட்ட உலகின் முதல் பாக்கெட்-சுவிட்ச்சிங் வலையமைப்பு எது?",
+    "options": {
+      "A": "ARPANET",
+      "B": "NSFNET",
+      "C": "INTERNET",
+      "D": "ETHERNET"
+    },
+    "optionsTamil": {
+      "A": "ARPANET",
+      "B": "NSFNET",
+      "C": "இணையம்",
+      "D": "ஈதர்நெட்"
+    },
+    "correctOption": "A",
+    "answer": "A) ARPANET",
+    "answerTamil": "A) ARPANET",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-3",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The physical or logical layout/arrangement of computers in a network is called _________.",
+    "questionTextTamil": "வலையமைப்பில் கணினிகள் இணைக்கப்பட்டுள்ள இயற்பியல் அல்லது தருக்க வடிவியல் அமைப்பு எது?",
+    "options": {
+      "A": "Topology",
+      "B": "Protocol",
+      "C": "Architecture",
+      "D": "Bandwidth"
+    },
+    "optionsTamil": {
+      "A": "இடவியல் (Topology)",
+      "B": "நெறிமுறை",
+      "C": "கட்டமைப்பு",
+      "D": "அலைவரிசை"
+    },
+    "correctOption": "A",
+    "answer": "A) Topology",
+    "answerTamil": "A) இடவியல் (Topology)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-4",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which topology connects all devices to a single central cable known as the backbone bus?",
+    "questionTextTamil": "அனைத்து சாதனங்களையும் ஒரே ஒரு முதன்மை வடத்தில் (Backbone) இணைக்கும் இடவியல் எது?",
+    "options": {
+      "A": "Bus Topology",
+      "B": "Star Topology",
+      "C": "Ring Topology",
+      "D": "Mesh Topology"
+    },
+    "optionsTamil": {
+      "A": "பஸ் இடவியல் (Bus Topology)",
+      "B": "ஸ்டார் இடவியல்",
+      "C": "ரிங் இடவியல்",
+      "D": "மெஷ் இடவியல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Bus Topology",
+    "answerTamil": "A) பஸ் இடவியல் (Bus Topology)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-5",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which topology connects all network nodes to a single central device such as a Switch or Hub?",
+    "questionTextTamil": "அனைத்து கணினிகளையும் ஒரு மைய சாதனத்துடன் (Switch/Hub) இணைக்கும் இடவியல் எது?",
+    "options": {
+      "A": "Star Topology",
+      "B": "Bus Topology",
+      "C": "Ring Topology",
+      "D": "Tree Topology"
+    },
+    "optionsTamil": {
+      "A": "ஸ்டார் இடவியல் (Star Topology)",
+      "B": "பஸ் இடவியல்",
+      "C": "ரிங் இடவியல்",
+      "D": "ட்ரீ இடவியல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Star Topology",
+    "answerTamil": "A) ஸ்டார் இடவியல் (Star Topology)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-6",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which network covers a small localized geographical area like a home, office room, or building?",
+    "questionTextTamil": "வீடு, பள்ளி அல்லது ஒரு அறை போன்ற சிறிய உள்ளூர் பரப்பளவை உள்ளடக்கிய வலையமைப்பு எது?",
+    "options": {
+      "A": "LAN",
+      "B": "MAN",
+      "C": "WAN",
+      "D": "PAN"
+    },
+    "optionsTamil": {
+      "A": "LAN (Local Area Network)",
+      "B": "MAN",
+      "C": "WAN",
+      "D": "PAN"
+    },
+    "correctOption": "A",
+    "answer": "A) LAN",
+    "answerTamil": "A) LAN (Local Area Network)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-7",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which network spans across an entire metropolitan city or town?",
+    "questionTextTamil": "ஒரு முழு மாநகரம் அல்லது நகரத்தை உள்ளடக்கிய வலையமைப்பு எது?",
+    "options": {
+      "A": "MAN",
+      "B": "LAN",
+      "C": "PAN",
+      "D": "WLAN"
+    },
+    "optionsTamil": {
+      "A": "MAN (Metropolitan Area Network)",
+      "B": "LAN",
+      "C": "PAN",
+      "D": "WLAN"
+    },
+    "correctOption": "A",
+    "answer": "A) MAN",
+    "answerTamil": "A) MAN (Metropolitan Area Network)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-8",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The Internet is the ultimate worldwide example of a _________.",
+    "questionTextTamil": "இணையம் (Internet) என்பது உலகளாவிய எவ்வகை வலையமைப்பிற்கு சிறந்த உதாரணமாகும்?",
+    "options": {
+      "A": "WAN",
+      "B": "LAN",
+      "C": "CAN",
+      "D": "SAN"
+    },
+    "optionsTamil": {
+      "A": "WAN (Wide Area Network)",
+      "B": "LAN",
+      "C": "CAN",
+      "D": "SAN"
+    },
+    "correctOption": "A",
+    "answer": "A) WAN",
+    "answerTamil": "A) WAN (Wide Area Network)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-9",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the primary benefit of computer networking?",
+    "questionTextTamil": "கணினி வலையமைப்பின் முதன்மையான பயன் என்ன?",
+    "options": {
+      "A": "Resource and hardware sharing",
+      "B": "Increasing computer weight",
+      "C": "Eliminating monitor screens",
+      "D": "Reducing processor speed"
+    },
+    "optionsTamil": {
+      "A": "வளங்கள் மற்றும் வன்பொருள்களைப் பகிர்தல்",
+      "B": "கணினி எடையை அதிகரித்தல்",
+      "C": "திரைகளை நீக்குதல்",
+      "D": "வேகத்தைக் குறைத்தல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Resource and hardware sharing",
+    "answerTamil": "A) வளங்கள் மற்றும் வன்பொருள்களைப் பகிர்தல்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-1m-10",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which topology connects each device to exactly two neighboring devices in a closed ring loop?",
+    "questionTextTamil": "ஒவ்வொரு சாதனத்தையும் இரு பக்கத்து சாதனங்களுடன் வட்ட வடிவில் இணைக்கும் இடவியல் எது?",
+    "options": {
+      "A": "Ring Topology",
+      "B": "Star Topology",
+      "C": "Bus Topology",
+      "D": "Mesh Topology"
+    },
+    "optionsTamil": {
+      "A": "ரிங் இடவியல் (Ring Topology)",
+      "B": "ஸ்டார் இடவியல்",
+      "C": "பஸ் இடவியல்",
+      "D": "மெஷ் இடவியல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Ring Topology",
+    "answerTamil": "A) ரிங் இடவியல் (Ring Topology)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-2m-1",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define Computer Network.",
+    "questionTextTamil": "கணினி வலையமைப்பு - வரையறுக்கவும்.",
+    "answer": "A computer network is a system of interconnected independent computers and electronic devices configured to share hardware resources, software, and exchange data.",
+    "answerTamil": "கணினி வலையமைப்பு என்பது தரவுகள், மென்பொருள்கள் மற்றும் அச்சுப்பொறி போன்ற வன்பொருள் வளங்களைப் பகிர்ந்து கொள்ளும் வகையில் ஒன்றோடொன்று இணைக்கப்பட்ட கணினிகளின் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-2m-2",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is ARPANET?",
+    "questionTextTamil": "ARPANET என்றால் என்ன?",
+    "answer": "ARPANET (Advanced Research Projects Agency Network) was created in 1969 by the US Department of Defense and was the earliest packet-switching network that laid the technical foundation for the modern Internet.",
+    "answerTamil": "ARPANET என்பது 1969-ல் அமெரிக்க பாதுகாப்புத் துறையால் உருவாக்கப்பட்ட உலகின் முதல் பாக்கெட்-சுவிட்சிங் வலையமைப்பாகும். இதுவே இன்றைய இணையத்திற்கு அடித்தளமிட்டது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-2m-3",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Network Topology?",
+    "questionTextTamil": "வலையமைப்பு இடவியல் (Topology) என்றால் என்ன?",
+    "answer": "Network topology refers to the geometric physical or logical arrangement and layout in which nodes and connecting cables are organized in a network.",
+    "answerTamil": "வலையமைப்பு இடவியல் என்பது ஒரு கணினி வலையமைப்பில் சாதனங்கள் மற்றும் இணைப்புக் கம்பிகள் எவ்வாறு வடிவியல் ரீதியாக ஒழுங்கமைக்கப்பட்டுள்ளன என்பதைக் குறிக்கும் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-3m-1",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List and briefly describe any three major advantages of computer networks.",
+    "questionTextTamil": "கணினி வலையமைப்பின் ஏதேனும் மூன்று முக்கிய நன்மைகளை விளக்குக.",
+    "answer": "1. Hardware Resource Sharing: Costly printers, scanners, and storage can be shared across multiple computers.\n2. Instant Communication: Rapid exchange of emails, messages, and video conferences.\n3. Centralized Data Management: Files stored centrally on servers ensure consistent backups and security.",
+    "answerTamil": "1. வன்பொருள் வளப் பகிர்வு: அச்சுப்பொறி, சேமிப்பகம் போன்ற சாதனங்களை பல கணினிகள் பகிரலாம்.\n2. உடனடித் தொடர்பு: மின்னஞ்சல் மற்றும் வீடியோ அழைப்புகள் மூலம் விரைவான தகவல் பரிமாற்றம்.\n3. மையப்படுத்தப்பட்ட தரவு மேலாண்மை: கோப்புகள் சேவையகத்தில் ஒரே இடத்தில் பாதுகாப்பாகப் பராமரிக்கப்படுதல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-3m-2",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate LAN and WAN.",
+    "questionTextTamil": "LAN மற்றும் WAN ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "1. LAN (Local Area Network): Spans a small localized geographic area (single room/building); high data transmission speed; privately owned.\n2. WAN (Wide Area Network): Spans broad geographical areas across countries/continents; lower speed; public or consortium owned (e.g., Internet).",
+    "answerTamil": "1. LAN (உள்ளூர் பகுதி வலையமைப்பு): ஒரு அறை அல்லது கட்டடத்திற்குள் மட்டும் செயல்படும்; அதிவேகமானது; தனியாருக்கு சொந்தமானது.\n2. WAN (பரந்த பகுதி வலையமைப்பு): நாடுகள் அல்லது உலகம் முழுவதும் பரவியுள்ளது; வேகம் குறைவு (எ.கா: இணையம்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch10-5m-1",
+    "chapterNo": 10,
+    "chapterName": "Computer Networks",
+    "chapterNameTamil": "கணினி வலையமைப்பு ஓர் அறிமுகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various types of Network Topologies (Bus, Star, Ring, Mesh, Tree, Hybrid) in detail with diagrams.",
+    "questionTextTamil": "பல்வேறு வகையான வலையமைப்பு இடவியல்களை (Bus, Star, Ring, Mesh, Tree, Hybrid) வரைபட விளக்கத்துடன் விரிவாக விளக்குக.",
+    "answer": "Types of Network Topologies:\n\n1. Bus Topology:\n- All nodes connect to a single common central cable (backbone) with terminators at both ends.\n- Cheap and simple, but failure of main cable breaks whole network.\n\n2. Star Topology:\n- All computers connect directly to a central hub/switch via individual dedicated lines.\n- Highly reliable; easy to troubleshoot; single cable fault does not affect others.\n\n3. Ring Topology:\n- Nodes connect in a continuous circular loop; tokens travel unidirectionally.\n- Predictable traffic, but one break halts entire ring.\n\n4. Mesh Topology:\n- Every device has a dedicated point-to-point link to every other device.\n- Maximum redundancy and security, but extremely high cabling cost.\n\n5. Tree & Hybrid Topologies:\n- Hierarchical tree combinations and mixtures of multiple topologies.",
+    "answerTamil": "வலையமைப்பு இடவியல்களின் வகைகள்:\n\n1. பஸ் இடவியல் (Bus Topology):\n- அனைத்து கணினிகளும் ஒரு முதன்மை தண்டு வடத்தில் இணைக்கப்பட்டிருக்கும். செலவு குறைவு.\n\n2. ஸ்டார் இடவியல் (Star Topology):\n- அனைத்து கணினிகளும் ஒரு மைய சுவிட்ச்/ஹப் உடன் தனித்தனி வடங்களால் இணைக்கப்பட்டிருக்கும். அதிக நம்பகத்தன்மை.\n\n3. ரிங் இடவியல் (Ring Topology):\n- வட்ட வடிவில் முனைகள் இணைக்கப்பட்டு டோக்கன் முறையில் தகவல்கள் செல்லும்.\n\n4. மெஷ் இடவியல் (Mesh Topology):\n- ஒவ்வொரு கணினியும் மற்ற அனைத்து கணினிகளுடனும் நேரடியாக இணைக்கப்பட்டிருக்கும். மிக அதிக பாதுகாப்பு.\n\n5. கலப்பு இடவியல் (Hybrid Topology):\n- இரண்டு அல்லது அதற்கு மேற்பட்ட இடவியல்களின் ஒருங்கிணைந்த அமைப்பாகும்.",
+    "isBookBack": true
+  }
+]

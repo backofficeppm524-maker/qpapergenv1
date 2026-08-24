@@ -1,0 +1,301 @@
+[
+  {
+    "id": "cs11-ch5-1m-1",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "From the options below, choose the functions managed by an operating system:",
+    "questionTextTamil": "கீழே கொடுக்கப் பட்டுள்ளவற்றுள் இயக்க அமைப்பு நிர்வகிக்கும் செயல்களைத் தேர்வு செய்யவும்:",
+    "options": {
+      "A": "Memory",
+      "B": "Processor",
+      "C": "I/O devices",
+      "D": "All of these"
+    },
+    "optionsTamil": {
+      "A": "நினைவகம்",
+      "B": "செயலி",
+      "C": "I/O சாதனங்கள்",
+      "D": "இவை அனைத்தும்"
+    },
+    "correctOption": "D",
+    "answer": "D) All of these",
+    "answerTamil": "D) இவை அனைத்தும்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-1m-2",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In Windows applications, where are files saved by default?",
+    "questionTextTamil": "விண்டோஸ் பயன்பாட்டில் கோப்புகள் கொடாநிலையாக எந்த கோப்புறையில் சேமிக்கப்படும்?",
+    "options": {
+      "A": "My Documents",
+      "B": "My Pictures",
+      "C": "Documents and settings",
+      "D": "My Computer"
+    },
+    "optionsTamil": {
+      "A": "My Documents",
+      "B": "My Picture",
+      "C": "Document and settings",
+      "D": "My Computer"
+    },
+    "correctOption": "A",
+    "answer": "A) My Documents",
+    "answerTamil": "A) My Documents",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-1m-3",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In which OS does Shift + Delete permanently delete files and folders?",
+    "questionTextTamil": "எந்த இயக்கமைப்பில் shift + delete என்ற தேர்வு கோப்பு மற்றும் கோப்புறையை நிரந்தரமாக நீக்கும்?",
+    "options": {
+      "A": "Windows 7",
+      "B": "Windows 8",
+      "C": "Windows 10",
+      "D": "All of these"
+    },
+    "optionsTamil": {
+      "A": "windows 7",
+      "B": "windows 8",
+      "C": "windows 10",
+      "D": "இவை அனைத்தும்"
+    },
+    "correctOption": "D",
+    "answer": "D) All of these",
+    "answerTamil": "D) இவை அனைத்தும்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-1m-4",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does 'Hibernate' mean in Windows?",
+    "questionTextTamil": "Windows XP/Windows 7 –ல் “ஹைபர்நேட்” என்பதன் பொருள் என்ன?",
+    "options": {
+      "A": "Restarting computer in Safe mode",
+      "B": "Putting computer into a low power state after saving session",
+      "C": "Shutting down computer",
+      "D": "Locking screen"
+    },
+    "optionsTamil": {
+      "A": "Safe modeல் கணினியை மறுதொடக்கம் செய்தல்",
+      "B": "திறந்துள்ள பணிகளை வன்வட்டில் சேமித்து குறைந்த மின் நுகர்வில் நிறுத்துதல்",
+      "C": "கணினியை அணைத்தல்",
+      "D": "திரையை பூட்டுதல்"
+    },
+    "correctOption": "B",
+    "answer": "B) Saving current state to hard disk and powering off",
+    "answerTamil": "B) திறந்துள்ள பணிகளை வன்வட்டில் சேமித்து குறைந்த மின் நுகர்வில் நிறுத்துதல்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-1m-5",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Shortcut key used to rename a file or folder in Windows:",
+    "questionTextTamil": "சாளரங்களில் ஒரு கோப்பின் மறுபெயரிட பயன்படுத்தப்படும் குறுக்குவழி விசை:",
+    "options": {
+      "A": "F2",
+      "B": "F4",
+      "C": "F5",
+      "D": "F6"
+    },
+    "optionsTamil": {
+      "A": "F2",
+      "B": "F4",
+      "C": "F5",
+      "D": "F6"
+    },
+    "correctOption": "A",
+    "answer": "A) F2",
+    "answerTamil": "A) F2",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-2m-1",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Multitasking?",
+    "questionTextTamil": "பல்பணியாக்கம் என்றால் என்ன?",
+    "answer": "Multitasking is the ability to run more than one application program simultaneously in an operating system like Windows.",
+    "answerTamil": "ஒரே நேரத்தில் ஒன்றுக்கும் மேற்பட்ட பயன்பாட்டு நிரல்களை இயக்க கணினி அனுமதிக்கும் முறை பல்பணியாக்கம் (Multitasking) எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-2m-2",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are Desktop Icons?",
+    "questionTextTamil": "கைவந்த பணிகுறி என்றால் என்ன?",
+    "answer": "Desktop icons are graphical pictorial representations of programs, files, folders, or devices that provide quick click access to them.",
+    "answerTamil": "பணிகுறி (Icon) என்பது கோப்புகள், கோப்புறைகள் அல்லது பயன்பாட்டு நிரல்களைக் குறிக்கும் சிறிய வரைகலை படமாகும். இதைச் சொடுக்குவதன் மூலம் விரைவாகத் திறக்கலாம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-2m-3",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Differentiate between a File and a Folder.",
+    "questionTextTamil": "கோப்பிற்கும் கோப்புறைககும் உள்ள வேறுபாடு யாது?",
+    "answer": "File: A collection of data or information stored with a specific name and extension.\nFolder: A container directory used to store and organize multiple files and subfolders.",
+    "answerTamil": "கோப்பு (File): ஒரு குறிப்பிட்ட பெயருடன் சேமிக்கப்படும் தரவுகள் அல்லது தகவல்களின் தொகுப்பு.\nகோப்புறை (Folder): பல கோப்புகள் மற்றும் துணைக் கோப்புறைகளை ஒழுங்கமைத்து வைக்கப் பயன்படும் கொள்கலன்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-2m-4",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Differentiate between Save and Save As.",
+    "questionTextTamil": "Save மற்றும் Save As-ககு உள்ள வேறுபாடு யாது?",
+    "answer": "Save: Updates and saves changes to an already existing file with its current name and location.\nSave As: Saves the file with a new name, different format, or in a new location.",
+    "answerTamil": "Save: ஏற்கனவே உள்ள கோப்பில் செய்யப்பட்ட மாற்றங்களை அதே பெயரில் சேமிக்கும்.\nSave As: கோப்பை புதிய பெயரிலோ, புதிய இடத்திலோ அல்லது வேறு வடிவத்திலோ சேமிக்கப் பயன்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-2m-5",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "How will you rename a file or folder in Windows?",
+    "questionTextTamil": "ஒரு கோப்பை எவ்வாறு மறுபெயரிடுவீர்கள்?",
+    "answer": "Method 1: Right-click on the file/folder -> Select 'Rename' -> Type new name -> Press Enter.\nMethod 2: Select the file/folder -> Press F2 -> Type new name -> Press Enter.",
+    "answerTamil": "முறை 1: கோப்பின் மீது வலது சொடுக்கு -> 'Rename' தேர்ந்தெடுக்கவும் -> புதிய பெயரை உள்ளிட்டு Enter அழுத்தவும்.\nமுறை 2: கோப்பைத் தேர்ந்தெடுத்து F2 விசையை அழுத்தி மறுபெயரிடலாம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-3m-1",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the functions of Windows Operating System?",
+    "questionTextTamil": "விண்டோஸ் இயக்க அமைப்பின் செயல்பாடுகள் யாவை?",
+    "answer": "1. Accessing applications and hardware through a unified GUI.\n2. Managing memory, storage drives, and file directories.\n3. Providing multitasking support and plug-and-play hardware recognition.",
+    "answerTamil": "1. வரைகலை இடைமுகம் மூலம் பயன்பாடுகளையும் வன்பொருட்களையும் எளிதாக இயக்குதல்.\n2. கோப்புகள், கோப்புறைகள் மற்றும் நினைவகத்தை நிர்வகித்தல்.\n3. ஒரே நேரத்தில் பல பயன்பாடுகளை இயக்கும் பல்பணியாக்கத்தை வழங்குதல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-3m-2",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on Recycle Bin.",
+    "questionTextTamil": "மறுசுழற்சி பெட்டியைப் பற்றி ஒரு குறிப்பு வரைக.",
+    "answer": "Recycle Bin is a special temporary folder in Windows where deleted files and folders are placed. Users can Restore deleted items back to their original location, or click 'Empty Recycle Bin' to delete them permanently.",
+    "answerTamil": "மறுசுழற்சிப் பெட்டி (Recycle Bin) என்பது நீக்கப்பட்ட கோப்புகள் தற்காலிகமாக சேமிக்கப்படும் இடமாகும். தவறுதலாக நீக்கப்பட்ட கோப்புகளை 'Restore' செய்து மீண்டும் பெறலாம் அல்லது 'Empty Recycle Bin' மூலம் நிரந்தரமாக நீக்கலாம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-3m-3",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on the elements of a Windows Window.",
+    "questionTextTamil": "விண்டோஸ் சாளர திரைகூறுகளைப் பற்றி குறிப்பு வரைக.",
+    "answer": "1. Title Bar: Displays window name and control buttons (Minimize, Maximize/Restore, Close).\n2. Menu Bar / Ribbon: Houses application commands.\n3. Scroll Bars (Horizontal & Vertical): For viewing content exceeding screen boundaries.\n4. Work Area / Client Area: The main content display.",
+    "answerTamil": "1. தலைப்புப் பட்டை (Title bar): சாளரத்தின் பெயர் மற்றும் கட்டுப்பாடு பொத்தான்களைக் (Minimize, Maximize, Close) கொண்டிருக்கும்.\n2. பட்டிப் பட்டை (Menu bar): பயன்பாட்டு கட்டளைகளைக் கொண்டிருக்கும்.\n3. உருளல் பட்டைகள் (Scroll bars): பக்கத்தை மேலும் கீழும் நகர்த்த உதவும்.\n4. பணிப் பகுதி: உள்ளடக்கங்களை உருவாக்கும் முதன்மைப் பகுதி.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-3m-4",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write two methods to create a new folder.",
+    "questionTextTamil": "ஒரு கோப்புறையை உருவாக்கும் இரண்டு வழிமுறைகளை எழுதுக.",
+    "answer": "Method 1: Right-click on empty desktop/folder space -> Select New -> Click Folder -> Type name -> Press Enter.\nMethod 2: Open File Explorer -> Click 'New folder' button on the Home tab ribbon -> Type name -> Press Enter (or shortcut Ctrl + Shift + N).",
+    "answerTamil": "முறை 1: திரையின் காலி இடத்தில் வலது சொடுக்கு -> New -> Folder தேர்ந்தெடுக்கவும் -> பெயரை உள்ளிட்டு Enter அழுத்தவும்.\nமுறை 2: File Explorer-ல் Home பட்டியில் 'New Folder' பொத்தானைச் சொடுக்கவும் (குறுக்குவழி: Ctrl + Shift + N).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-3m-5",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between Cut and Copy operations.",
+    "questionTextTamil": "வெட்டுதல் மற்றும் நகலெடுத்தல்-ககு உள்ள வேறுபாடுகள் யாவை?",
+    "answer": "Cut (Ctrl + X): Moves the selected file/text from its original location to Clipboard; original is removed when pasted.\nCopy (Ctrl + C): Duplicates the selected file/text to Clipboard, leaving the original file intact in its location.",
+    "answerTamil": "வெட்டுதல் (Cut - Ctrl+X): தேர்ந்தெடுக்கப்பட்ட கோப்பு மூல இடத்திலிருந்து நீக்கப்பட்டு புதிய இடத்திற்கு நகர்த்தப்படும்.\nநகலெடுத்தல் (Copy - Ctrl+C): மூல இடத்தில் உள்ள கோப்பு அப்படியே இருக்கும்; அதன் புதிய நகல் உருவாக்கப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-5m-1",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain various versions of Windows Operating System.",
+    "questionTextTamil": "விண்டோஸ் இயக்க அமைப்பின் பலவகையான பதிப்புகளை விவரி.",
+    "answer": "1. Windows 1.0 (1985): First GUI 16-bit environment on DOS.\n2. Windows 95 (1995): Introduced Start menu, Taskbar, and 32-bit architecture.\n3. Windows 98 (1998): Web integrated, USB support, FAT32.\n4. Windows XP (2001): High stability, clean visual styles, enhanced networking.\n5. Windows 7 (2009): Aero Peek, Jump lists, touch support.\n6. Windows 8/8.1 (2012): Metro UI, Start screen tiles for tablets/PCs.\n7. Windows 10/11 (2015/2021): Virtual desktops, Cortana, Microsoft Edge, modern centered taskbar.",
+    "answerTamil": "1. Windows 1.0 (1985): முதல் வரைகலை இடைமுகப் பதிப்பு.\n2. Windows 95 (1995): Start பட்டன், பணிப்பட்டை மற்றும் 32-பிட் கட்டமைப்பு அறிமுகமானது.\n3. Windows 98 (1998): இணைய ஒருங்கிணைப்பு மற்றும் USB வசதிகள்.\n4. Windows XP (2001): அதிக நிலைப்புத்தன்மை, புதிய தோற்றம்.\n5. Windows 7 (2009): விரைவான தொடக்கம், Aero தோற்றம்.\n6. Windows 8 (2012): தொடுதிரை வசதி கொண்ட Start screen டைல்ஸ்.\n7. Windows 10/11: நவீன பாதுகாப்பு, கார்டானா மற்றும் மல்டிடாஸ்கிங் வசதிகள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-5m-2",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain various methods of searching a file or folder in Windows.",
+    "questionTextTamil": "ஒரு கோப்பு அல்லது கோப்புறையைத் தேடிக் கண்டுபிடிக்கும் பல்வேறு வழிமுறைகளை விளக்குக.",
+    "answer": "1. Searching using Start Menu Search Box: Click Start -> Type file name in search box -> Windows displays matching results in real time.\n2. Searching using File Explorer Search Bar: Open drive/folder in File Explorer -> Click search bar at top-right -> Enter keyword, wildcards (*, ?), date modified, size, or extension (e.g. *.docx).\n3. Advanced Search Filters: Filter by 'Kind' (Document, Picture, Video), 'Size' (Small, Medium, Huge), or 'Date Modified'.",
+    "answerTamil": "1. Start பட்டி தேடல் பெட்டி மூலம் தேடுதல்: Start பொத்தானைச் சொடுக்கி, தேடல் பெட்டியில் கோப்பின் பெயரை உள்ளிட்டால் உடனுக்குடன் முடிவுகள் காட்டப்படும்.\n2. File Explorer தேடல் பட்டை மூலம்: குறிப்பிட்ட இயக்ககத்தை அல்லது கோப்புறையைத் திறந்து, மேல் வலது மூலையில் உள்ள Search பட்டியில் கோப்பின் பெயரை உள்ளிடவும்.\n3. சிறப்பு வடிப்பான்கள் மூலம்: கோப்பு வகை (*.docx, *.pdf), மாற்றப்பட்ட தேதி, அளவு ஆகியவற்றின் அடிப்படையில் தேடலாம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch5-5m-3",
+    "chapterNo": 5,
+    "chapterName": "Working with Windows Operating System",
+    "chapterNameTamil": "விண்டோஸ் - ல் வேலை செய்தல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the process of creating Desktop Shortcuts in Windows.",
+    "questionTextTamil": "விண்டோஸ் இயக்க அமைப்பில் குறுக்கு வழி பணிகுறிகளை உருவாக்கும் செயல் முறையை விளக்குக.",
+    "answer": "Method 1 (Send to Desktop):\n1. Locate the application or file in File Explorer.\n2. Right-click on the file.\n3. Select 'Send to' -> Click 'Desktop (create shortcut)'.\n\nMethod 2 (New Shortcut Wizard):\n1. Right-click on an empty area of the desktop.\n2. Select New -> Shortcut.\n3. Click 'Browse' to locate the executable program/file path.\n4. Click Next -> Enter shortcut name -> Click Finish.",
+    "answerTamil": "முறை 1 (Send to முறை):\n1. File Explorer-ல் குறிப்பிட்ட கோப்பு அல்லது பயன்பாட்டைக் கண்டறியவும்.\n2. அதன் மீது வலது சொடுக்கு செய்யவும்.\n3. 'Send to' -> 'Desktop (create shortcut)' என்பதைத் தேர்ந்தெடுக்கவும்.\n\nமுறை 2 (புதிய குறுக்குவழி வழிகாட்டி):\n1. திரையின் காலி இடத்தில் வலது சொடுக்கு செய்து New -> Shortcut தேர்ந்தெடுக்கவும்.\n2. 'Browse' மூலம் கோப்பைத் தேர்ந்தெடுத்து Next கொடுத்து Finish கொடுக்கவும்.",
+    "isBookBack": true
+  }
+]

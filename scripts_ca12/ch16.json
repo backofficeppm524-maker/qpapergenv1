@@ -1,0 +1,444 @@
+[
+  {
+    "id": "ca12-ch16-1m-1",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which card allows a customer to purchase items on borrowed credit up to an approved limit?",
+    "questionTextTamil": "வாடிக்கையாளர் தனது வங்கிக் கணக்கில் உள்ள பணத்தை விட அதிகமாக கடன் வரம்பில் பொருட்களை வாங்க அனுமதிக்கும் அட்டை எது?",
+    "options": {
+      "A": "Debit Card",
+      "B": "Credit Card",
+      "C": "Smart Card",
+      "D": "Gift Card"
+    },
+    "optionsTamil": {
+      "A": "பற்று அட்டை",
+      "B": "கடன் அட்டை (Credit Card)",
+      "C": "ஸ்மார்ட் கார்டு",
+      "D": "பரிசு அட்டை"
+    },
+    "correctOption": "B",
+    "answer": "B) Credit Card",
+    "answerTamil": "B) கடன் அட்டை (Credit Card)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-2",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which card deducts funds directly and immediately from the cardholder's existing bank account balance?",
+    "questionTextTamil": "கார்டுதாரரின் சேமிப்புக் கணக்கிலிருந்து உடனடியாக பணத்தைக் கழிக்கும் அட்டை எது?",
+    "options": {
+      "A": "Credit Card",
+      "B": "Debit Card",
+      "C": "Charge Card",
+      "D": "Store Card"
+    },
+    "optionsTamil": {
+      "A": "கடன் அட்டை",
+      "B": "பற்று அட்டை (Debit Card)",
+      "C": "சார்ஜ் கார்டு",
+      "D": "ஸ்டோர் கார்டு"
+    },
+    "correctOption": "B",
+    "answer": "B) Debit Card",
+    "answerTamil": "B) பற்று அட்டை (Debit Card)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-3",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does ECS stand for in digital banking?",
+    "questionTextTamil": "வங்கித்துறையில் ECS என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Electronic Clearing Service",
+      "B": "Electronic Cash System",
+      "C": "Electronic Credit Standard",
+      "D": "Encrypted Card Service"
+    },
+    "optionsTamil": {
+      "A": "Electronic Clearing Service",
+      "B": "Electronic Cash System",
+      "C": "Electronic Credit Standard",
+      "D": "Encrypted Card Service"
+    },
+    "correctOption": "A",
+    "answer": "A) Electronic Clearing Service",
+    "answerTamil": "A) Electronic Clearing Service",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-4",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which fund transfer system operates on a gross real-time settlement basis without waiting for batching?",
+    "questionTextTamil": "பணப்பரிவர்த்தனைகளை தொகுப்புகளாகக் காத்திருக்காமல் நிகழ்நேரத்தில் தீர்வு செய்யும் அமைப்பு எது?",
+    "options": {
+      "A": "NEFT",
+      "B": "RTGS",
+      "C": "ECS",
+      "D": "Cheque"
+    },
+    "optionsTamil": {
+      "A": "NEFT",
+      "B": "RTGS (Real Time Gross Settlement)",
+      "C": "ECS",
+      "D": "காசோலை"
+    },
+    "correctOption": "B",
+    "answer": "B) RTGS",
+    "answerTamil": "B) RTGS (Real Time Gross Settlement)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-5",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does UPI stand for in modern Indian digital payments?",
+    "questionTextTamil": "இந்திய டிஜிட்டல் பரிவர்த்தனையில் UPI என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Unified Payments Interface",
+      "B": "Universal Payment Internet",
+      "C": "Unique Processing Interface",
+      "D": "United Postal India"
+    },
+    "optionsTamil": {
+      "A": "Unified Payments Interface",
+      "B": "Universal Payment Internet",
+      "C": "Unique Processing Interface",
+      "D": "United Postal India"
+    },
+    "correctOption": "A",
+    "answer": "A) Unified Payments Interface",
+    "answerTamil": "A) Unified Payments Interface",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-6",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does CVV stand for on payment cards?",
+    "questionTextTamil": "கார்டுகளின் பின்புறம் உள்ள CVV என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Card Verification Value",
+      "B": "Customer Verification Value",
+      "C": "Credit Validity Voucher",
+      "D": "Cash Verification Value"
+    },
+    "optionsTamil": {
+      "A": "Card Verification Value",
+      "B": "Customer Verification Value",
+      "C": "Credit Validity Voucher",
+      "D": "Cash Verification Value"
+    },
+    "correctOption": "A",
+    "answer": "A) Card Verification Value",
+    "answerTamil": "A) Card Verification Value",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-7",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A virtual wallet that stores credit card/bank details allowing users to make electronic transactions is a(n) _________.",
+    "questionTextTamil": "பயனர் தனது வங்கி மற்றும் அட்டை விவரங்களை சேமித்து இணைய பரிவர்த்தனைகள் செய்ய உதவும் மின்னணு பணப்பை எது?",
+    "options": {
+      "A": "E-Wallet (Digital Wallet)",
+      "B": "E-Mail",
+      "C": "E-Book",
+      "D": "E-Learning"
+    },
+    "optionsTamil": {
+      "A": "மின்-பணப்பை (E-Wallet)",
+      "B": "மின்னஞ்சல்",
+      "C": "மின்-புத்தகம்",
+      "D": "மின்-கற்றல்"
+    },
+    "correctOption": "A",
+    "answer": "A) E-Wallet (Digital Wallet)",
+    "answerTamil": "A) மின்-பணப்பை (E-Wallet)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-8",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which organization launched and manages the Unified Payments Interface (UPI) in India?",
+    "questionTextTamil": "இந்தியாவில் UPI முறையை அறிமுகப்படுத்தி நிர்வகிக்கும் அமைப்பு எது?",
+    "options": {
+      "A": "NPCI",
+      "B": "SEBI",
+      "C": "TRAI",
+      "D": "IRDAI"
+    },
+    "optionsTamil": {
+      "A": "NPCI (National Payments Corporation of India)",
+      "B": "SEBI",
+      "C": "TRAI",
+      "D": "IRDAI"
+    },
+    "correctOption": "A",
+    "answer": "A) NPCI",
+    "answerTamil": "A) NPCI (National Payments Corporation of India)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-9",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which fund transfer system in India settles fund transfer requests in half-hourly batches?",
+    "questionTextTamil": "அரை மணி நேர தொகுப்புகளாக நிதிப் பரிமாற்றங்களை தீர்வு செய்யும் இந்திய முறை எது?",
+    "options": {
+      "A": "NEFT",
+      "B": "RTGS",
+      "C": "IMPS",
+      "D": "UPI"
+    },
+    "optionsTamil": {
+      "A": "NEFT",
+      "B": "RTGS",
+      "C": "IMPS",
+      "D": "UPI"
+    },
+    "correctOption": "A",
+    "answer": "A) NEFT",
+    "answerTamil": "A) NEFT",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-1m-10",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which security layer software authorizes credit card payments online between e-commerce merchants and customer banks?",
+    "questionTextTamil": "வணிக வலைத்தளங்களுக்கும் வாடிக்கையாளர் வங்கிகளுக்கும் இடையே கட்டண பரிவர்த்தனையை பாதுகாப்பாக நிறைவேற்றும் நுழைவாயில் எது?",
+    "options": {
+      "A": "Payment Gateway",
+      "B": "Web Browser",
+      "C": "Proxy Server",
+      "D": "DNS Server"
+    },
+    "optionsTamil": {
+      "A": "கட்டண நுழைவாயில் (Payment Gateway)",
+      "B": "வலை உலாவி",
+      "C": "பராக்ஸி சேவையகம்",
+      "D": "DNS சேவையகம்"
+    },
+    "correctOption": "A",
+    "answer": "A) Payment Gateway",
+    "answerTamil": "A) கட்டண நுழைவாயில் (Payment Gateway)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-2m-1",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Electronic Payment System (EPS)?",
+    "questionTextTamil": "மின்னணு செலுத்தல் முறை (EPS) என்றால் என்ன?",
+    "answer": "An Electronic Payment System (EPS) is a financial exchange mechanism that allows users to pay for goods and services online electronically without using physical cash or paper checks.",
+    "answerTamil": "மின்னணு செலுத்தல் முறை என்பது காகிதப் பணம் அல்லது காசோலைகளைப் பயன்படுத்தாமல், மின்னணு சாதனங்கள் மற்றும் இணையம் வழியாக நிதிப் பரிமாற்றம் செய்யும் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-2m-2",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Credit Card?",
+    "questionTextTamil": "கடன் அட்டை (Credit Card) என்றால் என்ன?",
+    "answer": "A credit card is a payment card issued by a bank enabling cardholders to borrow funds up to a pre-approved credit limit to purchase goods and repay later.",
+    "answerTamil": "கடன் அட்டை என்பது ஒரு குறிப்பிட்ட கடன் வரம்பிற்குள் வாடிக்கையாளர்கள் பொருட்களை வாங்கி, பின்னர் வட்டியுடன் அல்லது தவணைகளில் திருப்பிச் செலுத்த அனுமதிக்கும் அட்டையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-2m-3",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Debit Card?",
+    "questionTextTamil": "பற்று அட்டை (Debit Card) என்றால் என்ன?",
+    "answer": "A debit card is a payment card that automatically and directly deducts purchase money from the cardholder's existing savings or current bank account in real-time.",
+    "answerTamil": "பற்று அட்டை என்பது வாடிக்கையாளரின் வங்கிக் கணக்கில் உள்ள பணத்திலிருந்து நேரடியாகவும் உடனடியாகவும் பணத்தை எடுத்துச் செலுத்தும் அட்டையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-2m-4",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an E-Wallet?",
+    "questionTextTamil": "மின்-பணப்பை (E-Wallet) என்றால் என்ன?",
+    "answer": "An E-Wallet (Digital Wallet) is an electronic application on a mobile or computer that safely stores financial cards/funds to execute instant cashless online payments.",
+    "answerTamil": "மின்-பணப்பை என்பது வங்கி கணக்கு அல்லது அட்டை விவரங்களை பாதுகாப்பாக சேமித்து வைத்து, நொடிப் பொழுதில் பணம் செலுத்த உதவும் மின்னணு பயன்பாடாகும் (எ.கா: Paytm, GPay).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-2m-5",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is UPI?",
+    "questionTextTamil": "UPI என்றால் என்ன?",
+    "answer": "UPI (Unified Payments Interface) is an instant real-time payment system developed by NPCI that facilitates inter-bank peer-to-peer and merchant transactions via mobile devices.",
+    "answerTamil": "UPI என்பது NPCI ஆல் உருவாக்கப்பட்ட உடனடி நிகழ்நேர கட்டண முறையாகும். இது மொபைல் மூலம் ஒரு வங்கிக் கணக்கிலிருந்து மற்றொரு வங்கிக் கணக்கிற்கு எளிதாக பணம் அனுப்ப உதவுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-3m-1",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate Credit Card and Debit Card.",
+    "questionTextTamil": "கடன் அட்டை மற்றும் பற்று அட்டை ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "1. Credit Card: Operates on borrowed money (\"Buy Now, Pay Later\") up to a set limit; incurs interest if balance is unpaid.\n2. Debit Card: Deducts funds immediately from the user's available bank deposit (\"Pay Now\"); no interest or loan debt is incurred.",
+    "answerTamil": "1. கடன் அட்டை (Credit Card): கடன் வரம்பில் பொருட்கள் வாங்கலாம் (\"இப்போது வாங்கி பின் செலுத்தலாம்\"); நிலுவைத் தொகைக்கு வட்டி உண்டு.\n2. பற்று அட்டை (Debit Card): சேமிப்புக் கணக்கில் உள்ள பணத்திலிருந்து மட்டுமே செலவழிக்க முடியும்; வட்டி கிடையாது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-3m-2",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate NEFT and RTGS.",
+    "questionTextTamil": "NEFT மற்றும் RTGS ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "1. NEFT (National Electronic Funds Transfer): Transfers are settled in half-hourly batches; suitable for any transaction value without minimum limits.\n2. RTGS (Real Time Gross Settlement): Real-time continuous order-by-order gross settlement without batch delay; designed for high-value transfers (minimum ₹2 Lakhs).",
+    "answerTamil": "1. NEFT: அரை மணி நேர தொகுப்புகளாக நிதி தீர்வு செய்யப்படும்; குறைந்தபட்ச வரம்பு இல்லை.\n2. RTGS: தாமதமின்றி நிகழ்நேரத்தில் உடனடியாக தீர்வு செய்யப்படும்; அதிக மதிப்புடைய பரிவர்த்தனைகளுக்கு மட்டுமே (குறைந்தபட்சம் ₹2 லட்சம்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-3m-3",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is ECS (Electronic Clearing Service)? Explain its two types.",
+    "questionTextTamil": "ECS என்றால் என்ன? அதன் இரண்டு வகைகளை விளக்குக.",
+    "answer": "ECS is an electronic mode for repetitive bulk payments/collections. Types:\n1. ECS Credit: One debtor to many beneficiaries (e.g., salary, dividend, pension payouts).\n2. ECS Debit: Many debtors to one institution (e.g., utility bills, insurance premiums, loan EMIs).",
+    "answerTamil": "ECS என்பது மொத்த நிதிப் பரிமாற்றங்களுக்கான மின்னணு அமைப்பாகும். வகைகள்:\n1. ECS Credit: ஒரு நிறுவனத்திலிருந்து பலருக்கு பணம் அனுப்புதல் (எ.கா: சம்பளம், ஓய்வூதியம்).\n2. ECS Debit: பல வாடிக்கையாளர்களிடமிருந்து ஒரு நிறுவனம் பணம் பெறுதல் (எ.கா: மின் கட்டணம், EMI).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-3m-4",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the advantages of Electronic Payment Systems?",
+    "questionTextTamil": "மின்னணு செலுத்தல் முறையின் நன்மைகள் யாவை?",
+    "answer": "Advantages:\n1. 24x7 instant cashless convenience from any location.\n2. Lower processing costs and paperless accounting.\n3. Transparent audit trail minimizing physical cash theft and counterfeit currencies.",
+    "answerTamil": "நன்மைகள்:\n1. 24 மணி நேரமும் எங்கிருந்தும் எளிதாக பணமில்லா பரிவர்த்தனை செய்யும் வசதி.\n2. குறைந்த பரிவர்த்தனை செலவு மற்றும் காகிதமற்ற கணக்கியல்.\n3. வெளிப்படையான கணக்கு மற்றும் கள்ளநோட்டு/பணத் திருட்டு அபாயம் இன்மை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-3m-5",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the role of a Payment Gateway in E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தில் கட்டண நுழைவாயிலின் (Payment Gateway) பங்கை விளக்குக.",
+    "answer": "A Payment Gateway acts as a secure encrypted intermediary between an e-commerce website and payment processors/banks, verifying card validity, authorizing charges, and ensuring secure fund transfers.",
+    "answerTamil": "கட்டண நுழைவாயில் என்பது வணிக வலைத்தளத்திற்கும் வாடிக்கையாளரின் வங்கிக்கும் இடையே பாதுகாப்பான குறியாக்கப்பட்ட பாலமாக செயல்பட்டு, கட்டண அங்கீகாரத்தை நிறைவேற்றுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-5m-1",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various types of Electronic Payment Systems in detail.",
+    "questionTextTamil": "பல்வேறு வகையான மின்னணு செலுத்தல் முறைகளை விரிவாக விளக்குக.",
+    "answer": "Types of Electronic Payment Systems (EPS):\n\n1. Card-based Payments:\n- Credit Cards: Instant credit revolving line with monthly statements.\n- Debit Cards: Direct debit from user's current account balance.\n- Stored-value / Smart Cards: Prepaid cards with embedded microchips.\n\n2. Electronic Fund Transfers:\n- NEFT: Batched settlements for general transfers.\n- RTGS: Real-time gross settlement for high-value transactions (> ₹2 Lakhs).\n- IMPS: 24/7 instant interbank mobile payment.\n\n3. Mobile & Unified Payments:\n- UPI: Instant mobile fund transfers using Virtual Payment Addresses (VPA) and QR codes.\n- E-Wallets: Digital prepaid wallets (GPay, PhonePe, Paytm).\n- Internet / Net Banking: Direct account login transfers.",
+    "answerTamil": "மின்னணு செலுத்தல் முறைகளின் வகைகள்:\n\n1. அட்டை அடிப்படையிலான செலுத்துதல்கள்:\n- கடன் அட்டை (Credit Card): கடன் வரம்பில் பொருட்கள் வாங்கும் வசதி.\n- பற்று அட்டை (Debit Card): வங்கிக் கணக்கிலிருந்து நேரடியாகப் பணம் கழித்தல்.\n- ஸ்மார்ட் கார்டுகள்: சிப் பொருத்தப்பட்ட முன்பணம் செலுத்திய அட்டைகள்.\n\n2. மின்னணு நிதி பரிமாற்றங்கள்:\n- NEFT: தொகுதி வாரியான பரிவர்த்தனை.\n- RTGS: ₹2 லட்சத்திற்கு மேற்பட்ட பெரிய தொகைக்கான உடனடி தீர்வு.\n- IMPS: 24 மணி நேர உடனடி மொபைல் நிதி பரிமாற்றம்.\n\n3. மொபைல் மற்றும் டிஜிட்டல் முறைகள்:\n- UPI: VPA மற்றும் QR குறியீடு மூலம் உடனடி பரிவர்த்தனை.\n- மின்-பணப்பைகள் (E-Wallets): Paytm, Google Pay போன்றவை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-5m-2",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the key participants and step-by-step transaction flow of a Credit Card payment system.",
+    "questionTextTamil": "கடன் அட்டை செலுத்தல் அமைப்பில் உள்ள முக்கிய பங்கேற்பாளர்கள் மற்றும் பரிவர்த்தனை படிநிலைகளை விளக்குக.",
+    "answer": "Key Participants in Credit Card System:\n1. Cardholder: Customer possessing the credit card.\n2. Merchant: E-commerce seller accepting card payments.\n3. Acquiring Bank (Merchant's Bank): Processes merchant transactions.\n4. Credit Card Network: Visa, MasterCard, RuPay switching network.\n5. Issuing Bank (Customer's Bank): Issued the card and extends credit line.\n\nTransaction Steps:\n1. Authorization: Cardholder submits details at merchant checkout.\n2. Processing: Payment gateway encrypts and routes request through network to Issuing Bank.\n3. Approval: Issuing bank validates credit limit and sends approval code.\n4. Settlement: Funds transferred from Issuing bank to Acquiring bank and credited to merchant.",
+    "answerTamil": "கடன் அட்டை அமைப்பின் பங்கேற்பாளர்கள்:\n1. கார்டுதாரர் (Cardholder): அட்டை வைத்திருக்கும் வாடிக்கையாளர்.\n2. வணிகர் (Merchant): பணம் பெறும் விற்பனையாளர்.\n3. ஏற்கும் வங்கி (Acquiring Bank): வணிகரின் வங்கிக் கணக்கு.\n4. கார்டு நெட்வொர்க்: Visa, MasterCard, RuPay போன்றவை.\n5. வழங்கிய வங்கி (Issuing Bank): வாடிக்கையாளருக்கு அட்டை வழங்கிய வங்கி.\n\nபரிவர்த்தனை படிகள்: வாடிக்கையாளர் கார்டு விவரங்களை உள்ளிட, கேட்வே அதை குறியாக்கம் செய்து அட்டை நெட்வொர்க் வழியாக வங்கிக்கு அனுப்ப, வங்கி ஒப்புதல் வழங்கி தொகையை தீர்வு செய்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-5m-3",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Discuss the features and significance of UPI (Unified Payments Interface) in India's digital economy.",
+    "questionTextTamil": "இந்தியாவின் டிஜிட்டல் பொருளாதாரத்தில் UPI (Unified Payments Interface) முறையின் சிறப்பம்சங்கள் மற்றும் முக்கியத்துவத்தை விவாதிக்கவும்.",
+    "answer": "Features and Significance of UPI:\n\n1. Instant Real-Time Transfer: Operates 24x7x365 instantaneously without banking holidays.\n2. Virtual Payment Address (VPA): No need to disclose confidential bank account numbers or IFSC codes; uses simple IDs like username@upi.\n3. Single Mobile Application: Access multiple bank accounts through a single app (BHIM, GPay, PhonePe).\n4. QR Code Scanning: Instant offline retail point-of-sale payments via Bharat QR codes.\n5. Two-Factor Authentication: Secured by device binding and confidential 4-6 digit UPI PIN.\n6. Economic Impact: Propelled India to global leadership in digital micro-transactions, eliminating cash handling overheads.",
+    "answerTamil": "UPI-ன் சிறப்பம்சங்கள் மற்றும் முக்கியத்துவம்:\n\n1. உடனடி நிகழ்நேர பரிமாற்றம்: விடுமுறை நாட்களிலும் 24x7 உடனடியாக இயங்கும்.\n2. மெய்நிகர் கட்டண முகவரி (VPA): வங்கிக் கணக்கு எண், IFSC தேவையின்றி எளிய VPA ஐடி மூலம் பரிமாறலாம்.\n3. ஒற்றை மொபைல் செயலி: ஒரே செயலியில் பல வங்கிக் கணக்குகளை இணைக்கலாம்.\n4. QR குறியீடு ஸ்கேனிங்: கடைகளில் விரைவாக ஸ்கேன் செய்து பணம் செலுத்தும் வசதி.\n5. இரண்டு காரணி பாதுகாப்பு: மொபைல் சாதனம் மற்றும் இரகசிய UPI பின் (PIN) மூலம் பாதுகாப்பு.\n6. பொருளாதார தாக்கம்: சில்லறை பணப்பரிவர்த்தனைகளில் இந்தியாவை உலக அளவில் முதலிடத்திற்கு கொண்டு சென்றுள்ளது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch16-5m-4",
+    "chapterNo": 16,
+    "chapterName": "Electronic Payment Systems",
+    "chapterNameTamil": "மின்னணு செலுத்தல் முறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the risks and security mechanisms associated with Electronic Payment Systems.",
+    "questionTextTamil": "மின்னணு செலுத்தல் முறைகளில் உள்ள அபாயங்கள் மற்றும் அவற்றின் பாதுகாப்பு வழிமுறைகளை விளக்குக.",
+    "answer": "Risks in Electronic Payments:\n1. Phishing and Social Engineering scams stealing OTPs/credentials.\n2. Card Skimming and Identity Theft.\n3. Malware, spyware, and man-in-the-middle attacks.\n\nSecurity Mechanisms:\n1. SSL / TLS Encryption: Encrypts data in transit over HTTP.\n2. Two-Factor Authentication (2FA): OTP / Biometrics / PIN verification.\n3. Tokenization: Replaces sensitive card numbers with random algorithmic tokens.\n4. CVV & EMV Chip Cards: Prevents counterfeit cloning of magnetic stripes.\n5. Fraud Monitoring Systems: AI algorithms detecting suspicious anomalies in real-time.",
+    "answerTamil": "மின்னணு செலுத்துதலின் அபாயங்கள்:\n1. ஃபிஷிங் மற்றும் OTP திருட்டு மோசடிகள்.\n2. அட்டை குளோனிங் (Card Skimming) மற்றும் அடையாளத் திருட்டு.\n3. மால்வேர் மற்றும் இணையத் தாக்குதல்கள்.\n\nபாதுகாப்பு வழிமுறைகள்:\n1. SSL/TLS குறியாக்கம்: தரவு பாதுகாப்பாக மறைக்கப்பட்டு கடத்தப்படுகிறது.\n2. இரு காரணி அங்கீகாரம் (2FA): OTP, கைரேகை மற்றும் ரகசிய பின்.\n3. டோக்கனைசேஷன் (Tokenization): அசல் கார்டு எண்களுக்குப் பதிலாக தற்காலிக குறியீடு வழங்கப்படுகிறது.\n4. EMV சிப் மற்றும் CVV: போலி அட்டைகள் உருவாக்குவதைத் தடுக்கிறது.",
+    "isBookBack": true
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "cs11-ch4-1m-1",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Operating system is a:",
+    "questionTextTamil": "இயக்க அமைப்பானது ------------------",
+    "options": {
+      "A": "Application software",
+      "B": "Hardware",
+      "C": "System software",
+      "D": "Component"
+    },
+    "optionsTamil": {
+      "A": "பயன்பாட்டு மென்பொருள்",
+      "B": "வன்பொருள்",
+      "C": "அமைப்பு மென்பொருள்",
+      "D": "உபகரணம்"
+    },
+    "correctOption": "C",
+    "answer": "C) System software",
+    "answerTamil": "C) அமைப்பு மென்பொருள்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-2",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Identify the main use of Operating System:",
+    "questionTextTamil": "இயக்க அமைப்புகளின் பயன்பாட்டைக் கண்டறியவும்:",
+    "options": {
+      "A": "Easy interaction between human and computer",
+      "B": "Writing documents",
+      "C": "Playing games",
+      "D": "Browsing internet"
+    },
+    "optionsTamil": {
+      "A": "மனித மற்றும் கணினி இடையே எளிதாக தொடர்பு",
+      "B": "ஆவணம் எழுதுதல்",
+      "C": "விளையாடுதல்",
+      "D": "வலை உலாவுதல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Easy interaction between human and computer",
+    "answerTamil": "A) மனித மற்றும் கணினி இடையே எளிதாக தொடர்பு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-3",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is NOT an operating system function?",
+    "questionTextTamil": "பின்வரும் எது, இயக்க அமைப்பு செயல்பாடு அல்ல?",
+    "options": {
+      "A": "Process Management",
+      "B": "Memory Management",
+      "C": "Security Management",
+      "D": "Compiler Environment"
+    },
+    "optionsTamil": {
+      "A": "செயல்முறை மேலாண்மை",
+      "B": "நினைவக மேலாண்மை",
+      "C": "பாதுகாப்பு மேலாண்மை",
+      "D": "நிரல் மொழிபெயர்ப்பி சூழல்"
+    },
+    "correctOption": "D",
+    "answer": "D) Compiler Environment",
+    "answerTamil": "D) நிரல் மொழிபெயர்ப்பி சூழல்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-4",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a commercially licensed operating system?",
+    "questionTextTamil": "பின்வரும் எந்த இயக்க அமைப்பில் வணிக ரீதியாக உரிமம் பெற்ற இயக்க அமைப்பு ஆகும்?",
+    "options": {
+      "A": "Windows",
+      "B": "Ubuntu",
+      "C": "Fedora",
+      "D": "Redhat"
+    },
+    "optionsTamil": {
+      "A": "விண்டோஸ்",
+      "B": "உபுண்டு",
+      "C": "ஃபெடோரா",
+      "D": "ரெட்ஹெட்"
+    },
+    "correctOption": "A",
+    "answer": "A) Windows",
+    "answerTamil": "A) விண்டோஸ்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-5",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following operating systems supports mobile devices?",
+    "questionTextTamil": "பின்வரும் இயக்க அமைப்புகளில் கைபேசி சாதனங்களை ஆதரிப்பது எது?",
+    "options": {
+      "A": "Windows 7",
+      "B": "Linux",
+      "C": "BOSS",
+      "D": "iOS"
+    },
+    "optionsTamil": {
+      "A": "விண்டோஸ் 7",
+      "B": "லினக்ஸ்",
+      "C": "பாஸ்",
+      "D": "iOS"
+    },
+    "correctOption": "D",
+    "answer": "D) iOS",
+    "answerTamil": "D) iOS",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-6",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "File management manages which of the following?",
+    "questionTextTamil": "கோப்பு மேலாண்மை எவற்றை நிர்வகிக்கிறது?",
+    "options": {
+      "A": "Files",
+      "B": "Directories",
+      "C": "File systems",
+      "D": "All of these"
+    },
+    "optionsTamil": {
+      "A": "கோப்புகள்",
+      "B": "கோப்புறைகள்",
+      "C": "அமைவு அமைப்புகள்",
+      "D": "இவை அனைத்தும்"
+    },
+    "correctOption": "D",
+    "answer": "D) All of these",
+    "answerTamil": "D) இவை அனைத்தும்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-7",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Interactive Operating System provides:",
+    "questionTextTamil": "ஊடாடு இயக்க அமைப்பு வழங்கும் வசதி:",
+    "options": {
+      "A": "Graphical User Interface (GUI)",
+      "B": "Data Distribution",
+      "C": "Security Management",
+      "D": "Real Time Processing"
+    },
+    "optionsTamil": {
+      "A": "வரைகலை பயனர் இடைமுகம் (GUI)",
+      "B": "தரவு விநியோகம்",
+      "C": "பாதுகாப்பு மேலாண்மை",
+      "D": "உண்மையான நேரம் செயலாக்கம்"
+    },
+    "correctOption": "A",
+    "answer": "A) Graphical User Interface (GUI)",
+    "answerTamil": "A) வரைகலை பயனர் இடைமுகம் (GUI)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-8",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Example for single-user operating system:",
+    "questionTextTamil": "ஒற்றை பயனர் இயக்க அமைப்பிற்கு எடுத்துக்காட்டு:",
+    "options": {
+      "A": "Linux",
+      "B": "Windows",
+      "C": "MS DOS",
+      "D": "Unix"
+    },
+    "optionsTamil": {
+      "A": "லினக்ஸ்",
+      "B": "விண்டோஸ்",
+      "C": "MS DOS",
+      "D": "யுனிக்ஸ்"
+    },
+    "correctOption": "C",
+    "answer": "C) MS DOS",
+    "answerTamil": "C) MS DOS",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-1m-9",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which file system is used by Linux?",
+    "questionTextTamil": "லினக்ஸ் எந்த வகை கோப்பு மேலாண்மையை பயன்படுத்துகிறது?",
+    "options": {
+      "A": "ext2",
+      "B": "NTFS",
+      "C": "FAT",
+      "D": "NFTS"
+    },
+    "optionsTamil": {
+      "A": "ext2",
+      "B": "NTFS",
+      "C": "FAT",
+      "D": "NFTS"
+    },
+    "correctOption": "A",
+    "answer": "A) ext2",
+    "answerTamil": "A) ext2",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-2m-1",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are any two advantages of memory management in OS?",
+    "questionTextTamil": "நினைவக மேலாண்மையின் நன்மைகள் ஏதேனும் இரண்டை கூறு?",
+    "answer": "1. Keeps track of which parts of memory are currently being used and by whom.\n2. Allocates and deallocates memory dynamically to programs as needed.",
+    "answerTamil": "1. நினைவகத்தின் எந்த பகுதி பயன்பாட்டில் உள்ளது என்பதைத் தொடர்ந்து கண்காணிக்கிறது.\n2. நிரல்களுக்குத் தேவையான நினைவகத்தை மாறும் வகையில் ஒதுக்கவும் விடுவிக்கவும் செய்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-2m-2",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a multi-user operating system?",
+    "questionTextTamil": "பல பயனர் இயக்க அமைப்பு என்றால் என்ன?",
+    "answer": "A multi-user OS allows multiple users on different terminals or network nodes to access the same computer system and share its resources concurrently (e.g. Unix, Linux).",
+    "answerTamil": "பல பயனர்கள் ஒரே நேரத்தில் ஒரே கணினியின் வளங்களைப் பகிர்ந்து கொள்ள அனுமதிக்கும் இயக்க அமைப்பு பல பயனர் இயக்க அமைப்பு எனப்படும் (எ.கா: Unix, Linux).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-2m-3",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is GUI (Graphical User Interface)?",
+    "questionTextTamil": "GUI என்றால் என்ன?",
+    "answer": "GUI is a visual interface that allows users to interact with electronic devices through graphical icons, visual indicators, windows, menus, and pointers.",
+    "answerTamil": "GUI (வரைகலை பயனர் இடைமுகம்) என்பது பயனர்கள் சுட்டி, பணிக்குறிகள், சாளரங்கள் மற்றும் மெனுக்கள் மூலம் கணினியுடன் எளிதாக உரையாட உதவும் வரைகலை திரையமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-2m-4",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the advantages of File Management in OS?",
+    "questionTextTamil": "கோப்பு மேலாண்மையின் நன்மைகள் யாவை?",
+    "answer": "1. Provides structured hierarchical organization of files and folders.\n2. Secures files with access permissions, passwords, and data integrity checks.",
+    "answerTamil": "1. கோப்புகள் மற்றும் கோப்புறைகளை படிநிலை முறையில் நேர்த்தியாக நிர்வகிக்கிறது.\n2. அனுமதிகள் மற்றும் கடவுச்சொற்கள் மூலம் கோப்புகளுக்குப் பாதுகாப்பு வழங்குகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-2m-5",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Multitasking?",
+    "questionTextTamil": "பல பணியாக்கம் என்றால் என்ன?",
+    "answer": "Multitasking is the ability of an operating system to execute more than one task or program concurrently by rapidly switching the CPU between them.",
+    "answerTamil": "ஒரே நேரத்தில் ஒன்றுக்கும் மேற்பட்ட பணிகளை அல்லது நிரல்களை செயலி மூலம் விரைவாக மாற்றி மாற்றி இயக்கும் திறன் பல பணியாக்கம் (Multitasking) எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-2m-6",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List various operating systems used in computers.",
+    "questionTextTamil": "கணிப்பொறியில் பயன்படுத்தப்படும் வெவ்வேறு இயக்க அமைப்புகள் யாவை?",
+    "answer": "1. Windows (Windows 10, 11)\n2. Linux (Ubuntu, Fedora, RedHat)\n3. macOS and UNIX\n4. Mobile OS: Android, iOS.",
+    "answerTamil": "1. விண்டோஸ் (Windows 10, 11)\n2. லினக்ஸ் (Ubuntu, BOSS, RedHat)\n3. macOS மற்றும் UNIX\n4. மொபைல் OS: Android, iOS.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-3m-1",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the advantages and disadvantages of Time Sharing Operating System?",
+    "questionTextTamil": "நேரம் பகிர்தல் இயக்க அமைப்பின் நன்மைகள் மற்றும் தீமைகள் என்ன?",
+    "answer": "Advantages:\n1. Reduces CPU idle time; fair allocation of processing power.\n2. Quick response time for interactive users.\nDisadvantages:\n1. Higher overhead in process context switching.\n2. Reliability and security issues when handling concurrent user processes.",
+    "answerTamil": "நன்மைகள்:\n1. CPU வீணாக இருக்கும் நேரம் குறைகிறது; சமமான வள ஒதுக்கீடு.\n2. விரைவான மறுமொழி நேரம்.\nதீமைகள்:\n1. செயல்முறை மாற்றத்திற்கான மேல்நிலைச் செலவு அதிகம்.\n2. தரவுப் பாதுகாப்பு மற்றும் நம்பகத்தன்மை சவால்கள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-3m-2",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List the key features of an Operating System.",
+    "questionTextTamil": "இயக்க அமைப்பின் முக்கிய சிறப்பியல்புகளை பட்டியலிடுக.",
+    "answer": "1. User Interface (GUI/CLI)\n2. Memory Management\n3. Process and Processor Management\n4. File and Device (I/O) Management\n5. Security and Fault Tolerance.",
+    "answerTamil": "1. பயனர் இடைமுகம் (GUI / CLI)\n2. நினைவக மேலாண்மை (Memory Management)\n3. செயல்முறை மேலாண்மை (Process Management)\n4. கோப்பு மற்றும் சாதன மேலாண்மை\n5. பாதுகாப்பு மேலாண்மை மற்றும் பிழை பொறுத்துக்கொள்ளும் திறன்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-3m-3",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a short note on Multiprocessing Operating System.",
+    "questionTextTamil": "பல செயலாக்க இயக்க அமைப்பு சிறு குறிப்பு வரைக.",
+    "answer": "A multiprocessing OS supports two or more CPUs (cores) within a single computer system. Tasks are divided among processors to run in parallel, dramatically increasing computing speed and throughput.",
+    "answerTamil": "பல செயலாக்க இயக்க அமைப்பு (Multiprocessing OS) என்பது ஒரே அமைப்பில் இரண்டு அல்லது அதற்கு மேற்பட்ட CPU-க்களைப் பயன்படுத்தி, பணிகளைப் பிரித்து இணையாக இயக்கி செயலாக்க வேகத்தை அதிகரிக்கும் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-5m-1",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the concepts and advantages of Distributed Operating System.",
+    "questionTextTamil": "பரவல் இயக்க அமைப்பின் கருத்துரு பற்றி விளக்குக மேலும் அதன் பயன்பாடுகள் யாவை?",
+    "answer": "Concept: A Distributed OS manages a collection of independent computers connected by a network and makes them appear to users as a single unified computer system.\nAdvantages:\n1. Resource Sharing: Users at one site can utilize hardware/software resources at another site.\n2. High Computation Speed: Complex jobs are partitioned across multiple machines.\n3. Reliability: If one node crashes, other nodes continue functioning.\n4. Scalability: Easy to add new computing nodes to the network.",
+    "answerTamil": "கருத்துரு: பரவல் இயக்க அமைப்பு என்பது வலையமைப்பில் இணைக்கப்பட்ட பல தனித்தனி கணினிகளை ஒருங்கிணைத்து, ஒரே கணினியைப் போல பயனருக்கு வழங்கும் அமைப்பாகும்.\nபயன்பாடுகள் / நன்மைகள்:\n1. வளப் பகிர்வு: ஒரு இடத்தில் உள்ள கணினி மற்ற இடங்களில் உள்ள வன்பொருள், மென்பொருளைப் பயன்படுத்தலாம்.\n2. அதிவேக கணக்கீடு: பெரிய பணிகள் பல கணினிகளுக்குப் பகிர்ந்தளிக்கப்படுகின்றன.\n3. நம்பகத்தன்மை: ஒரு கணினி பழுதடைந்தாலும் மற்றவை தொடர்ந்து இயங்கும்.\n4. அளவிடத்தக்க தன்மை (Scalability): புதிய கணினிகளை எளிதில் சேர்க்கலாம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-5m-2",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "List the essential points to be considered while designing a User Interface for an operating system.",
+    "questionTextTamil": "ஒரு இயக்க முறைமைக்கான பயனர் இடைமுகத்தை உருவாக்கும் போது கவனத்தில் கொள்ள வேண்டிய முக்கிய கருத்துக்களை பட்டியலிடுக.",
+    "answer": "1. Simplicity and Clarity: Interface should be intuitive and straightforward to navigate.\n2. Consistency: Icons, buttons, and menus should follow standardized behavior across windows.\n3. Feedback and Responsiveness: Provide visual/auditory confirmation for user actions.\n4. Forgiving of Mistakes: Support Undo, Redo, and confirmation dialogs for critical actions.\n5. Accessibility and Customization: Offer shortcuts, themes, high-contrast modes, and localization.",
+    "answerTamil": "1. எளிமை மற்றும் தெளிவு: பயனர் எளிதில் புரிந்துகொண்டு வழிசெலுத்தும் வகையில் இருக்க வேண்டும்.\n2. சீரான தன்மை (Consistency): பொத்தான்கள், வண்ணங்கள், சின்னங்கள் ஒரே மாதிரியான தரமுறையைக் கொண்டிருக்க வேண்டும்.\n3. துலங்கல் மற்றும் பின்னூட்டம்: பயனர் செயல்களுக்கு உடனடியாக காட்சி/ஒலி பதில் தர வேண்டும்.\n4. பிழை திருத்தும் வாய்ப்பு: Undo, Redo வசதிகள் மற்றும் உறுதிப்படுத்தல் உரையாடல் பெட்டிகள் இருக்க வேண்டும்.\n5. அணுகல்தன்மை: குறுக்குவழிகள், தனிப்பயனாக்குதல் வசதிகள் அமைய வேண்டும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch4-5m-3",
+    "chapterNo": 4,
+    "chapterName": "Theoretical Concepts of Operating System",
+    "chapterNameTamil": "இயக்க அமைப்பின் கொள்கைக் கருத்துக்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the process management algorithms used in Operating Systems.",
+    "questionTextTamil": "இயக்க அமைப்பின் செயல் மேலாண்மை நெறிமுறைகளை விளக்குக.",
+    "answer": "1. FIFO (First In First Out): The process that requests the CPU first gets allocated first (queue basis).\n2. SJF (Shortest Job First): The process with the smallest execution burst time is scheduled next.\n3. Round Robin (RR): Each process is allocated a fixed time slice (quantum) in circular order.\n4. Priority Scheduling: Each process has a priority; CPU is assigned to the process with highest priority.",
+    "answerTamil": "1. FIFO (முதலில் வந்தது முதலில் வெளியேறும்): வரிசையில் முதலில் வரும் பணிக்கு முதலில் CPU ஒதுக்கப்படும்.\n2. SJF (மிகச்சிறிய பணி முதலில்): குறைந்த செயலாக்க நேரம் கொண்ட பணிக்கு முன்னுரிமை அளிக்கப்படும்.\n3. Round Robin (சுழற்சி ஒதுக்கீடு): ஒவ்வொரு பணிக்கும் சமமான குறிப்பிட்ட கால அளவு (Time Slice) சுழற்சி முறையில் வழங்கப்படும்.\n4. முன்னுரிமை திட்டமிடல் (Priority Scheduling): அதிக முன்னுரிமை கொண்ட பணி முதலில் நிறைவேற்றப்படும்.",
+    "isBookBack": true
+  }
+]

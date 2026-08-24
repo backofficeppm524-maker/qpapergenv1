@@ -1,0 +1,414 @@
+import fs from 'fs';
+import { Question } from '../src/types';
+
+const questions: Question[] = [];
+
+// ==========================================
+// CHAPTER 1: Multimedia (20 questions: 10 1M, 5 2M, 3 3M, 2 5M)
+// ==========================================
+const ch1_1m: Question[] = [
+  {
+    id: "ca12-ch1-1m-1",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "What is multimedia?",
+    questionTextTamil: "பல்லூடகம் என்றால் என்ன?",
+    options: {
+      A: "a type of computer hardware",
+      B: "a type of computer software",
+      C: "a type of computer network",
+      D: "the use of multiple forms of media to communicate information"
+    },
+    optionsTamil: {
+      A: "கணினி வன்பொருளின் ஒரு வகை",
+      B: "கணினி மென்பொருளின் ஒரு வகை",
+      C: "கணினி வலையமைப்பின் ஒரு வகை",
+      D: "தகவல்களைத் தொடர்பு கொள்ள பல ஊடக வடிவங்களின் பயன்பாடு"
+    },
+    correctOption: "D",
+    answer: "D) the use of multiple forms of media to communicate information",
+    answerTamil: "D) தகவல்களைத் தொடர்பு கொள்ள பல ஊடக வடிவங்களின் பயன்பாடு",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-2",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "________ has five major components like text, images, sound, video and animation.",
+    questionTextTamil: "உரை, படங்கள், ஒலி, ஒளி மற்றும் அசைவூட்டல் ஆகிய ஐந்து முக்கிய கூறுகளைக் கொண்டது எது?",
+    options: {
+      A: "Multimedia",
+      B: "Master Page",
+      C: "Master item",
+      D: "Multi-word"
+    },
+    optionsTamil: {
+      A: "பல்லூடகம் (Multimedia)",
+      B: "முதன்மைப் பக்கம்",
+      C: "மாஸ்டர் உருப்படி",
+      D: "பல்-வார்த்தை"
+    },
+    correctOption: "A",
+    answer: "A) Multimedia",
+    answerTamil: "A) பல்லூடகம் (Multimedia)",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-3",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "What is a raster image?",
+    questionTextTamil: "ராஸ்டர் படம் என்றால் என்ன?",
+    options: {
+      A: "a type of image made up of pixels",
+      B: "a type of image made up of geometric shapes",
+      C: "a type of image made up of text",
+      D: "a type of image made up of sound waves"
+    },
+    optionsTamil: {
+      A: "படத்துணுக்குகளால் (Pixels) ஆன படம்",
+      B: "வடிவியல் வடிவங்களால் ஆன படம்",
+      C: "உரையால் ஆன படம்",
+      D: "ஒலி அலைகளால் ஆன படம்"
+    },
+    correctOption: "A",
+    answer: "A) a type of image made up of pixels",
+    answerTamil: "A) படத்துணுக்குகளால் (Pixels) ஆன படம்",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-4",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "What is a vector image?",
+    questionTextTamil: "வெக்டர் படம் என்றால் என்ன?",
+    options: {
+      A: "a type of image made of pixels",
+      B: "a type of image made up of geometric shapes",
+      C: "a type of image made up of text",
+      D: "a type of image made up of sound waves"
+    },
+    optionsTamil: {
+      A: "படத்துணுக்குகளால் ஆன படம்",
+      B: "வடிவியல் வடிவங்களால் (geometric shapes) ஆன படம்",
+      C: "உரையால் ஆன படம்",
+      D: "ஒலி அலைகளால் ஆன படம்"
+    },
+    correctOption: "B",
+    answer: "B) a type of image made up of geometric shapes",
+    answerTamil: "B) வடிவியல் வடிவங்களால் (geometric shapes) ஆன படம்",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-5",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "Which of the following is a raster image file format?",
+    questionTextTamil: "பின்வருவனவற்றில் எது ராஸ்டர் படக் கோப்பு வடிவம்?",
+    options: {
+      A: "JPEG",
+      B: "EPS",
+      C: "CDR",
+      D: "SVG"
+    },
+    optionsTamil: {
+      A: "JPEG",
+      B: "EPS",
+      C: "CDR",
+      D: "SVG"
+    },
+    correctOption: "A",
+    answer: "A) JPEG",
+    answerTamil: "A) JPEG",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-6",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "Which of the following is a vector image file format?",
+    questionTextTamil: "பின்வருவனவற்றில் எது வெக்டர் படக் கோப்பு வடிவம்?",
+    options: {
+      A: "PSD",
+      B: "JPEG",
+      C: "EPS",
+      D: "BMP"
+    },
+    optionsTamil: {
+      A: "PSD",
+      B: "JPEG",
+      C: "EPS",
+      D: "BMP"
+    },
+    correctOption: "C",
+    answer: "C) EPS",
+    answerTamil: "C) EPS",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-7",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "RTF (Rich Text Format) file format was introduced by __________",
+    questionTextTamil: "RTF (Rich Text Format) கோப்பு வடிவத்தை அறிமுகப்படுத்திய நிறுவனம் எது?",
+    options: {
+      A: "TCS",
+      B: "Microsoft",
+      C: "Apple Inc.",
+      D: "IBM"
+    },
+    optionsTamil: {
+      A: "TCS",
+      B: "Microsoft",
+      C: "Apple Inc.",
+      D: "IBM"
+    },
+    correctOption: "B",
+    answer: "B) Microsoft",
+    answerTamil: "B) Microsoft",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-8",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "The expansion of JPEG is _____________",
+    questionTextTamil: "JPEG என்பதன் விரிவாக்கம் என்ன?",
+    options: {
+      A: "Joint Photographic Experts Group",
+      B: "Joint Photo Experts Group",
+      C: "Join Photon Experts Group",
+      D: "Joint Photographic expressGroup"
+    },
+    optionsTamil: {
+      A: "Joint Photographic Experts Group",
+      B: "Joint Photo Experts Group",
+      C: "Join Photon Experts Group",
+      D: "Joint Photographic expressGroup"
+    },
+    correctOption: "A",
+    answer: "A) Joint Photographic Experts Group",
+    answerTamil: "A) Joint Photographic Experts Group",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-9",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "AIFF file format was developed by _______",
+    questionTextTamil: "AIFF கோப்பு வடிவத்தை உருவாக்கியது யார்?",
+    options: {
+      A: "TCS",
+      B: "Microsoft",
+      C: "Apple Inc.",
+      D: "IBM"
+    },
+    optionsTamil: {
+      A: "TCS",
+      B: "Microsoft",
+      C: "Apple Inc.",
+      D: "IBM"
+    },
+    correctOption: "C",
+    answer: "C) Apple Inc.",
+    answerTamil: "C) Apple Inc.",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-1m-10",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 1,
+    type: "mcq",
+    questionText: "Which of the following is an audio file format?",
+    questionTextTamil: "பின்வருவனவற்றில் எது ஒலி (audio) கோப்பு வடிவம்?",
+    options: {
+      A: "MP3",
+      B: "AVI",
+      C: "MPEG",
+      D: "PNG"
+    },
+    optionsTamil: {
+      A: "MP3",
+      B: "AVI",
+      C: "MPEG",
+      D: "PNG"
+    },
+    correctOption: "A",
+    answer: "A) MP3",
+    answerTamil: "A) MP3",
+    isBookBack: true
+  }
+];
+
+const ch1_2m: Question[] = [
+  {
+    id: "ca12-ch1-2m-1",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 2,
+    type: "short",
+    questionText: "Define Multimedia.",
+    questionTextTamil: "பல்லூடகம் - வரையறுக்கவும்.",
+    answer: "Multimedia is a combination of text, graphics, sound, video and animation delivered electronically to the user through computer or other electronic devices.",
+    answerTamil: "பல்லூடகம் என்பது உரை, வரைகலை, ஒலி, ஒளி மற்றும் அசைவூட்டல் ஆகியவற்றின் ஒருங்கிணைப்பாகும். இது கணினி அல்லது பிற மின்னணு சாதனங்களின் வழியே பயனருக்கு வழங்கப்படுகிறது.",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-2m-2",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 2,
+    type: "short",
+    questionText: "List out Multimedia Components.",
+    questionTextTamil: "பல்லூடகத்தின் கூறுகளைப் பட்டியலிடுக.",
+    answer: "The five major components of multimedia are:\n1. Text\n2. Images\n3. Audio (Sound)\n4. Video\n5. Animation.",
+    answerTamil: "பல்லூடகத்தின் ஐந்து முக்கிய கூறுகள்:\n1. உரை (Text)\n2. படங்கள் (Images)\n3. ஒலி (Audio / Sound)\n4. ஒளிக்காட்சி (Video)\n5. அசைவூட்டல் (Animation).",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-2m-3",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 2,
+    type: "short",
+    questionText: "Classify the TEXT components in multimedia.",
+    questionTextTamil: "பல்லூடகத்தில் உள்ள உரை கூறுகளை வகைப்படுத்துக.",
+    answer: "Text components in multimedia are classified into two types:\n1. Static Text: Text that remains fixed on screen.\n2. Hypertext: Text consisting of hyperlinks that navigate to other documents or media when clicked.",
+    answerTamil: "பல்லூடக உரை கூறுகள் இரண்டு வகைகளாக வகைப்படுத்தப்படுகின்றன:\n1. நிலையான உரை (Static Text): திரையில் மாறாமல் நிலையாக இருக்கும் உரை.\n2. மீஉரை (Hypertext): கிளிக் செய்யும் போது மற்ற ஆவணங்கள் அல்லது ஊடகங்களுக்கு இணைக்கும் இணைப்புகளைக் கொண்ட உரை.",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-2m-4",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 2,
+    type: "short",
+    questionText: "Classify the IMAGE components in multimedia.",
+    questionTextTamil: "பல்லூடகத்தில் பட கூறுகளை வகைப்படுத்துக.",
+    answer: "Image components are classified into two types:\n1. Raster or Bitmap Images: Made of grid of tiny colored pixels (e.g., BMP, JPEG, PNG).\n2. Vector Images: Created using mathematical shapes, lines and vectors (e.g., EPS, SVG, AI).",
+    answerTamil: "பட கூறுகள் இரு வகைகளாகப் பிரிக்கப்படுகின்றன:\n1. ராஸ்டர் அல்லது பிட்மேப் படங்கள் (Raster / Bitmap): சிறிய படத்துணுக்குகளின் (Pixels) தொகுப்பால் ஆனவை (எ.கா: BMP, JPEG, PNG).\n2. வெக்டர் படங்கள் (Vector Images): கணித வடிவங்கள், கோடுகள் மற்றும் புள்ளிகளால் உருவாக்கப்பட்டவை (எ.கா: EPS, SVG).",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-2m-5",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 2,
+    type: "short",
+    questionText: "Define Animation.",
+    questionTextTamil: "அசைவூட்டல் (Animation) - வரையறுக்கவும்.",
+    answer: "Animation is the process of displaying still images in rapid sequence to create the optical illusion of continuous motion (typically at 24 to 30 frames per second).",
+    answerTamil: "அசைவூட்டல் என்பது தொடர்ச்சியான இயக்கத்தின் மாயத் தோற்றத்தை உருவாக்க, தொடர் நிலையான படங்களை மிக விரைவாக அடுத்தடுத்து திரையிடும் செயல்முறையாகும்.",
+    isBookBack: true
+  }
+];
+
+const ch1_3m: Question[] = [
+  {
+    id: "ca12-ch1-3m-1",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 3,
+    type: "brief",
+    questionText: "List out image file formats.",
+    questionTextTamil: "படக் கோப்பு வடிவங்களைப் பட்டியலிடுக.",
+    answer: "Common image file formats include:\n1. TIFF (Tagged Image File Format)\n2. BMP (Bitmap Image File)\n3. DIB (Device Independent Bitmap)\n4. GIF (Graphics Interchange Format)\n5. JPEG (Joint Photographic Experts Group)\n6. PNG (Portable Network Graphics)\n7. TGA (Targa Format)\n8. EPS (Encapsulated PostScript).",
+    answerTamil: "பொதுவான படக் கோப்பு வடிவங்கள்:\n1. TIFF (Tagged Image File Format)\n2. BMP (பிட்மேப்)\n3. GIF (Graphics Interchange Format)\n4. JPEG (Joint Photographic Experts Group)\n5. PNG (Portable Network Graphics)\n6. EPS (Encapsulated PostScript)\n7. TGA மற்றும் SVG.",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-3m-2",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 3,
+    type: "brief",
+    questionText: "List out audio file formats.",
+    questionTextTamil: "ஒலிக் கோப்பு வடிவங்களைப் பட்டியலிடுக.",
+    answer: "Common audio file formats include:\n1. WAV (Waveform Audio Format)\n2. MP3 (MPEG Layer-3 Audio)\n3. OGG (Ogg Vorbis)\n4. AIFF (Audio Interchange File Format)\n5. WMA (Windows Media Audio)\n6. RA (Real Audio Format)\n7. MIDI (Musical Instrument Digital Interface).",
+    answerTamil: "பொதுவான ஒலிக் கோப்பு வடிவங்கள்:\n1. WAV (Waveform Audio)\n2. MP3 (MPEG Audio Layer 3)\n3. OGG (Ogg Vorbis)\n4. AIFF (Audio Interchange File Format - Apple)\n5. WMA (Windows Media Audio)\n6. MIDI (Musical Instrument Digital Interface).",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-3m-3",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 3,
+    type: "brief",
+    questionText: "List out video file formats.",
+    questionTextTamil: "ஒளிக்காட்சிக் கோப்பு வடிவங்களைப் பட்டியலிடுக.",
+    answer: "Common video file formats include:\n1. AVI (Audio Video Interleave)\n2. MPEG (Moving Picture Experts Group - MPEG-1, MPEG-2, MPEG-4)\n3. WMV (Windows Media Video)\n4. QuickTime (MOV - developed by Apple)\n5. Flash Video (FLV)\n6. MP4 (MPEG-4 Part 14).",
+    answerTamil: "பொதுவான ஒளிக்காட்சிக் கோப்பு வடிவங்கள்:\n1. AVI (Audio Video Interleave)\n2. MPEG (Moving Picture Experts Group)\n3. WMV (Windows Media Video)\n4. MOV (Apple QuickTime)\n5. MP4 மற்றும் FLV.",
+    isBookBack: true
+  }
+];
+
+const ch1_5m: Question[] = [
+  {
+    id: "ca12-ch1-5m-1",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 5,
+    type: "essay",
+    questionText: "Explain in detail about Production team roles and responsibilities.",
+    questionTextTamil: "பல்லூடக தயாரிப்புக் குழுவின் உறுப்பினர்கள் மற்றும் அவர்களின் பொறுப்புகளை விரிவாக விளக்குக.",
+    answer: "A multimedia production team consists of skilled professionals:\n1. Production Manager: Coordinates the entire project, ensures adherence to schedule, budget, and quality standards.\n2. Content Specialist: Gathers and validates background facts, data, and authoritative materials for the project.\n3. Script Writer: Writes linear/nonlinear storylines, dialogue, and scripts directing user flow.\n4. Text Editor: Refers to language accuracy, grammar, readability, and consistency of text elements.\n5. Multimedia Architect: Designs the technical framework, hyperlinks, navigational structure, and integration of media components.\n6. Computer Graphic Artist: Creates visual graphic elements like backgrounds, icons, buttons, textures, and 2D/3D artwork.\n7. Audio & Video Specialist: Records, edits, synchronizes, and digitizes sound effects, voiceovers, music, and video clips.\n8. Computer Programmer: Writes code using authoring tools or programming languages to produce the interactive multimedia application.",
+    answerTamil: "பல்லூடக தயாரிப்புக் குழுவின் உறுப்பினர்கள் மற்றும் பணிகள்:\n1. தயாரிப்பு மேலாளர் (Production Manager): திட்டத்தின் நேரம், பட்ஜெட் மற்றும் தரத்தை நிர்வகித்து வழிநடத்துபவர்.\n2. உள்ளடக்க வல்லுநர் (Content Specialist): திட்டத்திற்குத் தேவையான தரவுகள், தகவல்களை ஆராய்ந்து வழங்குபவர்.\n3. திரைக்கதை எழுத்தாளர் (Script Writer): நேரியல் மற்றும் நேரியலற்ற முறையில் கதைக் கரு மற்றும் உரையாடல்களை எழுதுபவர்.\n4. உரை திருத்துபவர் (Text Editor): உரையின் இலக்கணப் பிழைகளைத் திருத்தி சீரமைப்பவர்.\n5. பல்லூடக வடிவமைப்பாளர் (Multimedia Architect): ஊடகக் கூறுகளின் கட்டமைப்பு மற்றும் இணைப்புகளை வடிவமைப்பவர்.\n6. வரைகலைக் கலைஞர் (Graphic Artist): படங்கள், ஐகான்கள், பொத்தான்கள் மற்றும் பின்னணிகளை உருவாக்குபவர்.\n7. ஆடியோ & வீடியோ வல்லுநர்: ஒலிப்பதிவு, வீடியோ காட்சிகளைப் படம்பிடித்து தொகுத்தல்.\n8. கணினி நிரலாளர்: பல்லூடக ஊடாடும் கூறுகளை உருவாக்க நிரல்களை எழுதுபவர்.",
+    isBookBack: true
+  },
+  {
+    id: "ca12-ch1-5m-2",
+    chapterNo: 1,
+    chapterName: "Multimedia",
+    chapterNameTamil: "பல்லூடகம்",
+    marks: 5,
+    type: "essay",
+    questionText: "Explain in detail about different file formats in multimedia files.",
+    questionTextTamil: "பல்லூடகக் கோப்புகளின் பல்வேறு கோப்பு வடிவங்களை விரிவாக விளக்குக.",
+    answer: "Multimedia file formats are categorized as follows:\n\n1. Text Formats:\n- RTF (Rich Text Format): Microsoft standard supporting formatted text.\n- Plain Text (.txt): Unformatted ASCII text readable across all systems.\n\n2. Image Formats:\n- TIFF: High-quality bitmap format widely used in desktop publishing.\n- BMP: Uncompressed Windows bitmap format.\n- GIF: 8-bit color format (256 colors) popular for web animations.\n- JPEG: Standard lossy compressed format for photographic images.\n- PNG: Lossless compression format designed to replace GIF with transparency support.\n\n3. Audio Formats:\n- WAV: Uncompressed audio format for Windows.\n- MP3: Compressed audio format using MPEG audio layer 3.\n- OGG: Open-source patent-free audio container.\n- AIFF: Standard uncompressed audio format for Apple computers.\n- MIDI: Communicates musical instrument notes and timing rather than sampled waveforms.\n\n4. Video Formats:\n- AVI: Microsoft standard interleaved video/audio format.\n- MPEG: Moving Picture Experts Group international standard compression (MPEG-1, MPEG-2, MPEG-4).\n- WMV & QuickTime (MOV): Proprietary streaming and high-fidelity video formats.",
+    answerTamil: "பல்லூடக கோப்பு வடிவங்களின் விளக்கம்:\n\n1. உரை வடிவங்கள் (Text Formats):\n- RTF: மைக்ரோசாப்ட் அறிமுகப்படுத்திய வடிவூட்டப்பட்ட உரை வடிவம்.\n- Plain Text: எளிய ASCII உரை வடிவம்.\n\n2. பட வடிவங்கள் (Image Formats):\n- TIFF: உயர்தர பிட்மேப் வடிவம், அச்சுத்துறையில் பயன்படுகிறது.\n- BMP: விண்டோஸ் பிட்மேப் படம்.\n- GIF: 256 வண்ணங்களைக் கொண்ட சிறிய அனிமேஷன் வடிவம்.\n- JPEG: புகைப்படங்களைச் சுருக்கப் பயன்படும் பொதுவான வடிவம்.\n- PNG: பின்னணி ஒளிபுகும் தன்மையுடைய இழப்பற்ற சுருக்க வடிவம்.\n\n3. ஒலி வடிவங்கள் (Audio Formats):\n- WAV: விண்டோஸ் தளத்திற்கான அழுத்தப்படாத ஒலிக் கோப்பு.\n- MP3: மிகச் சிறந்த சுருக்கப்பட்ட ஒலிக் கோப்பு வடிவம்.\n- MIDI: இசைக் கருவிகளை கணினியுடன் இணைக்கும் நெறிமுறை.\n- AIFF: ஆப்பிள் நிறுவனத்தின் ஒலிக் கோப்பு வடிவம்.\n\n4. ஒளிக்காட்சி வடிவங்கள் (Video Formats):\n- AVI: ஆடியோ வீடியோ ஒருங்கிணைந்த கோப்பு வடிவம்.\n- MPEG: சர்வதேச தரநிலை வீடியோ சுருக்க வடிவம் (MPEG-1/2/4).",
+    isBookBack: true
+  }
+];
+
+questions.push(...ch1_1m, ...ch1_2m, ...ch1_3m, ...ch1_5m);
+
+fs.writeFileSync('scripts_ca12/ch1.json', JSON.stringify(questions, null, 2), 'utf8');
+console.log("Chapter 1 written! Total:", questions.length);

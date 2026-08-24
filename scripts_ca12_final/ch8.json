@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ca12-ch8-1m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What are HTML forms used for?",
+    "questionTextTamil": "HTML படிவங்கள் எதற்காகப் பயன்படுகின்றன?",
+    "options": {
+      "A": "To collect input from users",
+      "B": "To create server-side programming language",
+      "C": "To create a database",
+      "D": "To send emails"
+    },
+    "optionsTamil": {
+      "A": "பயனர்களிடமிருந்து உள்ளீட்டைப் பெற",
+      "B": "சேவையக பக்க நிரலாக்க மொழியை உருவாக்க",
+      "C": "ஒரு தரவுத்தளத்தை உருவாக்க",
+      "D": "மின்னஞ்சல்களை அனுப்ப"
+    },
+    "correctOption": "A",
+    "answer": "A) To collect input from users",
+    "answerTamil": "A) பயனர்களிடமிருந்து உள்ளீட்டைப் பெற",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is NOT a form control available in HTML forms?",
+    "questionTextTamil": "பின்வருவனவற்றில் எது HTML படிவங்களில் உள்ள படிவக் கட்டுப்பாடு உறுப்பு அல்ல?",
+    "options": {
+      "A": "Text inputs",
+      "B": "Buttons",
+      "C": "Checkboxes",
+      "D": "Cropping Tool"
+    },
+    "optionsTamil": {
+      "A": "உரை உள்ளீடுகள்",
+      "B": "பொத்தான்கள்",
+      "C": "தேர்வுப் பெட்டிகள்",
+      "D": "செதுக்கும் கருவி (Cropping Tool)"
+    },
+    "correctOption": "D",
+    "answer": "D) Cropping Tool",
+    "answerTamil": "D) செதுக்கும் கருவி (Cropping Tool)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-3",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which tag is used to create an HTML form?",
+    "questionTextTamil": "HTML படிவத்தை உருவாக்க எந்த ஒட்டு (tag) பயன்படுகிறது?",
+    "options": {
+      "A": "form",
+      "B": "input",
+      "C": "textarea",
+      "D": "select"
+    },
+    "optionsTamil": {
+      "A": "<form>",
+      "B": "<input>",
+      "C": "<textarea>",
+      "D": "<select>"
+    },
+    "correctOption": "A",
+    "answer": "A) form",
+    "answerTamil": "A) <form>",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-4",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What form control allows the user to select multiple values?",
+    "questionTextTamil": "பயனர் ஒரே நேரத்தில் பல மதிப்புகளைத் தேர்ந்தெடுக்க அனுமதிக்கும் படிவக் கட்டுப்பாடு எது?",
+    "options": {
+      "A": "text inputs",
+      "B": "buttons",
+      "C": "checkboxes",
+      "D": "radio buttons"
+    },
+    "optionsTamil": {
+      "A": "உரை உள்ளீடுகள்",
+      "B": "பொத்தான்கள்",
+      "C": "தேர்வுப் பெட்டிகள் (Checkboxes)",
+      "D": "ரேடியோ பொத்தான்கள்"
+    },
+    "correctOption": "C",
+    "answer": "C) checkboxes",
+    "answerTamil": "C) தேர்வுப் பெட்டிகள் (Checkboxes)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-5",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What form control allows the user to select only one value at a time?",
+    "questionTextTamil": "பயனர் ஒரே நேரத்தில் ஒரே ஒரு மதிப்பை மட்டுமே தேர்ந்தெடுக்க அனுமதிக்கும் படிவக் கட்டுப்பாடு எது?",
+    "options": {
+      "A": "text inputs",
+      "B": "buttons",
+      "C": "checkboxes",
+      "D": "radio buttons"
+    },
+    "optionsTamil": {
+      "A": "உரை உள்ளீடுகள்",
+      "B": "பொத்தான்கள்",
+      "C": "தேர்வுப் பெட்டிகள்",
+      "D": "ரேடியோ பொத்தான்கள் (Radio buttons)"
+    },
+    "correctOption": "D",
+    "answer": "D) radio buttons",
+    "answerTamil": "D) ரேடியோ பொத்தான்கள் (Radio buttons)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-6",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the purpose of validation in PHP?",
+    "questionTextTamil": "PHP-யில் சரிபார்த்தலின் (Validation) நோக்கம் என்ன?",
+    "options": {
+      "A": "To check the input data submitted by the user from the client machine",
+      "B": "To display data to users",
+      "C": "To store data on the server",
+      "D": "To send data to the client"
+    },
+    "optionsTamil": {
+      "A": "பயனர் கிளையன்ட் கணினியிலிருந்து சமர்ப்பித்த உள்ளீட்டுத் தரவைச் சரிபார்க்க",
+      "B": "பயனர்களுக்குத் தரவைக் காட்ட",
+      "C": "சேவையகத்தில் தரவைச் சேமிக்க",
+      "D": "கிளையண்டிற்குத் தரவை அனுப்ப"
+    },
+    "correctOption": "A",
+    "answer": "A) To check the input data submitted by the user from the client machine",
+    "answerTamil": "A) பயனர் கிளையன்ட் கணினியிலிருந்து சமர்ப்பித்த உள்ளீட்டுத் தரவைச் சரிபார்க்க",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-7",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many types of validation are available in PHP?",
+    "questionTextTamil": "PHP-யில் எத்தனை வகையான சரிபார்த்தல் (Validation) முறைகள் உள்ளன?",
+    "options": {
+      "A": "One",
+      "B": "Two",
+      "C": "Three",
+      "D": "Four"
+    },
+    "optionsTamil": {
+      "A": "ஒன்று",
+      "B": "இரண்டு",
+      "C": "மூன்று",
+      "D": "நான்கு"
+    },
+    "correctOption": "B",
+    "answer": "B) Two",
+    "answerTamil": "B) இரண்டு",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-8",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which PHP function can be used to open a file?",
+    "questionTextTamil": "PHP-யில் ஒரு கோப்பைத் திறக்கப் பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "fopen()",
+      "B": "fread()",
+      "C": "fclose()",
+      "D": "fwrite()"
+    },
+    "optionsTamil": {
+      "A": "fopen()",
+      "B": "fread()",
+      "C": "fclose()",
+      "D": "fwrite()"
+    },
+    "correctOption": "A",
+    "answer": "A) fopen()",
+    "answerTamil": "A) fopen()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-9",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What PHP function can be used to read a file?",
+    "questionTextTamil": "PHP-யில் ஒரு கோப்பைப் படிக்கப் பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "fopen()",
+      "B": "fread()",
+      "C": "fclose()",
+      "D": "fwrite()"
+    },
+    "optionsTamil": {
+      "A": "fopen()",
+      "B": "fread()",
+      "C": "fclose()",
+      "D": "fwrite()"
+    },
+    "correctOption": "B",
+    "answer": "B) fread()",
+    "answerTamil": "B) fread()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-10",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What PHP function can be used to close a file?",
+    "questionTextTamil": "PHP-யில் ஒரு கோப்பை மூடப் பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "fopen()",
+      "B": "fread()",
+      "C": "fclose()",
+      "D": "fwrite()"
+    },
+    "optionsTamil": {
+      "A": "fopen()",
+      "B": "fread()",
+      "C": "fclose()",
+      "D": "fwrite()"
+    },
+    "correctOption": "C",
+    "answer": "C) fclose()",
+    "answerTamil": "C) fclose()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the main objective of PHP and HTML form controls?",
+    "questionTextTamil": "PHP மற்றும் HTML படிவக் கட்டுப்பாடுகளின் முக்கிய நோக்கம் என்ன?",
+    "answer": "The main objective of PHP and HTML form controls is to collect data from users via client browser interface and process or store it securely on the server-side.",
+    "answerTamil": "பயனர்களிடமிருந்து கிளையன்ட் உலாவி வழியாகத் தரவைச் சேகரித்து, அதனைச் சேவையகப் பக்கத்தில் செயலாக்குவது அல்லது பாதுகாப்பாகச் சேமிப்பதே இதன் முக்கிய நோக்கமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the basic HTML form controls available?",
+    "questionTextTamil": "கிடைக்கக்கூடிய அடிப்படை HTML படிவக் கட்டுப்பாட்டு உறுப்புகள் யாவை?",
+    "answer": "Basic HTML form controls include:\n1. Text inputs (text boxes, password boxes)\n2. Buttons (Submit, Reset)\n3. Checkboxes and Radio buttons\n4. Select menus (Drop-down lists) and Textarea.",
+    "answerTamil": "அடிப்படை HTML படிவக் கட்டுப்பாடுகள்:\n1. உரை உள்ளீடுகள் (Text box, Password)\n2. பொத்தான்கள் (Submit, Reset)\n3. தேர்வுப் பெட்டிகள் மற்றும் ரேடியோ பொத்தான்கள்\n4. கீழ்தோன்று பட்டியல் (Select dropdown) மற்றும் உரைப் பகுதி (Textarea).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-3",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "How are data collected via HTML form controls sent to the server?",
+    "questionTextTamil": "HTML படிவக் கட்டுப்பாடுகள் மூலம் பெறப்பட்ட தரவு எவ்வாறு சேவையகத்திற்கு அனுப்பப்படுகிறது?",
+    "answer": "Data collected via HTML form controls are sent to the web server using HTTP request methods specified in the `<form>` tag: GET method (via URL parameters) or POST method (via HTTP request body).",
+    "answerTamil": "HTML படிவத்தில் உள்ள `<form>` ஒட்டின் வழியாக GET முறை (URL மூலம்) அல்லது POST முறை (HTTP கோரிக்கையின் உடற்பகுதி மூலம்) வழியாகத் தரவுகள் சேவையகத்திற்கு அனுப்பப்படுகின்றன.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-4",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Validation in PHP?",
+    "questionTextTamil": "PHP-யில் சரிபார்த்தல் (Validation) என்றால் என்ன?",
+    "answer": "Validation is the process of checking whether user-submitted input data through HTML forms is correct, safe, non-empty, and conforms to expected formats before processing.",
+    "answerTamil": "சரிபார்த்தல் (Validation) என்பது பயனர் படிவத்தின் மூலம் சமர்ப்பித்த உள்ளீட்டுத் தரவுகள் சரியானவையா, காலியாக இல்லையா மற்றும் சரியான வடிவமைப்பில் உள்ளதா எனச் சரிபார்க்கும் செயல்முறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-5",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the two types of validation available in PHP?",
+    "questionTextTamil": "PHP-யில் உள்ள இரண்டு வகையான சரிபார்த்தல் முறைகள் யாவை?",
+    "answer": "The two types of validation are:\n1. Client-Side Validation (performed in the browser using HTML5/JavaScript)\n2. Server-Side Validation (performed on the web server using PHP).",
+    "answerTamil": "இரண்டு வகையான சரிபார்த்தல் முறைகள்:\n1. கிளையன்ட் பக்க சரிபார்த்தல் (Client-Side Validation - உலாவியில் JavaScript/HTML5 மூலம்)\n2. சேவையகப் பக்க சரிபார்த்தல் (Server-Side Validation - PHP மூலம் சேவையகத்தில்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-3m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the difference between checkbox and radio button in HTML forms.",
+    "questionTextTamil": "HTML படிவங்களில் தேர்வுப்பெட்டி (Checkbox) மற்றும் ரேடியோ பொத்தான் (Radio button) இடையே உள்ள வேறுபாட்டை விளக்குக.",
+    "answer": "1. Checkbox:\n- Allows the user to select multiple options from a given list.\n- Displayed as small square boxes.\n- Used for independent multiple choices.\n\n2. Radio Button:\n- Allows the user to select only ONE option from a group of mutually exclusive choices.\n- Displayed as small round circles.\n- Selecting one automatically deselects others in the group.",
+    "answerTamil": "1. தேர்வுப்பெட்டி (Checkbox):\n- கொடுக்கப்பட்ட பட்டியலிலிருந்து பல விருப்பங்களைத் தேர்ந்தெடுக்க அனுமதிக்கிறது.\n- சதுர வடிவிலான பெட்டியாகக் காட்சியளிக்கும்.\n- ஒன்றுக்கு மேற்பட்ட விருப்பங்களைத் தேர்வு செய்யப் பயன்படுகிறது.\n\n2. ரேடியோ பொத்தான் (Radio Button):\n- ஒரு குழுவில் ஒரே ஒரு விருப்பத்தை மட்டுமே தேர்ந்தெடுக்க அனுமதிக்கிறது.\n- வட்ட வடிவிலான பொத்தானாகக் காட்சியளிக்கும்.\n- ஒன்றை அழுத்தினால் மற்றொன்று தானாகவே தேர்வு நீக்கப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-3m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the difference between the POST method and GET method of sending data to the server in PHP.",
+    "questionTextTamil": "PHP-யில் சேவையகத்திற்குத் தரவை அனுப்பும் POST மற்றும் GET முறைகளுக்கு இடையேயான வேறுபாடுகளை விளக்குக.",
+    "answer": "1. GET Method:\n- Appends form data to URL as query string parameters (visible in browser address bar).\n- Limited data capacity (around 2048 characters).\n- Not secure for sensitive data like passwords.\n\n2. POST Method:\n- Sends data embedded inside the HTTP request body (invisible in URL).\n- No restriction on data volume; supports binary file uploads.\n- Secure for confidential information.",
+    "answerTamil": "1. GET முறை:\n- படிவத் தரவை URL முகவரியுடன் இணைத்து அனுப்புகிறது (உலாவியில் தெரியும்).\n- குறைந்த அளவு தரவை மட்டுமே அனுப்ப முடியும் (வரம்புக்குட்பட்டது).\n- கடவுச்சொல் போன்ற ரகசியத் தகவல்களுக்குப் பாதுகாப்பானது அல்ல.\n\n2. POST முறை:\n- HTTP கோரிக்கையின் உடற்பகுதியில் தரவை மறைமுகமாக அனுப்புகிறது.\n- பெரிய அளவிலான தரவுகளையும் கோப்புகளையும் அனுப்ப முடியும்.\n- ரகசியத் தகவல்களுக்கு மிகவும் பாதுகாப்பானது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-3m-3",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the different file handling tasks that can be performed using PHP?",
+    "questionTextTamil": "PHP-ஐப் பயன்படுத்தி செய்யக்கூடிய பல்வேறு கோப்புக் கையாளுதல் பணிகள் யாவை?",
+    "answer": "PHP provides built-in functions to perform key file handling tasks:\n1. Opening a file (fopen)\n2. Reading from a file (fread, fgets, file_get_contents)\n3. Writing data to a file (fwrite, file_put_contents)\n4. Appending data to an existing file\n5. Closing an open file pointer (fclose)\n6. Uploading and deleting files.",
+    "answerTamil": "PHP-யில் செய்யக்கூடிய முக்கிய கோப்புக் கையாளுதல் பணிகள்:\n1. கோப்பைத் திறத்தல் (fopen)\n2. கோப்பிலிருந்து தரவைப் படித்தல் (fread, fgets)\n3. கோப்பில் தரவை எழுதுதல் (fwrite)\n4. ஏற்கனவே உள்ள கோப்பில் தரவைச் சேர்த்தல் (Append)\n5. திறந்த கோப்பை மூடுதல் (fclose)\n6. கோப்புகளை பதிவேற்றம் செய்தல் மற்றும் நீக்குதல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-5m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Discuss in detail about HTML form controls.",
+    "questionTextTamil": "HTML படிவக் கட்டுப்பாட்டு உறுப்புகள் பற்றி விரிவாக விவாதிக்கவும்.",
+    "answer": "HTML Form Controls allow web developers to collect different kinds of inputs from users. Major form controls include:\n\n1. Text Input Controls:\n- Single-line Text Box: `<input type=\"text\">` for names, emails.\n- Password Box: `<input type=\"password\">` for masking sensitive characters.\n- Textarea: `<textarea>` multi-line text input for comments/addresses.\n\n2. Selection Controls:\n- Radio Buttons: `<input type=\"radio\">` for mutually exclusive single choice.\n- Checkboxes: `<input type=\"checkbox\">` for choosing multiple options simultaneously.\n- Dropdown List: `<select>` and `<option>` for selecting from a compact list.\n\n3. Action Controls (Buttons):\n- Submit Button: `<input type=\"submit\">` submits the form to server.\n- Reset Button: `<input type=\"reset\">` clears all input fields.\n\n4. File Upload Control:\n- `<input type=\"file\">` allows browsing and uploading files.",
+    "answerTamil": "HTML படிவக் கட்டுப்பாடுகள் பயனர்களிடமிருந்து பல்வேறு வகையான உள்ளீடுகளைப் பெற உதவுகின்றன:\n\n1. உரை உள்ளீட்டுக் கட்டுப்பாடுகள்:\n- உரைப் பெட்டி (Text Box): `<input type=\"text\">` ஒற்றை வரி உரை உள்ளீட்டிற்கு.\n- கடவுச்சொல் பெட்டி (Password Box): `<input type=\"password\">` எழுத்துகளை மறைத்து உள்ளிட.\n- உரைப் பகுதி (Textarea): பல வரி உரைகளை உள்ளிடப் பயன்படும்.\n\n2. தெரிவு கட்டுப்பாடுகள்:\n- ரேடியோ பொத்தான் (Radio button): பலவற்றில் ஒன்றை மட்டும் தேர்வு செய்ய.\n- தேர்வுப் பெட்டி (Checkbox): ஒரே நேரத்தில் பல விருப்பங்களைத் தேர்வு செய்ய.\n- கீழ்தோன்று பட்டியல் (Dropdown list): `<select>` குறிச்சொல் மூலம் பட்டியலிலிருந்து தேர்வு செய்ய.\n\n3. பொத்தான் கட்டுப்பாடுகள்:\n- சமர்ப்பி பொத்தான் (Submit): படிவத் தரவை சேவையகத்திற்கு அனுப்ப.\n- மீட்டமை பொத்தான் (Reset): படிவத்தில் உள்ளிட்ட மதிப்புகளை அழிக்க.\n\n4. கோப்பு பதிவேற்றக் கட்டுப்பாடு:\n- `<input type=\"file\">` கணினியிலிருந்து கோப்புகளைத் தேர்வு செய்து பதிவேற்றப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-5m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain in detail of File handling functions in PHP.",
+    "questionTextTamil": "PHP-யில் உள்ள கோப்புக் கையாளுதல் செயற்கூறுகளை விரிவாக விளக்குக.",
+    "answer": "PHP provides essential built-in functions to handle and manipulate files on the server:\n\n1. `fopen()` - Open File:\nSyntax: `$file = fopen(\"filename\", \"mode\");`\nModes: 'r' (read only), 'w' (write only, truncates file), 'a' (append), 'r+' (read/write).\n\n2. `fread()` - Read File:\nSyntax: `fread($file_handle, filesize);`\nReads up to specified bytes from an open file pointer.\n\n3. `fwrite()` - Write to File:\nSyntax: `fwrite($file_handle, \"content\");`\nWrites string content to the active file handle.\n\n4. `fgets()` - Read Single Line:\nReads a single line from the file handle until a newline character.\n\n5. `fclose()` - Close File:\nSyntax: `fclose($file_handle);`\nCloses an open file resource and frees up system memory.",
+    "answerTamil": "PHP-யில் கோப்புகளைக் கையாளப் பயன்படும் முக்கிய செயற்கூறுகள்:\n\n1. `fopen()` - கோப்பைத் திறக்க:\nதொடரியல்: `$file = fopen(\"filename\", \"mode\");`\nமுறைகள்: 'r' (படிக்க மட்டும்), 'w' (எழுத மட்டும்), 'a' (சேர்க்க), 'r+' (படிக்க/எழுத).\n\n2. `fread()` - கோப்பைப் படிக்க:\nதொடரியல்: `fread($file_handle, filesize);`\nகோப்பிலிருந்து குறிப்பிட்ட அளவிலான பைட்டுகளைப் படிக்கிறது.\n\n3. `fwrite()` - கோப்பில் எழுத:\nதொடரியல்: `fwrite($file_handle, \"content\");`\nகோப்பில் குறிப்பிட்ட சரத்தை எழுதுகிறது.\n\n4. `fgets()` - ஒரு வரியைப் படிக்க:\nகோப்பிலிருந்து ஒரு முழு வரியை வரிவரியாகப் படிக்கிறது.\n\n5. `fclose()` - கோப்பை மூட:\nதொடரியல்: `fclose($file_handle);`\nதிறக்கப்பட்ட கோப்பை மூடி நினைவகத்தை விடுவிக்கிறது.",
+    "isBookBack": true
+  }
+]

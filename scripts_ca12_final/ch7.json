@@ -1,0 +1,405 @@
+[
+  {
+    "id": "ca12-ch7-1m-1",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Most of the loops iterate for a ______ number of times.",
+    "questionTextTamil": "பெரும்பாலான மடக்குகள் ______ எண்ணிக்கையிலான முறை சுழல்கின்றன.",
+    "options": {
+      "A": "Predetermined",
+      "B": "Infinite",
+      "C": "Zero",
+      "D": "Random"
+    },
+    "optionsTamil": {
+      "A": "முன்கூட்டியே தீர்மானிக்கப்பட்ட (Predetermined)",
+      "B": "முடிவற்ற",
+      "C": "பூஜ்ஜியம்",
+      "D": "சீரற்ற"
+    },
+    "correctOption": "A",
+    "answer": "A) Predetermined",
+    "answerTamil": "A) முன்கூட்டியே தீர்மானிக்கப்பட்ட (Predetermined)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-2",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which loop is also known as entry-controlled loop?",
+    "questionTextTamil": "உள்நுழைவு கட்டுப்பாட்டு மடக்கு (entry-controlled loop) என அழைக்கப்படுவது எது?",
+    "options": {
+      "A": "for loop",
+      "B": "do...while loop",
+      "C": "switch",
+      "D": "if...else"
+    },
+    "optionsTamil": {
+      "A": "for மடக்கு",
+      "B": "do...while மடக்கு",
+      "C": "switch",
+      "D": "if...else"
+    },
+    "correctOption": "A",
+    "answer": "A) for loop",
+    "answerTamil": "A) for மடக்கு",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-3",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which loop evaluates condition at the end of the loop body?",
+    "questionTextTamil": "மடக்கின் உடற்பகுதியின் முடிவில் நிபந்தனையைச் சோதிக்கும் மடக்கு எது?",
+    "options": {
+      "A": "do...while",
+      "B": "while",
+      "C": "for",
+      "D": "foreach"
+    },
+    "optionsTamil": {
+      "A": "do...while",
+      "B": "while",
+      "C": "for",
+      "D": "foreach"
+    },
+    "correctOption": "A",
+    "answer": "A) do...while",
+    "answerTamil": "A) do...while",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-4",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What will be the output of following code: for ($i=0; $i<5; $i++) { echo $i; }",
+    "questionTextTamil": "பின்வரும் நிரலின் வெளியீடு என்ன: for ($i=0; $i<5; $i++) { echo $i; }",
+    "options": {
+      "A": "01234",
+      "B": "12345",
+      "C": "012345",
+      "D": "1234"
+    },
+    "optionsTamil": {
+      "A": "01234",
+      "B": "12345",
+      "C": "012345",
+      "D": "1234"
+    },
+    "correctOption": "A",
+    "answer": "A) 01234",
+    "answerTamil": "A) 01234",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-5",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which loop is exclusively designed to iterate over array elements in PHP?",
+    "questionTextTamil": "PHP-ல் அணிகளின் உறுப்புகளை சுழற்சி முறையில் அணுக வடிவமைக்கப்பட்ட மடக்கு எது?",
+    "options": {
+      "A": "foreach loop",
+      "B": "for loop",
+      "C": "while loop",
+      "D": "do...while loop"
+    },
+    "optionsTamil": {
+      "A": "foreach மடக்கு",
+      "B": "for மடக்கு",
+      "C": "while மடக்கு",
+      "D": "do...while மடக்கு"
+    },
+    "correctOption": "A",
+    "answer": "A) foreach loop",
+    "answerTamil": "A) foreach மடக்கு",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-6",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many parameters are separated by semicolons in the for loop header?",
+    "questionTextTamil": "for மடக்கின் தலைப்பில் அரைப்புள்ளிகளால் (;) பிரிக்கப்படும் அளவுருக்கள் எத்தனை?",
+    "options": {
+      "A": "3",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "optionsTamil": {
+      "A": "3 (தொடக்க மதிப்பு, நிபந்தனை, மிகுத்தல்/குறைத்தல்)",
+      "B": "2",
+      "C": "1",
+      "D": "4"
+    },
+    "correctOption": "A",
+    "answer": "A) 3",
+    "answerTamil": "A) 3 (தொடக்க மதிப்பு, நிபந்தனை, மிகுத்தல்/குறைத்தல்)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-7",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A loop that never terminates is known as",
+    "questionTextTamil": "எப்போதும் முடிவடையாத ஒரு மடக்கு எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "Infinite loop",
+      "B": "Finite loop",
+      "C": "Nested loop",
+      "D": "Entry-exit loop"
+    },
+    "optionsTamil": {
+      "A": "முடிவற்ற மடக்கு (Infinite loop)",
+      "B": "வரையறுக்கப்பட்ட மடக்கு",
+      "C": "பின்னலான மடக்கு",
+      "D": "உள்நுழைவு-வெளியேறு மடக்கு"
+    },
+    "correctOption": "A",
+    "answer": "A) Infinite loop",
+    "answerTamil": "A) முடிவற்ற மடக்கு (Infinite loop)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-8",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In a while loop, if the condition is false initially, the statements inside the body will execute",
+    "questionTextTamil": "while மடக்கில் தொடக்கத்திலேயே நிபந்தனை தவறாக இருந்தால் உடற்பகுதி எத்தனை முறை இயங்கும்?",
+    "options": {
+      "A": "0 times",
+      "B": "1 time",
+      "C": "2 times",
+      "D": "Infinite times"
+    },
+    "optionsTamil": {
+      "A": "0 முறை (இயங்காது)",
+      "B": "1 முறை",
+      "C": "2 முறை",
+      "D": "முடிவற்ற முறை"
+    },
+    "correctOption": "A",
+    "answer": "A) 0 times",
+    "answerTamil": "A) 0 முறை (இயங்காது)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-9",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In do...while loop, the loop body executes at least ______ time even if condition is false.",
+    "questionTextTamil": "do...while மடக்கில் நிபந்தனை தவறாக இருந்தாலும் உடற்பகுதி குறைந்தபட்சம் எத்தனை முறை இயங்கும்?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "2",
+      "D": "3"
+    },
+    "optionsTamil": {
+      "A": "1 முறை",
+      "B": "0 முறை",
+      "C": "2 முறை",
+      "D": "3 முறை"
+    },
+    "correctOption": "A",
+    "answer": "A) 1",
+    "answerTamil": "A) 1 முறை",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-1m-10",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The keyword used with foreach to capture key and value pairs is",
+    "questionTextTamil": "foreach மடக்கில் சாவி மற்றும் மதிப்பை பிரிக்க பயன்படும் முக்கிய சொல் எது?",
+    "options": {
+      "A": "as",
+      "B": "in",
+      "C": "to",
+      "D": "with"
+    },
+    "optionsTamil": {
+      "A": "as",
+      "B": "in",
+      "C": "to",
+      "D": "with"
+    },
+    "correctOption": "A",
+    "answer": "A) as",
+    "answerTamil": "A) as",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-2m-1",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define Looping Structure in PHP.",
+    "questionTextTamil": "PHP-ல் மடக்கு அமைப்பு (Looping Structure) - வரையறுக்கவும்.",
+    "answer": "Looping structures in PHP are control statements that execute a block of code repeatedly as long as a specified condition evaluates to true.",
+    "answerTamil": "PHP-ல் ஒரு குறிப்பிட்ட நிபந்தனை உண்மையாக இருக்கும் வரை ஒரு குறிப்பிட்ட நிரல் தொகுதியை மீண்டும் மீண்டும் இயக்க பயன்படும் அமைப்புகள் மடக்குகள் எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-2m-2",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List out the four types of Looping structures in PHP.",
+    "questionTextTamil": "PHP-ல் உள்ள நான்கு வகையான மடக்கு அமைப்புகளை பட்டியலிடுக.",
+    "answer": "Four types of looping structures in PHP:\n1. for loop\n2. foreach loop\n3. while loop\n4. do...while loop.",
+    "answerTamil": "PHP-ல் உள்ள 4 வகையான மடக்குகள்:\n1. for மடக்கு\n2. foreach மடக்கு\n3. while மடக்கு\n4. do...while மடக்கு.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-2m-3",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the difference between entry-controlled loop and exit-controlled loop?",
+    "questionTextTamil": "உள்நுழைவு மற்றும் வெளியேறு கட்டுப்பாட்டு மடக்குகளுக்கு இடையே உள்ள வேறுபாடு யாது?",
+    "answer": "1. Entry-controlled loop (while, for): Condition is tested before executing the loop body.\n2. Exit-controlled loop (do...while): Condition is tested after executing the loop body at least once.",
+    "answerTamil": "1. நுழைவுக் கட்டுப்பாட்டு மடக்கு (while, for): உடற்பகுதி இயங்கும் முன் நிபந்தனை சரிபார்க்கப்படுகிறது.\n2. வெளியேறுக் கட்டுப்பாட்டு மடக்கு (do...while): உடற்பகுதி ஒருமுறை இயங்கிய பின்பே நிபந்தனை சரிபார்க்கப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-2m-4",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write syntax for foreach loop in PHP.",
+    "questionTextTamil": "PHP-ல் foreach மடக்கிற்கான தொடரியலை (Syntax) எழுதுக.",
+    "answer": "Syntax for foreach loop:\n```php\nforeach ($array as $value) {\n    // code to be executed;\n}\n```",
+    "answerTamil": "foreach மடக்கின் தொடரியல்:\n```php\nforeach ($array as $value) {\n    // இயக்க வேண்டிய கூற்றுகள்;\n}\n```",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-2m-5",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write syntax for do...while loop in PHP.",
+    "questionTextTamil": "PHP-ல் do...while மடக்கிற்கான தொடரியலை எழுதுக.",
+    "answer": "Syntax for do...while loop:\n```php\ndo {\n    // code to be executed;\n} while (condition);\n```",
+    "answerTamil": "do...while தொடரியல்:\n```php\ndo {\n    // இயக்க வேண்டிய கூற்றுகள்;\n} while (நிபந்தனை);\n```",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-3m-1",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate while loop and do...while loop.",
+    "questionTextTamil": "while மற்றும் do...while மடக்குகளை வேறுபடுத்துக.",
+    "answer": "1. while loop:\n- Entry-controlled loop.\n- If condition is false initially, body executes 0 times.\n\n2. do...while loop:\n- Exit-controlled loop.\n- Loop body executes at least once even if condition is false initially.",
+    "answerTamil": "1. while மடக்கு: நுழைவுக் கட்டுப்பாட்டு மடக்கு; நிபந்தனை தவறெனில் ஒருமுறைகூட இயங்காது.\n2. do...while மடக்கு: வெளியேறுக் கட்டுப்பாட்டு மடக்கு; நிபந்தனை தவறென்றாலும் குறைந்தபட்சம் ஒருமுறை உடற்பகுதி இயங்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-3m-2",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a short note on foreach loop with an example.",
+    "questionTextTamil": "foreach மடக்கு பற்றி எடுத்துக்காட்டுடன் குறிப்பு வரைக.",
+    "answer": "The `foreach` loop works only on arrays and iterates through each key/value pair in an array.\n\nExample:\n```php\n$colors = array(\"red\", \"green\", \"blue\");\nforeach ($colors as $value) {\n    echo \"$value <br>\";\n}\n```",
+    "answerTamil": "foreach மடக்கு அணிகளின் மதிப்புகளை எளிதாக அணுக பயன்படுகிறது.\n\nஎடுத்துக்காட்டு:\n```php\n$colors = array(\"red\", \"green\", \"blue\");\nforeach ($colors as $value) {\n    echo \"$value <br>\";\n}\n```",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-3m-3",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the three expression parameters inside a for loop in PHP.",
+    "questionTextTamil": "for மடக்கினுள் உள்ள மூன்று கோவைகளின் அளவுருக்களை விளக்குக.",
+    "answer": "Syntax: `for (init; test; increment/decrement)`\n1. `init`: Initializes the loop counter variable once at the start.\n2. `test`: Evaluates the condition before each loop iteration.\n3. `increment/decrement`: Updates the counter variable after each iteration.",
+    "answerTamil": "1. தொடக்க மதிப்பு (Init): மடக்கின் மாறியை தொடக்கத்தில் ஒருமுறை அமைக்கிறது.\n2. நிபந்தனை (Test): ஒவ்வொரு சுழற்சியிலும் சரிபார்க்கப்படுகிறது.\n3. மிகுத்தல்/குறைத்தல் (Update): ஒவ்வொரு சுழற்சிக்குப் பின்பும் மாறியின் மதிப்பை மாற்றுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-5m-1",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain for loop and foreach loop in PHP with syntax and examples.",
+    "questionTextTamil": "PHP-ல் for மற்றும் foreach மடக்குகளை தொடரியல் மற்றும் எடுத்துக்காட்டுடன் விளக்குக.",
+    "answer": "1. for Loop:\nUsed when the number of iterations is known beforehand.\n\nSyntax:\n```php\nfor (init counter; test counter; increment counter) {\n    // code to be executed;\n}\n```\n\nExample:\n```php\nfor ($x = 1; $x <= 5; $x++) {\n    echo \"Number: $x <br>\";\n}\n```\n\n2. foreach Loop:\nExclusively designed to loop through array elements.\n\nSyntax:\n```php\nforeach ($array as $value) {\n    // code to be executed;\n}\n```\n\nExample:\n```php\n$names = array(\"Arun\", \"Bala\", \"Chitra\");\nforeach ($names as $name) {\n    echo $name . \"<br>\";\n}\n```",
+    "answerTamil": "1. for மடக்கு:\nசுழற்சிகளின் எண்ணிக்கை முன்கூட்டியே தெரிந்திருக்கும் போது பயன்படுகிறது.\nதொடரியல்: `for (தொடக்க மதிப்பு; நிபந்தனை; மிகுத்தல்) { கூற்றுகள்; }`\n\n2. foreach மடக்கு:\nஅணிகளின் உறுப்புகளை வரிசையாக அணுக பிரத்யேகமாக பயன்படுகிறது.\nதொடரியல்: `foreach ($array as $value) { கூற்றுகள்; }`",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-5m-2",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain while loop and do...while loop in PHP with suitable examples.",
+    "questionTextTamil": "PHP-ல் while மற்றும் do...while மடக்குகளை பொருத்தமான எடுத்துக்காட்டுகளுடன் விரிவாக விளக்குக.",
+    "answer": "1. while Loop (Entry-controlled):\nExecutes a block of code as long as the specified condition evaluates to true. Condition is tested at the beginning.\n\nSyntax:\n```php\nwhile (condition) {\n    // code to be executed;\n}\n```\n\nExample:\n```php\n$i = 1;\nwhile ($i <= 5) {\n    echo \"$i \";\n    $i++;\n}\n```\n\n2. do...while Loop (Exit-controlled):\nExecutes the code block once first, and then evaluates the condition. If true, it repeats the loop.\n\nSyntax:\n```php\ndo {\n    // code to be executed;\n} while (condition);\n```\n\nExample:\n```php\n$i = 1;\ndo {\n    echo \"$i \";\n    $i++;\n} while ($i <= 5);\n```",
+    "answerTamil": "1. while மடக்கு (நுழைவுக் கட்டுப்பாடு):\nநிபந்தனை தொடக்கத்திலேயே சோதிக்கப்படுகிறது. நிபந்தனை மெய்யாக இருக்கும் வரை இயங்கும்.\n\n2. do...while மடக்கு (வெளியேறுக் கட்டுப்பாடு):\nஉடற்பகுதி ஒரு முறை இயங்கிய பின்னரே நிபந்தனை சோதிக்கப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch7-5m-3",
+    "chapterNo": 7,
+    "chapterName": "Loops in PHP",
+    "chapterNameTamil": "PHP-ல் மடக்குகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write a PHP program to display Fibonacci series up to 10 terms using while loop and explain its working.",
+    "questionTextTamil": "while மடக்கைப் பயன்படுத்தி முதல் 10 ஃபைபோனாக்கி எண்களை அச்சிடும் PHP நிரலை எழுதி அதன் செயல்பாட்டை விளக்குக.",
+    "answer": "PHP Program for Fibonacci Series:\n```php\n<?php\n$n1 = 0;\n$n2 = 1;\n$count = 0;\necho \"Fibonacci Series: \";\nwhile ($count < 10) {\n    echo $n1 . \" \";\n    $n3 = $n1 + $n2;\n    $n1 = $n2;\n    $n2 = $n3;\n    $count++;\n}\n?>\n```\nOutput: `0 1 1 2 3 5 8 13 21 34`\n\nWorking:\n- Initializes first two numbers 0 and 1.\n- In each loop iteration, prints `$n1`, calculates next term as `$n1 + $n2`, shifts variables, and increments `$count` until 10 terms are printed.",
+    "answerTamil": "ஃபைபோனாக்கி தொடர் நிரல்:\n```php\n<?php\n$n1 = 0; $n2 = 1; $count = 0;\nwhile ($count < 10) {\n    echo $n1 . \" \";\n    $n3 = $n1 + $n2;\n    $n1 = $n2;\n    $n2 = $n3;\n    $count++;\n}\n?>\n```\nவெளியீடு: `0 1 1 2 3 5 8 13 21 34`",
+    "isBookBack": true
+  }
+]

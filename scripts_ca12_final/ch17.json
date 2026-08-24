@@ -1,0 +1,431 @@
+[
+  {
+    "id": "ca12-ch17-1m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In E-Commerce, when a stolen credit card is used to make a purchase it is termed as",
+    "questionTextTamil": "மின்-வணிகத்தில் திருடப்பட்ட கடன் அட்டையைப் பயன்படுத்தி பொருள் வாங்கினால் அது எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "Credit card fraud",
+      "B": "Phishing",
+      "C": "Typopiracy",
+      "D": "Hacking"
+    },
+    "optionsTamil": {
+      "A": "கடன் அட்டை மோசடி (Credit card fraud)",
+      "B": "ஃபிஷிங்",
+      "C": "டைப்போபைரசி",
+      "D": "ஹேக்கிங்"
+    },
+    "correctOption": "A",
+    "answer": "A) Credit card fraud",
+    "answerTamil": "A) கடன் அட்டை மோசடி (Credit card fraud)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is not a security element involved in E-Commerce?",
+    "questionTextTamil": "பின்வருவனவற்றுள் எது மின்-வணிகத்தில் பாதுகாப்பு காரணி அல்ல?",
+    "options": {
+      "A": "Speed",
+      "B": "Confidentiality",
+      "C": "Integrity",
+      "D": "Non-repudiation"
+    },
+    "optionsTamil": {
+      "A": "வேகம் (Speed)",
+      "B": "ரகசியத்தன்மை",
+      "C": "நேர்மைத்தன்மை",
+      "D": "மறுதலிக்க இயலாமை"
+    },
+    "correctOption": "A",
+    "answer": "A) Speed",
+    "answerTamil": "A) வேகம் (Speed)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Asymmetric encryption use ___________ keys for encryption and decryption",
+    "questionTextTamil": "சமச்சீரற்ற குறியாக்க முறை (Asymmetric encryption) குறியாக்கம் மற்றும் மறைகுறியாக்கத்திற்கு எத்தனை சாவிகளைப் பயன்படுத்துகிறது?",
+    "options": {
+      "A": "Two different",
+      "B": "One same",
+      "C": "Three",
+      "D": "Four"
+    },
+    "optionsTamil": {
+      "A": "இரண்டு வெவ்வேறு சாவிகள் (பொது மற்றும் தனிப்பட்ட சாவி)",
+      "B": "ஒரே சாவி",
+      "C": "மூன்று",
+      "D": "நான்கு"
+    },
+    "correctOption": "A",
+    "answer": "A) Two different",
+    "answerTamil": "A) இரண்டு வெவ்வேறு சாவிகள் (பொது மற்றும் தனிப்பட்ட சாவி)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-4",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The security authentication technology includes: i) Digital Signatures ii) Digital Currency iii) Digital Image iv) Digital Certificates",
+    "questionTextTamil": "பாதுகாப்பு அங்கீகார தொழில்நுட்பத்தில் உள்ளவை: i) டிஜிட்டல் கையொப்பங்கள் ii) டிஜிட்டல் நாணயம் iii) டிஜிட்டல் படம் iv) டிஜிட்டல் சான்றிதழ்கள்",
+    "options": {
+      "A": "i and iv",
+      "B": "ii and iii",
+      "C": "i and ii",
+      "D": "iii and iv"
+    },
+    "optionsTamil": {
+      "A": "i மற்றும் iv (டிஜிட்டல் கையொப்பம் & சான்றிதழ்)",
+      "B": "ii மற்றும் iii",
+      "C": "i மற்றும் ii",
+      "D": "iii மற்றும் iv"
+    },
+    "correctOption": "A",
+    "answer": "A) i and iv",
+    "answerTamil": "A) i மற்றும் iv (டிஜிட்டல் கையொப்பம் & சான்றிதழ்)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-5",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "PGP stands for",
+    "questionTextTamil": "PGP என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Pretty Good Privacy",
+      "B": "Pretty Good Protocol",
+      "C": "Private Good Privacy",
+      "D": "Public Good Privacy"
+    },
+    "optionsTamil": {
+      "A": "Pretty Good Privacy",
+      "B": "Pretty Good Protocol",
+      "C": "Private Good Privacy",
+      "D": "Public Good Privacy"
+    },
+    "correctOption": "A",
+    "answer": "A) Pretty Good Privacy",
+    "answerTamil": "A) Pretty Good Privacy",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-6",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "_____ protocol is used for securing credit cards transactions via the Internet",
+    "questionTextTamil": "இணையம் வழியாக கடன் அட்டை பரிவர்த்தனைகளைப் பாதுகாக்க எந்த நெறிமுறை பயன்படுகிறது?",
+    "options": {
+      "A": "SET",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "TCP"
+    },
+    "optionsTamil": {
+      "A": "SET (Secure Electronic Transaction)",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "TCP"
+    },
+    "correctOption": "A",
+    "answer": "A) SET",
+    "answerTamil": "A) SET (Secure Electronic Transaction)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-7",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Secure Electronic Transaction (SET) was developed in",
+    "questionTextTamil": "பாதுகாப்பான மின்னணு பரிவர்த்தனை (SET) எந்த ஆண்டு உருவாக்கப்பட்டது?",
+    "options": {
+      "A": "1996",
+      "B": "1990",
+      "C": "2000",
+      "D": "2005"
+    },
+    "optionsTamil": {
+      "A": "1996",
+      "B": "1990",
+      "C": "2000",
+      "D": "2005"
+    },
+    "correctOption": "A",
+    "answer": "A) 1996",
+    "answerTamil": "A) 1996",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-8",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The websites secured by Secure Socket Layer protocols can be identified using",
+    "questionTextTamil": "SSL நெறிமுறை மூலம் பாதுகாக்கப்பட்ட வலைத்தளங்களை எதன் மூலம் அடையாளம் காணலாம்?",
+    "options": {
+      "A": "https:// and padlock icon",
+      "B": "http:// and star icon",
+      "C": "ftp:// and key icon",
+      "D": "www and dot"
+    },
+    "optionsTamil": {
+      "A": "https:// மற்றும் பூட்டு ஐகான் (padlock)",
+      "B": "http:// மற்றும் நட்சத்திர ஐகான்",
+      "C": "ftp:// மற்றும் சாவி ஐகான்",
+      "D": "www மற்றும் புள்ளி"
+    },
+    "correctOption": "A",
+    "answer": "A) https:// and padlock icon",
+    "answerTamil": "A) https:// மற்றும் பூட்டு ஐகான் (padlock)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-9",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "______ is the process of converting plain text into meaningless cipher text",
+    "questionTextTamil": "சாதாரண உரையை பொருளற்ற மறை உரையாக மாற்றும் செயல்முறை எது?",
+    "options": {
+      "A": "Encryption",
+      "B": "Decryption",
+      "C": "De-crypting",
+      "D": "Hashing"
+    },
+    "optionsTamil": {
+      "A": "குறியாக்கம் (Encryption)",
+      "B": "மறைகுறியாக்கம்",
+      "C": "டீ-கிரிப்டிங்",
+      "D": "ஹாஷிங்"
+    },
+    "correctOption": "A",
+    "answer": "A) Encryption",
+    "answerTamil": "A) குறியாக்கம் (Encryption)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-10",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is true about Ransomware",
+    "questionTextTamil": "ரான்சம்வேர் (Ransomware) பற்றிய சரியான கூற்று எது?",
+    "options": {
+      "A": "Malware that encrypts files and demands ransom",
+      "B": "An antivirus software",
+      "C": "A search engine",
+      "D": "An e-commerce payment gateway"
+    },
+    "optionsTamil": {
+      "A": "கோப்புகளை குறியாக்கம் செய்து பணம் கேட்டு மிரட்டும் தீம்பொருள்",
+      "B": "வைரஸ் எதிர்ப்பு மென்பொருள்",
+      "C": "தேடு பொறி",
+      "D": "மின்-வணிக கட்டண நுழைவாயில்"
+    },
+    "correctOption": "A",
+    "answer": "A) Malware that encrypts files and demands ransom",
+    "answerTamil": "A) கோப்புகளை குறியாக்கம் செய்து பணம் கேட்டு மிரட்டும் தீம்பொருள்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write about information leakage in E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தில் தகவல் கசிவு (Information leakage) பற்றி எழுதுக.",
+    "answer": "Information leakage occurs when sensitive customer or corporate data (credit card details, passwords, trade secrets) is unlawfully intercepted or exposed to unauthorized parties during network transmission.",
+    "answerTamil": "தகவல் கசிவு என்பது ரகசிய வாடிக்கையாளர் அல்லது நிறுவனத் தகவல்கள் (கடவுச்சொற்கள், கடன் அட்டை விவரங்கள்) பரிமாற்றத்தின் போது அங்கீகரிக்கப்படாத நபர்களால் திருடப்படுவதாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write a short note on typopiracy.",
+    "questionTextTamil": "டைப்போபைரசி (Typopiracy) பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "Typopiracy (typosquatting) is a form of cybercrime where attackers register misspelled domain names of popular websites (e.g. `goggle.com`) to mislead unsuspecting users into phishing traps or malware downloads.",
+    "answerTamil": "டைப்போபைரசி என்பது பிரபலமான வலைத்தளங்களின் எழுத்துப் பிழையான பெயர்களில் போலி டொமைன்களைப் பதிவு செய்து பயனர்களை ஏமாற்றி தரவுகளைத் திருடும் செயலாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write about phishing",
+    "questionTextTamil": "ஃபிஷிங் (Phishing) பற்றி எழுதுக.",
+    "answer": "Phishing is a fraudulent cyberattack where attackers impersonate trustworthy institutions (like banks or e-commerce sites) via spoofed emails or fake websites to steal usernames, passwords, and OTPs.",
+    "answerTamil": "ஃபிஷிங் என்பது வங்கிகள் அல்லது நம்பகமான நிறுவனங்களைப் போல போலி மின்னஞ்சல்கள் அல்லது வலைத்தளங்களை அனுப்பி பயனர்களின் கடவுச்சொற்கள் மற்றும் OTP-களைத் திருடும் மோசடியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-4",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List the different types of security technologies in E-Commerce",
+    "questionTextTamil": "மின்-வணிகத்தில் உள்ள பல்வேறு பாதுகாப்பு தொழில்நுட்பங்களைப் பட்டியலிடுக.",
+    "answer": "E-Commerce security technologies:\n1. Encryption (Symmetric & Asymmetric)\n2. Digital Signatures\n3. Digital Certificates (SSL/TLS)\n4. Firewalls & Intrusion Detection Systems\n5. SET (Secure Electronic Transaction) Protocols.",
+    "answerTamil": "பாதுகாப்பு தொழில்நுட்பங்கள்:\n1. குறியாக்கம் (Encryption)\n2. டிஜிட்டல் கையொப்பங்கள் (Digital Signatures)\n3. டிஜிட்டல் சான்றிதழ்கள் (SSL/TLS)\n4. ஃபயர்வால் (Firewalls)\n5. SET பாதுகாப்பு நெறிமுறைகள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-5",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Digital signature?",
+    "questionTextTamil": "டிஜிட்டல் கையொப்பம் (Digital signature) என்றால் என்ன?",
+    "answer": "A digital signature is a mathematical cryptographic mechanism that guarantees the authenticity, integrity, and non-repudiation of a digital document or electronic transmission.",
+    "answerTamil": "டிஜிட்டல் கையொப்பம் என்பது மின்னணு ஆவணங்களின் நம்பகத்தன்மை மற்றும் நேர்மைத்தன்மையை உறுதிப்படுத்தும் கணித குறியாக்க அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is E-Commerce Security system?",
+    "questionTextTamil": "மின்-வணிக பாதுகாப்பு அமைப்பு என்றால் என்ன?",
+    "answer": "An E-Commerce Security system is a comprehensive set of protocols, cryptographic algorithms, hardware firewalls, and policies designed to protect online business transactions, user data, and financial assets from unauthorized access, fraud, or damage.",
+    "answerTamil": "மின்-வணிக பாதுகாப்பு அமைப்பு என்பது ஆன்லைன் பரிவர்த்தனைகள் மற்றும் பயனர் நிதித் தரவுகளை இணையத் தாக்குதல்கள் மற்றும் மோசடிகளிலிருந்து பாதுகாக்கும் நெறிமுறைகள் மற்றும் தொழில்நுட்பங்களின் தொகுப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List any two E-Commerce Security Threats?",
+    "questionTextTamil": "மின்-வணிக பாதுகாப்பு அச்சுறுத்தல்கள் ஏதேனும் இரண்டினை பட்டியலிடுக.",
+    "answer": "1. Credit Card Fraud / Identity Theft: Criminals using stolen card credentials to make fraudulent purchases.\n2. Phishing & Spoofing: Deceptive fake websites stealing sensitive banking passwords from unsuspecting consumers.",
+    "answerTamil": "1. கடன் அட்டை மோசடி: திருடப்பட்ட அட்டை விவரங்களைப் பயன்படுத்தி பொருட்களை வாங்குதல்.\n2. ஃபிஷிங் (Phishing): போலி தளங்கள் மூலம் பயனர்களின் கடவுச்சொற்களைத் திருடுதல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on asymmetric key encryption.",
+    "questionTextTamil": "சமச்சீரற்ற சாவி குறியாக்கம் (Asymmetric key encryption) பற்றி குறிப்பு வரைக.",
+    "answer": "Asymmetric (Public Key) encryption uses a mathematically linked pair of keys:\n- Public Key: Distributed openly to anyone to encrypt messages.\n- Private Key: Kept strictly secret by the receiver to decrypt the messages (e.g. RSA algorithm).",
+    "answerTamil": "சமச்சீரற்ற சாவி குறியாக்கம் இரண்டு சாவிகளைப் பயன்படுத்துகிறது:\n- பொதுச் சாவி (Public Key): தகவலை குறியாக்கம் செய்ய அனைவருக்கும் பகிரப்படுகிறது.\n- தனிப்பட்ட சாவி (Private Key): தகவலை மறைகுறியாக்கம் செய்ய பெறுநரிடம் மட்டும் ரகசியமாக வைக்கப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-4",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on digital certificate.",
+    "questionTextTamil": "டிஜிட்டல் சான்றிதழ் (Digital certificate) பற்றி குறிப்பு வரைக.",
+    "answer": "A digital certificate (SSL/TLS certificate) is an electronic passport issued by a trusted Certificate Authority (CA) verifying the identity of a website owner and providing their public key for secure HTTPS encrypted browsing.",
+    "answerTamil": "டிஜிட்டல் சான்றிதழ் என்பது நம்பகமான சான்றிதழ் வழங்கும் ஆணையத்தால் (CA) வழங்கப்பட்டு, வலைத்தளத்தின் அடையாளத்தை சரிபார்த்து HTTPS குறியாக்கத்தை வழங்கும் மின்னணு ஆவணமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-5",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write about plain text and cipher text.",
+    "questionTextTamil": "வெற்று உரை (Plain text) மற்றும் மறை உரை (Cipher text) பற்றி எழுதுக.",
+    "answer": "1. Plain Text: The original, readable, unencrypted message before applying cryptography.\n2. Cipher Text: The scrambled, unreadable, encrypted output generated after encrypting plain text using an algorithm and key.",
+    "answerTamil": "1. வெற்று உரை (Plain text): குறியாக்கம் செய்யப்படாத படிக்கக்கூடிய அசல் உரை.\n2. மறை உரை (Cipher text): குறியாக்க வழிமுறையைப் பயன்படுத்தி மாற்றப்பட்ட படிக்க முடியாத ரகசிய உரை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-5m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write about dimensions of E-Commerce Security.",
+    "questionTextTamil": "மின்-வணிக பாதுகாப்பின் பரிமாணங்களை (Dimensions) விரிவாக எழுதுக.",
+    "answer": "Key Dimensions of E-Commerce Security:\n\n1. Authenticity: Verifying the true identity of users, merchants, and servers.\n2. Confidentiality: Protecting private data from unauthorized interception during transmission.\n3. Integrity: Ensuring that data has not been altered or tampered with in transit.\n4. Non-repudiation: Ensuring that neither sender nor receiver can deny initiating a transaction.\n5. Availability: Ensuring systems and services are accessible 24/7 without denial-of-service outages.\n6. Privacy: Protecting user personal info against unauthorized commercial harvesting.",
+    "answerTamil": "மின்-வணிக பாதுகாப்பின் முக்கிய பரிமாணங்கள்:\n1. நம்பகத்தன்மை (Authenticity): பயனரின் உண்மையான அடையாளத்தை சரிபார்த்தல்.\n2. ரகசியத்தன்மை (Confidentiality): அங்கீகரிக்கப்படாத நபர்கள் தகவலை அணுகாமல் தடுத்தல்.\n3. நேர்மைத்தன்மை (Integrity): தரவுகள் மாற்றப்படாமல் இருப்பதை உறுதிசெய்தல்.\n4. மறுதலிக்க இயலாமை (Non-repudiation): பரிவர்த்தனையை செய்தவர் அதை மறுக்க முடியாமல் செய்தல்.\n5. கிடைக்கும் தன்மை (Availability): சேவைகள் எப்போதும் தடையின்றி கிடைப்பதை உறுதிசெய்தல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-5m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Differentiate symmetric key and asymmetric key encryption.",
+    "questionTextTamil": "சமச்சீர் சாவி மற்றும் சமச்சீரற்ற சாவி குறியாக்கங்களை வேறுபடுத்துக.",
+    "answer": "Comparison of Symmetric vs Asymmetric Encryption:\n\n1. Number of Keys: Symmetric uses 1 shared secret key for both encryption and decryption; Asymmetric uses 2 different mathematically linked keys (Public & Private).\n2. Speed: Symmetric encryption is extremely fast; Asymmetric is computationally slower.\n3. Key Exchange: Symmetric has high key distribution risk; Asymmetric easily shares the public key without compromising the private key.\n4. Algorithms: Symmetric uses AES, DES; Asymmetric uses RSA, ECC.\n5. Primary Use: Symmetric is used for bulk data transfer; Asymmetric is used for digital signatures and initial SSL handshakes.",
+    "answerTamil": "சமச்சீர் vs சமச்சீரற்ற சாவி குறியாக்கம்:\n1. சாவிகளின் எண்ணிக்கை: சமச்சீர் முறையில் 1 சாவி மட்டுமே; சமச்சீரற்ற முறையில் 2 சாவிகள் (பொது & தனிப்பட்ட).\n2. வேகம்: சமச்சீர் மிக வேகமானது; சமச்சீரற்ற முறை சற்று மெதுவானது.\n3. சாவியைப் பகிர்தல்: சமச்சீரில் சாவி திருடப்பட வாய்ப்புண்டு; சமச்சீரற்ற முறையில் பொது சாவி மட்டுமே பகிரப்படுவதால் பாதுகாப்பானது.\n4. வழிமுறைகள்: சமச்சீர் (DES, AES); சமச்சீரற்ற (RSA, ECC).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-5m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain authentication protocols .",
+    "questionTextTamil": "அங்கீகார நெறிமுறைகளை (Authentication Protocols) விரிவாக விளக்குக.",
+    "answer": "Authentication Protocols in E-Commerce:\n\n1. SSL (Secure Sockets Layer) / TLS (Transport Layer Security):\n- Encrypts the communication channel between client web browser and merchant server.\n- Uses digital certificates for server authentication and symmetric encryption for fast session data transfer.\n\n2. SET (Secure Electronic Transaction):\n- Developed in 1996 by Visa & MasterCard specifically for credit card transactions.\n- Uses dual digital signatures ensuring that the merchant never sees customer credit card numbers, and the bank never sees customer order details.\n\n3. 3-D Secure (3DS / OTP):\n- Adds an extra XML-based authentication layer (Verified by Visa / Mastercard Identity Check) using One-Time Passwords (OTP).",
+    "answerTamil": "அங்கீகார நெறிமுறைகள்:\n1. SSL / TLS: உலாவி மற்றும் வலை சேவையகத்திற்கு இடையே தரவுகளை குறியாக்கம் செய்து பாதுகாக்கும் நெறிமுறை.\n2. SET (Secure Electronic Transaction): விசா மற்றும் மாஸ்டர்கார்டு உருவாக்கியது; வாடிக்கையாளரின் அட்டை எண்ணை விற்பனையாளரிடம் மறைத்து பாதுகாக்கிறது.\n3. 3-D Secure: பரிவர்த்தனையின் போது OTP அனுப்பி கூடுதல் பாதுகாப்பை வழங்கும் நெறிமுறை.",
+    "isBookBack": true
+  }
+]

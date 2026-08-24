@@ -1,0 +1,6 @@
+{
+  "name": "Question Paper & Answer Key Generator",
+  "description": "Comprehensive Question Paper and Answer Key Generator for Tamil Nadu State Board with complete book-back question banks for 11th & 12th Standard Computer Science and Computer Applications, bilingual support (Tamil & English), standard test blueprints (25, 50, 70 Marks), question shuffle anti-copying features, and batch merged PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

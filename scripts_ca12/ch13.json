@@ -1,0 +1,457 @@
+[
+  {
+    "id": "ca12-ch13-1m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which connector is standardly used for Ethernet twisted pair network cables?",
+    "questionTextTamil": "ஈதர்நெட் முறுக்கப்பட்ட இணைக் கம்பிகளில் பயன்படும் நிலையான இணைப்பான் எது?",
+    "options": {
+      "A": "RJ-45",
+      "B": "RJ-11",
+      "C": "BNC",
+      "D": "USB"
+    },
+    "optionsTamil": {
+      "A": "RJ-45",
+      "B": "RJ-11",
+      "C": "BNC",
+      "D": "USB"
+    },
+    "correctOption": "A",
+    "answer": "A) RJ-45",
+    "answerTamil": "A) RJ-45",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many pins are present in an RJ-45 connector?",
+    "questionTextTamil": "RJ-45 இணைப்பானில் எத்தனை ஊசிகள் (pins) உள்ளன?",
+    "options": {
+      "A": "4",
+      "B": "6",
+      "C": "8",
+      "D": "10"
+    },
+    "optionsTamil": {
+      "A": "4",
+      "B": "6",
+      "C": "8 ஊசிகள்",
+      "D": "10"
+    },
+    "correctOption": "C",
+    "answer": "C) 8",
+    "answerTamil": "C) 8 ஊசிகள்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which cable transmits data signals as light pulses through glass or plastic cores?",
+    "questionTextTamil": "கண்ணாடி அல்லது பிளாஸ்டிக் வழியாக ஒளித்துடிப்புகளாக சமிக்ஞைகளை கடத்தும் வடம் எது?",
+    "options": {
+      "A": "Coaxial Cable",
+      "B": "Fiber Optic Cable",
+      "C": "UTP Cable",
+      "D": "STP Cable"
+    },
+    "optionsTamil": {
+      "A": "இணை அச்சு வடம்",
+      "B": "ஒளியிழை வடம் (Fiber Optic Cable)",
+      "C": "UTP வடம்",
+      "D": "STP வடம்"
+    },
+    "correctOption": "B",
+    "answer": "B) Fiber Optic Cable",
+    "answerTamil": "B) ஒளியிழை வடம் (Fiber Optic Cable)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-4",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which cable consists of 4 pairs of color-coded wires twisted together?",
+    "questionTextTamil": "4 ஜோடி வண்ணக் குறியீட்டு கம்பிகள் முறுக்கப்பட்ட அமைப்பைக் கொண்ட வடம் எது?",
+    "options": {
+      "A": "Twisted Pair Cable",
+      "B": "Coaxial Cable",
+      "C": "Optical Fiber",
+      "D": "Power Cable"
+    },
+    "optionsTamil": {
+      "A": "முறுக்கப்பட்ட இணை வடம் (Twisted Pair)",
+      "B": "இணை அச்சு வடம்",
+      "C": "ஒளியிழை",
+      "D": "மின்கம்பி"
+    },
+    "correctOption": "A",
+    "answer": "A) Twisted Pair Cable",
+    "answerTamil": "A) முறுக்கப்பட்ட இணை வடம் (Twisted Pair)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-5",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which device connects two different networks operating on different protocols?",
+    "questionTextTamil": "வெவ்வேறு நெறிமுறைகளைக் கொண்ட இரண்டு வெவ்வேறு வலையமைப்புகளை இணைக்கும் சாதனம் எது?",
+    "options": {
+      "A": "Hub",
+      "B": "Repeater",
+      "C": "Gateway",
+      "D": "Bridge"
+    },
+    "optionsTamil": {
+      "A": "Hub",
+      "B": "Repeater",
+      "C": "நுழைவாயில் (Gateway)",
+      "D": "Bridge"
+    },
+    "correctOption": "C",
+    "answer": "C) Gateway",
+    "answerTamil": "C) நுழைவாயில் (Gateway)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-6",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which tool is used to attach an RJ-45 connector securely onto a network cable?",
+    "questionTextTamil": "RJ-45 இணைப்பானை பிணைய வடத்துடன் பொருத்தப் பயன்படும் கருவி எது?",
+    "options": {
+      "A": "Crimping Tool",
+      "B": "Wire Stripper",
+      "C": "Soldering Iron",
+      "D": "Screw Driver"
+    },
+    "optionsTamil": {
+      "A": "கிரிம்பிங் கருவி (Crimping Tool)",
+      "B": "வயர் ஸ்ட்ரிப்பர்",
+      "C": "சால்டரிங் இரும்பு",
+      "D": "திருப்புளி"
+    },
+    "correctOption": "A",
+    "answer": "A) Crimping Tool",
+    "answerTamil": "A) கிரிம்பிங் கருவி (Crimping Tool)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-7",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which Ethernet cable wiring type connects two identical devices directly (e.g., Computer to Computer)?",
+    "questionTextTamil": "இரண்டு ஒரே மாதிரியான சாதனங்களை (கணினி to கணினி) நேரடியாக இணைக்கப் பயன்படும் வடம் எது?",
+    "options": {
+      "A": "Straight-through Cable",
+      "B": "Crossover Cable",
+      "C": "Coaxial Cable",
+      "D": "Serial Cable"
+    },
+    "optionsTamil": {
+      "A": "நேரடி வடம் (Straight-through)",
+      "B": "குறுக்கு வடம் (Crossover Cable)",
+      "C": "இணை அச்சு வடம்",
+      "D": "தொடர் வடம்"
+    },
+    "correctOption": "B",
+    "answer": "B) Crossover Cable",
+    "answerTamil": "B) குறுக்கு வடம் (Crossover Cable)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-8",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which device operates at Layer 2 and forwards data frames based on destination MAC addresses?",
+    "questionTextTamil": "MAC முகவரியின் அடிப்படையில் தரவு பிரேம்களை அனுப்பும் அடுக்கு 2 சாதனம் எது?",
+    "options": {
+      "A": "Hub",
+      "B": "Switch",
+      "C": "Repeater",
+      "D": "Modem"
+    },
+    "optionsTamil": {
+      "A": "Hub",
+      "B": "சுவிட்ச் (Switch)",
+      "C": "Repeater",
+      "D": "Modem"
+    },
+    "correctOption": "B",
+    "answer": "B) Switch",
+    "answerTamil": "B) சுவிட்ச் (Switch)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-9",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which device regenerates and amplifies weak network signals across long cable lengths?",
+    "questionTextTamil": "நீண்ட தூரத்திற்கு பலவீனமடையும் சமிக்ஞைகளை பெருக்கி மீண்டும் அனுப்பும் சாதனம் எது?",
+    "options": {
+      "A": "Repeater",
+      "B": "Bridge",
+      "C": "Router",
+      "D": "Modem"
+    },
+    "optionsTamil": {
+      "A": "ரிப்பீட்டர் (Repeater)",
+      "B": "பிரிட்ஜ்",
+      "C": "ரூட்டர்",
+      "D": "மோடம்"
+    },
+    "correctOption": "A",
+    "answer": "A) Repeater",
+    "answerTamil": "A) ரிப்பீட்டர் (Repeater)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-10",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does UTP stand for in network cabling?",
+    "questionTextTamil": "UTP என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Unshielded Twisted Pair",
+      "B": "Universal Twisted Pair",
+      "C": "Unified Transmission Protocol",
+      "D": "Unprotected Transfer Pair"
+    },
+    "optionsTamil": {
+      "A": "Unshielded Twisted Pair",
+      "B": "Universal Twisted Pair",
+      "C": "Unified Transmission Protocol",
+      "D": "Unprotected Transfer Pair"
+    },
+    "correctOption": "A",
+    "answer": "A) Unshielded Twisted Pair",
+    "answerTamil": "A) Unshielded Twisted Pair",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an RJ-45 connector?",
+    "questionTextTamil": "RJ-45 இணைப்பான் என்றால் என்ன?",
+    "answer": "RJ-45 (Registered Jack-45) is an 8-pin modular connector standard used for terminating twisted pair Ethernet network cables.",
+    "answerTamil": "RJ-45 (Registered Jack-45) என்பது ஈதர்நெட் முறுக்கப்பட்ட இணைக் கம்பிகளை கணினிகள் மற்றும் சுவிட்சுகளில் இணைக்கப் பயன்படும் 8 ஊசி இணைப்பானாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Crimping Tool?",
+    "questionTextTamil": "கிரிம்பிங் கருவி (Crimping Tool) என்றால் என்ன?",
+    "answer": "A crimping tool is a specialized handheld tool used to attach and crimp RJ-45 or RJ-11 connectors onto network cables securely.",
+    "answerTamil": "கிரிம்பிங் கருவி என்பது நெட்வொர்க் கேபிள்களின் முனைகளில் RJ-45 இணைப்பான்களை அழுத்தி இணைக்கப் பயன்படும் ஒரு சிறப்பு கருவியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Ethernet crossover cable?",
+    "questionTextTamil": "ஈதர்நெட் குறுக்கு வடம் (Crossover cable) என்றால் என்ன?",
+    "answer": "An Ethernet crossover cable is an inverted wiring cable used to connect two similar computing devices directly (e.g., PC to PC) without a switch or hub.",
+    "answerTamil": "குறுக்கு வடம் என்பது சுவிட்ச் அல்லது ஹப் இல்லாமல் இரண்டு ஒரே மாதிரியான சாதனங்களை (கணினி to கணினி) நேரடியாக இணைக்க பயன்படும் வடமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-4",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Ethernet straight-through cable?",
+    "questionTextTamil": "ஈதர்நெட் நேரடி வடம் (Straight-through cable) என்றால் என்ன?",
+    "answer": "A straight-through cable has identical pin wiring standards on both ends, used to connect different devices (e.g., Computer to Switch or Router).",
+    "answerTamil": "நேரடி வடம் என்பது இரு முனைகளிலும் ஒரே மாதிரியான பின் அமைப்பைக் கொண்டு, கணினியை சுவிட்ச் அல்லது ரூட்டருடன் இணைக்கப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-5",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Router?",
+    "questionTextTamil": "ரூட்டர் (Router) என்றால் என்ன?",
+    "answer": "A router is a Layer 3 network hardware device that directs data packets between multiple networks by determining the optimal forwarding path based on IP addresses.",
+    "answerTamil": "ரூட்டர் என்பது IP முகவரிகளின் அடிப்படையில் தரவு பாக்கெட்டுகளை வெவ்வேறு வலையமைப்புகளுக்கு இடையே சரியான பாதையில் வழிசெலுத்தும் சாதனம் ஆகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-6",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Network Switch?",
+    "questionTextTamil": "பிணைய சுவிட்ச் (Switch) என்றால் என்ன?",
+    "answer": "A network switch is an intelligent multi-port device that connects devices on a LAN and forwards data frames specifically to destination MAC addresses.",
+    "answerTamil": "சுவிட்ச் என்பது ஒரு குறும்பரப்பு வலையமைப்பில் (LAN) பல கணினிகளை இணைத்து, குறிப்பிட்ட MAC முகவரிக்கு மட்டும் தரவை அனுப்பும் அறிவார்ந்த சாதனம் ஆகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate UTP and STP cables.",
+    "questionTextTamil": "UTP மற்றும் STP வடங்களை வேறுபடுத்துக.",
+    "answer": "1. UTP (Unshielded Twisted Pair): Has no extra foil shielding; lightweight, flexible, inexpensive, suitable for standard home/office LANs.\n2. STP (Shielded Twisted Pair): Features an extra protective metal foil wrap around pairs to resist electromagnetic interference (EMI); more durable and expensive.",
+    "answerTamil": "1. UTP (Unshielded): கூடுதல் கவச உறை கிடையாது; விலை குறைவு, நெகிழ்வானது, அலுவலக பயன்பாட்டிற்கு ஏற்றது.\n2. STP (Shielded): மின்காந்த குறுக்கீடுகளைத் தடுக்க உலோக கவச உறை கொண்டது; தொழிற்சாலைகளுக்கு ஏற்றது, விலை அதிகம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate Hub and Switch.",
+    "questionTextTamil": "ஹப் (Hub) மற்றும் சுவிட்ச் (Switch) ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "1. Hub (Layer 1): Unintelligent broadcast device that retransmits incoming packets to all connected ports, leading to network congestion and collisions.\n2. Switch (Layer 2): Intelligent device that forwards frames only to the intended destination device based on its hardware MAC address.",
+    "answerTamil": "1. Hub: ஒரு போர்ட்டில் வரும் தரவை இணைக்கப்பட்டுள்ள அனைத்து கணினிகளுக்கும் ஒளிபரப்பும் (Broadcast), இதனால் வேகம் குறையும்.\n2. Switch: தரவை குறிப்பிட்ட இலக்கு கணினியின் MAC முகவரிக்கு மட்டுமே புத்திசாலித்தனமாக அனுப்பும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the features of Optical Fiber Cable.",
+    "questionTextTamil": "ஒளியிழை வடத்தின் (Optical Fiber Cable) சிறப்பம்சங்களை விளக்குக.",
+    "answer": "Features of Optical Fiber Cable:\n1. Transmits data using light pulses through glass/silica cores at near speed of light.\n2. Immune to electromagnetic interference (EMI) and radio frequency noise.\n3. Extremely high bandwidth and long-distance transmission without signal loss.",
+    "answerTamil": "ஒளியிழை வடத்தின் சிறப்பம்சங்கள்:\n1. தரவை கண்ணாடி இழைகள் வழியே ஒளி சமிக்ஞைகளாக மிக அதிக வேகத்தில் கடத்துகிறது.\n2. மின்காந்த குறுக்கீடுகளால் (EMI) பாதிக்கப்படாது.\n3. மிக அதிக அலைவரிசை மற்றும் நீண்ட தூர சமிக்ஞை பரிமாற்ற திறன் கொண்டது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-4",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the functions of Network Interface Card (NIC).",
+    "questionTextTamil": "பிணைய இடைமுக அட்டை (NIC) செயல்படும் விதத்தை விளக்குக.",
+    "answer": "NIC functions:\n1. Provides physical connection between computer and network transmission media.\n2. Houses the unique hardcoded 48-bit physical MAC address.\n3. Converts parallel computer data into serial signals for cable transmission.",
+    "answerTamil": "NIC-ன் பணிகள்:\n1. கணினியை பிணைய வடத்துடன் இணைக்கும் இடைமுகத்தை வழங்குகிறது.\n2. கணினியின் தனித்துவமான 48-பிட் MAC முகவரியைக் கொண்டுள்ளது.\n3. கணினியின் இணைநிலை தரவை தொடர் சமிக்ஞைகளாக மாற்றுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-5",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is a Bridge in computer networking?",
+    "questionTextTamil": "கணினி வலையமைப்பில் பிரிட்ஜ் (Bridge) என்றால் என்ன?",
+    "answer": "A Bridge is a Layer 2 networking device that connects and filters traffic between two separate LAN segments running the same protocol, dividing collision domains.",
+    "answerTamil": "பிரிட்ஜ் என்பது ஒரே நெறிமுறையைப் பயன்படுத்தும் இரண்டு குறும்பரப்பு வலையமைப்புப் பிரிவுகளை இணைத்து தரவுப் போக்குவரத்தை வடிகட்டும் சாதனமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-6",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is a Gateway and why is it used?",
+    "questionTextTamil": "நுழைவாயில் (Gateway) என்றால் என்ன? அது ஏன் பயன்படுகிறது?",
+    "answer": "A Gateway is a network node that joins two completely dissimilar networks utilizing different communication protocol architectures, performing protocol translation.",
+    "answerTamil": "நுழைவாயில் (Gateway) என்பது முற்றிலும் மாறுபட்ட நெறிமுறைகளைக் கொண்ட இரு வேறுபட்ட வலையமைப்புகளை இணைத்து மொழிபெயர்க்கும் முனையமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-5m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various types of network cables used in networking.",
+    "questionTextTamil": "கணினி வலையமைப்பில் பயன்படும் பல்வேறு வகையான வடங்களை விரிவாக விளக்குக.",
+    "answer": "Types of Network Cables:\n\n1. Coaxial Cable:\n- Features a central solid copper conductor surrounded by dielectric insulation, woven metal shielding, and plastic jacket.\n- Used in cable TV networks and early Ethernet (Thicknet/Thinnet).\n\n2. Twisted Pair Cable:\n- Consists of 4 pairs of color-coded copper wires twisted together to minimize electromagnetic interference and crosstalk.\n- Available as UTP (Unshielded Twisted Pair) and STP (Shielded Twisted Pair).\n- Categories: Cat5e, Cat6, Cat6a supporting speeds up to 10 Gbps.\n\n3. Optical Fiber Cable:\n- Transmits modulated light pulses through glass/silica cores.\n- Ultra-fast data transmission, immune to EMI, supports long distances crossing oceans.",
+    "answerTamil": "பிணைய வடங்களின் வகைகள்:\n\n1. இணை அச்சு வடம் (Coaxial Cable):\n- மையத்தில் செப்புக் கம்பி, காப்பு உறை, கவச வலை மற்றும் வெளி உறை கொண்டது (எ.கா: கேபிள் டிவி).\n\n2. முறுக்கப்பட்ட இணை வடம் (Twisted Pair):\n- குறுக்கீடுகளைத் தவிர்க்க 4 ஜோடி வண்ணக் கம்பிகள் முறுக்கப்பட்ட அமைப்பைக் கொண்டது.\n- வகைகள்: UTP (கவசமற்றது) மற்றும் STP (கவசமுடையது). Cat5e, Cat6 வடங்கள் 10 Gbps வரை வேகத்தை ஆதரிக்கும்.\n\n3. ஒளியிழை வடம் (Fiber Optic Cable):\n- கண்ணாடி இழைகள் மூலம் ஒளி சமிக்ஞைகளாக தரவை மிக அதிக வேகத்தில் நீண்ட தூரத்திற்கு கடத்துகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-5m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the step-by-step procedure for making an Ethernet cable crimping using an RJ-45 connector.",
+    "questionTextTamil": "RJ-45 இணைப்பானைப் பயன்படுத்தி ஈதர்நெட் வடம் கிரிம்பிங் செய்யும் செய்முறை படிநிலைகளை விளக்குக.",
+    "answer": "Step-by-step Ethernet Cable Crimping Process (T568B Standard):\n\n1. Strip Jacket: Strip approximately 1 inch (2.5 cm) of outer plastic jacket using a wire stripper without nicking internal wires.\n2. Untwist Pairs: Untwist wire pairs and straighten them.\n3. Arrange Color Codes (T568B Standard):\n1: White-Orange, 2: Orange, 3: White-Green, 4: Blue, 5: White-Blue, 6: Green, 7: White-Brown, 8: Brown.\n4. Trim Wires: Cut the arranged wires evenly in a straight line leaving about 0.5 inches.\n5. Insert into RJ-45: Slide wires firmly into RJ-45 connector until all 8 copper ends reach the front tips.\n6. Crimp Connector: Place the connector into the crimping tool and squeeze handles firmly to pierce contacts into wires.\n7. Cable Testing: Test using a network Cable Tester to verify all 8 LED indicators light up sequentially.",
+    "answerTamil": "ஈதர்நெட் வடம் கிரிம்பிங் செய்யும் படிகள் (T568B முறை):\n\n1. வெளி உறையை நீக்குதல்: வயர் ஸ்ட்ரிப்பர் மூலம் 1 அங்குல வெளி பிளாஸ்டிக் உறையை உரிக்கவும்.\n2. கம்பிகளை பிரித்தல்: முறுக்கப்பட்ட கம்பிகளை பிரித்து நேராக்கவும்.\n3. வண்ண வரிசையமைப்பு (T568B):\n1. வெள்ளை-ஆரஞ்சு, 2. ஆரஞ்சு, 3. வெள்ளை-பச்சை, 4. நீலம், 5. வெள்ளை-நீலம், 6. பச்சை, 7. வெள்ளை-பழுப்பு, 8. பழுப்பு.\n4. சமமாக வெட்டுதல்: கம்பிகளை நேர்க்கோட்டில் சமமாக அரை அங்குல அளவிற்கு வெட்டவும்.\n5. RJ-45-ல் செருகுதல்: கம்பிகளை RJ-45 இணைப்பானுக்குள் முனையைத் தொடும் வரை அழுத்தவும்.\n6. கிரிம்பிங் செய்தல்: கிரிம்பிங் கருவியில் வைத்து கைப்பிடியை பலமாக அழுத்தி இணைக்கவும்.\n7. சோதனை செய்தல்: கேபிள் டெஸ்டர் மூலம் 8 ஊசிகளின் இணைப்பையும் சரிபார்க்கவும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-5m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "பிணைய வடங்கள் மற்றும் வன்பொருட்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various networking hardware components (Hub, Switch, Router, Gateway, Bridge, Repeater).",
+    "questionTextTamil": "பல்வேறு பிணைய வன்பொருள்களை (Hub, Switch, Router, Gateway, Bridge, Repeater) விரிவாக விளக்குக.",
+    "answer": "Networking Hardware Components:\n\n1. Hub (Layer 1): Multiport repeater that broadcasts packets to all ports blindly.\n2. Switch (Layer 2): Intelligent multiport device that filters and directs frames using MAC addresses.\n3. Router (Layer 3): Connects multiple networks and routes packets efficiently using IP routing tables.\n4. Bridge (Layer 2): Connects two LAN segments running identical protocols to reduce traffic.\n5. Gateway (Layer 7): Translates communication protocols between two entirely different network architectures.\n6. Repeater (Layer 1): Boosts and regenerates weak incoming electrical signals over extended physical distances.",
+    "answerTamil": "முக்கிய பிணைய வன்பொருள்கள்:\n\n1. Hub: சமிக்ஞைகளை அனைத்து போர்ட்டுகளுக்கும் ஒளிபரப்பும் அடிப்படை சாதனம்.\n2. Switch: MAC முகவரியின் அடிப்படையில் தரவை உரிய கணினிக்கு மட்டும் அனுப்பும் சாதனம்.\n3. Router: IP முகவரிகளைக் கொண்டு வெவ்வேறு வலையமைப்புகளுக்கு இடையே சிறந்த பாதையில் பாக்கெட்டுகளை வழிசெலுத்தும் சாதனம்.\n4. Bridge: ஒரே நெறிமுறையைக் கொண்ட இரண்டு LAN பிரிவுகளை இணைக்கும் பாலம்.\n5. Gateway: முற்றிலும் மாறுபட்ட நெறிமுறைகளைக் கொண்ட இரு வலையமைப்புகளுக்கு இடையே மொழிபெயர்க்கும் நுழைவாயில்.\n6. Repeater: தூரத்தினால் பலவீனமடையும் சமிக்ஞைகளை பெருக்கி மீண்டும் வலுவூட்டும் சாதனம்.",
+    "isBookBack": true
+  }
+]

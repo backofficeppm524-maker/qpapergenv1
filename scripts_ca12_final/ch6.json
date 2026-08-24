@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ca12-ch6-1m-1",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What will be the output of the following PHP code?\n<?php\n  $x = 0;\n  if ($x == 0) {\n    echo \"hi\";\n  } else {\n    echo \"how u r\";\n  }\n?>",
+    "questionTextTamil": "பின்வரும் PHP குறிமுறையின் வெளியீடு என்னவாக இருக்கும்?\n<?php\n  $x = 0;\n  if ($x == 0) {\n    echo \"hi\";\n  } else {\n    echo \"how u r\";\n  }\n?>",
+    "options": {
+      "A": "how u r",
+      "B": "hi",
+      "C": "error",
+      "D": "no output"
+    },
+    "optionsTamil": {
+      "A": "how u r",
+      "B": "hi",
+      "C": "error",
+      "D": "வெளியீடு இல்லை"
+    },
+    "correctOption": "B",
+    "answer": "B) hi",
+    "answerTamil": "B) hi",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-2",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement is used to execute some code only if a specified condition is true?",
+    "questionTextTamil": "குறிப்பிட்ட நிபந்தனை மெய்யாக இருக்கும் போது மட்டும் சில குறிமுறைகளை செயல்படுத்த பயன்படும் கூற்று எது?",
+    "options": {
+      "A": "if statement",
+      "B": "switch statement",
+      "C": "while statement",
+      "D": "for statement"
+    },
+    "optionsTamil": {
+      "A": "if கூற்று",
+      "B": "switch கூற்று",
+      "C": "while கூற்று",
+      "D": "for கூற்று"
+    },
+    "correctOption": "A",
+    "answer": "A) if statement",
+    "answerTamil": "A) if கூற்று",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-3",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement executes some code if a condition is true and another code if that condition is false?",
+    "questionTextTamil": "நிபந்தனை மெய்யாக இருந்தால் ஒரு பகுதியையும், பொய்யாக இருந்தால் மற்றொரு பகுதியையும் செயல்படுத்தும் கூற்று எது?",
+    "options": {
+      "A": "if statement",
+      "B": "if...else statement",
+      "C": "switch statement",
+      "D": "for statement"
+    },
+    "optionsTamil": {
+      "A": "if கூற்று",
+      "B": "if...else கூற்று",
+      "C": "switch கூற்று",
+      "D": "for கூற்று"
+    },
+    "correctOption": "B",
+    "answer": "B) if...else statement",
+    "answerTamil": "B) if...else கூற்று",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-4",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement is used to select one of many blocks of code to be executed?",
+    "questionTextTamil": "பல குறிமுறைத் தொகுதிகளில் ஒன்றை மட்டும் தேர்வு செய்து செயல்படுத்த பயன்படும் கூற்று எது?",
+    "options": {
+      "A": "switch statement",
+      "B": "if statement",
+      "C": "while statement",
+      "D": "for statement"
+    },
+    "optionsTamil": {
+      "A": "switch கூற்று",
+      "B": "if கூற்று",
+      "C": "while கூற்று",
+      "D": "for கூற்று"
+    },
+    "correctOption": "A",
+    "answer": "A) switch statement",
+    "answerTamil": "A) switch கூற்று",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-5",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which keyword is used to stop the execution of more code inside a switch block?",
+    "questionTextTamil": "switch தொகுதியில் அடுத்தடுத்த குறியீடுகள் செயல்படுவதைத் தடுக்க பயன்படும் சிறப்புச் சொல் எது?",
+    "options": {
+      "A": "stop",
+      "B": "exit",
+      "C": "break",
+      "D": "end"
+    },
+    "optionsTamil": {
+      "A": "stop",
+      "B": "exit",
+      "C": "break",
+      "D": "end"
+    },
+    "correctOption": "C",
+    "answer": "C) break",
+    "answerTamil": "C) break",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-6",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which keyword is used in a switch statement if there is no matching case found?",
+    "questionTextTamil": "switch கூற்றில் எந்த நிபந்தனையும் பொருந்தாத போது செயல்படுத்தப்படும் பகுதி எது?",
+    "options": {
+      "A": "else",
+      "B": "default",
+      "C": "other",
+      "D": "fallback"
+    },
+    "optionsTamil": {
+      "A": "else",
+      "B": "default",
+      "C": "other",
+      "D": "fallback"
+    },
+    "correctOption": "B",
+    "answer": "B) default",
+    "answerTamil": "B) default",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-7",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which statement executes different codes for more than two conditions?",
+    "questionTextTamil": "இரண்டுக்கும் மேற்பட்ட நிபந்தனைகளுக்கு வெவ்வேறு குறிமுறைகளை செயல்படுத்தப் பயன்படுவது எது?",
+    "options": {
+      "A": "if...elseif...else statement",
+      "B": "if statement",
+      "C": "goto statement",
+      "D": "continue statement"
+    },
+    "optionsTamil": {
+      "A": "if...elseif...else கூற்று",
+      "B": "if கூற்று",
+      "C": "goto கூற்று",
+      "D": "continue கூற்று"
+    },
+    "correctOption": "A",
+    "answer": "A) if...elseif...else statement",
+    "answerTamil": "A) if...elseif...else கூற்று",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-8",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In an if statement, the condition is always enclosed within _________.",
+    "questionTextTamil": "if கூற்றில், நிபந்தனை எதற்குள் கொடுக்கப்பட வேண்டும்?",
+    "options": {
+      "A": "parentheses ()",
+      "B": "curly braces {}",
+      "C": "square brackets []",
+      "D": "angle brackets <>"
+    },
+    "optionsTamil": {
+      "A": "பிறை அடைப்புக்குறிகள் ()",
+      "B": "நெளிவு அடைப்புக்குறிகள் {}",
+      "C": "சதுர அடைப்புக்குறிகள் []",
+      "D": "கோண அடைப்புக்குறிகள் <>"
+    },
+    "correctOption": "A",
+    "answer": "A) parentheses ()",
+    "answerTamil": "A) பிறை அடைப்புக்குறிகள் ()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-9",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What will be output if $a = 15; and condition is if ($a > 10 && $a < 20)?",
+    "questionTextTamil": "$a = 15 எனில் ($a > 10 && $a < 20) என்ற நிபந்தனை தரும் விடை என்ன?",
+    "options": {
+      "A": "TRUE",
+      "B": "FALSE",
+      "C": "NULL",
+      "D": "ERROR"
+    },
+    "optionsTamil": {
+      "A": "TRUE (மெய்)",
+      "B": "FALSE (பொய்)",
+      "C": "NULL",
+      "D": "ERROR"
+    },
+    "correctOption": "A",
+    "answer": "A) TRUE",
+    "answerTamil": "A) TRUE (மெய்)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-1m-10",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "PHP Conditional Statements are also known as ____________.",
+    "questionTextTamil": "PHP நிபந்தனைக் கூற்றுகள் எவ்வாறு அழைக்கப்படுகின்றன?",
+    "options": {
+      "A": "Decision Making Statements",
+      "B": "Iteration Statements",
+      "C": "Data Types",
+      "D": "Array Elements"
+    },
+    "optionsTamil": {
+      "A": "தீர்மானம் எடுக்கும் கூற்றுகள் (Decision Making Statements)",
+      "B": "மடக்கு கூற்றுகள்",
+      "C": "தரவினங்கள்",
+      "D": "அணி கூறுகள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Decision Making Statements",
+    "answerTamil": "A) தீர்மானம் எடுக்கும் கூற்றுகள் (Decision Making Statements)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-2m-1",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are Conditional Statements in PHP?",
+    "questionTextTamil": "PHP-ல் நிபந்தனைக் கூற்றுகள் என்பவை யாவை?",
+    "answer": "Conditional statements perform different actions based on whether a specified logical condition evaluates to TRUE or FALSE.",
+    "answerTamil": "நிபந்தனைக் கூற்றுகள் என்பது கொடுக்கப்பட்ட ஒரு தருக்க நிபந்தனையின் முடிவைப் பொறுத்து (மெய் அல்லது பொய்) வெவ்வேறு செயல்களைச் செய்யப் பயன்படும் கூற்றுகளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-2m-2",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List out the Conditional Statements in PHP.",
+    "questionTextTamil": "PHP-ல் உள்ள நிபந்தனைக் கூற்றுகளைப் பட்டியலிடுக.",
+    "answer": "Types of conditional statements in PHP:\n1. if statement\n2. if...else statement\n3. if...elseif...else statement\n4. switch statement.",
+    "answerTamil": "PHP நிபந்தனைக் கூற்றுகள்:\n1. if கூற்று\n2. if...else கூற்று\n3. if...elseif...else கூற்று\n4. switch கூற்று.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-2m-3",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write the syntax for if statement in PHP.",
+    "questionTextTamil": "PHP-ல் if கூற்றிற்கான தொடரியலை எழுதுக.",
+    "answer": "Syntax:\nif (condition) {\n    // code to be executed if condition is true;\n}",
+    "answerTamil": "தொடரியல்:\nif (நிபந்தனை) {\n    // நிபந்தனை மெய்யாக இருக்கும் போது செயல்படுத்த வேண்டிய குறிமுறை;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-2m-4",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write the syntax of if...else statement.",
+    "questionTextTamil": "if...else கூற்றிற்கான தொடரியலை எழுதுக.",
+    "answer": "Syntax:\nif (condition) {\n    // code executed if condition is true;\n} else {\n    // code executed if condition is false;\n}",
+    "answerTamil": "தொடரியல்:\nif (நிபந்தனை) {\n    // நிபந்தனை மெய்யானால் செயல்படும் தொகுதி;\n} else {\n    // நிபந்தனை பொய்யானால் செயல்படும் தொகுதி;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-2m-5",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the use of 'default' statement in switch?",
+    "questionTextTamil": "switch கூற்றில் 'default' கூற்றின் பயன் யாது?",
+    "answer": "The 'default' keyword executes a fallback block of statements if none of the specified case values match the switch expression.",
+    "answerTamil": "'default' கூற்றானது கொடுக்கப்பட்ட எந்த case மதிப்பும் switch கோவைக்கு பொருந்தாத போது செயல்படுத்தப்படும் இயல்புநிலை தொகுதியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-3m-1",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate if...else and switch statement in PHP.",
+    "questionTextTamil": "PHP-ல் if...else மற்றும் switch கூற்றுகளை வேறுபடுத்துக.",
+    "answer": "1. if...else tests boolean conditions, ranges, and complex expressions; switch tests an expression against multiple discrete constant values.\n2. if...else evaluates sequentially; switch branches directly using jump tables or case constants.\n3. switch requires break statements to avoid fall-through.",
+    "answerTamil": "1. if...else தருக்க நிபந்தனைகள் மற்றும் வரம்புகளை சோதிக்கிறது; switch நிலையான மதிப்புகளுடன் ஒப்பிடுகிறது.\n2. if...else வரிசையாக நிபந்தனைகளைச் சோதிக்கும்; switch நேரடியாகப் பொருந்தும் case-க்குத் தாவும்.\n3. switch-ல் தொடர் இயக்கத்தைத் தவிர்க்க break கூற்று அவசியம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-3m-2",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a short note on if...elseif...else statement with syntax.",
+    "questionTextTamil": "if...elseif...else கூற்று பற்றி தொடரியலுடன் சிறுகுறிப்பு வரைக.",
+    "answer": "The if...elseif...else statement evaluates multiple conditions in sequence.\nSyntax:\nif (condition1) {\n    // code if condition1 is true;\n} elseif (condition2) {\n    // code if condition2 is true;\n} else {\n    // code if all conditions are false;\n}",
+    "answerTamil": "பல நிபந்தனைகளை வரிசையாக சோதிக்க if...elseif...else கூற்று பயன்படுகிறது.\nதொடரியல்:\nif (நிபந்தனை 1) {\n    // நிபந்தனை 1 மெய்யானால்;\n} elseif (நிபந்தனை 2) {\n    // நிபந்தனை 2 மெய்யானால்;\n} else {\n    // எதுவும் பொருந்தவில்லை எனில்;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-3m-3",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write the syntax of switch statement in PHP.",
+    "questionTextTamil": "PHP-ல் switch கூற்றிற்கான தொடரியலை எழுதுக.",
+    "answer": "Syntax:\nswitch (n) {\n    case label1:\n        // code;\n        break;\n    case label2:\n        // code;\n        break;\n    default:\n        // code;\n}",
+    "answerTamil": "தொடரியல்:\nswitch (கோவை) {\n    case மதிப்பு 1:\n        // தொகுதி 1;\n        break;\n    case மதிப்பு 2:\n        // தொகுதி 2;\n        break;\n    default:\n        // இயல்புநிலை தொகுதி;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-5m-1",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain if...elseif...else statement with an example program.",
+    "questionTextTamil": "if...elseif...else கூற்றினை எடுத்துக்காட்டு நிரலுடன் விரிவாக விளக்குக.",
+    "answer": "The if...elseif...else statement is used when more than two choices are available based on differing conditions.\n\nWorking:\n- Condition 1 is evaluated. If true, its block executes.\n- If false, the interpreter moves to evaluate elseif condition 2.\n- If none of the conditions evaluate to true, the else block executes.\n\nExample Program:\n<?php\n$marks = 78;\nif ($marks >= 80) {\n    echo \"Grade: Distinction\";\n} elseif ($marks >= 60) {\n    echo \"Grade: First Class\";\n} elseif ($marks >= 40) {\n    echo \"Grade: Second Class\";\n} else {\n    echo \"Grade: Fail\";\n}\n?>",
+    "answerTamil": "இரண்டுக்கும் மேற்பட்ட நிபந்தனைகளை வரிசையாக சரிபார்த்து தீர்மானம் எடுக்க if...elseif...else கூற்று பயன்படுகிறது.\n\nசெயல்முறை:\n- முதல் நிபந்தனை சோதிக்கப்படுகிறது. அது மெய்யானால் அந்தத் தொகுதி இயங்கும்.\n- பொய்யானால் அடுத்த elseif நிபந்தனை சோதிக்கப்படும்.\n- எந்த நிபந்தனையும் பொருந்தவில்லை எனில் இறுதி else தொகுதி செயல்படுத்தப்படும்.\n\nஎடுத்துக்காட்டு நிரல்:\n<?php\n$marks = 85;\nif ($marks >= 80) {\n    echo \"தகுதி: சிறப்புத் தேர்ச்சி\";\n} elseif ($marks >= 60) {\n    echo \"தகுதி: முதல் வகுப்பு\";\n} elseif ($marks >= 35) {\n    echo \"தகுதி: இரண்டாம் வகுப்பு\";\n} else {\n    echo \"தகுதி: தோல்வி\";\n}\n?>",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch6-5m-2",
+    "chapterNo": 6,
+    "chapterName": "Conditional Statements in PHP",
+    "chapterNameTamil": "PHP நிபந்தனைக் கூற்றுகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain switch statement with an example program.",
+    "questionTextTamil": "switch கூற்றினை எடுத்துக்காட்டு நிரலுடன் விரிவாக விளக்குக.",
+    "answer": "The switch statement selects and executes one of many code blocks based on the value of a single variable or expression.\n\nKey Concepts:\n- The expression is evaluated once.\n- The value is compared with the values of each case.\n- If a match is found, associated code executes.\n- break prevents execution from falling through to subsequent cases.\n- default handles non-matching cases.\n\nExample Program:\n<?php\n$day = \"3\";\nswitch ($day) {\n    case \"1\": echo \"Sunday\"; break;\n    case \"2\": echo \"Monday\"; break;\n    case \"3\": echo \"Tuesday\"; break;\n    case \"4\": echo \"Wednesday\"; break;\n    default: echo \"Invalid Day\";\n}\n?>",
+    "answerTamil": "switch கூற்றானது ஒரு கோவையின் மதிப்பைப் பொருத்து பல தேர்வுகளில் ஒன்றைத் தேர்ந்தெடுத்து செயல்படுத்த உதவுகிறது.\n\nமுக்கிய கூறுகள்:\n- கோவை ஒருமுறை மட்டுமே மதிப்பிடப்படுகிறது.\n- அதன் மதிப்பு ஒவ்வொரு case மதிப்புடனும் ஒப்பிடப்படுகிறது.\n- பொருந்தும் case கண்டறியப்பட்டதும் அதன் குறிமுறை இயங்கும்.\n- break கூற்று அடுத்தடுத்த case-கள் இயங்குவதைத் தடுக்கிறது.\n- default பகுதி எதுவும் பொருந்தாத போது இயங்கும்.\n\nமாதிரி நிரல்:\n<?php\n$favColor = \"Red\";\nswitch ($favColor) {\n    case \"Red\": echo \"உங்களுக்கு பிடித்த நிறம் சிவப்பு!\"; break;\n    case \"Blue\": echo \"உங்களுக்கு பிடித்த நிறம் நீலம்!\"; break;\n    default: echo \"வேறு நிறம்!\";\n}\n?>",
+    "isBookBack": true
+  }
+]

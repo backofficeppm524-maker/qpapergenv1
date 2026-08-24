@@ -1,0 +1,366 @@
+[
+  {
+    "id": "ca12-ch14-1m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "If the source code of a software is freely accessible by the public, then it is known as",
+    "questionTextTamil": "ஒரு மென்பொருளின் மூலக் குறியீடு பொதுமக்களுக்கு இலவசமாக கிடைத்தால் அது எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "Open source",
+      "B": "Proprietary",
+      "C": "Commercial",
+      "D": "Freeware"
+    },
+    "optionsTamil": {
+      "A": "திறந்த மூலம் (Open source)",
+      "B": "தனியுரிமம்",
+      "C": "வணிக மென்பொருள்",
+      "D": "இலவச மென்பொருள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Open source",
+    "answerTamil": "A) திறந்த மூலம் (Open source)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a software program that replicates the functioning of a computer network?",
+    "questionTextTamil": "கணினி வலையமைப்பின் செயல்பாட்டை உருவகப்படுத்தும் மென்பொருள் நிரல் எது?",
+    "options": {
+      "A": "Network Simulator",
+      "B": "Network Monitor",
+      "C": "Network Switch",
+      "D": "Network Firewall"
+    },
+    "optionsTamil": {
+      "A": "வலையமைப்பு உருவகப்படுத்தி (Network Simulator)",
+      "B": "வலையமைப்பு கண்காணிப்பாளர்",
+      "C": "சுவிட்ச்",
+      "D": "ஃபயர்வால்"
+    },
+    "correctOption": "A",
+    "answer": "A) Network Simulator",
+    "answerTamil": "A) வலையமைப்பு உருவகப்படுத்தி (Network Simulator)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-3",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following can document every incident that happened in the simulation and are used for examination?",
+    "questionTextTamil": "உருவகப்படுத்துதலில் நடந்த ஒவ்வொரு நிகழ்வையும் ஆவணப்படுத்தி ஆய்வு செய்ய பயன்படுவது எது?",
+    "options": {
+      "A": "Trace file",
+      "B": "Log file",
+      "C": "Text file",
+      "D": "Dump file"
+    },
+    "optionsTamil": {
+      "A": "சுவடு கோப்பு (Trace file)",
+      "B": "பதிவு கோப்பு",
+      "C": "உரை கோப்பு",
+      "D": "டம்ப் கோப்பு"
+    },
+    "correctOption": "A",
+    "answer": "A) Trace file",
+    "answerTamil": "A) சுவடு கோப்பு (Trace file)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-4",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which is an example of network simulator?",
+    "questionTextTamil": "வலையமைப்பு உருவகப்படுத்திக்கு ஓர் எடுத்துக்காட்டு எது?",
+    "options": {
+      "A": "NS2",
+      "B": "MS Word",
+      "C": "Photoshop",
+      "D": "PageMaker"
+    },
+    "optionsTamil": {
+      "A": "NS2 (Network Simulator 2)",
+      "B": "MS Word",
+      "C": "Photoshop",
+      "D": "PageMaker"
+    },
+    "correctOption": "A",
+    "answer": "A) NS2",
+    "answerTamil": "A) NS2",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-5",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Choose the Correct Pair from the following to build NS2",
+    "questionTextTamil": "NS2-ஐ உருவாக்க பயன்படுத்தப்படும் சரியான மொழிகள் இணையைத் தேர்ந்தெடுக்கவும்:",
+    "options": {
+      "A": "C++ and OTcl",
+      "B": "C and Java",
+      "C": "Python and C++",
+      "D": "PHP and MySQL"
+    },
+    "optionsTamil": {
+      "A": "C++ மற்றும் OTcl",
+      "B": "C மற்றும் Java",
+      "C": "Python மற்றும் C++",
+      "D": "PHP மற்றும் MySQL"
+    },
+    "correctOption": "A",
+    "answer": "A) C++ and OTcl",
+    "answerTamil": "A) C++ மற்றும் OTcl",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-6",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is not a network simulation software?",
+    "questionTextTamil": "பின்வருவனவற்றுள் எது வலையமைப்பு உருவகப்படுத்தல் மென்பொருள் அல்ல?",
+    "options": {
+      "A": "C++",
+      "B": "NS2",
+      "C": "NS3",
+      "D": "OMNeT++"
+    },
+    "optionsTamil": {
+      "A": "C++ (நிரலாக்க மொழி)",
+      "B": "NS2",
+      "C": "NS3",
+      "D": "OMNeT++"
+    },
+    "correctOption": "A",
+    "answer": "A) C++",
+    "answerTamil": "A) C++ (நிரலாக்க மொழி)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-7",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a open source network monitoring software?",
+    "questionTextTamil": "பின்வருவனவற்றுள் திறந்த மூல வலையமைப்பு கண்காணிப்பு மென்பொருள் எது?",
+    "options": {
+      "A": "Open NMS",
+      "B": "MS Office",
+      "C": "CorelDraw",
+      "D": "PageMaker"
+    },
+    "optionsTamil": {
+      "A": "Open NMS",
+      "B": "MS Office",
+      "C": "CorelDraw",
+      "D": "PageMaker"
+    },
+    "correctOption": "A",
+    "answer": "A) Open NMS",
+    "answerTamil": "A) Open NMS",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-8",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Open NMS was released in …………………",
+    "questionTextTamil": "Open NMS எந்த ஆண்டு வெளியிடப்பட்டது?",
+    "options": {
+      "A": "1999",
+      "B": "1995",
+      "C": "2005",
+      "D": "2010"
+    },
+    "optionsTamil": {
+      "A": "1999",
+      "B": "1995",
+      "C": "2005",
+      "D": "2010"
+    },
+    "correctOption": "A",
+    "answer": "A) 1999",
+    "answerTamil": "A) 1999",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Open Source Software?",
+    "questionTextTamil": "திறந்த மூல மென்பொருள் என்றால் என்ன?",
+    "answer": "Open Source Software (OSS) is software with source code that anyone can inspect, modify, enhance, and distribute freely under open source licenses.",
+    "answerTamil": "திறந்த மூல மென்பொருள் என்பது அதன் மூலக் குறியீட்டை எவரும் இலவசமாகப் பார்வையிட, மாற்றியமைக்க, மேம்படுத்த மற்றும் விநியோகிக்க அனுமதிக்கும் மென்பொருளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is meant by network simulator?",
+    "questionTextTamil": "வலையமைப்பு உருவகப்படுத்தி என்றால் என்ன?",
+    "answer": "A network simulator is software that predicts and models the performance and behavior of computer networks without the need for expensive physical hardware testbeds.",
+    "answerTamil": "வலையமைப்பு உருவகப்படுத்தி என்பது கணினி வலையமைப்பின் செயல்பாடுகளை மெய்நிகராக சோதித்து அதன் செயல்திறனைக் கணிக்க பயன்படும் மென்பொருளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-3",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is trace file?",
+    "questionTextTamil": "சுவடு கோப்பு (Trace file) என்றால் என்ன?",
+    "answer": "A trace file is a detailed log file produced by a network simulator recording every event (packet generated, forwarded, dropped, received) with precise timestamps.",
+    "answerTamil": "சுவடு கோப்பு என்பது வலையமைப்பு உருவகப்படுத்துதலில் நிகழும் ஒவ்வொரு நிகழ்வையும் (பாக்கெட் உருவாக்கம், பரிமாற்றம், இழப்பு) கால முத்திரையுடன் துல்லியமாகப் பதிவு செய்யும் கோப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-4",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write short notes on NS2.",
+    "questionTextTamil": "NS2 பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "NS2 (Network Simulator version 2) is a widely used discrete event network simulator written in C++ (for core packet processing) and Object-oriented Tcl (OTcl) for simulation scripts.",
+    "answerTamil": "NS2 (Network Simulator 2) என்பது C++ மற்றும் OTcl மொழிகளில் உருவாக்கப்பட்ட ஒரு பிரபலமான திறந்த மூல வலையமைப்பு உருவகப்படுத்தல் மென்பொருளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-5",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write short note on Open NMS?",
+    "questionTextTamil": "Open NMS பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "Open NMS is the world's first open-source enterprise-grade network management application platform, released in 1999 to monitor network availability and performance.",
+    "answerTamil": "Open NMS என்பது 1999-ல் வெளியிடப்பட்ட உலகின் முதல் திறந்த மூல தொழில்முறை பிணைய மேலாண்மை மற்றும் கண்காணிப்பு பயன்பாட்டு தளமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the uses of Open source Network Software?",
+    "questionTextTamil": "திறந்த மூல வலையமைப்பு மென்பொருளின் பயன்பாடுகள் யாவை?",
+    "answer": "Uses of Open Source Network Software:\n1. Cost-free network simulation and architecture planning.\n2. Real-time network traffic analysis and fault monitoring.\n3. Customizable protocols for academic research and enterprise networks.",
+    "answerTamil": "பயன்பாடுகள்:\n1. இலவசமாக வலையமைப்பை உருவகப்படுத்தி திட்டமிடல்.\n2. நிகழ்நேர வலையமைப்பு கண்காணிப்பு மற்றும் பிழை திருத்தம்.\n3. கல்வி ஆராய்ச்சி மற்றும் புதிய நெறிமுறைகளை உருவாக்குதல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain Free software.",
+    "questionTextTamil": "இலவச மென்பொருள் (Free software) பற்றி விளக்குக.",
+    "answer": "Free Software (defined by Richard Stallman / FSF) provides 4 essential freedoms:\n- Freedom 0: Run the program for any purpose.\n- Freedom 1: Study and modify source code.\n- Freedom 2: Redistribute copies.\n- Freedom 3: Distribute modified copies to help others.",
+    "answerTamil": "இலவச மென்பொருள் (FSF) வழங்கும் 4 உரிமைகள்:\n1. எந்த நோக்கத்திற்காகவும் நிரலை இயக்கும் உரிமை (Freedom 0).\n2. மூலக் குறியீட்டைப் படித்து மாற்றியமைக்கும் உரிமை (Freedom 1).\n3. நகல்களை பிறருக்கு விநியோகிக்கும் உரிமை (Freedom 2).\n4. மேம்படுத்திய பதிப்புகளை விநியோகிக்கும் உரிமை (Freedom 3).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-3",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List out the Popular Open Source Software.",
+    "questionTextTamil": "பிரபலமான திறந்த மூல மென்பொருட்களைப் பட்டியலிடுக.",
+    "answer": "Popular Open Source Software:\n1. Linux (Operating System)\n2. Apache HTTP Server (Web Server)\n3. Mozilla Firefox (Browser)\n4. LibreOffice (Office Suite)\n5. GIMP (Image Editor)\n6. MySQL (Database Management System).",
+    "answerTamil": "பிரபல திறந்த மூல மென்பொருட்கள்:\n1. லினக்ஸ் (Linux)\n2. அப்பாச்சி (Apache HTTP Server)\n3. பயர்பாக்ஸ் (Mozilla Firefox)\n4. லிப்ரே ஆபீஸ் (LibreOffice)\n5. கிம்ப் (GIMP)\n6. MySQL.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-4",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write note on open source hardware.",
+    "questionTextTamil": "திறந்த மூல வன்பொருள் (Open source hardware) பற்றி குறிப்பு வரைக.",
+    "answer": "Open source hardware refers to physical computing hardware whose design schematics, PCB layouts, bills of materials, and firmware are made freely available to the public to study, replicate, and sell (e.g., Arduino, Raspberry Pi).",
+    "answerTamil": "திறந்த மூல வன்பொருள் என்பது அதன் வடிவமைப்பு வரைபடங்கள், சர்க்யூட் அமைப்புகள் மற்றும் ஃபார்ம்வேர் ஆகியவற்றை எவரும் இலவசமாகப் பயன்படுத்த அனுமதிக்கும் வன்பொருளாகும் (எ.கா. Arduino, Raspberry Pi).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-5",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain Types of Organisations related to Open Source.",
+    "questionTextTamil": "திறந்த மூலத்துடன் தொடர்புடைய நிறுவனங்களின் வகைகளை விளக்குக.",
+    "answer": "Key Open Source Organizations:\n1. FSF (Free Software Foundation): Founded by Richard Stallman in 1985 to promote free software rights.\n2. OSI (Open Source Initiative): Established in 1998 to standardize and certify open-source licensing.\n3. Apache Software Foundation & Linux Foundation: Supports open-source software projects and global communities.",
+    "answerTamil": "திறந்த மூல நிறுவனங்கள்:\n1. FSF (Free Software Foundation): இலவச மென்பொருள் அறக்கட்டளை.\n2. OSI (Open Source Initiative): திறந்த மூல உரிமங்களை சான்றளிக்கும் அமைப்பு.\n3. அப்பாச்சி அறக்கட்டளை மற்றும் லினக்ஸ் அறக்கட்டளை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-5m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Differentiate Proprietary and Open Source Software.",
+    "questionTextTamil": "தனியுரிம மென்பொருள் மற்றும் திறந்த மூல மென்பொருள் ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "Comparison between Proprietary and Open Source Software:\n\n1. Source Code: Closed and protected in proprietary (e.g. MS Windows); freely available and inspectable in open source (e.g. Linux).\n2. Cost: High licensing fees in proprietary; free or minimal support fees in open source.\n3. Customization: Not allowed in proprietary; fully customizable to user needs in open source.\n4. Innovation: Dependent on vendor's timeline in proprietary; driven by worldwide community collaboration in open source.\n5. Vendor Lock-in: High vendor dependency in proprietary; full independence in open source.",
+    "answerTamil": "தனியுரிம மற்றும் திறந்த மூல மென்பொருள்களின் வேறுபாடுகள்:\n1. மூலக் குறியீடு: தனியுரிமத்தில் மறைக்கப்பட்டுள்ளது; திறந்த மூலத்தில் அனைவருக்கும் இலவசமாகக் கிடைக்கிறது.\n2. விலை: தனியுரிமத்திற்கு அதிக உரிமக் கட்டணம்; திறந்த மூலம் முற்றிலும் இலவசம்.\n3. தனிப்பயனாக்கம்: தனியுரிமத்தில் மாற்ற இயலாது; திறந்த மூலத்தில் தேவைகேற்ப மாற்றலாம்.\n4. பாதுகாப்பு: தனியுரிமத்தில் நிறுவனம் மட்டுமே சரிசெய்யும்; திறந்த மூலத்தில் உலகளாவிய சமூகத்தால் விரைவாக சரிசெய்யப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-5m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "List out the Benefits of Open Source Software",
+    "questionTextTamil": "திறந்த மூல மென்பொருளின் நன்மைகளைப் பட்டியலிட்டு விவரிக்கவும்.",
+    "answer": "Benefits of Open Source Software:\n\n1. Zero/Low Cost: Free to download, install, and deploy without expensive per-user license fees.\n2. Transparency & Security: Code can be audited by millions of developers worldwide, discovering and patching vulnerabilities rapidly.\n3. Flexibility & Customizability: Organizations can tailor the software to fit their exact business logic.\n4. No Vendor Lock-in: Freedom to switch service providers or hosting infrastructure.\n5. Global Community Support: Continuous innovation through collaborative developer forums.",
+    "answerTamil": "திறந்த மூல மென்பொருளின் நன்மைகள்:\n1. பூஜ்ஜிய செலவு (Zero Cost): உரிமக் கட்டணங்கள் ஏதுமின்றி இலவசமாகப் பயன்படுத்தலாம்.\n2. உயர் பாதுகாப்பு மற்றும் வெளிப்படைத்தன்மை: மூலக் குறியீட்டை எவரும் தணிக்கை செய்து பிழைகளை நீக்கலாம்.\n3. நெகிழ்வுத்தன்மை (Flexibility): தேவையான மாற்றங்களை எளிதாக செய்து கொள்ளலாம்.\n4. வணிக சார்பின்மை: ஒரே நிறுவனத்தை சார்ந்திருக்க வேண்டிய அவசியமில்லை.\n5. உலகளாவிய சமூகம் மற்றும் தொடர் புதுப்பிப்புகள்.",
+    "isBookBack": true
+  }
+]

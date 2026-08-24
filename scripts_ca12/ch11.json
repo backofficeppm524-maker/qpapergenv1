@@ -1,0 +1,405 @@
+[
+  {
+    "id": "ca12-ch11-1m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which mobile wireless generation introduced digital voice and SMS capabilities (GSM)?",
+    "questionTextTamil": "டிஜிட்டல் குரல் மற்றும் SMS வசதியை அறிமுகப்படுத்திய மொபைல் தலைமுறை எது?",
+    "options": {
+      "A": "1G",
+      "B": "2G",
+      "C": "3G",
+      "D": "4G"
+    },
+    "optionsTamil": {
+      "A": "1G",
+      "B": "2G",
+      "C": "3G",
+      "D": "4G"
+    },
+    "correctOption": "B",
+    "answer": "B) 2G",
+    "answerTamil": "B) 2G",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which mobile generation enabled high-speed mobile broadband and mobile TV streaming (LTE)?",
+    "questionTextTamil": "அதிவேக மொபைல் பிராட்பேண்ட் மற்றும் நேரடி வீடியோ ஸ்ட்ரீமிங்கை சாத்தியமாக்கிய தலைமுறை எது?",
+    "options": {
+      "A": "4G",
+      "B": "1G",
+      "C": "2G",
+      "D": "0G"
+    },
+    "optionsTamil": {
+      "A": "4G (LTE)",
+      "B": "1G",
+      "C": "2G",
+      "D": "0G"
+    },
+    "correctOption": "A",
+    "answer": "A) 4G",
+    "answerTamil": "A) 4G (LTE)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What protocol is used to transfer web pages and multimedia on the World Wide Web?",
+    "questionTextTamil": "இணையத்தில் வலைப்பக்கங்கள் மற்றும் மல்டிமீடியாவை மாற்ற பயன்படும் நெறிமுறை எது?",
+    "options": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "TELNET"
+    },
+    "optionsTamil": {
+      "A": "HTTP",
+      "B": "FTP",
+      "C": "SMTP",
+      "D": "TELNET"
+    },
+    "correctOption": "A",
+    "answer": "A) HTTP",
+    "answerTamil": "A) HTTP",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-4",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which protocol is used to upload and download files between a client and server?",
+    "questionTextTamil": "கிளையன்ட் மற்றும் சேவையகத்திற்கு இடையே கோப்புகளை பதிவேற்ற மற்றும் பதிவிறக்க பயன்படும் நெறிமுறை எது?",
+    "options": {
+      "A": "FTP",
+      "B": "HTTP",
+      "C": "DNS",
+      "D": "DHCP"
+    },
+    "optionsTamil": {
+      "A": "FTP (File Transfer Protocol)",
+      "B": "HTTP",
+      "C": "DNS",
+      "D": "DHCP"
+    },
+    "correctOption": "A",
+    "answer": "A) FTP",
+    "answerTamil": "A) FTP (File Transfer Protocol)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-5",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which protocol is responsible for sending outgoing electronic mail messages?",
+    "questionTextTamil": "வெளிச்செல்லும் மின்னஞ்சல் செய்திகளை அனுப்ப பயன்படும் நெறிமுறை எது?",
+    "options": {
+      "A": "SMTP",
+      "B": "POP3",
+      "C": "IMAP",
+      "D": "SNMP"
+    },
+    "optionsTamil": {
+      "A": "SMTP (Simple Mail Transfer Protocol)",
+      "B": "POP3",
+      "C": "IMAP",
+      "D": "SNMP"
+    },
+    "correctOption": "A",
+    "answer": "A) SMTP",
+    "answerTamil": "A) SMTP (Simple Mail Transfer Protocol)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-6",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does TCP stand for in TCP/IP protocol suite?",
+    "questionTextTamil": "TCP/IP நெறிமுறையில் TCP என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Transmission Control Protocol",
+      "B": "Transfer Central Protocol",
+      "C": "Telecommunication Control Port",
+      "D": "Transit Carrier Path"
+    },
+    "optionsTamil": {
+      "A": "Transmission Control Protocol",
+      "B": "Transfer Central Protocol",
+      "C": "Telecommunication Control Port",
+      "D": "Transit Carrier Path"
+    },
+    "correctOption": "A",
+    "answer": "A) Transmission Control Protocol",
+    "answerTamil": "A) Transmission Control Protocol",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-7",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many layers are defined in the OSI Reference Model?",
+    "questionTextTamil": "OSI மாதிரி கட்டமைப்பில் எத்தனை அடுக்குகள் உள்ளன?",
+    "options": {
+      "A": "7",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "optionsTamil": {
+      "A": "7",
+      "B": "4",
+      "C": "5",
+      "D": "6"
+    },
+    "correctOption": "A",
+    "answer": "A) 7",
+    "answerTamil": "A) 7",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-8",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which layer in OSI model is responsible for end-to-end reliability and flow control?",
+    "questionTextTamil": "OSI மாதிரியில் முனையிலிருந்து முனை வரையிலான நம்பகமான தரவுப் பரிமாற்றத்திற்கு பொறுப்பான அடுக்கு எது?",
+    "options": {
+      "A": "Transport Layer",
+      "B": "Physical Layer",
+      "C": "Network Layer",
+      "D": "Session Layer"
+    },
+    "optionsTamil": {
+      "A": "போக்குவரத்து அடுக்கு (Transport Layer)",
+      "B": "இயற்பியல் அடுக்கு",
+      "C": "பிணைய அடுக்கு",
+      "D": "அமர்வு அடுக்கு"
+    },
+    "correctOption": "A",
+    "answer": "A) Transport Layer",
+    "answerTamil": "A) போக்குவரத்து அடுக்கு (Transport Layer)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-9",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which layer is closest to the end user in the OSI Reference Model?",
+    "questionTextTamil": "OSI மாதிரியில் பயனருக்கு மிக அருகில் உள்ள அடுக்கு எது?",
+    "options": {
+      "A": "Application Layer",
+      "B": "Presentation Layer",
+      "C": "Physical Layer",
+      "D": "Data Link Layer"
+    },
+    "optionsTamil": {
+      "A": "பயன்பாட்டு அடுக்கு (Application Layer)",
+      "B": "வழங்கல் அடுக்கு",
+      "C": "இயற்பியல் அடுக்கு",
+      "D": "தரவு இணைப்பு அடுக்கு"
+    },
+    "correctOption": "A",
+    "answer": "A) Application Layer",
+    "answerTamil": "A) பயன்பாட்டு அடுக்கு (Application Layer)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-10",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does DNS stand for in computer networking?",
+    "questionTextTamil": "கணினி வலையமைப்பில் DNS என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Domain Name System",
+      "B": "Data Network Service",
+      "C": "Direct Node Standard",
+      "D": "Digital Network Server"
+    },
+    "optionsTamil": {
+      "A": "Domain Name System",
+      "B": "Data Network Service",
+      "C": "Direct Node Standard",
+      "D": "Digital Network Server"
+    },
+    "correctOption": "A",
+    "answer": "A) Domain Name System",
+    "answerTamil": "A) Domain Name System",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Network Protocol?",
+    "questionTextTamil": "பிணைய நெறிமுறை (Network Protocol) என்றால் என்ன?",
+    "answer": "A network protocol is a standardized set of formal rules and conventions that govern data communication, packet formatting, and error handling between networked computers.",
+    "answerTamil": "பிணைய நெறிமுறை என்பது இரு கணினிகளுக்கு இடையே பிழையின்றி தகவல் பரிமாற்றம் நடைபெற வழிவகுக்கும் விதிகள் மற்றும் மரபுகளின் தொகுப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is HTTP and HTTPS?",
+    "questionTextTamil": "HTTP மற்றும் HTTPS என்றால் என்ன?",
+    "answer": "HTTP (HyperText Transfer Protocol) transfers web pages in plaintext. HTTPS (HTTP Secure) encrypts web data using SSL/TLS for secure confidential communications.",
+    "answerTamil": "HTTP என்பது இணையத்தில் வலைப்பக்கங்களை மாற்ற உதவும் நெறிமுறை. HTTPS என்பது SSL மூலம் குறியாக்கம் செய்யப்பட்ட பாதுகாப்பான வலை நெறிமுறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is FTP?",
+    "questionTextTamil": "FTP என்றால் என்ன?",
+    "answer": "FTP (File Transfer Protocol) is a client-server network protocol used for uploading and downloading binary and text files over TCP/IP networks.",
+    "answerTamil": "FTP (File Transfer Protocol) என்பது சேவையகத்திற்கும் பயனரின் கணினிக்கும் இடையே கோப்புகளைப் பதிவேற்ற மற்றும் பதிவிறக்க உதவும் நெறிமுறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-4",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is SMTP?",
+    "questionTextTamil": "SMTP என்றால் என்ன?",
+    "answer": "SMTP (Simple Mail Transfer Protocol) is an Internet standard communication protocol used for sending and routing outgoing email messages between mail servers.",
+    "answerTamil": "SMTP என்பது கணினிகளிலிருந்து மின்னஞ்சல்களை அனுப்பவும் சேவையகங்களுக்கு இடையே கடத்தவும் பயன்படும் நெறிமுறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-5",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is DNS (Domain Name System)?",
+    "questionTextTamil": "DNS (Domain Name System) என்றால் என்ன?",
+    "answer": "DNS is the internet's phonebook system that translates human-friendly domain names (e.g., www.google.com) into machine-readable numerical IP addresses (e.g., 142.250.190.46).",
+    "answerTamil": "DNS என்பது மனிதர்கள் எளிதில் நினைவில் கொள்ளக்கூடிய இணைய முகவரிகளை (Domain Name) எண்களாலான ஐபி (IP) முகவரிகளாக மாற்றும் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List the 7 layers of the OSI Reference Model in hierarchical order.",
+    "questionTextTamil": "OSI மாதிரி கட்டமைப்பின் 7 அடுக்குகளை வரிசையாகப் பட்டியலிடுக.",
+    "answer": "1. Physical Layer\n2. Data Link Layer\n3. Network Layer\n4. Transport Layer\n5. Session Layer\n6. Presentation Layer\n7. Application Layer.",
+    "answerTamil": "1. இயற்பியல் அடுக்கு (Physical Layer)\n2. தரவு இணைப்பு அடுக்கு (Data Link Layer)\n3. பிணைய அடுக்கு (Network Layer)\n4. போக்குவரத்து அடுக்கு (Transport Layer)\n5. அமர்வு அடுக்கு (Session Layer)\n6. வழங்கல் அடுக்கு (Presentation Layer)\n7. பயன்பாட்டு அடுக்கு (Application Layer).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate TCP and UDP protocols.",
+    "questionTextTamil": "TCP மற்றும் UDP நெறிமுறைகளை வேறுபடுத்துக.",
+    "answer": "1. TCP (Transmission Control Protocol): Connection-oriented; reliable delivery with acknowledgments and error retransmission; slower.\n2. UDP (User Datagram Protocol): Connectionless; fast streaming without acknowledgments or error checks (ideal for video streaming, DNS).",
+    "answerTamil": "1. TCP: இணைப்பு சார்ந்த நெறிமுறை; நம்பகமான தரவுப் பரிமாற்றம் மற்றும் ஒப்புகைச் செய்தி உண்டு; வேகம் குறைவு.\n2. UDP: இணைப்பற்ற நெறிமுறை; மிக விரைவானது; வீடியோ ஸ்ட்ரீமிங் மற்றும் ஆன்லைன் கேம்களுக்கு ஏற்றது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Briefly explain the evolution of Mobile Networks from 1G to 4G/5G.",
+    "questionTextTamil": "1G முதல் 4G/5G வரையிலான மொபைல் தலைமுறைகளின் பரிணாம வளர்ச்சியை விளக்குக.",
+    "answer": "1. 1G: Analog voice calling only.\n2. 2G: Digital voice + SMS texting (GSM).\n3. 3G: Mobile internet, web browsing, video calls.\n4. 4G (LTE): High-speed broadband, HD streaming.\n5. 5G: Ultra-low latency, massive IoT, gigabit speeds.",
+    "answerTamil": "1. 1G: அனலாக் குரல் அழைப்புகள் மட்டுமே.\n2. 2G: டிஜிட்டல் குரல் அழைப்பு மற்றும் SMS.\n3. 3G: மொபைல் இணையம் மற்றும் வீடியோ அழைப்புகள்.\n4. 4G: அதிவேக பிராட்பேண்ட் மற்றும் HD வீடியோ.\n5. 5G: அதிவிரைவு இணையம் மற்றும் ஸ்மார்ட் சாதன இணைப்பு.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-4",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is the difference between POP3 and IMAP email protocols?",
+    "questionTextTamil": "POP3 மற்றும் IMAP மின்னஞ்சல் நெறிமுறைகளின் வேறுபாடு என்ன?",
+    "answer": "1. POP3 (Post Office Protocol 3): Downloads emails to local client device and deletes from server by default.\n2. IMAP (Internet Message Access Protocol): Keeps emails synced directly on the server across multiple devices simultaneously.",
+    "answerTamil": "1. POP3: மின்னஞ்சல்களை பயனரின் கணினியில் பதிவிறக்கி சேவையகத்திலிருந்து நீக்கிவிடும்.\n2. IMAP: பல சாதனங்களில் மின்னஞ்சல்களை சேவையகத்துடன் நேரடியாக ஒத்திசைத்து வைத்திருக்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-5m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the functions of all 7 layers of the OSI Reference Model in detail.",
+    "questionTextTamil": "OSI மாதிரி கட்டமைப்பின் 7 அடுக்குகளின் செயல்பாடுகளை விரிவாக விளக்குக.",
+    "answer": "The 7 Layers of OSI Model:\n\n1. Physical Layer: Transmits raw bitstreams over physical media (cables, radio waves).\n2. Data Link Layer: Node-to-node framing, MAC addressing, error detection.\n3. Network Layer: Logical IP addressing and packet routing across networks.\n4. Transport Layer: End-to-end connection, segmentation, TCP flow control.\n5. Session Layer: Establishes, manages, and terminates application dialogues.\n6. Presentation Layer: Data syntax translation, encryption/decryption, and compression.\n7. Application Layer: User-facing network services (HTTP, FTP, SMTP, DNS).",
+    "answerTamil": "OSI மாதிரியின் 7 அடுக்குகள்:\n\n1. இயற்பியல் அடுக்கு: பிட்டுகளை இயற்பியல் வடம் வழியே அனுப்புதல்.\n2. தரவு இணைப்பு அடுக்கு: MAC முகவரி மற்றும் பிழை திருத்தம்.\n3. பிணைய அடுக்கு: IP முகவரி மற்றும் பாக்கெட் வழித்தடம் (Routing).\n4. போக்குவரத்து அடுக்கு: முனைய இணைப்பு மற்றும் நம்பகமான பரிமாற்றம் (TCP).\n5. அமர்வு அடுக்கு: பயன்பாடுகளுக்கு இடையேயான அமர்வை நிர்வகித்தல்.\n6. வழங்கல் அடுக்கு: தரவு குறியாக்கம் மற்றும் சுருக்கம்.\n7. பயன்பாட்டு அடுக்கு: பயனரின் பயன்பாடுகள் (HTTP, FTP, SMTP).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-5m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு எடுத்துக்காட்டுகள் மற்றும் நெறிமுறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the TCP/IP Protocol Suite Architecture and compare it with the OSI Reference Model.",
+    "questionTextTamil": "TCP/IP கட்டமைப்பு நெறிமுறைகளை விளக்கி, அதனை OSI மாதிரியுடன் ஒப்பிடுக.",
+    "answer": "TCP/IP 4-Layer Architecture:\n\n1. Network Access Layer (combines OSI Physical & Data Link): Handles hardware drivers and Ethernet frames.\n2. Internet Layer (OSI Network): Uses IP, ICMP, ARP for logical routing and packet addressing.\n3. Transport Layer (OSI Transport): Uses TCP (reliable connection) and UDP (fast datagrams).\n4. Application Layer (combines OSI Session, Presentation, Application): Protocols like HTTP, FTP, SMTP, DNS.\n\nComparison:\n- OSI is a conceptual theoretical reference model (7 layers).\n- TCP/IP is the practical operational standard powering the real Internet (4 layers).",
+    "answerTamil": "TCP/IP கட்டமைப்பு (4 அடுக்குகள்):\n\n1. பிணைய அணுகல் அடுக்கு: இயற்பியல் வன்பொருள் மற்றும் ஈதர்நெட்.\n2. இணைய அடுக்கு (IP): பாக்கெட்டுகளை முகவரியிட்டு வழிப்படுத்துதல்.\n3. போக்குவரத்து அடுக்கு (TCP/UDP): தரவு பரிமாற்றத்தை கட்டுப்படுத்துதல்.\n4. பயன்பாட்டு அடுக்கு (HTTP, FTP): பயனருக்கான சேவைகள்.\n\nஒப்பீடு: OSI என்பது 7 அடுக்குகளைக் கொண்ட கோட்பாட்டு மாதிரி; TCP/IP என்பது இணையத்தில் உண்மையில் செயல்படும் 4 அடுக்கு நடைமுறை மாதிரியாகும்.",
+    "isBookBack": true
+  }
+]

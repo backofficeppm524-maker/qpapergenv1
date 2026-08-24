@@ -1,0 +1,366 @@
+[
+  {
+    "id": "cs11-ch6-1m-1",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following activities is algorithmic in nature?",
+    "questionTextTamil": "பின்வரும் செயல்பாடுகளில் சரியான நெறிமுறை சார்ந்தது எது?",
+    "options": {
+      "A": "Assembling a bicycle",
+      "B": "Looking at a painting",
+      "C": "Listening to music",
+      "D": "Walking in park"
+    },
+    "optionsTamil": {
+      "A": "மிதிவண்டி பாகங்களை இணைத்தல்",
+      "B": "ஓவியத்தை ரசித்தல்",
+      "C": "இசை கேட்டல்",
+      "D": "பூங்காவில் நடப்பது"
+    },
+    "correctOption": "A",
+    "answer": "A) Assembling a bicycle",
+    "answerTamil": "A) மிதிவண்டி பாகங்களை இணைத்தல்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-1m-2",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is NOT algorithmic in nature?",
+    "questionTextTamil": "பின்வரும் செயல்பாடுகளில் எது சரியான நெறிமுறை சார்ந்தது அல்ல?",
+    "options": {
+      "A": "Multiplying two numbers",
+      "B": "Drawing a kolam (rangoli)",
+      "C": "Sorting a list",
+      "D": "Binary search"
+    },
+    "optionsTamil": {
+      "A": "இரண்டு எண்களை பெருக்குதல்",
+      "B": "ஒரு கோலத்தை வரைதல்",
+      "C": "வரிசைப்படுத்துதல்",
+      "D": "இருமை தேடல்"
+    },
+    "correctOption": "B",
+    "answer": "B) Drawing a kolam",
+    "answerTamil": "B) ஒரு கோலத்தை வரைதல்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-1m-3",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Hiding irrelevant details and highlighting only the essential details is known as:",
+    "questionTextTamil": "பணிக்குத் தகுதியற்ற விவரங்களைத் தவிர்த்து, அவசியமானவற்றை மட்டுமே குறிக்கும் பணியின் அம்சங்கள் என அழைக்கப்படுவது எது?",
+    "options": {
+      "A": "Specification",
+      "B": "Abstraction",
+      "C": "Composition",
+      "D": "Decomposition"
+    },
+    "optionsTamil": {
+      "A": "விவரக்குறிப்பு",
+      "B": "அருவமாக்கம் (Abstraction)",
+      "C": "ஒருங்கிணைத்தல்",
+      "D": "பிரித்தல்"
+    },
+    "correctOption": "B",
+    "answer": "B) Abstraction",
+    "answerTamil": "B) அருவமாக்கம்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-1m-4",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Specifying input property and input-output relation of a problem is called:",
+    "questionTextTamil": "உள்ளீட்டு பண்பு மற்றும் உள்ளீடு-வெளியீடு தொடர்பை ஒரு சிக்கலில் குறிப்பிடுவதை எவ்வாறு அழைக்கலாம்?",
+    "options": {
+      "A": "Specification",
+      "B": "Statements",
+      "C": "Algorithm",
+      "D": "Definition"
+    },
+    "optionsTamil": {
+      "A": "விவரக்குறிப்பு (Specification)",
+      "B": "கூற்றுக்கள்",
+      "C": "நெறிமுறை",
+      "D": "வரையறை"
+    },
+    "correctOption": "A",
+    "answer": "A) Specification",
+    "answerTamil": "A) விவரக்குறிப்பு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-1m-5",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Ensuring the input-output relation is the responsibility of:",
+    "questionTextTamil": "உள்ளீடு வெளியீடு உறவை உறுதிப்படுத்துவது எது?",
+    "options": {
+      "A": "Algorithm designer and user contract",
+      "B": "Computer manufacturer",
+      "C": "Compiler",
+      "D": "Operating system"
+    },
+    "optionsTamil": {
+      "A": "நெறிமுறை மற்றும் பயனர் உரிமையின் பொறுப்பு",
+      "B": "கணினி தயாரிப்பாளர்",
+      "C": "மொழிபெயர்ப்பி",
+      "D": "இயக்க அமைப்பு"
+    },
+    "correctOption": "A",
+    "answer": "A) Algorithm designer and user contract",
+    "answerTamil": "A) நெறிமுறை மற்றும் பயனர் உரிமையின் பொறுப்பு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-1m-6",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "If i = 5 before execution, what is the value of i after executing i := i - 1?",
+    "questionTextTamil": "i = 5; இயக்குவதற்கு முன், i: = i - 1 இயக்கியதற்கு பின் i-ன் மதிப்பு:",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "optionsTamil": {
+      "A": "5",
+      "B": "4",
+      "C": "3",
+      "D": "2"
+    },
+    "correctOption": "B",
+    "answer": "B) 4",
+    "answerTamil": "B) 4",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-1m-7",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "If 0 < i before execution, what is the property after executing i := i - 1?",
+    "questionTextTamil": "0 < i இயக்குவதற்கு முன், i: = i - 1 இயக்கியதற்கு பின் i-ன் மதிப்பு:",
+    "options": {
+      "A": "0 < i",
+      "B": "0 <= i",
+      "C": "i = 0",
+      "D": "0 >= i"
+    },
+    "optionsTamil": {
+      "A": "0 < i",
+      "B": "0 <= i",
+      "C": "i = 0",
+      "D": "0 >= i"
+    },
+    "correctOption": "B",
+    "answer": "B) 0 <= i",
+    "answerTamil": "B) 0 <= i",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-2m-1",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define an Algorithm.",
+    "questionTextTamil": "ஒரு நெறிமுறை வரையறுக்கவும்.",
+    "answer": "An algorithm is a step-by-step sequence of finite, well-defined instructions for solving a specific computational problem.",
+    "answerTamil": "நெறிமுறை (Algorithm) என்பது ஒரு குறிப்பிட்ட சிக்கலைத் தீர்ப்பதற்காக படிப்படியாக எழுதப்படும் வரையறுக்கப்பட்ட கட்டளைகளின் வரிசைமுறை ஆகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-2m-2",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Distinguish between an algorithm and a process.",
+    "questionTextTamil": "ஒரு நெறிமுறை மற்றும் ஒரு செயல்முறையை வேறுபடுத்துக.",
+    "answer": "Algorithm: A precise abstract sequence of instructions designed to solve a problem.\nProcess: The dynamic execution of an algorithm/program on specific inputs by a processor.",
+    "answerTamil": "நெறிமுறை: சிக்கலைத் தீர்க்க எழுதப்பட்ட வழிமுறைகளின் வரிசை.\nசெயல்முறை (Process): நெறிமுறையின்படி கணினியால் நிஜத்தில் நிறைவேற்றப்படும் செயல்பாடாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-2m-3",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Initially, Farmer, Goat, Grass, Wolf = L, L, L, L. Farmer crosses the river with Goat. Formulate state changes using assignment statement.",
+    "questionTextTamil": "தொடக்கத்தில், விவசாயி, ஆடு, புல் கட்டு, ஓநாய் = L, L, L, L. விவசாயி ஆட்டுடன் ஆற்றைக் கடக்கிறார். மதிப்பிற்கு கூற்றை பயன்படுத்தி செயல்திட்டம் ஒன்றை உருவாக்குக.",
+    "answer": "-- Initial State: farmer, goat, grass, wolf := L, L, L, L\n-- Farmer and Goat cross from Left (L) to Right (R):\nfarmer, goat := R, R\n-- Resulting State: farmer, goat, grass, wolf = R, R, L, L.",
+    "answerTamil": "தொடக்க நிலை: farmer, goat, grass, wolf := L, L, L, L\nவிவசாயி ஆட்டுடன் மறுகரைக்குச் செல்கிறார்:\nfarmer, goat := R, R\nமுடிவு நிலை: farmer, goat, grass, wolf = R, R, L, L.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-2m-4",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Specify a function to find the minimum of three numbers.",
+    "questionTextTamil": "மூன்று எண்களில், மிக சிறிய எண்ணை கண்டுபிடிக்க ஒரு செயல்பாட்டை குறிப்பிடவும்.",
+    "answer": "minimum (a, b, c)\n-- inputs : a, b, c are numbers\n-- outputs: m is a number such that m <= a and m <= b and m <= c and (m = a or m = b or m = c)",
+    "answerTamil": "minimum (a, b, c)\n-- உள்ளீடுகள்: a, b, c எண்கள்\n-- வெளியீடுகள்: m <= a மற்றும் m <= b மற்றும் m <= c மற்றும் (m = a அல்லது m = b அல்லது m = c) என இருக்கும்படி m ஒரு எண்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-2m-5",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "If sqrt(2) = 1.414, which postcondition of square_root(x) is violated if output is -1.414?\n-- inputs : x is a real number, x >= 0\n-- outputs: y is a real number such that y^2 = x",
+    "questionTextTamil": "√2 = 1.414 என இருந்தால், square_root() செயல் கூறின் வெளியீடு -1.414-ஐ பெறுவதற்கு, பின்வருவனவற்றின் பின்விளைவுகளை மீறுவது எது?",
+    "answer": "The output violates the convention that principal square root should be non-negative (y >= 0). To prevent this, the postcondition must be refined as:\n-- outputs: y is a real number such that y^2 = x and y >= 0.",
+    "answerTamil": "வர்க்கமூலம் எப்போதும் நேர்மறை எண்ணாக (y >= 0) இருக்க வேண்டும் என்ற விதி மீறப்படுகிறது. எனவே பின்விளைவு 'y^2 = x மற்றும் y >= 0' எனத் திருத்தப்பட வேண்டும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-3m-1",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "When do you say that an algorithm is correct for a problem?",
+    "questionTextTamil": "ஒரு பிரச்சனை சரியான நெறிமுறை என்று எப்பொழுது கூறுவீர்கள்?",
+    "answer": "An algorithm is said to be correct if for every input satisfying the input condition (precondition), the algorithm terminates and produces an output that satisfies the specified input-output relation (postcondition).",
+    "answerTamil": "முன்நிபந்தனைகளை நிறைவு செய்யும் அனைத்து உள்ளீடுகளுக்கும், நெறிமுறையானது முடிவடைந்து, எதிர்பார்க்கப்படும் பின்நிபந்தனைகளை நிறைவு செய்யும் சரியான வெளியீட்டைத் தந்தால், அந்த நெறிமுறை சரியானது எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-3m-2",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is the format of an algorithmic specification?",
+    "questionTextTamil": "ஒரு நெறிமுறை பற்றிய விவரக்குறிப்பின் வடிவமைப்பு என்ன?",
+    "answer": "Format:\nAlgorithm_Name (Parameters)\n-- inputs : properties of input variables (precondition)\n-- outputs: desired relation between input and output variables (postcondition)",
+    "answerTamil": "வடிவமைப்பு:\nநெறிமுறையின்_பெயர் (அளபுருக்கள்)\n-- உள்ளீடுகள் : உள்ளீட்டு மாறிகளின் பண்புகள்\n-- வெளியீடுகள்: உள்ளீடு மற்றும் வெளியீட்டு மாறிகளுக்கிடையேயான விரும்பிய தொடர்பு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-3m-3",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is Abstraction?",
+    "questionTextTamil": "அருவமாக்கம் என்றால் என்ன?",
+    "answer": "Abstraction is the process of ignoring non-essential details of a problem while focusing solely on the essential characteristics needed to solve it effectively.",
+    "answerTamil": "அருவமாக்கம் (Abstraction) என்பது ஒரு சிக்கலைத் தீர்ப்பதற்குத் தேவையான முக்கியமான அம்சங்களை மட்டும் முன்னிலைப்படுத்தி, தேவையற்ற பின்னணி விவரங்களை மறைக்கும் செயல்முறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-3m-4",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "How is state of an algorithm represented?",
+    "questionTextTamil": "நெறிமுறையின் நிலையை எவ்வாறு குறிப்பிடப்படுகின்றது?",
+    "answer": "The state of an algorithm is represented by the set of all its variables and the specific values they hold at any given point during execution.",
+    "answerTamil": "ஒரு நெறிமுறையின் நிலை (State) என்பது அதில் பயன்படுத்தப்படும் மாறிகள் மற்றும் கொடுக்கப்பட்ட நேரத்தில் அவை கொண்டுள்ள மதிப்புகளின் தொகுப்பால் குறிக்கப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-3m-5",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is the form and meaning of an assignment statement?",
+    "questionTextTamil": "மதிப்பிருத்தல் கூற்றின் வடிவம் மற்றும் பொருள் யாது?",
+    "answer": "Form: Variable := Expression (e.g., v := e)\nMeaning: Evaluates expression 'e' on current state and stores resultant value into variable 'v', thereby updating the state.",
+    "answerTamil": "வடிவம்: மாறி := கோவை (Variable := Expression)\nபொருள்: வலதுபுறமுள்ள கோவையின் மதிப்பை கணக்கிட்டு, இடதுபுறமுள்ள மாறிக்கு மதிப்பிருத்தி அதன் நிலையைப் புதுப்பிக்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-3m-6",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between Assignment operator (:=) and Equality relation (=).",
+    "questionTextTamil": "மதிப்பிருத்தல் செயற்குறி மற்றும் சமநிலை செயற்குறி இடையே உள்ள வேறுபாடு என்ன?",
+    "answer": "Assignment (:=): An action/command that assigns a value to a variable and changes the algorithmic state (e.g. x := 10).\nEquality (=): A mathematical boolean condition/property that checks if two values are equal without altering state (e.g. x = y).",
+    "answerTamil": "மதிப்பிருத்தல் (:=): இது ஒரு மாறிக்கு மதிப்பை வழங்கி நிலையை மாற்றும் கட்டளையாகும் (எ.கா: x := 10).\nசமநிலை (=): இது இரண்டு மதிப்புகள் சமமாக உள்ளதா என சரிபார்க்கும் தருக்கப் பண்பாகும் (நிலையை மாற்றாது).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-5m-1",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write the specification to find hypotenuse of a right-angled triangle given the two shorter sides.",
+    "questionTextTamil": "ஒரு நெறிமுறையில் கர்ணம் (hypotunse) பற்றிய விவரக்குறிப்புகளை எழுதுங்கள். வலது கோண முக்கோணத்தின் இரண்டு குறைந்த பக்கத்தையும், மற்றும் வெளியீடு நீளம் மூன்றாம் பக்கத்தையும் காண்க.",
+    "answer": "hypotenuse (a, b)\n-- inputs : a and b are positive real numbers representing two shorter sides of a right triangle (a > 0, b > 0)\n-- outputs: c is a real number such that c^2 = a^2 + b^2 and c > 0\n\nExplanation:\nBy Pythagorean theorem, in right-angled triangle with shorter perpendicular sides 'a' and 'b', the hypotenuse 'c' satisfies c = sqrt(a^2 + b^2).",
+    "answerTamil": "விவரக்குறிப்பு:\nhypotenuse (a, b)\n-- உள்ளீடுகள் : a மற்றும் b ஆகியவை செங்கோண முக்கோணத்தின் இரு பக்கங்களின் நீளங்கள் (a > 0, b > 0)\n-- வெளியீடுகள்: c என்பது கர்ணத்தின் நீளம் c^2 = a^2 + b^2 மற்றும் c > 0 என இருக்கும்படி.\n\nவிளக்கம்: பிதாகரஸ் தேற்றப்படி செங்கோண முக்கோணத்தின் கர்ணம் c = sqrt(a^2 + b^2).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-5m-2",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Write the specification to solve quadratic equation ax^2 + bx + c = 0 using formula x = [-b +- sqrt(b^2 - 4ac)] / (2a).",
+    "questionTextTamil": "ax^2 + bx + c = 0 எனும் இருபடி சமன்பாடு ஒன்றை நீங்கள் தீர்க்க வழிமுறை quadratic_solve (a, b, c) -- input : ? -- outputs: ? இதற்கு தேவையான விவரக்குறிப்பை கீழே கொடுக்கப்பட்டுள்ள வாய்ப்பாட்டின் மூலம் எழுதுக.",
+    "answer": "quadratic_solve (a, b, c)\n-- inputs : a, b, c are real numbers such that a != 0 and b^2 - 4*a*c >= 0\n-- outputs: x1, x2 are real numbers such that\n            a * (x1)^2 + b * x1 + c = 0 and\n            a * (x2)^2 + b * x2 + c = 0\n            where x1 = (-b + sqrt(b^2 - 4*a*c)) / (2*a) and\n                  x2 = (-b - sqrt(b^2 - 4*a*c)) / (2*a)",
+    "answerTamil": "விவரக்குறிப்பு:\nquadratic_solve (a, b, c)\n-- உள்ளீடுகள்: a, b, c மெய் எண்கள், a != 0 மற்றும் b^2 - 4ac >= 0\n-- வெளியீடுகள்: x1, x2 சமன்பாட்டின் மூலங்கள்:\n   x1 = (-b + sqrt(b^2 - 4ac)) / (2a)\n   x2 = (-b - sqrt(b^2 - 4ac)) / (2a)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch6-5m-3",
+    "chapterNo": 6,
+    "chapterName": "Specification and Abstraction",
+    "chapterNameTamil": "விவரக்குறிப்பு மற்றும் அருவமாக்கம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Exchange contents of two cups A and B: Cup A contains Apple juice and Cup B contains Grape juice. Formulate specification and algorithm using an auxiliary variable C.",
+    "questionTextTamil": "உள்ளடக்கத்தை இடமாற்றம் செய்யவும்: A மற்றும் B என்ற மாறிகளை இரண்டு குவளைகளாக கருதுக. குவளை A-யில் ஆப்பிள் பழச்சாறு முழுவதுமாக உள்ளது. மற்றும் குவளை B-யில் திராட்சை பழச்சாறு முழுவதுமாக உள்ளது. குவளை A மற்றும் B– யில் உள்ள பழச்சாற்றின் நிலையை இடமாற்றம் செய்ய, தேவையான மாறிகளின் இருத்தி, அதன் நெறிமுறையின் விவரக்குறிப்பை எழுதுக.",
+    "answer": "Specification:\nexchange (A, B)\n-- inputs : A = Apple, B = Grape\n-- outputs: A = Grape, B = Apple\n\nAlgorithm (Using auxiliary cup C):\n1. C := A   (Pour apple juice into empty cup C)\n2. A := B   (Pour grape juice from cup B into cup A)\n3. B := C   (Pour apple juice from cup C into cup B)",
+    "answerTamil": "விவரக்குறிப்பு:\nexchange (A, B)\n-- உள்ளீடுகள்: A = ஆப்பிள் சாறு, B = திராட்சை சாறு\n-- வெளியீடுகள்: A = திராட்சை சாறு, B = ஆப்பிள் சாறு\n\nநெறிமுறை (துணை குவளை C பயன்படுத்தி):\n1. C := A  (A-யில் உள்ள சாற்றை C-க்கு மாற்று)\n2. A := B  (B-யில் உள்ள சாற்றை A-க்கு மாற்று)\n3. B := C  (C-யில் உள்ள சாற்றை B-க்கு மாற்று)",
+    "isBookBack": true
+  }
+]

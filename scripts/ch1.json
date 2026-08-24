@@ -1,0 +1,509 @@
+[
+  {
+    "id": "cs11-ch1-1m-1",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "First generation computers used",
+    "questionTextTamil": "முதல் தலைமுறை கணினிகளில் பயன்படுத்தப்பட்ட பகுதிப்பொருள்:",
+    "options": {
+      "A": "Vacuum tubes",
+      "B": "Transistors",
+      "C": "Integrated circuits",
+      "D": "Microprocessors"
+    },
+    "optionsTamil": {
+      "A": "வெற்றிடக் குழல்",
+      "B": "மின்மாற்றி",
+      "C": "ஒருங்கிணைந்த சுற்றுகள்",
+      "D": "நுண்செயலிகள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Vacuum tubes",
+    "answerTamil": "A) வெற்றிடக் குழல்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-2",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Name the volatile memory",
+    "questionTextTamil": "தற்காலிக நினைவகம் எது?",
+    "options": {
+      "A": "ROM",
+      "B": "PROM",
+      "C": "RAM",
+      "D": "EPROM"
+    },
+    "optionsTamil": {
+      "A": "ROM",
+      "B": "PROM",
+      "C": "RAM",
+      "D": "EPROM"
+    },
+    "correctOption": "C",
+    "answer": "C) RAM",
+    "answerTamil": "C) RAM",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-3",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Identify the output device",
+    "questionTextTamil": "வெளியீட்டு சாதனத்தை அடையாளம் காண்க.",
+    "options": {
+      "A": "Keyboard",
+      "B": "Memory",
+      "C": "Monitor",
+      "D": "Mouse"
+    },
+    "optionsTamil": {
+      "A": "விசைப்பலகை",
+      "B": "நினைவகம்",
+      "C": "திரையகம்",
+      "D": "சுட்டி"
+    },
+    "correctOption": "C",
+    "answer": "C) Monitor",
+    "answerTamil": "C) திரையகம்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-4",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Identify the input device",
+    "questionTextTamil": "உள்ளீட்டு சாதனத்தை அடையாளம் காண்க.",
+    "options": {
+      "A": "Printer",
+      "B": "Mouse",
+      "C": "Plotter",
+      "D": "Projector"
+    },
+    "optionsTamil": {
+      "A": "அச்சுப்பொறி",
+      "B": "சுட்டி",
+      "C": "வரைவி",
+      "D": "படவீழ்த்தி"
+    },
+    "correctOption": "B",
+    "answer": "B) Mouse",
+    "answerTamil": "B) சுட்டி",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-5",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which output device is used for printing building plan, flex board, etc.?",
+    "questionTextTamil": "கட்டிட வரைபடத் திட்டம், பிளெக்ஸ் அட்டை போன்றவற்றை அச்சிட பயன்படும் வெளியீட்டு சாதனம் எது?",
+    "options": {
+      "A": "Thermal printer",
+      "B": "Plotter",
+      "C": "Dot matrix printer",
+      "D": "Inkjet printer"
+    },
+    "optionsTamil": {
+      "A": "வெப்ப அச்சுப்பொறி",
+      "B": "வரைவி",
+      "C": "புள்ளி அச்சுப்பொறி",
+      "D": "மைப்பீச்சு அச்சுப்பொறி"
+    },
+    "correctOption": "B",
+    "answer": "B) Plotter",
+    "answerTamil": "B) வரைவி",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-6",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which one of the following is used in ATM machines?",
+    "questionTextTamil": "ஏ.டி.எம் இயந்திரங்களில், கீழ்க்கண்டவற்றுள் எது பயன்படுத்தப்படுகிறது?",
+    "options": {
+      "A": "Touch Screen",
+      "B": "Monitor",
+      "C": "Speaker",
+      "D": "Printer"
+    },
+    "optionsTamil": {
+      "A": "தொடுதிரை",
+      "B": "திரையகம்",
+      "C": "ஒலி பெருக்கி",
+      "D": "அச்சுப்பொறி"
+    },
+    "correctOption": "A",
+    "answer": "A) Touch Screen",
+    "answerTamil": "A) தொடுதிரை",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-7",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "When a system restarts which type of booting is used?",
+    "questionTextTamil": "ஒரு கணிப்பொறி மீண்டும் தொடங்கும் போது எந்த வகையான தொடங்குதலைப் பயன்படுத்துகிறது?",
+    "options": {
+      "A": "Warm booting",
+      "B": "Cold booting",
+      "C": "Touch boot",
+      "D": "Real boot"
+    },
+    "optionsTamil": {
+      "A": "உடன் தொடக்கம்",
+      "B": "தண் தொடக்கம்",
+      "C": "தொடு தொடக்கம்",
+      "D": "மெய் தொடக்கம்"
+    },
+    "correctOption": "B",
+    "answer": "B) Warm booting (தண் தொடக்கம்)",
+    "answerTamil": "B) தண் தொடக்கம்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-8",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Expand POST:",
+    "questionTextTamil": "POST – ன் விரிவாக்கம்:",
+    "options": {
+      "A": "Post on self Test",
+      "B": "Power on Software Test",
+      "C": "Power on Self Test",
+      "D": "Power on Self Text"
+    },
+    "optionsTamil": {
+      "A": "Post on self Test",
+      "B": "Power on Software Test",
+      "C": "Power on Self Test",
+      "D": "Power on Self Text"
+    },
+    "correctOption": "C",
+    "answer": "C) Power on Self Test",
+    "answerTamil": "C) Power on Self Test",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-9",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which one of the following is a primary memory?",
+    "questionTextTamil": "கீழ்வருவனவற்றுள் எது ஒரு முதன்மை நினைவகமாகும்?",
+    "options": {
+      "A": "ROM",
+      "B": "RAM",
+      "C": "Flash drive",
+      "D": "Hard disk"
+    },
+    "optionsTamil": {
+      "A": "ROM",
+      "B": "RAM",
+      "C": "Flash drive",
+      "D": "Hard disk"
+    },
+    "correctOption": "B",
+    "answer": "B) RAM",
+    "answerTamil": "B) RAM",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-1m-10",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which generation of computer used Integrated Circuits (IC)?",
+    "questionTextTamil": "எந்த கணிப்பொறி தலைமுறையில் ஒருங்கிணைந்த சுற்றுகள் பயன்படுத்தப்பட்டது?",
+    "options": {
+      "A": "First",
+      "B": "Second",
+      "C": "Third",
+      "D": "Fourth"
+    },
+    "optionsTamil": {
+      "A": "முதலாம்",
+      "B": "இரண்டாம்",
+      "C": "மூன்றாம்",
+      "D": "நான்காம்"
+    },
+    "correctOption": "C",
+    "answer": "C) Third",
+    "answerTamil": "C) மூன்றாம்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-1",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a computer?",
+    "questionTextTamil": "கணிப்பொறி என்றால் என்ன?",
+    "answer": "A computer is an electronic device that takes raw data as input from the user, processes it under the control of a set of instructions, produces a result (output), and saves it for future use.",
+    "answerTamil": "கணிப்பொறி என்பது பயனரிடமிருந்து மூலத் தரவுகளை உள்ளீடாகப் பெற்று, வழிமுறைகளின்படி செயலாக்கி, பயனுள்ள தகவலாக வெளியீட்டை வழங்கும் மின்னணு சாதனம் ஆகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-2",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Distinguish between data and information.",
+    "questionTextTamil": "தரவு மற்றும் தகவல் வேறுபடுத்துக.",
+    "answer": "Data: Raw, unprocessed facts without specific meaning (e.g. 134, 'Kavitha').\nInformation: Processed and structured collection of facts from which conclusions may be drawn (e.g. 'Kavitha is 16 years old').",
+    "answerTamil": "தரவு: செயலாக்கப்படாத மூல விபரம் அல்லது எண் (எ.கா: 134, 'கவிதா').\nதகவல்: பயனுள்ள முடிவுகளை எடுக்கத்தக்க வகையில் செயலாக்கப்பட்ட தரவு (எ.கா: 'கவிதாவின் வயது 16').",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-3",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the components of a CPU?",
+    "questionTextTamil": "மையச் செயலகத்தின் (CPU) பகுதிகள் யாவை?",
+    "answer": "The CPU consists of:\n1. Arithmetic and Logic Unit (ALU)\n2. Control Unit (CU)\n3. Internal Memory / Registers",
+    "answerTamil": "மையச் செயலகத்தின் (CPU) மூன்று முக்கிய பகுதிகள்:\n1. கணித ஏரணச் செயலகம் (ALU)\n2. கட்டுப்பாட்டகம் (Control Unit)\n3. நினைவகம் / பதிவேடுகள் (Registers)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-4",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the function of an Arithmetic and Logic Unit (ALU)?",
+    "questionTextTamil": "கணித ஏரணச் செயலகத்தின் (ALU) செயல்பாடு யாது?",
+    "answer": "The ALU performs arithmetic operations (addition, subtraction, multiplication, division) and logical decision-making operations (comparisons).",
+    "answerTamil": "ALU கூட்டல், கழித்தல், பெருக்கல், வகுத்தல் போன்ற கணிதச் செயல்பாடுகளையும், ஒப்பீடு மற்றும் தருக்கச் செயல்பாடுகளையும் செய்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-5",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write the functions of the Control Unit.",
+    "questionTextTamil": "கட்டுப்பாட்டகத்தின் செயல்களை எழுதுக?",
+    "answer": "The Control Unit controls the flow of data between the CPU, memory, and I/O devices, and coordinates all computer operations.",
+    "answerTamil": "கட்டுப்பாட்டகம் மையச் செயலகம், நினைவகம் மற்றும் உள்ளீடு/வெளியீட்டு சாதனங்களுக்கு இடையே தரவுப் பரிமாற்றத்தை நிர்வகித்து அனைத்து பணிகளையும் ஒருங்கிணைக்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-6",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the function of memory?",
+    "questionTextTamil": "நினைவகத்தின் செயல்பாடு யாது?",
+    "answer": "Memory stores input data, program instructions, intermediate processing results, and final output.",
+    "answerTamil": "நினைவகம் தரவுகள், கட்டளைகள், இடைக்கால முடிவுகள் மற்றும் வெளியீட்டுத் தகவல்களைத் தற்காலிகமாகவோ அல்லது நிரந்தரமாகவோ சேமிக்கப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-7",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Differentiate input and output units.",
+    "questionTextTamil": "உள்ளீட்டகம் மற்றும் வெளியீட்டகம் வேறுபடுத்துக.",
+    "answer": "Input Unit: Feeds human-readable data into the computer system (e.g. Keyboard, Mouse).\nOutput Unit: Presents processed computer results to users in understandable format (e.g. Monitor, Printer).",
+    "answerTamil": "உள்ளீட்டகம்: மனிதன் புரிந்து கொள்ளும் தரவுகளைக் கணினிக்கு அனுப்புகிறது (எ.கா: விசைப்பலகை, சுட்டி).\nவெளியீட்டகம்: கணினி செயலாக்கிய தகவல்களை பயனருக்கு வழங்குகிறது (எ.கா: திரையகம், அச்சுப்பொறி).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-2m-8",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Distinguish between Primary memory and Secondary memory.",
+    "questionTextTamil": "முதன்மை நினைவகம் மற்றும் இரண்டாம் நிலை நினைவகம் வேறுபாடு யாது?",
+    "answer": "Primary Memory: Volatile, directly accessed by CPU, faster speed, limited capacity (RAM).\nSecondary Memory: Non-volatile, stores data permanently, accessed indirectly, large capacity (HDD, SSD).",
+    "answerTamil": "முதன்மை நினைவகம்: தற்காலிகமானது, CPU நேரடியாக அணுகும், வேகம் அதிகம் (எ.கா: RAM).\nஇரண்டாம் நிலை நினைவகம்: நிரந்தரமானது, அதிக சேமிப்புத் திறன் கொண்டது (எ.கா: வன்வட்டு, DVD).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-1",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the characteristics of a computer?",
+    "questionTextTamil": "கணிப்பொறியின் தன்மைகள் யாவை?",
+    "answer": "1. Speed: Executes millions of instructions per second.\n2. Accuracy: Produces error-free, precise computations.\n3. Diligence & Versatility: Works continuously without fatigue across diverse applications.",
+    "answerTamil": "1. அதிவேகம் (Speed): வினாடிக்கு கோடிக்கணக்கான கட்டளைகளை செயலாக்கும்.\n2. துல்லியம் (Accuracy): பிழையின்றி துல்லியமான முடிவுகளைத் தரும்.\n3. சோர்வின்மை & பன்முகத்திறன் (Diligence & Versatility): சோர்வின்றி பலதரப்பட்ட வேலைகளைத் தொடர்ச்சியாகச் செய்யும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-2",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write the applications of a computer.",
+    "questionTextTamil": "கணிப்பொறியின் பயன்பாடுகளை எழுதுக.",
+    "answer": "1. Education, scientific research, and E-learning\n2. Banking, financial modeling, and business management\n3. Medical diagnostics, healthcare, and robotics",
+    "answerTamil": "1. கல்வி மற்றும் மின்-கற்றல்\n2. வணிகம், வங்கி மற்றும் நிதி மேலாண்மை\n3. மருத்துவம், அறிவியல் ஆராய்ச்சி மற்றும் வானிலை முன்னறிவிப்பு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-3",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are input devices? Give two examples.",
+    "questionTextTamil": "உள்ளீட்டு சாதனங்கள் என்றால் என்ன? இரண்டு எடுத்துக்காட்டுகள் தருக.",
+    "answer": "Input devices are peripherals used to enter data and control signals into a computer.\nExamples: Keyboard, Mouse, Scanner.",
+    "answerTamil": "கணினிக்கு தரவுகளையும் கட்டளைகளையும் உள்ளிட பயன்படும் சாதனங்கள் உள்ளீட்டு சாதனங்கள் எனப்படும்.\nஎடுத்துக்காட்டுகள்: விசைப்பலகை, சுட்டி.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-4",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain any three output devices.",
+    "questionTextTamil": "ஏதேனும் மூன்று வெளியீட்டு சாதனங்களை விளக்குக?",
+    "answer": "1. Monitor: Visual display unit showing visual soft copy.\n2. Printer: Produces hard copy on physical paper.\n3. Plotter: Generates high-resolution graphical engineering diagrams.",
+    "answerTamil": "1. திரையகம் (Monitor): காட்சிகளைத் திரையில் காட்டும் முதன்மை வெளியீட்டுச் சாதனம்.\n2. அச்சுப்பொறி (Printer): தகவல்களை தாளில் அச்சிட்டுத் தரும்.\n3. வரைவி (Plotter): வரைபடங்கள், வரைவுத் திட்டங்களை அச்சிடப் பயன்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-5",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between Optical Mouse and Laser Mouse.",
+    "questionTextTamil": "ஒளியியல் சுட்டி மற்றும் லேசர் சுட்டி வேறுபடுத்துக.",
+    "answer": "Optical Mouse: Uses LED light source; tracks movement on non-reflective surfaces; moderate precision.\nLaser Mouse: Uses laser light; highly sensitive and precise; functions even on transparent glass surfaces.",
+    "answerTamil": "ஒளியியல் சுட்டி: LED ஒளியைப் பயன்படுத்தி நகர்வைக் கண்டறியும், கண்ணாடி பரப்பில் இயங்காது.\nலேசர் சுட்டி: லேசர் கதிர்களைப் பயன்படுத்தும், அதிக உணர்திறன் கொண்டது, கண்ணாடி பரப்பிலும் இயங்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-6",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a short note on Impact Printers.",
+    "questionTextTamil": "தட்டல் வகை அச்சுப்பொறியைப் பற்றி சிறுகுறிப்பு வரைக.",
+    "answer": "Impact printers use mechanical pins or hammers that physically strike an ink ribbon onto paper. They can print multipart carbon copies.\nExample: Dot Matrix Printer, Daisy Wheel Printer.",
+    "answerTamil": "தட்டல் வகை அச்சுப்பொறிகள்: ஊசிகள் அல்லது சுத்தியல்கள் மை நாடாவின் மீது தட்டி காகிதத்தில் அச்சிடுகின்றன. கார்பன் நகல்கள் எடுக்க முடியும்.\nஎ.கா: புள்ளி அச்சுப்பொறி (Dot Matrix).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-7",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write briefly about the characteristics of Sixth Generation computers.",
+    "questionTextTamil": "ஆறாவது தலைமுறையின் தன்மைகளைப் பற்றி சுருக்கமாக எழுதுக.",
+    "answer": "1. Based on Artificial Neural Networks and Natural Language Processing (NLP).\n2. Capable of intelligent voice recognition and autonomous problem-solving.\n3. Utilizes quantum computing and nanotechnology.",
+    "answerTamil": "1. செயற்கை நரம்பியல் வலையமைப்புகள் மற்றும் இயற்கை மொழி செயலாக்கம் (NLP) கொண்டது.\n2. குரல் அறிதல், தானியங்கி முடிவெடுத்தல் மற்றும் சிந்தனைத் திறன் வாய்ந்தது.\n3. அதிவேக பேரளவு இணைச் செயலாக்கத் திறன் கொண்டது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-3m-8",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write significant features of monitors.",
+    "questionTextTamil": "திரையகத்தின் குறிப்பிடத்தக்க சிறப்பியல்புகளைப் பற்றி எழுதுக.",
+    "answer": "1. Resolution: Total pixels displaying sharpness.\n2. Dot Pitch: Distance between pixels in mm.\n3. Aspect Ratio: Standard 16:9 widescreen or 4:3 display ratio.",
+    "answerTamil": "1. தெளிவுத்திறன் (Resolution): படப்புள்ளிகளின் (Pixels) எண்ணிக்கை காட்சித் தெளிவைத் தீர்மானிக்கிறது.\n2. திரை விகிதம் (Aspect Ratio): அகலத்திற்கும் உயரத்திற்குமான விகிதம் (16:9).\n3. வகைகள்: CRT, LCD, LED மற்றும் OLED நவீன திரையகங்கள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-5m-1",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the basic components of a computer with a neat block diagram.",
+    "questionTextTamil": "ஒரு கணிப்பொறியின் அடிப்படை பாகங்களை தெளிவான விளக்கப்படத்துடன் விளக்கு.",
+    "answer": "A computer consists of:\n1. Input Unit: Captures raw user data.\n2. CPU:\n   - ALU: Performs arithmetic & logical calculations.\n   - Control Unit: Regulates flow and timing of signals.\n   - Registers: High-speed temporary CPU storage.\n3. Memory Unit: Primary RAM/ROM and secondary hard storage.\n4. Output Unit: Communicates results to users.",
+    "answerTamil": "கணிப்பொறியின் அடிப்படை பாகங்கள்:\n1. உள்ளீட்டகம் (Input Unit): விசைப்பலகை, சுட்டி மூலம் தரவுகளை உள்ளிடுகிறது.\n2. மையச் செயலகம் (CPU):\n   - கணித ஏரணச் செயலகம் (ALU): கணித மற்றும் தருக்கச் செயல்பாடுகளைச் செய்கிறது.\n   - கட்டுப்பாட்டகம் (Control Unit): சாதனங்களுக்கிடையேயான தொடர்பை நிர்வகிக்கிறது.\n   - பதிவேடுகள் (Registers): செயலியின் அதிவேக உள் நினைவகம்.\n3. நினைவகம் (Memory Unit): முதன்மை நினைவகம் (RAM, ROM) & இரண்டாம் நிலை நினைவகம் (HDD).\n4. வெளியீட்டகம் (Output Unit): திரையகம், அச்சுப்பொறி மூலம் விடையை அளிக்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-5m-2",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various generations of computers.",
+    "questionTextTamil": "கணிப்பொறியின் பல்வேறு தலைமுறைகளை விளக்குக.",
+    "answer": "1. 1st Gen (1940-1956): Vacuum tubes; Machine language; ENIAC.\n2. 2nd Gen (1956-1964): Transistors; Assembly language; IBM 1401.\n3. 3rd Gen (1964-1971): Integrated Circuits (IC); High-level language; IBM 360.\n4. 4th Gen (1971-1980): Microprocessor (VLSI); Personal computers.\n5. 5th Gen (1980-Present): Ultra Large Scale Integration (ULSI); AI & parallel processing.\n6. 6th Gen (Future): Quantum computing, robotics, and NLP.",
+    "answerTamil": "1. முதல் தலைமுறை (1940-1956): வெற்றிடக் குழல்கள்; இயந்திர மொழி; ENIAC.\n2. இரண்டாம் தலைமுறை (1956-1964): டிரான்சிஸ்டர்கள்; அசெம்பிளி மொழி; IBM 1401.\n3. மூன்றாம் தலைமுறை (1964-1971): ஒருங்கிணைந்த சுற்றுகள் (IC); உயர்நிலை மொழி; IBM 360.\n4. நான்காம் தலைமுறை (1971-1980): நுண்செயலி (VLSI); நுண்கணினிகள்.\n5. ஐந்தாம் தலைமுறை (1980-இன்று வரை): ULSI நுட்பம்; செயற்கை நுண்ணறிவு (AI).\n6. ஆறாம் தலைமுறை (எதிர்காலம்): ரோபாட்டிக்ஸ், இயற்கை மொழி செயலாக்கம், குவாண்டம் கணினி.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch1-5m-3",
+    "chapterNo": 1,
+    "chapterName": "Introduction to Computers",
+    "chapterNameTamil": "கணினி அறிமுகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the following:\n(a) Inkjet Printer\n(b) Multimedia Projector\n(c) Barcode / QR Code Reader",
+    "questionTextTamil": "பின்வருவனவற்றை விளக்குங்கள்: அ) மைப்பீச்சு அச்சுப்பொறி ஆ) பல்லூடக படவீழ்த்தி இ) பட்டைக் குறியீடு / QR குறியீடு படிப்பான்",
+    "answer": "(a) Inkjet Printer: Sprays tiny droplets of ionized ink onto paper to form crisp text and vibrant images.\n(b) Multimedia Projector: Projects computer output onto large screens for classroom or conference presentations.\n(c) Barcode / QR Code Reader: Optical sensor reading optical patterns and QR matrix tags for swift data entry.",
+    "answerTamil": "அ) மைப்பீச்சு அச்சுப்பொறி: மைத்துளிகளை காகிதத்தில் பீய்ச்சி அடித்து அச்சிடும் தாளில்லா வகை அச்சுப்பொறி; உயர்தர வண்ணப் படங்களைத் தரும்.\nஆ) பல்லூடக படவீழ்த்தி: கணிப்பொறியின் காட்சிகளை பெரிய திரையிலோ சுவரிலோ திரையிட்டுக் காட்டும் வெளியீட்டுச் சாதனம்.\nஇ) பட்டைக் குறியீடு / QR குறியீடு படிப்பான்: பொருட்களில் உள்ள கோட்டுக்குறியீடு மற்றும் இருபரிமாண QR குறியீடுகளை ஒளிக்கற்றை மூலம் படித்து கணினிக்கு அனுப்பும் உள்ளீட்டுச் சாதனம்.",
+    "isBookBack": true
+  }
+]

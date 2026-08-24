@@ -1,0 +1,457 @@
+[
+  {
+    "id": "ca12-ch15-1m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Buying and selling goods and services over the Internet is known as _________.",
+    "questionTextTamil": "இணையத்தின் வழியாக பொருட்கள் மற்றும் சேவைகளை வாங்குதல் மற்றும் விற்றல் எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "E-Commerce",
+      "B": "E-Governance",
+      "C": "E-Learning",
+      "D": "E-Banking"
+    },
+    "optionsTamil": {
+      "A": "மின்-வணிகம் (E-Commerce)",
+      "B": "மின்-ஆளுமை",
+      "C": "மின்-கற்றல்",
+      "D": "மின்-வங்கி"
+    },
+    "correctOption": "A",
+    "answer": "A) E-Commerce",
+    "answerTamil": "A) மின்-வணிகம் (E-Commerce)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which business model involves commercial transactions conducted directly between businesses and individual consumers?",
+    "questionTextTamil": "வணிக நிறுவனங்களுக்கும் தனிப்பட்ட நுகர்வோருக்கும் இடையே நேரடியாக நடைபெறும் வணிக மாதிரி எது?",
+    "options": {
+      "A": "B2B",
+      "B": "B2C",
+      "C": "C2C",
+      "D": "C2B"
+    },
+    "optionsTamil": {
+      "A": "B2B",
+      "B": "B2C (Business to Consumer)",
+      "C": "C2C",
+      "D": "C2B"
+    },
+    "correctOption": "B",
+    "answer": "B) B2C",
+    "answerTamil": "B) B2C (Business to Consumer)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which business model represents transactions where consumers sell directly to other consumers (e.g., eBay, OLX)?",
+    "questionTextTamil": "நுகர்வோர் மற்றொரு நுகர்வோருக்கு நேரடியாக பொருட்களை விற்கும் மாதிரி எது (எ.கா: OLX, eBay)?",
+    "options": {
+      "A": "B2B",
+      "B": "B2C",
+      "C": "C2C",
+      "D": "B2G"
+    },
+    "optionsTamil": {
+      "A": "B2B",
+      "B": "B2C",
+      "C": "C2C (Consumer to Consumer)",
+      "D": "B2G"
+    },
+    "correctOption": "C",
+    "answer": "C) C2C",
+    "answerTamil": "C) C2C (Consumer to Consumer)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which business model refers to transactions between businesses and governmental bodies?",
+    "questionTextTamil": "வணிக நிறுவனங்களுக்கும் அரசு அமைப்புகளுக்கும் இடையே நடைபெறும் பரிவர்த்தனை மாதிரி எது?",
+    "options": {
+      "A": "B2G",
+      "B": "C2G",
+      "C": "G2C",
+      "D": "B2B"
+    },
+    "optionsTamil": {
+      "A": "B2G (Business to Government)",
+      "B": "C2G",
+      "C": "G2C",
+      "D": "B2B"
+    },
+    "correctOption": "A",
+    "answer": "A) B2G",
+    "answerTamil": "A) B2G (Business to Government)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-5",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The conduct of business processes including commerce, collaboration, and CRM electronically is _________.",
+    "questionTextTamil": "மின்-வணிகம், வாடிக்கையாளர் உறவு மேலாண்மை (CRM) உள்ளிட்ட அனைத்து வணிக செயல்பாடுகளையும் மின்னணு முறையில் மேற்கொள்வது எது?",
+    "options": {
+      "A": "E-Business",
+      "B": "E-Commerce",
+      "C": "E-Mail",
+      "D": "E-Vault"
+    },
+    "optionsTamil": {
+      "A": "மின்-தொழில் (E-Business)",
+      "B": "மின்-வணிகம்",
+      "C": "மின்னஞ்சல்",
+      "D": "மின்-பெட்டகம்"
+    },
+    "correctOption": "A",
+    "answer": "A) E-Business",
+    "answerTamil": "A) மின்-தொழில் (E-Business)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-6",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a key advantage of E-Commerce?",
+    "questionTextTamil": "மின்-வணிகத்தின் முக்கிய நன்மைகளில் ஒன்று எது?",
+    "options": {
+      "A": "24x7 Global availability",
+      "B": "Physical inspection of products",
+      "C": "Immediate cash hand-to-hand",
+      "D": "High overhead building costs"
+    },
+    "optionsTamil": {
+      "A": "24x7 உலகளாவிய நேரடி இயக்கம்",
+      "B": "பொருட்களை நேரில் தொட்டுப் பார்த்தல்",
+      "C": "உடனடி ரொக்கப் பரிமாற்றம்",
+      "D": "அதிக கட்டிட வாடகைச் செலவு"
+    },
+    "correctOption": "A",
+    "answer": "A) 24x7 Global availability",
+    "answerTamil": "A) 24x7 உலகளாவிய நேரடி இயக்கம்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-7",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which generation of E-Commerce was characterized by the Dot-com boom and basic static web retail (1995-2000)?",
+    "questionTextTamil": "டாட்-காம் பெருக்கம் மற்றும் நிலையான வலைப்பக்க சில்லறை விற்பனையைக் குறிக்கும் மின்-வணிக தலைமுறை எது?",
+    "options": {
+      "A": "First Generation",
+      "B": "Second Generation",
+      "C": "Third Generation",
+      "D": "Fourth Generation"
+    },
+    "optionsTamil": {
+      "A": "முதல் தலைமுறை (First Gen)",
+      "B": "இரண்டாம் தலைமுறை",
+      "C": "மூன்றாம் தலைமுறை",
+      "D": "நான்காம் தலைமுறை"
+    },
+    "correctOption": "A",
+    "answer": "A) First Generation",
+    "answerTamil": "A) முதல் தலைமுறை (First Gen)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-8",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which business model represents transactions where businesses sell components or bulk goods to other businesses?",
+    "questionTextTamil": "ஒரு நிறுவனம் மற்றொரு நிறுவனத்திற்கு மூலப்பொருட்கள் அல்லது மொத்தப் பொருட்களை விற்கும் மாதிரி எது?",
+    "options": {
+      "A": "B2B",
+      "B": "B2C",
+      "C": "C2B",
+      "D": "C2C"
+    },
+    "optionsTamil": {
+      "A": "B2B (Business to Business)",
+      "B": "B2C",
+      "C": "C2B",
+      "D": "C2C"
+    },
+    "correctOption": "A",
+    "answer": "A) B2B",
+    "answerTamil": "A) B2B (Business to Business)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-9",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A software application that simulates a real supermarket basket allowing users to collect items online is _________.",
+    "questionTextTamil": "உண்மையான சூப்பர் மார்க்கெட் கூடையைப் போன்றே ஆன்லைனில் பொருட்களைச் சேர்க்க உதவும் மென்பொருள் எது?",
+    "options": {
+      "A": "Electronic Shopping Cart",
+      "B": "Payment Gateway",
+      "C": "Web Server",
+      "D": "Search Engine"
+    },
+    "optionsTamil": {
+      "A": "மின்னணு வணிக கூடை (Shopping Cart)",
+      "B": "பணம் செலுத்தும் நுழைவாயில்",
+      "C": "இணைய சேவையகம்",
+      "D": "தேடு பொறி"
+    },
+    "correctOption": "A",
+    "answer": "A) Electronic Shopping Cart",
+    "answerTamil": "A) மின்னணு வணிக கூடை (Shopping Cart)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-10",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a limitation of E-Commerce?",
+    "questionTextTamil": "மின்-வணிகத்தின் வரம்புகளில் ஒன்று எது?",
+    "options": {
+      "A": "Lack of physical touch and feel of products",
+      "B": "Worldwide customer reach",
+      "C": "Lower marketing cost",
+      "D": "Speedy digital transactions"
+    },
+    "optionsTamil": {
+      "A": "பொருட்களை நேரில் தொட்டு உணர முடியாமை",
+      "B": "உலகளாவிய அணுகல்",
+      "C": "குறைந்த சந்தைப்படுத்தல் செலவு",
+      "D": "விரைவான மின்னணு பரிவர்த்தனை"
+    },
+    "correctOption": "A",
+    "answer": "A) Lack of physical touch and feel of products",
+    "answerTamil": "A) பொருட்களை நேரில் தொட்டு உணர முடியாமை",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define E-Commerce.",
+    "questionTextTamil": "மின்-வணிகம் (E-Commerce) - வரையறுக்கவும்.",
+    "answer": "E-Commerce (Electronic Commerce) refers to the buying, selling, and exchanging of goods, products, and services electronically over telecommunication networks such as the Internet.",
+    "answerTamil": "மின்-வணிகம் என்பது இணையம் போன்ற கணினி வலையமைப்புகளின் மூலம் பொருட்கள் மற்றும் சேவைகளை மின்னணு முறையில் வாங்குதல் மற்றும் விற்பனை செய்தலைக் குறிக்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Differentiate E-Commerce and E-Business.",
+    "questionTextTamil": "மின்-வணிகம் மற்றும் மின்-தொழில் (E-Business) ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "E-Commerce is a subset focusing primarily on commercial buying and selling transactions. E-Business is a broader superset encompassing all digital business activities, supply chains, and customer relationship management.",
+    "answerTamil": "மின்-வணிகம் என்பது பொருட்களை வாங்குதல் மற்றும் விற்றல் சார்ந்த பரிவர்த்தனைகளைக் குறிக்கும். மின்-தொழில் என்பது உற்பத்தி, விநியோகச் சங்கிலி, வாடிக்கையாளர் மேலாண்மை உள்ளிட்ட அனைத்து வணிக செயல்பாடுகளையும் உள்ளடக்கியதாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is B2B E-Commerce? Give an example.",
+    "questionTextTamil": "B2B மின்-வணிகம் என்றால் என்ன? உதாரணம் தருக.",
+    "answer": "B2B (Business-to-Business) involves commercial transactions conducted between two companies (e.g., manufacturers selling to wholesalers, such as Alibaba or IndiaMART).",
+    "answerTamil": "B2B என்பது ஒரு வணிக நிறுவனம் மற்றொரு வணிக நிறுவனத்துடன் மேற்கொள்ளும் மின்னணு பரிவர்த்தனையாகும் (எ.கா: இந்தியா மார்ட், அலிபாபா).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is B2C E-Commerce? Give an example.",
+    "questionTextTamil": "B2C மின்-வணிகம் என்றால் என்ன? உதாரணம் தருக.",
+    "answer": "B2C (Business-to-Consumer) involves online businesses selling goods and retail services directly to individual consumers (e.g., Amazon, Flipkart).",
+    "answerTamil": "B2C என்பது வணிக நிறுவனங்கள் தனிப்பட்ட நுகர்வோருக்கு இணையம் வழியாக நேரடியாக பொருட்களை விற்பனை செய்வதாகும் (எ.கா: அமேசான், ஃபிளிப்கார்ட்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-5",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is C2C E-Commerce? Give an example.",
+    "questionTextTamil": "C2C மின்-வணிகம் என்றால் என்ன? உதாரணம் தருக.",
+    "answer": "C2C (Consumer-to-Consumer) provides a platform where individual consumers sell used or personal goods directly to other consumers (e.g., OLX, eBay, Quikr).",
+    "answerTamil": "C2C என்பது நுகர்வோர் தங்களின் தனிப்பட்ட பயன்பாட்டுப் பொருட்களை மற்றொரு நுகர்வோருக்கு நேரடியாக விற்கும் தளமாகும் (எ.கா: OLX, குயிக்கர்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List any three key advantages of E-Commerce for consumers.",
+    "questionTextTamil": "நுகர்வோருக்கு மின்-வணிகத்தால் ஏற்படும் மூன்று நன்மைகளைப் பட்டியலிடுக.",
+    "answer": "1. 24x7 Round-the-clock shopping convenience from home.\n2. Easy price comparison across global sellers.\n3. Huge variety of products with doorstep home delivery.",
+    "answerTamil": "1. வீட்டிலிருந்தே 24 மணி நேரமும் ஷாப்பிங் செய்யும் வசதி.\n2. பல விற்பனையாளர்களின் விலையை எளிதில் ஒப்பிட்டுப் பார்க்கும் வாய்ப்பு.\n3. ஏராளமான பொருட்களின் தேர்வு மற்றும் வீட்டு வாசலில் டெலிவரி.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List any three disadvantages / limitations of E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தின் ஏதேனும் மூன்று குறைபாடுகளைப் பட்டியலிடுக.",
+    "answer": "1. Inability to physically examine or try products prior to purchase.\n2. Risks of online fraud, data breaches, and phishing.\n3. Delivery delays and return shipping hassles.",
+    "answerTamil": "1. பொருட்களை வாங்குவதற்கு முன் நேரில் தொட்டுப் பார்க்கவோ அல்லது பரிசோதிக்கவோ முடியாது.\n2. இணைய மோசடி மற்றும் தரவு திருட்டு அபாயம்.\n3. டெலிவரி தாமதம் மற்றும் பொருட்களை திரும்ப அனுப்புவதில் ஏற்படும் சிரமங்கள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain C2B (Consumer-to-Business) business model with an example.",
+    "questionTextTamil": "C2B (Consumer-to-Business) வணிக மாதிரியை எடுத்துக்காட்டுடன் விளக்குக.",
+    "answer": "In C2B, individual consumers create value (reviews, freelance services, stock photos) that commercial businesses consume or bid for (e.g., Shutterstock, Upwork, freelance design).",
+    "answerTamil": "C2B மாதிரியில் நுகர்வோர் தங்களின் சேவைகள், திறன்கள் அல்லது படைப்புகளை வணிக நிறுவனங்களுக்கு விற்பனை செய்கின்றனர் (எ.கா: அப்வர்க், ஃப்ரீலான்சர், ஷட்டர்ஸ்டாக்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain G2C (Government-to-Citizen) model with an example.",
+    "questionTextTamil": "G2C (Government-to-Citizen) மாதிரியை எடுத்துக்காட்டுடன் விளக்குக.",
+    "answer": "G2C refers to digital government portals that deliver public services (birth/death certificates, tax filing, land records, vehicle registration) directly to citizens online (e.g., e-Sevai portal).",
+    "answerTamil": "G2C என்பது அரசு தனது பொதுச் சேவைகளை (சான்றிதழ்கள், நில ஆவணங்கள், வரி செலுத்துதல்) இணையம் வழியாக குடிமக்களுக்கு நேரடியாக வழங்குவதாகும் (எ.கா: டிஎன் இ-சேவை தளம்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-5",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is an Electronic Shopping Cart?",
+    "questionTextTamil": "மின்னணு வணிக கூடை (Electronic Shopping Cart) என்றால் என்ன?",
+    "answer": "An electronic shopping cart is specialized e-commerce software that catalogs selected products, calculates sub-totals, discounts, taxes, and shipping fees before routing to checkout.",
+    "answerTamil": "மின்னணு வணிக கூடை என்பது பயனர் தேர்வு செய்த பொருட்களை தற்காலிகமாகச் சேகரித்து, விலை, தள்ளுபடி மற்றும் வரிகளைக் கணக்கிட்டு பணப்பரிவர்த்தனைக்கு வழிகாட்டும் மென்பொருளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-6",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is Mobile Commerce (M-Commerce)?",
+    "questionTextTamil": "மொபைல் வர்த்தகம் (M-Commerce) என்றால் என்ன?",
+    "answer": "M-Commerce refers to commercial transactions conducted wirelessly using handheld mobile devices like smartphones and tablets through dedicated mobile applications.",
+    "answerTamil": "M-Commerce என்பது ஸ்மார்ட்போன்கள் மற்றும் டேப்லெட்டுகள் போன்ற மொபைல் சாதனங்கள் மூலம் கம்பியில்லா முறையில் இணையவழி வணிக பரிவர்த்தனைகளை மேற்கொள்வதாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various Business Models of E-Commerce in detail (B2B, B2C, C2C, C2B, B2G, G2C).",
+    "questionTextTamil": "மின்-வணிகத்தின் பல்வேறு வணிக மாதிரிகளை (B2B, B2C, C2C, C2B, B2G, G2C) விரிவாக விளக்குக.",
+    "answer": "E-Commerce Business Models:\n\n1. B2B (Business-to-Business): Transactions between businesses (e.g., wholesalers and manufacturers; Alibaba).\n2. B2C (Business-to-Consumer): Businesses selling directly to retail consumers (e.g., Amazon, Flipkart).\n3. C2C (Consumer-to-Consumer): Consumers trading with other consumers via third-party platforms (e.g., eBay, OLX).\n4. C2B (Consumer-to-Business): Consumers offer products/services to businesses (e.g., freelancers, influencer reviews).\n5. B2G (Business-to-Government): Businesses supplying products and services to governmental agencies (e.g., defense/IT procurement).\n6. G2C (Government-to-Citizen): Digital governance delivery of public welfare services to citizens (e.g., e-Sevai, DigiLocker).",
+    "answerTamil": "மின்-வணிகத்தின் வணிக மாதிரிகள்:\n\n1. B2B (வணிகம் to வணிகம்): இரு வணிக நிறுவனங்களுக்கு இடையேயான மொத்த வர்த்தகம் (எ.கா: அலிபாபா).\n2. B2C (வணிகம் to நுகர்வோர்): வணிக நிறுவனம் நேரடியாக நுகர்வோருக்கு சில்லறை விற்பனை செய்தல் (எ.கா: அமேசான், ஃபிளிப்கார்ட்).\n3. C2C (நுகர்வோர் to நுகர்வோர்): நுகர்வோர் தங்களுக்குள் பழைய பொருட்களை விற்றல் (எ.கா: OLX, eBay).\n4. C2B (நுகர்வோர் to வணிகம்): நுகர்வோர் தங்களின் சேவைகளை நிறுவனங்களுக்கு வழங்குதல் (எ.கா: ஃப்ரீலான்சர்).\n5. B2G (வணிகம் to அரசு): அரசுக்கு தேவையான பொருட்களை வணிக நிறுவனங்கள் வழங்குதல்.\n6. G2C (அரசு to குடிமக்கள்): அரசு வழங்கும் மின்-சேவைகள் (எ.கா: இ-சேவை தளம்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Discuss the advantages and disadvantages of E-Commerce for businesses and consumers.",
+    "questionTextTamil": "வணிக நிறுவனங்கள் மற்றும் நுகர்வோருக்கு மின்-வணிகத்தால் விளையும் நன்மைகள் மற்றும் தீமைகளை விரிவாக விவாதிக்கவும்.",
+    "answer": "Advantages of E-Commerce:\n1. Global market reach 24/7/365 without physical storefront boundaries.\n2. Low overhead and operational costs compared to brick-and-mortar stores.\n3. Direct consumer personalization and fast transaction processing.\n4. Price comparisons, reviews, and home delivery convenience for buyers.\n\nDisadvantages of E-Commerce:\n1. Physical touch-and-feel of products is impossible before delivery.\n2. Cyber security risks, phishing scams, and credit card identity fraud.\n3. Heavy reliance on stable high-speed internet and logistics supply chains.\n4. Shipping delays and return process overhead.",
+    "answerTamil": "மின்-வணிகத்தின் நன்மைகள்:\n1. 24x7 உலகளாவிய வணிக இயக்கம் மற்றும் பரந்த வாடிக்கையாளர் அணுகல்.\n2. கடை வாடகை போன்ற கூடுதல் செலவுகள் இன்மை.\n3. நுகர்வோருக்கு எளிதான விலை ஒப்பீடு, சலுகைகள் மற்றும் வீட்டு வாசலில் டெலிவரி.\n\nமின்-வணிகத்தின் குறைபாடுகள்:\n1. பொருட்களை வாங்குவதற்கு முன் நேரில் தொட்டுப் பார்க்க முடியாது.\n2. இணைய மோசடிகள் மற்றும் பாதுகாப்பு குறைபாடுகள்.\n3. இணைய இணைப்பு மற்றும் தளவாடப் போக்குவரத்து தாமதங்கள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the evolutionary history and generations of E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தின் பரிணாம வளர்ச்சி வரலாறு மற்றும் தலைமுறைகளை விரிவாக விளக்குக.",
+    "answer": "Evolutionary Generations of E-Commerce:\n\n1. First Generation (1995–2000): The Dot-Com Era\n- Basic static HTML web pages, basic text catalogs.\n- Emergence of Amazon and eBay; dial-up speeds; cash-on-delivery or basic cards.\n\n2. Second Generation (2001–2006): Web 2.0 and Interactive Portals\n- Dynamic database-driven websites, broadband speeds, secure SSL payment gateways.\n- Rich user reviews, customized recommendations.\n\n3. Third Generation (2007–Present): Mobile & Social Commerce\n- Proliferation of smartphones, dedicated mobile apps (M-Commerce), social media integration, UPI, instant 1-click checkout, AI recommendations.",
+    "answerTamil": "மின்-வணிகத்தின் தலைமுறைகள்:\n\n1. முதல் தலைமுறை (1995–2000): டாட்-காம் காலம்\n- நிலையான வலைப்பக்கங்கள், டயல்-அப் இணைய வேகம்; அமேசான், இபே தொடக்கம்.\n\n2. இரண்டாம் தலைமுறை (2001–2006): வெப் 2.0 காலம்\n- மாறும் வலைப்பக்கங்கள், பிராட்பேண்ட் இணையம், SSL பாதுகாப்பான கட்டண நுழைவாயில்கள்.\n\n3. மூன்றாம் தலைமுறை (2007 முதல் இன்று வரை): மொபைல் மற்றும் சமூக வர்த்தகம்\n- ஸ்மார்ட்போன்கள், பிரத்யேக மொபைல் செயலிகள் (M-Commerce), UPI மற்றும் AI அடிப்படையிலான பரிந்துரைகள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்-வணிகம் (E-Commerce)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Differentiate Traditional Commerce and Electronic Commerce (E-Commerce).",
+    "questionTextTamil": "பாரம்பரிய வணிகம் மற்றும் மின்னணு வணிகம் (E-Commerce) ஆகியவற்றின் வேறுபாடுகளை அட்டவணைப்படுத்தி விளக்குக.",
+    "answer": "Comparison between Traditional Commerce and E-Commerce:\n\n1. Scope: Traditional is geographically local; E-Commerce is globally accessible.\n2. Operating Hours: Traditional operates during fixed store hours; E-Commerce operates 24/7/365.\n3. Overhead Costs: Traditional requires costly physical stores and staff; E-Commerce runs digitally with lower overhead.\n4. Customer Interaction: Traditional provides face-to-face inspection; E-Commerce provides screen-based multimedia catalogs.\n5. Payment: Traditional relies heavily on physical cash; E-Commerce uses digital wallets, cards, and UPI.",
+    "answerTamil": "பாரம்பரிய வணிகம் vs மின்-வணிகம்:\n\n1. எல்லை: பாரம்பரிய வணிகம் குறிப்பிட்ட உள்ளூர் பகுதிக்கு மட்டும்; மின்-வணிகம் உலகளாவியது.\n2. செயல்படும் நேரம்: பாரம்பரிய வணிகம் குறிப்பிட்ட நேரம் மட்டும்; மின்-வணிகம் 24 மணி நேரமும் செயல்படும்.\n3. இயக்கச் செலவு: பாரம்பரிய வணிகத்திற்கு கடை வாடகை, பணியாளர் செலவு அதிகம்; மின்-வணிகத்திற்கு செலவு குறைவு.\n4. வாடிக்கையாளர் தொடர்பு: நேரில் பார்த்து வாங்குதல்; மின்-வணிகத்தில் டிஜிட்டல் திரையில் பார்த்து தேர்வு செய்தல்.\n5. பணம் செலுத்துதல்: நேரடி ரொக்கம்; மின்-வணிகத்தில் டிஜிட்டல் பணப்பரிவர்த்தனை (UPI, கார்டுகள்).",
+    "isBookBack": true
+  }
+]

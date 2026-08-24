@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ca12-ch11-1m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following system securely share business’s information with suppliers, vendors, partners and customers.",
+    "questionTextTamil": "சப்ளையர்கள், விற்பனையாளர்கள், கூட்டாளர்கள் மற்றும் வாடிக்கையாளர்களுடன் வணிகத் தகவல்களைப் பாதுகாப்பாகப் பகிரும் அமைப்பு எது?",
+    "options": {
+      "A": "Extranet",
+      "B": "Intranet",
+      "C": "Internet",
+      "D": "Ethernet"
+    },
+    "optionsTamil": {
+      "A": "எக்ஸ்ட்ராநெட் (Extranet)",
+      "B": "இன்ட்ராநெட் (Intranet)",
+      "C": "இணையம் (Internet)",
+      "D": "ஈதர்நெட்"
+    },
+    "correctOption": "A",
+    "answer": "A) Extranet",
+    "answerTamil": "A) எக்ஸ்ட்ராநெட் (Extranet)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Match the following and choose the correct answer: (1) HTTP (2) FTP (3) SMTP (4) DNS",
+    "questionTextTamil": "பொருத்துக: (1) HTTP (2) FTP (3) SMTP (4) DNS",
+    "options": {
+      "A": "1-b, 2-d, 3-a, 4-c",
+      "B": "1-a, 2-b, 3-c, 4-d",
+      "C": "1-d, 2-c, 3-b, 4-a",
+      "D": "1-c, 2-a, 3-d, 4-b"
+    },
+    "optionsTamil": {
+      "A": "1-b, 2-d, 3-a, 4-c",
+      "B": "1-a, 2-b, 3-c, 4-d",
+      "C": "1-d, 2-c, 3-b, 4-a",
+      "D": "1-c, 2-a, 3-d, 4-b"
+    },
+    "correctOption": "A",
+    "answer": "A) 1-b, 2-d, 3-a, 4-c",
+    "answerTamil": "A) 1-b, 2-d, 3-a, 4-c",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Communication over ------------------is be made up of voice, data, images and text messages.",
+    "questionTextTamil": "குரல், தரவு, படங்கள் மற்றும் உரைச் செய்திகளால் ஆன தகவல் தொடர்பு எதன் மூலம் நடைபெறுகிறது?",
+    "options": {
+      "A": "Mobile network",
+      "B": "Local network",
+      "C": "Cable network",
+      "D": "Radio network"
+    },
+    "optionsTamil": {
+      "A": "மொபைல் வலையமைப்பு (Mobile network)",
+      "B": "உள்ளூர் வலையமைப்பு",
+      "C": "வடம் வலையமைப்பு",
+      "D": "வானொலி வலையமைப்பு"
+    },
+    "correctOption": "A",
+    "answer": "A) Mobile network",
+    "answerTamil": "A) மொபைல் வலையமைப்பு (Mobile network)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-4",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Wi-Fi stands for---------------------",
+    "questionTextTamil": "Wi-Fi என்பதன் விரிவாக்கம்:",
+    "options": {
+      "A": "Wireless Fidelity",
+      "B": "Wired Fiber",
+      "C": "Wireless Frequency",
+      "D": "Wireless Fiber"
+    },
+    "optionsTamil": {
+      "A": "Wireless Fidelity",
+      "B": "Wired Fiber",
+      "C": "Wireless Frequency",
+      "D": "Wireless Fiber"
+    },
+    "correctOption": "A",
+    "answer": "A) Wireless Fidelity",
+    "answerTamil": "A) Wireless Fidelity",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-5",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A TCP/IP network with access restricted to members of an organization",
+    "questionTextTamil": "ஒரு நிறுவனத்தின் உறுப்பினர்களுக்கு மட்டுமே அனுமதி வரையறுக்கப்பட்ட TCP/IP வலையமைப்பு:",
+    "options": {
+      "A": "Intranet",
+      "B": "Internet",
+      "C": "Extranet",
+      "D": "Ethernet"
+    },
+    "optionsTamil": {
+      "A": "இன்ட்ராநெட் (Intranet)",
+      "B": "இணையம்",
+      "C": "எக்ஸ்ட்ராநெட்",
+      "D": "ஈதர்நெட்"
+    },
+    "correctOption": "A",
+    "answer": "A) Intranet",
+    "answerTamil": "A) இன்ட்ராநெட் (Intranet)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-6",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "RFID stands for --------------",
+    "questionTextTamil": "RFID என்பதன் விரிவாக்கம்:",
+    "options": {
+      "A": "Radio Frequency Identification",
+      "B": "Radio Frequency Interface",
+      "C": "Radio Fast Identification",
+      "D": "Remote Frequency Identifier"
+    },
+    "optionsTamil": {
+      "A": "Radio Frequency Identification",
+      "B": "Radio Frequency Interface",
+      "C": "Radio Fast Identification",
+      "D": "Remote Frequency Identifier"
+    },
+    "correctOption": "A",
+    "answer": "A) Radio Frequency Identification",
+    "answerTamil": "A) Radio Frequency Identification",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-7",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "It guarantees the sending of data is successful and which checks error on operation at OSI layer is--------------",
+    "questionTextTamil": "தரவு வெற்றிகரமாக அனுப்பப்படுவதை உறுதிசெய்து பிழைகளை சரிபார்க்கும் OSI அடுக்கு எது?",
+    "options": {
+      "A": "Transport layer",
+      "B": "Network layer",
+      "C": "Session layer",
+      "D": "Application layer"
+    },
+    "optionsTamil": {
+      "A": "போக்குவரத்து அடுக்கு (Transport layer)",
+      "B": "வலையமைப்பு அடுக்கு",
+      "C": "அமர்வு அடுக்கு",
+      "D": "பயன்பாட்டு அடுக்கு"
+    },
+    "correctOption": "A",
+    "answer": "A) Transport layer",
+    "answerTamil": "A) போக்குவரத்து அடுக்கு (Transport layer)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-8",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which one of the following will secure data on transmissions",
+    "questionTextTamil": "பரிமாற்றத்தின் போது தரவுகளுக்கு பாதுகாப்பு அளிப்பது எது?",
+    "options": {
+      "A": "HTTPS",
+      "B": "HTTP",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "optionsTamil": {
+      "A": "HTTPS",
+      "B": "HTTP",
+      "C": "FTP",
+      "D": "SMTP"
+    },
+    "correctOption": "A",
+    "answer": "A) HTTPS",
+    "answerTamil": "A) HTTPS",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-9",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "----------- provides e-mail service",
+    "questionTextTamil": "மின்னஞ்சல் சேவையை வழங்குவது எது?",
+    "options": {
+      "A": "SMTP",
+      "B": "HTTP",
+      "C": "FTP",
+      "D": "DNS"
+    },
+    "optionsTamil": {
+      "A": "SMTP",
+      "B": "HTTP",
+      "C": "FTP",
+      "D": "DNS"
+    },
+    "correctOption": "A",
+    "answer": "A) SMTP",
+    "answerTamil": "A) SMTP",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-1m-10",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "------------- refer to other host computers by using names rather than numbers.",
+    "questionTextTamil": "எண்களுக்குப் பதிலாக பெயர்களைப் பயன்படுத்தி பிற கணினிகளைக் குறிப்பிடுவது எது?",
+    "options": {
+      "A": "DNS",
+      "B": "IP",
+      "C": "TCP",
+      "D": "MAC"
+    },
+    "optionsTamil": {
+      "A": "DNS (Domain Name System)",
+      "B": "IP",
+      "C": "TCP",
+      "D": "MAC"
+    },
+    "correctOption": "A",
+    "answer": "A) DNS",
+    "answerTamil": "A) DNS",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define Intranet",
+    "questionTextTamil": "இன்ட்ராநெட் (Intranet) - வரையறுக்கவும்.",
+    "answer": "Intranet is a private computer network built using Internet protocols (TCP/IP) that is accessible strictly to authorized members within a specific organization.",
+    "answerTamil": "இன்ட்ராநெட் என்பது ஒரு குறிப்பிட்ட நிறுவனத்தின் பணியாளர்கள் அல்லது அங்கீகரிக்கப்பட்ட உறுப்பினர்கள் மட்டுமே பயன்படுத்தக்கூடிய ஒரு தனியார் கணினி வலையமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the uses of mobile networks?",
+    "questionTextTamil": "மொபைல் வலையமைப்பின் பயன்பாடுகள் யாவை?",
+    "answer": "Uses of mobile networks:\n1. Wireless voice and video calls anywhere.\n2. High-speed mobile Internet access for web browsing, streaming, and navigation.\n3. SMS and mobile banking services.",
+    "answerTamil": "பயன்பாடுகள்:\n1. கம்பியில்லா குரல் மற்றும் வீடியோ அழைப்புகள்.\n2. அதிவேக மொபைல் இணைய வசதி.\n3. குறுஞ்செய்தி மற்றும் மொபைல் வங்கி சேவைகள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List out the benefits of WiFi",
+    "questionTextTamil": "Wi-Fi-ன் நன்மைகளைப் பட்டியலிடுக.",
+    "answer": "Benefits of Wi-Fi:\n1. High mobility with untethered wireless connectivity.\n2. Easy and cost-effective deployment without physical cabling.\n3. Simultaneous connection of multiple devices (smartphones, laptops, IoT).",
+    "answerTamil": "Wi-Fi-ன் நன்மைகள்:\n1. கம்பிகள் இல்லா இயக்கம் மற்றும் எளிதான இணைப்பு.\n2. எளிய நிறுவல் முறை மற்றும் குறைவான செலவு.\n3. பல சாதனங்களை ஒரே நேரத்தில் இணைக்கும் வசதி.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-2m-4",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Expand HTTP, HTTPS, FTP.",
+    "questionTextTamil": "HTTP, HTTPS, FTP ஆகியவற்றின் விரிவாக்கங்களைத் தருக.",
+    "answer": "1. HTTP: HyperText Transfer Protocol\n2. HTTPS: HyperText Transfer Protocol Secure\n3. FTP: File Transfer Protocol.",
+    "answerTamil": "1. HTTP: HyperText Transfer Protocol\n2. HTTPS: HyperText Transfer Protocol Secure\n3. FTP: File Transfer Protocol.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Compare Internet, Intranet and Extranet",
+    "questionTextTamil": "Internet, Intranet மற்றும் Extranet ஆகியவற்றை ஒப்பிடுக.",
+    "answer": "1. Internet: Global public network accessible by anyone worldwide.\n2. Intranet: Private network strictly restricted to internal employees of an organization.\n3. Extranet: Controlled private network extending access to trusted external partners, vendors, and clients.",
+    "answerTamil": "1. Internet: உலகளாவிய பொது வலையமைப்பு, அனைவரும் பயன்படுத்தலாம்.\n2. Intranet: ஒரு நிறுவனத்தின் ஊழியர்கள் மட்டுமே பயன்படுத்தக்கூடிய தனியார் வலையமைப்பு.\n3. Extranet: அங்கீகரிக்கப்பட்ட வெளிப்புற வாடிக்கையாளர்கள் மற்றும் கூட்டாளர்களுக்கான வலையமைப்பு.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write short notes on HTTP, HTTPS, FTP.",
+    "questionTextTamil": "HTTP, HTTPS, FTP பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "1. HTTP: Standard protocol for transferring web pages across the World Wide Web.\n2. HTTPS: Encrypted, secure HTTP using SSL/TLS encryption for safe banking and logins.\n3. FTP: Protocol used for uploading and downloading files between client and server computers.",
+    "answerTamil": "1. HTTP: வலைப்பக்கங்களைப் பரிமாறிக்கொள்ள பயன்படும் அடிப்படை நெறிமுறை.\n2. HTTPS: SSL/TLS குறியாக்கத்துடன் கூடிய பாதுகாப்பான வலை பரிமாற்ற நெறிமுறை.\n3. FTP: கோப்புகளை பதிவேற்ற மற்றும் பதிவிறக்க பயன்படும் நெறிமுறை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-3m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the layers available in TCP/IP Reference Model?",
+    "questionTextTamil": "TCP/IP குறிப்பு மாதிரியில் உள்ள அடுக்குகள் யாவை?",
+    "answer": "Four Layers of TCP/IP Model:\n1. Application Layer (HTTP, FTP, SMTP, DNS)\n2. Transport Layer (TCP, UDP)\n3. Internet Layer (IP, ICMP, ARP)\n4. Network Access / Link Layer (Ethernet, Wi-Fi, MAC).",
+    "answerTamil": "TCP/IP மாதிரியின் 4 அடுக்குகள்:\n1. பயன்பாட்டு அடுக்கு (Application Layer)\n2. போக்குவரத்து அடுக்கு (Transport Layer)\n3. இணைய அடுக்கு (Internet Layer)\n4. வலையமைப்பு அணுகல் அடுக்கு (Network Access Layer).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-5m-1",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain about Internet, Intranet and Extranet.",
+    "questionTextTamil": "Internet, Intranet மற்றும் Extranet பற்றி விரிவாக விளக்குக.",
+    "answer": "1. Internet:\n- Global, public interconnected computer network.\n- Uses TCP/IP protocols to link billions of personal, academic, and business computers.\n- Accessible by any user with an ISP subscription.\n\n2. Intranet:\n- A privately owned network built inside a single organization.\n- Uses firewalls to protect company data from unauthorized external access.\n- Facilitates internal employee communication, document sharing, and workflow.\n\n3. Extranet:\n- A private network extending selected intranet resources to trusted external entities.\n- Enables suppliers, vendors, partners, and customers to collaborate securely.\n- Requires authentication (VPN/credentials) for access.",
+    "answerTamil": "1. Internet (இணையம்): உலகம் முழுவதும் உள்ள அனைத்து கணினிகளையும் இணைக்கும் பொது வலையமைப்பு.\n2. Intranet (உள்வலை): ஒரு குறிப்பிட்ட நிறுவனத்தின் உள் பயன்பாட்டிற்கான பாதுகாக்கப்பட்ட தனியார் வலையமைப்பு.\n3. Extranet (புறவலை): நிறுவனத்தின் அங்கீகரிக்கப்பட்ட வெளிப்புற வாடிக்கையாளர்கள் மற்றும் சப்ளையர்களுக்கான பாதுகாப்பான வலையமைப்பு.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-5m-2",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Discuss about OSI model with its layers.",
+    "questionTextTamil": "OSI மாதிரியின் 7 அடுக்குகளைப் பற்றி விரிவாக விவாதிக்கவும்.",
+    "answer": "OSI (Open Systems Interconnection) 7-Layer Reference Model:\n\n1. Physical Layer: Transmits raw bits over physical transmission media (cables/radio).\n2. Data Link Layer: Provides node-to-node data transfer, framing, and MAC error checking.\n3. Network Layer: Routes data packets across networks using logical IP addressing.\n4. Transport Layer: End-to-end reliability, flow control, and segmentation (TCP/UDP).\n5. Session Layer: Manages, establishes, and terminates communication sessions.\n6. Presentation Layer: Data translation, compression, and encryption/decryption (SSL/TLS).\n7. Application Layer: User interface and application network services (HTTP, SMTP, FTP).",
+    "answerTamil": "OSI மாதிரியின் 7 அடுக்குகள்:\n1. இயற்பியல் அடுக்கு (Physical Layer): பிட்களை பரிமாற்றம் செய்தல்.\n2. தரவு இணைப்பு அடுக்கு (Data Link Layer): MAC முகவரி மற்றும் பிழை திருத்தம்.\n3. வலையமைப்பு அடுக்கு (Network Layer): IP முகவரி மற்றும் ரூட்டிங்.\n4. போக்குவரத்து அடுக்கு (Transport Layer): நம்பகமான தரவு விநியோகம் (TCP).\n5. அமர்வு அடுக்கு (Session Layer): அமர்வுகளை உருவாக்குதல் மற்றும் முடித்தல்.\n6. விளக்கக்காட்சி அடுக்கு (Presentation Layer): குறியாக்கம் மற்றும் வடிவமைப்பு.\n7. பயன்பாட்டு அடுக்கு (Application Layer): பயனர் பயன்பாட்டு சேவைகள் (HTTP, FTP).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch11-5m-3",
+    "chapterNo": 11,
+    "chapterName": "Network Examples and Protocols",
+    "chapterNameTamil": "வலையமைப்பு மாதிரிகள் மற்றும் நெறிமுறைகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Difference between TCP/IP and OSI Reference Model.",
+    "questionTextTamil": "TCP/IP மற்றும் OSI குறிப்பு மாதிரிகளுக்கு இடையேயான வேறுபாடுகளை விளக்குக.",
+    "answer": "Comparison between TCP/IP and OSI Reference Model:\n\n1. Layers: OSI has 7 layers; TCP/IP has 4 layers.\n2. Nature: OSI is a theoretical conceptual reference model; TCP/IP is the practical, implemented protocol suite of the Internet.\n3. Approach: OSI follows a vertical, strict protocol independent approach; TCP/IP follows a horizontal protocol-based approach.\n4. Session & Presentation: Present as separate layers in OSI; combined into the Application Layer in TCP/IP.\n5. Physical & Data Link: Separate in OSI; combined into Network Access layer in TCP/IP.",
+    "answerTamil": "OSI மற்றும் TCP/IP மாதிரிகளுக்கு இடையிலான வேறுபாடுகள்:\n1. OSI 7 அடுக்குகளைக் கொண்டது; TCP/IP 4 அடுக்குகளைக் கொண்டது.\n2. OSI கோட்பாட்டு ரீதியானது; TCP/IP நடைமுறை பயன்பாட்டில் உள்ளது.\n3. OSI-ல் Session மற்றும் Presentation அடுக்குகள் தனித்தனியாக உள்ளன; TCP/IP-ல் அவை Application அடுக்குடன் இணைக்கப்பட்டுள்ளன.\n4. OSI-ல் Physical மற்றும் Data Link அடுக்குகள் தனித்தனியாக உள்ளன; TCP/IP-ல் Network Access அடுக்காக இணைந்துள்ளன.",
+    "isBookBack": true
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "id": "cs11-ch17-1m-1",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The set of moral principles that regulate the use of computers is called:",
+    "questionTextTamil": "கணினிப் பயன்பாட்டை ஒழுங்குபடுத்தும் தார்மீகக் கோட்பாடுகளின் தொகுப்பு எவ்வாறு அழைக்கப்படுகிறது?",
+    "options": {
+      "A": "Cyber Crime",
+      "B": "Computer Ethics",
+      "C": "Copyright",
+      "D": "Firewall"
+    },
+    "optionsTamil": {
+      "A": "இணையக் குற்றம்",
+      "B": "கணினி நன்னெறி (Computer Ethics)",
+      "C": "பதிப்புரிமை",
+      "D": "தீச்சுவர்"
+    },
+    "correctOption": "B",
+    "answer": "B) Computer Ethics",
+    "answerTamil": "B) கணினி நன்னெறி",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-1m-2",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Unsolicited, bulk commercial email sent to numerous recipients is known as:",
+    "questionTextTamil": "கேட்காமலேயே பெருமளவில் அனுப்பப்படும் தேவையற்ற வணிக மின்னஞ்சல்கள்:",
+    "options": {
+      "A": "Spam",
+      "B": "Phishing",
+      "C": "Virus",
+      "D": "Cookie"
+    },
+    "optionsTamil": {
+      "A": "ஸ்பேம் (Spam)",
+      "B": "ஃபிஷிங் (Phishing)",
+      "C": "வைரஸ்",
+      "D": "குக்கீ"
+    },
+    "correctOption": "A",
+    "answer": "A) Spam",
+    "answerTamil": "A) ஸ்பேம் (Spam)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-1m-3",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Unauthorized copying and distribution of copyrighted software is known as:",
+    "questionTextTamil": "பதிப்புரிமை பெற்ற மென்பொருளை அனுமதியின்றி நகலெடுத்து விநியோகிப்பது:",
+    "options": {
+      "A": "Software Piracy",
+      "B": "Cracking",
+      "C": "Hacking",
+      "D": "Spoofing"
+    },
+    "optionsTamil": {
+      "A": "மென்பொருள் திருட்டு (Software Piracy)",
+      "B": "கிராக்கிங்",
+      "C": "ஹேக்கிங்",
+      "D": "ஸ்பூஃபிங்"
+    },
+    "correctOption": "A",
+    "answer": "A) Software Piracy",
+    "answerTamil": "A) மென்பொருள் திருட்டு",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-1m-4",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A fraudulent attempt to obtain sensitive information like passwords and credit card details by masquerading as a trustworthy entity is:",
+    "questionTextTamil": "நம்பகமான நிறுவனம் போல் நடித்து கடவுச்சொல் மற்றும் கிரெடிட் கார்டு தகவல்களை ஏமாற்றிப் பெறும் மோசடி:",
+    "options": {
+      "A": "Phishing",
+      "B": "Trojan",
+      "C": "Worm",
+      "D": "Spyware"
+    },
+    "optionsTamil": {
+      "A": "ஃபிஷிங் (Phishing)",
+      "B": "ட்ரோஜன்",
+      "C": "வார்ம் (Worm)",
+      "D": "ஸ்பைவேர்"
+    },
+    "correctOption": "A",
+    "answer": "A) Phishing",
+    "answerTamil": "A) ஃபிஷிங் (Phishing)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-1m-5",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A network security system that monitors and filters incoming and outgoing network traffic based on predetermined rules is a:",
+    "questionTextTamil": "முன்நிர்ணயிக்கப்பட்ட விதிகளின் அடிப்படையில் உள்வரும் மற்றும் வெளிச்செல்லும் பிணையப் போக்குவரத்தைக் கண்காணித்து வடிகட்டும் பாதுகாப்பு அமைப்பு:",
+    "options": {
+      "A": "Firewall",
+      "B": "Antivirus",
+      "C": "Router",
+      "D": "Switch"
+    },
+    "optionsTamil": {
+      "A": "தீச்சுவர் (Firewall)",
+      "B": "வைரஸ் எதிர்ப்பு மென்பொருள்",
+      "C": "ரவுட்டர்",
+      "D": "ஸ்விட்ச்"
+    },
+    "correctOption": "A",
+    "answer": "A) Firewall",
+    "answerTamil": "A) தீச்சுவர் (Firewall)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-1m-6",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Self-replicating malware that spreads across computer networks without human action is called a:",
+    "questionTextTamil": "மனிதனின் தலையீடு இன்றியே கணினி பிணையங்கள் வழியாகத் தானாகவே பரவும் தீம்பொருள் எது?",
+    "options": {
+      "A": "Worm",
+      "B": "Trojan Horse",
+      "C": "Cookie",
+      "D": "Bug"
+    },
+    "optionsTamil": {
+      "A": "வார்ம் (Worm)",
+      "B": "ட்ரோஜன் குதிரை",
+      "C": "குக்கீ",
+      "D": "வழு"
+    },
+    "correctOption": "A",
+    "answer": "A) Worm",
+    "answerTamil": "A) வார்ம் (Worm)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-2m-1",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Computer Ethics?",
+    "questionTextTamil": "கணினி நன்னெறி என்றால் என்ன?",
+    "answer": "Computer ethics is a set of moral principles and professional standards that govern the responsible and legal use of computers, internet, and information technology.",
+    "answerTamil": "கணினி நன்னெறி (Computer Ethics) என்பது கணினி மற்றும் இணையத் தொழில்நுட்பங்களைப் பொறுப்புடனும் சட்டப்படியும் பயன்படுத்துவதை ஒழுங்குபடுத்தும் தார்மீகக் கோட்பாடுகளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-2m-2",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Software Piracy?",
+    "questionTextTamil": "மென்பொருள் திருட்டு (Software Piracy) என்றால் என்ன?",
+    "answer": "Software piracy is the unauthorized and illegal copying, downloading, sharing, or commercial distribution of copyrighted software applications.",
+    "answerTamil": "பதிப்புரிமை பெற்ற மென்பொருட்களை அவற்றின் உரிமையாளரின் அனுமதியின்றி சட்டவிரோதமாக நகலெடுத்தல், விநியோகித்தல் அல்லது பயன்படுத்துதல் மென்பொருள் திருட்டு எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-2m-3",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Cybercrime?",
+    "questionTextTamil": "இணையக் குற்றம் (Cybercrime) என்றால் என்ன?",
+    "answer": "Cybercrime refers to any illegal or criminal activity carried out using computers, digital networks, or the internet as a tool, target, or place of crime.",
+    "answerTamil": "கணினி, இணையம் அல்லது டிஜிட்டல் சாதனங்களைப் பயன்படுத்தி தனிநபர் அல்லது அமைப்புகளுக்கு எதிராக செய்யப்படும் எந்தவொரு சட்டவிரோதச் செயலும் இணையக் குற்றம் எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-2m-4",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Phishing?",
+    "questionTextTamil": "ஃபிஷிங் (Phishing) என்றால் என்ன?",
+    "answer": "Phishing is a social engineering cyber attack where attackers disguise as legitimate entities (e.g. banks) via fraudulent emails/websites to steal sensitive credentials.",
+    "answerTamil": "வங்கிகள் அல்லது நம்பகமான நிறுவனங்கள் போல போலியான மின்னஞ்சல்கள் அல்லது வலைத்தளங்களை உருவாக்கி, பயனர்களின் கடவுச்சொல் மற்றும் வங்கி விவரங்களைத் திருடும் ஏமாற்று வேலை ஃபிஷிங் எனப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-2m-5",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Firewall?",
+    "questionTextTamil": "தீச்சுவர் (Firewall) என்றால் என்ன?",
+    "answer": "A firewall is a network security device/software that monitors, filters, and controls incoming and outgoing network traffic based on predefined security rules.",
+    "answerTamil": "தீச்சுவர் (Firewall) என்பது அங்கீகரிக்கப்படாத வெளிப்புற இணைப்புகளில் இருந்து ஒரு கணினி அல்லது பிணையத்தைப் பாதுகாக்க உள்வரும் மற்றும் வெளிச்செல்லும் போக்குவரத்தை வடிகட்டும் பாதுகாப்பு அரணாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-2m-6",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are Computer Viruses and Worms?",
+    "questionTextTamil": "கணினி வைரஸ் மற்றும் வார்ம் (Worm) என்றால் என்ன?",
+    "answer": "Virus: Malicious code attached to a host program that replicates and damages files when executed.\nWorm: Standalone malware that self-replicates across networks without host execution.",
+    "answerTamil": "வைரஸ்: மற்றொரு கோப்புடன் இணைந்து இயங்கி கணினித் தரவுகளை அழிக்கும் தீம்பொருள்.\nவார்ம் (Worm): மனித தலையீடின்றி பிணையத்தின் வழியாகத் தானாகவே நகலெடுத்துப் பரவும் தீம்பொருள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-3m-1",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List any four Commandments of Computer Ethics formulated by Computer Ethics Institute.",
+    "questionTextTamil": "கணினி நன்னெறி நிறுவனத்தின் கணினிப் பயன்பாட்டிற்கான ஏதேனும் நான்கு கட்டளைகளைக் கூறுக.",
+    "answer": "1. Thou shalt not use a computer to harm other people.\n2. Thou shalt not interfere with other people's computer work.\n3. Thou shalt not snoop around in other people's files.\n4. Thou shalt not use a computer to steal.\n5. Thou shalt not use proprietary software for which you have not paid.",
+    "answerTamil": "1. பிறருக்குத் தீங்கு விளைவிக்க கணினியைப் பயன்படுத்தக் கூடாது.\n2. பிறரது கணினிப் பணிகளில் தேவையின்றி தலையிடக் கூடாது.\n3. பிறரது தனிப்பட்ட கோப்புகளை உளவு பார்க்கக் கூடாது.\n4. திருடுவதற்கு கணினியைப் பயன்படுத்தக் கூடாது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-3m-2",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between Hacking and Cracking.",
+    "questionTextTamil": "ஹேக்கிங் (Hacking) மற்றும் கிராக்கிங் (Cracking) வேறுபடுத்துக.",
+    "answer": "Hacking (Ethical / White Hat):\n1. Gaining access to computer systems to discover vulnerabilities and improve security.\n2. Done with legal permission.\n\nCracking (Black Hat / Malicious):\n1. Breaking into systems with illegal and malicious intent to steal data or cause damage.\n2. Punishable cybercrime without authorization.",
+    "answerTamil": "ஹேக்கிங் (Hacking - நன்னெறி):\n1. கணினிப் பிணையத்தின் பாதுகாப்புக் குறைபாடுகளைக் கண்டறிந்து சரிசெய்யும் நோக்குடன் அணுகுதல்.\n2. சட்டப்பூர்வ அனுமதியுடன் செய்யப்படுகிறது.\n\nகிராக்கிங் (Cracking - தீங்கிழைக்கும்):\n1. திருடும் அல்லது சேதப்படுத்தும் கெட்ட எண்ணத்துடன் அனுமதியின்றி பாதுகாப்பை உடைத்து நுழைதல்.\n2. சட்டவிரோதக் குற்றமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-3m-3",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is a Digital Signature? Mention its uses.",
+    "questionTextTamil": "டிஜிட்டல் கையொப்பம் என்றால் என்ன? அதன் பயன்களைக் கூறுக.",
+    "answer": "A digital signature is a mathematical cryptographic technique used to validate the authenticity and integrity of a digital message or document.\nUses:\n1. Verifies identity of the sender (Authentication).\n2. Ensures message was not tampered with in transit (Integrity).\n3. Provides Non-repudiation in online contracts.",
+    "answerTamil": "டிஜிட்டல் கையொப்பம் என்பது கணித மறைகுறியாக்க முறை மூலம் மின்னணு ஆவணங்களின் நம்பகத்தன்மையையும் ஒருமைப்பாட்டையும் உறுதிப்படுத்தும் மின்னணு சான்றாகும்.\nபயன்கள்:\n1. ஆவணத்தை அனுப்பியவரின் அடையாளத்தை உறுதி செய்கிறது.\n2. ஆவணம் மாற்றப்படவில்லை என்பதை உறுதி செய்கிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-3m-4",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain Cookies and Spyware.",
+    "questionTextTamil": "குக்கீகள் (Cookies) மற்றும் ஸ்பைவேர் (Spyware) பற்றி விளக்குக.",
+    "answer": "Cookies: Small text files stored by web browsers on user's device to remember login preferences and browsing sessions.\nSpyware: Stealthy malware secretly installed on a computer to monitor keystrokes, browsing habits, and harvest personal credentials without consent.",
+    "answerTamil": "குக்கீகள் (Cookies): பயனர் விருப்பங்களையும் வலைத்தளப் பயன்பாட்டையும் நினைவில் வைத்திருக்க உலாவி சேமிக்கும் சிறிய உரைக் கோப்புகள்.\nஸ்பைவேர் (Spyware): பயனரின் அனுமதியின்றி கணினியில் நுழைந்து அவரது கடவுச்சொற்கள் மற்றும் செயல்பாடுகளை உளவு பார்க்கும் தீம்பொருள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-3m-5",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is Denial of Service (DoS) attack?",
+    "questionTextTamil": "சேவை மறுப்புத் தாக்குதல் (DoS Attack) என்றால் என்ன?",
+    "answer": "A Denial of Service (DoS) attack is a malicious attempt to make an online service, website, or network unavailable to legitimate users by overwhelming the target system with a flood of fake traffic.",
+    "answerTamil": "சேவை மறுப்புத் தாக்குதல் (DoS) என்பது ஒரு வலைத்தளம் அல்லது சேவையகத்திற்கு அளவுக்கு அதிகமான போலி கோரிக்கைகளை அனுப்பி, அது முடங்கி இயல்புப் பயனர்கள் பயன்படுத்த முடியாதபடி செய்யும் இணையத் தாக்குதலாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-5m-1",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain various Cyber Threats and Malicious Programs (Viruses, Worms, Trojan Horses, Spyware, Ransomware) and their impact.",
+    "questionTextTamil": "பல்வேறு இணைய அச்சுறுத்தல்கள் மற்றும் தீம்பொருள்களையும் (வைரஸ், வார்ம், ட்ரோஜன் குதிரை, ஸ்பைவேர், ரான்சம்வேர்) அவற்றின் தாக்கங்களையும் விரிவாக விளக்குக.",
+    "answer": "1. Computer Virus: Attaches to executable files, replicates when run, corrupts/deletes files.\n2. Worms: Standalone network malware replicating across LAN/Internet consuming bandwidth.\n3. Trojan Horse: Disguised as useful software while secretly installing backdoors or stealing passwords.\n4. Spyware: Silently monitors keystrokes and transmits personal financial data to remote attackers.\n5. Ransomware: Encrypts user's files and demands cryptocurrency ransom for decryption keys.\n\nImpact: Data loss, identity theft, financial fraud, business downtime.",
+    "answerTamil": "1. வைரஸ்: இயங்கக்கூடிய கோப்புகளில் இணைந்து பரவி கோப்புகளைச் சேதப்படுத்தும்.\n2. வார்ம் (Worms): மனித உதவியின்றி பிணையத்தில் தானாகப் பரவி பிணையத்தை முடக்கும்.\n3. ட்ரோஜன் குதிரை: பயனுள்ள மென்பொருள் போல் நடித்து பின்புலத்தில் பாதுகாப்பை உடைக்கும்.\n4. ஸ்பைவேர்: ரகசியமாக தகவல்களை உளவு பார்த்து அனுப்பும்.\n5. ரான்சம்வேர்: கோப்புகளைப் பூட்டிவிட்டு பணயத்தொகை கேட்கும் தீம்பொருள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-5m-2",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various Security Measures for protecting computers and networks (Firewall, Encryption, Antivirus, Strong Passwords, Backups).",
+    "questionTextTamil": "கணினி மற்றும் பிணையங்களைப் பாதுகாப்பதற்கான பல்வேறு பாதுகாப்பு வழிமுறைகளை (தீச்சுவர், மறைகுறியாக்கம், வைரஸ் எதிர்ப்பு மென்பொருள், கடவுச்சொல்) விரிவாக விளக்குக.",
+    "answer": "1. Firewall: Inspects and filters unauthorized incoming/outgoing network packets.\n2. Encryption: Converts plain readable text into unreadable ciphertext using cryptographic keys (SSL/TLS, AES).\n3. Antivirus & Anti-malware: Scans, identifies, and quarantines malicious programs regularly.\n4. Strong Passwords & 2FA: Using multi-character alphanumeric passwords combined with OTP authentication.\n5. Regular Data Backups: Storing critical data offline or in secure cloud storage.",
+    "answerTamil": "1. தீச்சுவர் (Firewall): அங்கீகரிக்கப்படாத பிணைய இணைப்புகளைத் தடுத்து நிறுத்துகிறது.\n2. மறைகுறியாக்கம் (Encryption): தகவல்களைப் பிறர் படிக்க முடியாத குறியீட்டு வடிவமாக மாற்றுதல்.\n3. வைரஸ் எதிர்ப்பு மென்பொருள்: கணினியைத் தொடர்ந்து ஸ்கேன் செய்து தீம்பொருள்களை நீக்குதல்.\n4. வலுவான கடவுச்சொற்கள் & 2FA: எழுத்துக்கள், எண்கள், குறியீடுகளுடன் கூடிய கடவுச்சொற்கள்.\n5. தொடர் தரவு காப்புநகல் (Backup).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-5m-3",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain Cyber Law and Information Technology Act (IT Act 2000 / IT Amendment Act 2008) in India.",
+    "questionTextTamil": "இந்தியாவில் இணையச் சட்டம் மற்றும் தகவல் தொழில்நுட்பச் சட்டம் 2000 (IT Act 2000) மற்றும் அதன் திருத்தங்களை விரிவாக விளக்குக.",
+    "answer": "Cyber Law deals with legal issues related to the use of internet, digital communications, and computers.\n\nIT Act 2000 in India:\n1. Provides legal recognition to electronic records, digital signatures, and e-commerce transactions.\n2. Formulates strict penalties and imprisonment for cyber offenses like hacking, identity theft, child pornography, and privacy violation (Sections 43, 65, 66, 67).\n3. IT Amendment Act 2008 introduced provisions addressing cyber terrorism and data protection.",
+    "answerTamil": "இணையச் சட்டம் (Cyber Law) என்பது இணையப் பயன்பாடு மற்றும் மின்னணுத் தகவல்தொடர்புகள் தொடர்பான சட்டங்களை உள்ளடக்கியது.\n\nஇந்திய IT சட்டம் 2000:\n1. மின்னணு ஆவணங்கள் மற்றும் டிஜிட்டல் கையொப்பங்களுக்கு சட்டப்பூர்வ அங்கீகாரம் வழங்குகிறது.\n2. ஹேக்கிங், அடையாளத் திருட்டு, ஆபாச தகவல்கள் பரப்புதல் போன்ற குற்றங்களுக்கு கடுமையான அபராதம் மற்றும் சிறைத் தண்டனையை நிர்ணயிக்கிறது.\n3. இணையப் பாதுகாப்பு மற்றும் குற்றத்தடுப்பிற்கு வழிகாட்டுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch17-5m-4",
+    "chapterNo": 17,
+    "chapterName": "Computer Ethics and Cyber Security",
+    "chapterNameTamil": "கணினி நன்னெறி மற்றும் இணையப் பாதுகாப்பு",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the Ten Commandments of Computer Ethics in detail.",
+    "questionTextTamil": "கணினி நன்னெறியின் பத்து கட்டளைகளை (Ten Commandments) விரிவாக விளக்குக.",
+    "answer": "Formulated by Computer Ethics Institute:\n1. Do not use a computer to harm other people.\n2. Do not interfere with other people's computer work.\n3. Do not snoop around in other people's computer files.\n4. Do not use a computer to steal.\n5. Do not use a computer to bear false witness.\n6. Do not copy or use proprietary software for which you have not paid.\n7. Do not use other people's computer resources without authorization.\n8. Do not appropriate other people's intellectual output.\n9. Think about the social consequences of the program you write.\n10. Always use a computer in ways that ensure consideration and respect for others.",
+    "answerTamil": "கணினி நன்னெறி நிறுவனத்தின் பத்து கட்டளைகள்:\n1. பிறருக்குத் தீங்கு செய்ய கணினியைப் பயன்படுத்தக் கூடாது.\n2. பிறரின் கணினிப் பணிகளில் தலையிடக் கூடாது.\n3. பிறரது தனிப்பட்ட கோப்புகளைப் பார்க்கக் கூடாது.\n4. திருட கணினியைப் பயன்படுத்தக் கூடாது.\n5. பொய் சாட்சி சொல்லப் பயன்படுத்தக் கூடாது.\n6. பணம் செலுத்தாத மென்பொருளைப் பயன்படுத்தக் கூடாது.\n7. பிறரின் கணினி வளங்களை அனுமதியின்றி பயன்படுத்தக் கூடாது.\n8. பிறரின் அறிவுசார் சொத்துக்களைத் திருடக் கூடாது.\n9. நாம் எழுதும் நிரலின் சமூகத் தாக்கத்தை சிந்திக்க வேண்டும்.\n10. பிறருக்கு மரியாதையும் மதிப்பும் தரும் வகையில் கணினியைப் பயன்படுத்த வேண்டும்.",
+    "isBookBack": true
+  }
+]

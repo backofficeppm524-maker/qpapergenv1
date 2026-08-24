@@ -1,0 +1,366 @@
+[
+  {
+    "id": "ca12-ch14-1m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Software whose source code is freely available to inspect, modify, and redistribute is called _________.",
+    "questionTextTamil": "மூலக் குறிமுறை அனைவருக்கும் இலவசமாகக் கிடைத்து மாற்றியமைக்க அனுமதிக்கும் மென்பொருள் எது?",
+    "options": {
+      "A": "Open Source Software",
+      "B": "Proprietary Software",
+      "C": "Shareware",
+      "D": "Trialware"
+    },
+    "optionsTamil": {
+      "A": "திறந்த மூல மென்பொருள் (Open Source)",
+      "B": "உரிம மென்பொருள்",
+      "C": "பகிர்வு மென்பொருள்",
+      "D": "சோதனை மென்பொருள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Open Source Software",
+    "answerTamil": "A) திறந்த மூல மென்பொருள் (Open Source)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Who founded the Free Software Foundation (FSF) and the GNU project?",
+    "questionTextTamil": "இலவச மென்பொருள் அறக்கட்டளை (FSF) மற்றும் GNU திட்டத்தை நிறுவியவர் யார்?",
+    "options": {
+      "A": "Richard Stallman",
+      "B": "Linus Torvalds",
+      "C": "Bill Gates",
+      "D": "Steve Jobs"
+    },
+    "optionsTamil": {
+      "A": "ரிச்சர்ட் ஸ்டால்மேன் (Richard Stallman)",
+      "B": "லினஸ் டோர்வால்ட்ஸ்",
+      "C": "பில் கேட்ஸ்",
+      "D": "ஸ்டீவ் ஜாப்ஸ்"
+    },
+    "correctOption": "A",
+    "answer": "A) Richard Stallman",
+    "answerTamil": "A) ரிச்சர்ட் ஸ்டால்மேன் (Richard Stallman)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-3",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Who created the open-source Linux operating system kernel in 1991?",
+    "questionTextTamil": "1991-ல் லினக்ஸ் இயக்க முறைமை கர்னலை உருவாக்கியவர் யார்?",
+    "options": {
+      "A": "Linus Torvalds",
+      "B": "Richard Stallman",
+      "C": "Ken Thompson",
+      "D": "Dennis Ritchie"
+    },
+    "optionsTamil": {
+      "A": "லினஸ் டோர்வால்ட்ஸ் (Linus Torvalds)",
+      "B": "ரிச்சர்ட் ஸ்டால்மேன்",
+      "C": "கென் தாம்சன்",
+      "D": "டென்னிஸ் ரிட்சி"
+    },
+    "correctOption": "A",
+    "answer": "A) Linus Torvalds",
+    "answerTamil": "A) லினஸ் டோர்வால்ட்ஸ் (Linus Torvalds)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-4",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which organization maintains the official Open Source Definition and certified licenses?",
+    "questionTextTamil": "திறந்த மூல வரையறை மற்றும் உரிமங்களை சான்றளிக்கும் அதிகாரப்பூர்வ அமைப்பு எது?",
+    "options": {
+      "A": "OSI (Open Source Initiative)",
+      "B": "W3C",
+      "C": "IEEE",
+      "D": "ISO"
+    },
+    "optionsTamil": {
+      "A": "OSI (Open Source Initiative)",
+      "B": "W3C",
+      "C": "IEEE",
+      "D": "ISO"
+    },
+    "correctOption": "A",
+    "answer": "A) OSI (Open Source Initiative)",
+    "answerTamil": "A) OSI (Open Source Initiative)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-5",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a popular open-source operating system?",
+    "questionTextTamil": "பின்வருவனவற்றில் பிரபலமான திறந்த மூல இயக்க முறைமை எது?",
+    "options": {
+      "A": "Ubuntu Linux",
+      "B": "Microsoft Windows",
+      "C": "macOS",
+      "D": "iOS"
+    },
+    "optionsTamil": {
+      "A": "உபுண்டு லினக்ஸ் (Ubuntu Linux)",
+      "B": "மைக்ரோசாப்ட் விண்டோஸ்",
+      "C": "macOS",
+      "D": "iOS"
+    },
+    "correctOption": "A",
+    "answer": "A) Ubuntu Linux",
+    "answerTamil": "A) உபுண்டு லினக்ஸ் (Ubuntu Linux)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-6",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does the GNU acronym stand for in free software?",
+    "questionTextTamil": "GNU என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "GNU's Not Unix",
+      "B": "General Network Utility",
+      "C": "Generic Node Unit",
+      "D": "Global Network Unix"
+    },
+    "optionsTamil": {
+      "A": "GNU's Not Unix",
+      "B": "General Network Utility",
+      "C": "Generic Node Unit",
+      "D": "Global Network Unix"
+    },
+    "correctOption": "A",
+    "answer": "A) GNU's Not Unix",
+    "answerTamil": "A) GNU's Not Unix",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-7",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is an open-source office productivity suite?",
+    "questionTextTamil": "பின்வருவனவற்றில் திறந்த மூல அலுவலக மென்பொருள் தொகுப்பு எது?",
+    "options": {
+      "A": "LibreOffice",
+      "B": "MS Office",
+      "C": "Apple iWork",
+      "D": "Adobe Acrobat"
+    },
+    "optionsTamil": {
+      "A": "லிப்ரே ஆபீஸ் (LibreOffice)",
+      "B": "எம்.எஸ். ஆபிஸ்",
+      "C": "ஆப்பிள் iWork",
+      "D": "அடோப் அக்ரோபேட்"
+    },
+    "correctOption": "A",
+    "answer": "A) LibreOffice",
+    "answerTamil": "A) லிப்ரே ஆபீஸ் (LibreOffice)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-8",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which popular open-source license uses 'copyleft' to require derivative works to remain open?",
+    "questionTextTamil": "வழித்தோன்றல் மென்பொருள்களும் இலவசமாக இருப்பதை கட்டாயமாக்கும் பிரபலமான காப்பிலெஃப்ட் உரிமம் எது?",
+    "options": {
+      "A": "GNU GPL",
+      "B": "Proprietary EULA",
+      "C": "Commercial License",
+      "D": "Copyright"
+    },
+    "optionsTamil": {
+      "A": "GNU GPL (General Public License)",
+      "B": "EULA",
+      "C": "வணிக உரிமம்",
+      "D": "பதிப்புரிமை"
+    },
+    "correctOption": "A",
+    "answer": "A) GNU GPL",
+    "answerTamil": "A) GNU GPL (General Public License)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-9",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is an open-source relational database management system?",
+    "questionTextTamil": "பின்வருவனவற்றில் திறந்த மூல தரவுத்தள மேலாண்மை அமைப்பு எது?",
+    "options": {
+      "A": "MySQL",
+      "B": "Oracle DB",
+      "C": "MS SQL Server",
+      "D": "MS Access"
+    },
+    "optionsTamil": {
+      "A": "MySQL",
+      "B": "ஆரக்கிள்",
+      "C": "MS SQL Server",
+      "D": "MS Access"
+    },
+    "correctOption": "A",
+    "answer": "A) MySQL",
+    "answerTamil": "A) MySQL",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-1m-10",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many core freedoms are defined by the Free Software Foundation (Freedoms 0 to 3)?",
+    "questionTextTamil": "இலவச மென்பொருள் அறக்கட்டளையால் எத்தனை அடிப்படை சுதந்திரங்கள் வரையறுக்கப்பட்டுள்ளன?",
+    "options": {
+      "A": "4",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "optionsTamil": {
+      "A": "4 (சுதந்திரங்கள் 0 முதல் 3 வரை)",
+      "B": "2",
+      "C": "3",
+      "D": "5"
+    },
+    "correctOption": "A",
+    "answer": "A) 4",
+    "answerTamil": "A) 4 (சுதந்திரங்கள் 0 முதல் 3 வரை)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Open Source Software (OSS)?",
+    "questionTextTamil": "திறந்த மூல மென்பொருள் (Open Source Software) என்றால் என்ன?",
+    "answer": "Open Source Software is software distributed with its original source code under a license that allows anyone to inspect, modify, enhance, and freely distribute the code.",
+    "answerTamil": "திறந்த மூல மென்பொருள் என்பது அதன் மூலக் குறிமுறையை எவரும் பார்க்கவும், திருத்தவும், மேம்படுத்தவும் மற்றும் இலவசமாக விநியோகிக்கவும் அனுமதிக்கும் மென்பொருளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Proprietary / Commercial Software?",
+    "questionTextTamil": "உரிம / வணிக மென்பொருள் (Proprietary Software) என்றால் என்ன?",
+    "answer": "Proprietary software is closed-source software owned exclusively by an individual or corporation whose source code is kept secret and use requires purchase of a restrictive license (e.g., Windows, Photoshop).",
+    "answerTamil": "உரிம மென்பொருள் என்பது மூலக் குறிமுறை மறைக்கப்பட்டு, கட்டணம் செலுத்தி உரிமம் பெற்று மட்டுமே பயன்படுத்த அனுமதிக்கப்படும் தனியாருக்குச் சொந்தமான மென்பொருளாகும் (எ.கா: விண்டோஸ்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-3",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Name any four popular Open Source software applications.",
+    "questionTextTamil": "ஏதேனும் நான்கு பிரபலமான திறந்த மூல மென்பொருள்களின் பெயர்களை எழுதுக.",
+    "answer": "1. Linux OS\n2. Apache Web Server\n3. MySQL Database\n4. LibreOffice / Firefox Browser.",
+    "answerTamil": "1. லினக்ஸ் இயக்க முறைமை\n2. அப்பாச்சி வலை சேவையகம்\n3. MySQL தரவுத்தளம்\n4. லிப்ரே ஆபீஸ் / ஃபயர்பாக்ஸ் உலாவி.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-4",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is FSF (Free Software Foundation)?",
+    "questionTextTamil": "FSF (Free Software Foundation) என்றால் என்ன?",
+    "answer": "The Free Software Foundation (FSF) is a non-profit organization founded in 1985 by Richard Stallman to promote the universal freedom to study, modify, and redistribute computer software.",
+    "answerTamil": "FSF என்பது மென்பொருள்களைப் படிக்க, மாற்றியமைக்க மற்றும் இலவசமாக விநியோகிக்கும் சுதந்திரத்தை ஊக்குவிக்க 1985-ல் ரிச்சர்ட் ஸ்டால்மேனால் தொடங்கப்பட்ட தொண்டு அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-2m-5",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the four essential freedoms of Free Software?",
+    "questionTextTamil": "இலவச மென்பொருளின் நான்கு அடிப்படை சுதந்திரங்கள் யாவை?",
+    "answer": "Freedom 0: Run program for any purpose.\nFreedom 1: Study how program works and modify it.\nFreedom 2: Redistribute copies.\nFreedom 3: Distribute modified copies to others.",
+    "answerTamil": "சுதந்திரம் 0: எந்நோக்கத்திற்காகவும் இயக்கலாம்.\nசுதந்திரம் 1: குறிமுறையை ஆராய்ந்து திருத்தலாம்.\nசுதந்திரம் 2: நகல்களை பிறருக்கு விநியோகிக்கலாம்.\nசுதந்திரம் 3: திருத்தப்பட்ட நகல்களை வெளியிடலாம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate Open Source Software and Proprietary Software.",
+    "questionTextTamil": "திறந்த மூல மென்பொருள் மற்றும் உரிம மென்பொருளை வேறுபடுத்துக.",
+    "answer": "1. Open Source Software: Source code is publicly accessible; free to modify and share; driven by global community.\n2. Proprietary Software: Source code is private/hidden; illegal to modify; high purchasing/license cost; controlled by one company.",
+    "answerTamil": "1. திறந்த மூல மென்பொருள்: மூலக் குறிமுறை வெளிப்படையானது; இலவசமாக திருத்தலாம்; சமூகப் பங்களிப்பு உண்டு.\n2. உரிம மென்பொருள்: மூலக் குறிமுறை மறைக்கப்பட்டது; மாற்ற இயலாது; அதிக உரிமக் கட்டணம் கொண்டது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-3m-2",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the major advantages of using Open Source Software in education and governance?",
+    "questionTextTamil": "கல்வி மற்றும் அரசு நிர்வாகத்தில் திறந்த மூல மென்பொருளைப் பயன்படுத்துவதன் நன்மைகள் யாவை?",
+    "answer": "1. Huge cost savings by avoiding recurring software license fees.\n2. Enhanced transparency, security, and digital sovereignty.\n3. Enables students to learn real programming internals from source code.",
+    "answerTamil": "1. விலையுயர்ந்த உரிமக் கட்டணங்கள் மிச்சமாகின்றன.\n2. அதிக வெளிப்படைத்தன்மை மற்றும் பாதுகாப்பு.\n3. மாணவர்கள் உண்மையான மூலக் குறிமுறையைப் பார்த்து நிரலாக்கம் கற்க முடிகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch14-5m-1",
+    "chapterNo": 14,
+    "chapterName": "Open Source Concepts",
+    "chapterNameTamil": "திறந்த மூலக் கருத்துக்கள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the philosophy, benefits, licensing models (GPL, Apache, MIT), and key projects of Open Source Software.",
+    "questionTextTamil": "திறந்த மூல மென்பொருளின் தத்துவம், நன்மைகள், உரிம மாதிரிகள் (GPL, Apache, MIT) மற்றும் முக்கிய திட்டங்களை விரிவாக விளக்குக.",
+    "answer": "Open Source Software Philosophy & Ecosystem:\n\n1. Philosophy & 4 Freedoms (FSF):\n- Freedom 0 (Run program), Freedom 1 (Study/adapt), Freedom 2 (Redistribute), Freedom 3 (Improve/publish).\n\n2. Open Source Licenses:\n- GNU GPL (General Public License): Strong copyleft requiring derivatives to remain open source.\n- MIT License: Permissive license allowing commercial reuse.\n- Apache License: Permissive with explicit patent protection grants.\n\n3. Benefits:\n- Zero licensing fees and vendor lock-in avoidance.\n- High security vetted by global developer audit communities.\n- Complete customization flexibility.\n\n4. Major Pillars of Open Source:\n- Linux Operating System Kernel\n- Apache Web Server\n- MySQL / PostgreSQL Databases\n- PHP / Python Programming Languages\n- LibreOffice Office Productivity.",
+    "answerTamil": "திறந்த மூல மென்பொருள் தத்துவம் மற்றும் சூழல்:\n\n1. தத்துவம் (FSF-ன் 4 சுதந்திரங்கள்): நிரலை இயக்க, கற்க, நகலெடுக்க, திருத்த அனைவருக்கும் சுதந்திரம்.\n\n2. உரிம மாதிரிகள்:\n- GNU GPL: மாற்றியமைக்கப்பட்ட மென்பொருள்களும் இலவசமாக இருப்பதை கட்டாயமாக்குகிறது.\n- MIT & Apache: வணிக பயன்பாட்டிற்கும் தாராளமாக அனுமதிக்கும் உரிமங்கள்.\n\n3. நன்மைகள்: பூஜ்ஜிய உரிமக் கட்டணம், அதிக பாதுகாப்பு, தனிப்பயனாக்க வசதி.\n\n4. முக்கிய திட்டங்கள்: லினக்ஸ், அப்பாச்சி சேவையகம், MySQL தரவுத்தளம், பைதான், PHP மற்றும் லிப்ரே ஆபீஸ்.",
+    "isBookBack": true
+  }
+]

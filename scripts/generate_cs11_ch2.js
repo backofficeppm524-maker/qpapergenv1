@@ -1,0 +1,258 @@
+import fs from 'fs';
+
+const ch2 = [
+  // 1 Marks (13)
+  {
+    id: "cs11-ch2-1m-1", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "Which is used to specify the number of bits in CPU?", questionTextTamil: "கணிப்பொறியின் மையச் செயலகத்தில் பிட்டுகளின் எண்ணிக்கை எவ்வாறு குறிப்பிடப்படுகிறது?",
+    options: { A: "Byte", B: "Nibble", C: "Word length", D: "Bit" },
+    optionsTamil: { A: "பைட்", B: "நிபில்", C: "சொற்பொழிவு நீளம் (Word length)", D: "பிட்" },
+    correctOption: "C", answer: "C) Word length", answerTamil: "C) சொற்பொழிவு நீளம்", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-2", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "How many bytes does 1 KiloByte contain?", questionTextTamil: "ஒரு கிலோ பைட் என்பது எத்தனை பைட்டுகளைக் கொண்டது?",
+    options: { A: "1000", B: "8", C: "4", D: "1024" },
+    optionsTamil: { A: "1000", B: "8", C: "4", D: "1024" },
+    correctOption: "D", answer: "D) 1024", answerTamil: "D) 1024", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-3", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "Expansion of ASCII is:", questionTextTamil: "ASCII என்பதன் விரிவாக்கம்:",
+    options: { A: "American Standard Code for Information Interchange", B: "American Standard Code for Information Interface", C: "Asian Standard Code for Information Interchange", D: "American System Code for Information Interchange" },
+    optionsTamil: { A: "American Standard Code for Information Interchange", B: "American Standard Code for Information Interface", C: "Asian Standard Code for Information Interchange", D: "American System Code for Information Interchange" },
+    correctOption: "A", answer: "A) American Standard Code for Information Interchange", answerTamil: "A) American Standard Code for Information Interchange", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-4", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "2^50 refers to:", questionTextTamil: "2^50 என்பது எதைக் குறிக்கும்?",
+    options: { A: "Kilo", B: "Tera", C: "Peta", D: "Zetta" },
+    optionsTamil: { A: "கிலோ (Kilo)", B: "டெரா (Tera)", C: "பீட்டா (Peta)", D: "ஜீட்டா (Zetta)" },
+    correctOption: "C", answer: "C) Peta", answerTamil: "C) பீட்டா (Peta)", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-5", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "How many characters can be handled in Binary Coded Decimal (BCD)?", questionTextTamil: "Binary Coded Decimal முறையில் எத்தனை எழுத்துருக்களைக் கையாள முடியும்?",
+    options: { A: "64", B: "255", C: "256", D: "128" },
+    optionsTamil: { A: "64", B: "255", C: "256", D: "128" },
+    correctOption: "A", answer: "A) 64", answerTamil: "A) 64", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-6", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "What is the equivalent hexadecimal value for 1101_2?", questionTextTamil: "1101_2-க்கு நிகரான பதின்ம/பதினாறுநிலை மதிப்பு எது?",
+    options: { A: "F", B: "E", C: "D", D: "B" },
+    optionsTamil: { A: "F", B: "E", C: "D", D: "B" },
+    correctOption: "C", answer: "C) D", answerTamil: "C) D", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-7", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "What is 1's complement of 00100110?", questionTextTamil: "00100110 க்கான 1-ன் நிரப்பி எது?",
+    options: { A: "00100110", B: "11011001", C: "11010001", D: "00101001" },
+    optionsTamil: { A: "00100110", B: "11011001", C: "11010001", D: "00101001" },
+    correctOption: "B", answer: "B) 11011001", answerTamil: "B) 11011001", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-8", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "Which of the following is NOT an octal number?", questionTextTamil: "கீழ்வருவனவற்றில் எது எண்ணிலை எண் அல்ல?",
+    options: { A: "645", B: "234", C: "876", D: "123" },
+    optionsTamil: { A: "645", B: "234", C: "876", D: "123" },
+    correctOption: "C", answer: "C) 876 (Digits 8 and 9 are invalid in Octal)", answerTamil: "C) 876", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-9", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "In Boolean algebra, which basic electronic circuit operates on one or more signals?", questionTextTamil: "பூலியன் இயற்கணிதத்தில், இவற்றுள் எது, ஒன்று அல்லது அதற்கு மேற்பட்ட சமிக்ஞைகளில் இயங்கும் ஒரு அடிப்படை மின்னணு சுற்றாகும்?",
+    options: { A: "Boolean Algebra", B: "Gate", C: "Fundamental gates", D: "Derived gates" },
+    optionsTamil: { A: "பூலியன் இயற்கணிதம்", B: "வாயில் (Gate)", C: "அடிப்படை வாயில்கள்", D: "தருவிக்கப்பட்ட வாயில்கள்" },
+    correctOption: "B", answer: "B) Gate", answerTamil: "B) வாயில் (Gate)", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-10", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "Which gate is called logical inverter?", questionTextTamil: "இவற்றுள் எந்த வாயில் தருக்க தலைகீழி என்று அழைக்கப்படுகிறது?",
+    options: { A: "AND", B: "OR", C: "NOT", D: "XNOR" },
+    optionsTamil: { A: "AND", B: "OR", C: "NOT", D: "XNOR" },
+    correctOption: "C", answer: "C) NOT", answerTamil: "C) NOT", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-11", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "A + A = ?", questionTextTamil: "A + A = ?",
+    options: { A: "A", B: "0", C: "1", D: "None" },
+    optionsTamil: { A: "A", B: "0", C: "1", D: "ஆவியாகாது" },
+    correctOption: "A", answer: "A) A", answerTamil: "A) A", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-12", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "NOR gate is a combination of:", questionTextTamil: "NOR வாயில் எதன் இணைப்பாக உள்ளது?",
+    options: { A: "NOT(OR)", B: "NOT(AND)", C: "NOT(NOT)", D: "NOT(NOR)" },
+    optionsTamil: { A: "NOT(OR)", B: "NOT(AND)", C: "NOT(NOT)", D: "NOT(NOR)" },
+    correctOption: "A", answer: "A) NOT(OR)", answerTamil: "A) NOT(OR)", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-1m-13", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 1, type: "mcq",
+    questionText: "NAND universal gate is called as ------------- gate.", questionTextTamil: "NAND பொதுமைவாயில் என்பது ------------- வாயில் எனப்படும்.",
+    options: { A: "Fundamental gate", B: "Derived gate", C: "Logic gate", D: "Electronic gate" },
+    optionsTamil: { A: "அடிப்படை வாயில்", B: "தருவிக்கப்பட்ட வாயில் (Derived gate)", C: "தருக்க வாயில்", D: "மின்னணு வாயில்" },
+    correctOption: "B", answer: "B) Derived gate", answerTamil: "B) தருவிக்கப்பட்ட வாயில்", isBookBack: true
+  },
+  // 2 Marks (10)
+  {
+    id: "cs11-ch2-2m-1", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "What is data?", questionTextTamil: "தரவு என்றால் என்ன?",
+    answer: "Data comes from the word 'datum' which means a raw fact. It is unorganized information that requires processing to be meaningful.",
+    answerTamil: "தரவு (Data) என்பது 'datum' என்ற சொல்லிலிருந்து வந்தது. இது செயலாக்கப்படாத ஒரு மூல உண்மை அல்லது மதிப்பு ஆகும்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-2", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "Write the steps to find 1's complement.", questionTextTamil: "1-ன் நிரப்பி முறைக்கான வழிமுறைகளை எழுதுக.",
+    answer: "Step 1: Convert given decimal number to 8-bit binary.\nStep 2: Invert all bits (change 0 to 1 and 1 to 0).",
+    answerTamil: "படி 1: கொடுக்கப்பட்ட எண்ணை 8-பிட் இருநிலை எண்ணாக மாற்றவும்.\nபடி 2: அனைத்து பிட்டுகளையும் தலைகீழாக மாற்றவும் (0-ஐ 1 ஆகவும், 1-ஐ 0 ஆகவும் மாற்றவும்).", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-3", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "Convert (46)_10 into binary number.", questionTextTamil: "(46)_10க்கு நிகரான இருநிலை எண்ணாக மாற்றுக.",
+    answer: "46 / 2 = 23 (rem 0)\n23 / 2 = 11 (rem 1)\n11 / 2 = 5 (rem 1)\n5 / 2 = 2 (rem 1)\n2 / 2 = 1 (rem 0)\n1 / 2 = 0 (rem 1)\nAnswer: (101110)_2",
+    answerTamil: "(46)_10 = (101110)_2", isBookBack: true, isCompulsoryEligible: true
+  },
+  {
+    id: "cs11-ch2-2m-4", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "1's complement cannot be found for (+28)_10. Why? Give reason.", questionTextTamil: "(28)_10 க்கு 1-ன் நிரப்பி முறையில் விடை காண முடியாது. ஏன் காரணம் கூறு.",
+    answer: "1's and 2's complement representations are used strictly for representing negative binary numbers. Positive numbers are represented directly in true binary form.",
+    answerTamil: "1-ன் நிரப்பி மற்றும் 2-ன் நிரப்பி முறைகள் எதிர்மறை எண்களைக் குறிக்க மட்டுமே பயன்படுகின்றன. நேர்மறை எண்கள் எப்போதும் நேரடி இருநிலை வடிவிலேயே குறிக்கப்படும்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-5", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "List the encoding schemes used for handling characters in memory.", questionTextTamil: "எழுத்துருக்களை நினைவகத்தில் கையாளுவதற்கான குறியீட்டு முறைகளைப் பட்டியலிடுக.",
+    answer: "1. BCD (Binary Coded Decimal)\n2. EBCDIC (Extended BCD Interchange Code)\n3. ASCII (American Standard Code for Information Interchange)\n4. ISCII (Indian Standard Code for Information Interchange)\n5. Unicode",
+    answerTamil: "1. BCD (இருநிலை குறியீட்டு பதின்மம்)\n2. EBCDIC\n3. ASCII\n4. ISCII (இந்திய தரமுறை குறியீட்டு முறை)\n5. Unicode (யூனிகோட்)", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-6", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "What is Boolean algebra?", questionTextTamil: "பூலியன் இயற்கணிதம் என்றால் என்ன?",
+    answer: "Boolean algebra is a mathematical system of logic created by George Boole that operates on two truth values: True (1) and False (0).",
+    answerTamil: "பூலியன் இயற்கணிதம் என்பது ஜார்ஜ் பூலே என்பவரால் உருவாக்கப்பட்ட, உண்மை (1) மற்றும் பொய் (0) என்ற இரு மதிப்புகளை மட்டுமே கொண்டு இயங்கும் தருக்க கணித முறையாகும்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-7", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "Write a short note on NAND gate.", questionTextTamil: "NAND வாயில் – சிறுகுறிப்பு எழுதுக.",
+    answer: "NAND gate is a universal gate combining AND and NOT. Output is 0 only when all inputs are 1, otherwise output is 1.\nEquation: Y = (A . B)'",
+    answerTamil: "NAND வாயில் என்பது AND மற்றும் NOT வாயில்களின் இணைப்பாகும். அனைத்து உள்ளீடுகளும் 1 ஆக இருக்கும் போது மட்டுமே வெளியீடு 0 ஆகும்.\nசமன்பாடு: Y = (A . B)'", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-8", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "Write the truth table of XOR gate.", questionTextTamil: "XOR வாயிலின் மெய் பட்டியல் எழுதுக.",
+    answer: "A | B | Y = A ⊕ B\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0",
+    answerTamil: "A | B | Y = A ⊕ B\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-9", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "Write the Associative laws in Boolean algebra.", questionTextTamil: "தொடர் விதிகளை எழுதுக.",
+    answer: "1. A + (B + C) = (A + B) + C\n2. A . (B . C) = (A . B) . C",
+    answerTamil: "1. A + (B + C) = (A + B) + C\n2. A . (B . C) = (A . B) . C", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-2m-10", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 2, type: "short",
+    questionText: "What are derived gates?", questionTextTamil: "தருவிக்கப்பட்ட வாயில்கள் என்றால் என்ன?",
+    answer: "Logic gates designed by combining fundamental gates (AND, OR, NOT) are called derived gates.\nExamples: NAND, NOR, XOR, XNOR.",
+    answerTamil: "அடிப்படை வாயில்களை (AND, OR, NOT) இணைத்து உருவாக்கப்படும் வாயில்கள் தருவிக்கப்பட்ட வாயில்கள் எனப்படும்.\nஎடுத்துக்காட்டுகள்: NAND, NOR, XOR, XNOR.", isBookBack: true
+  },
+  // 3 Marks (10)
+  {
+    id: "cs11-ch2-3m-1", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "What is radix or base in a number system? Give example.", questionTextTamil: "எண்முறையில் அடிமானம் என்றால் என்ன? எடுத்துக்காட்டு தருக.",
+    answer: "Radix (Base) is the total number of distinct digit symbols used in a number system.\nExamples:\n- Decimal Base = 10 (0-9)\n- Binary Base = 2 (0,1)\n- Octal Base = 8 (0-7)\n- Hexadecimal Base = 16 (0-9, A-F)",
+    answerTamil: "ஒரு எண்முறையில் பயன்படுத்தப்படும் மொத்த தனித்துவமான இலக்கங்களின் எண்ணிக்கை அதன் அடிமானம் (Base/Radix) எனப்படும்.\nஎடுத்துக்காட்டுகள்: பதின்ம எண் அடிமானம் = 10, இருநிலை எண் அடிமானம் = 2.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-2", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Write a note on Binary number system.", questionTextTamil: "இருநிலை எண் முறை – குறிப்பு வரைக.",
+    answer: "1. Base is 2.\n2. Uses only two digits: 0 and 1 (bits).\n3. Positional values represent powers of 2 (e.g. 2^0, 2^1, 2^2...).\nExample: (1011)_2 = 1*8 + 0*4 + 1*2 + 1*1 = (11)_10.",
+    answerTamil: "1. அடிமானம் 2.\n2. 0 மற்றும் 1 ஆகிய இரண்டு இலக்கங்கள் மட்டுமே பயன்படுத்தப்படுகின்றன.\n3. இடமதிப்புகள் 2-ன் அடுக்குகளாக இருக்கும் (2^0, 2^1, 2^2...).\nஎ.கா: (1010)_2 = (10)_10.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-3", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Convert (150)_10 into binary and then into octal.", questionTextTamil: "(150)_10 க்கு நிகரான இருநிலை எண்ணாக மாற்றி, அதனை எண்ணிலை எண்ணாக மாற்றுக.",
+    answer: "Decimal to Binary:\n150 = (10010110)_2\n\nBinary to Octal (group by 3 bits from right):\n010 | 010 | 110\n 2  |  2  |  6\nAnswer: (226)_8",
+    answerTamil: "இருநிலை வடிவம்: (10010110)_2\nஎண்ணிலை வடிவம்: (226)_8", isBookBack: true, isCompulsoryEligible: true
+  },
+  {
+    id: "cs11-ch2-3m-4", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Write a note on ISCII.", questionTextTamil: "ISCII குறிப்பு வரைக.",
+    answer: "ISCII stands for Indian Standard Code for Information Interchange. It is an 8-bit encoding scheme (256 characters) formulated by the Bureau of Indian Standards (BIS) to represent Indian regional languages including Tamil.",
+    answerTamil: "ISCII என்பது Indian Standard Code for Information Interchange ஆகும். இது இந்திய மொழிகளை கணினியில் கையாள இந்திய தர நிர்ணய பணியகத்தால் (BIS) உருவாக்கப்பட்ட 8-பிட் குறியீட்டு முறையாகும்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-5", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Add the following:\n(a) -22_10 + 15_10\n(b) 20_10 + 25_10", questionTextTamil: "கூட்டுக: (அ) -22_10 + 15_10 (ஆ) 20_10 + 25_10",
+    answer: "(a) -22_10 + 15_10 = -7_10\n+22 = 00010110; 2's comp of 22 = 11101010\n+15 = 00001111\nSum = 11101010 + 00001111 = 11111001 (-7 in 2's comp)\n(b) 20_10 + 25_10 = 45_10\n00010100 + 00011001 = 00101101_2 (45_10)",
+    answerTamil: "(அ) -22_10 + 15_10 = -7_10 (இருநிலை: 11111001)\n(ஆ) 20_10 + 25_10 = 45_10 (இருநிலை: 00101101_2)", isBookBack: true, isCompulsoryEligible: true
+  },
+  {
+    id: "cs11-ch2-3m-6", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Write the truth tables of fundamental gates (AND, OR, NOT).", questionTextTamil: "அடிப்படை வாயில்களின் மெய்ப்பட்டியல்களை எழுதுக.",
+    answer: "AND Gate: Y = A.B (1 only if all 1)\nOR Gate: Y = A+B (1 if any input is 1)\nNOT Gate: Y = A' (Inverts input: 0->1, 1->0)",
+    answerTamil: "AND வாயில்: Y = A . B (இரு உள்ளீடுகளும் 1 எனில் 1)\nOR வாயில்: Y = A + B (ஏதேனும் ஒரு உள்ளீடு 1 எனில் 1)\nNOT வாயில்: Y = A' (0 எனில் 1; 1 எனில் 0)", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-7", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Write a short note on XNOR gate.", questionTextTamil: "XNOR வாயிலைப் பற்றி சிறுகுறிப்பு வரைக.",
+    answer: "XNOR (Exclusive-NOR) is a combination of XOR and NOT gate. It produces output 1 when both inputs are identical (00 or 11).\nTruth Table:\n0 0 -> 1\n0 1 -> 0\n1 0 -> 0\n1 1 -> 1\nEquation: Y = (A ⊕ B)'",
+    answerTamil: "XNOR வாயில் என்பது XOR மற்றும் NOT வாயில்களின் இணைப்பாகும். இரண்டு உள்ளீடுகளும் ஒரே மாதிரியாக இருக்கும் போது (00 அல்லது 11) வெளியீடு 1 ஆக இருக்கும்.\nசமன்பாடு: Y = (A ⊕ B)'", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-8", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Why are NAND and NOR gates called universal gates?", questionTextTamil: "NAND மற்றும் NOR வாயில்கள் ஏன் பொதுமை வாயில்கள் என்று அழைக்கப்படுகின்றன?",
+    answer: "NAND and NOR gates are called universal gates because any boolean expression or logic gate (AND, OR, NOT) can be constructed entirely using only NAND or only NOR gates without any other gate type.",
+    answerTamil: "NAND மற்றும் NOR வாயில்களை மட்டுமே கொண்டு AND, OR, NOT போன்ற அனைத்து வகை தருக்க வாயில்களையும் கட்டமைக்க முடியும் என்பதால் இவை பொதுமை வாயில்கள் (Universal gates) எனப்படும்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-9", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "Write truth table of XOR gate with 2 inputs.", questionTextTamil: "XOR வாயிலின் மெய்ப்பட்டியல் எழுதுக.",
+    answer: "A | B | Y = A ⊕ B\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0\nOutput is 1 when odd number of inputs are 1.",
+    answerTamil: "A | B | Y = A ⊕ B\n0 | 0 | 0\n0 | 1 | 1\n1 | 0 | 1\n1 | 1 | 0\nஉள்ளீடுகள் மாறுபட்டால் வெளியீடு 1 ஆகும்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-3m-10", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 3, type: "brief",
+    questionText: "State De Morgan's Theorems.", questionTextTamil: "டிமார்கன் தேற்றங்களை எழுதுக.",
+    answer: "First Theorem: (A + B)' = A' . B'\n(The complement of a sum is equal to the product of complements)\nSecond Theorem: (A . B)' = A' + B'\n(The complement of a product is equal to the sum of complements)",
+    answerTamil: "முதல் தேற்றம்: (A + B)' = A' . B'\n(கூட்டலின் நிரப்பானது தனித்தனி நிரப்பிகளின் பெருக்கலுக்குச் சமம்)\nஇரண்டாம் தேற்றம்: (A . B)' = A' + B'\n(பெருக்கலின் நிரப்பானது தனித்தனி நிரப்பிகளின் கூட்டலுக்குச் சமம்)", isBookBack: true
+  },
+  // 5 Marks (6)
+  {
+    id: "cs11-ch2-5m-1", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 5, type: "essay",
+    questionText: "(a) Describe steps to convert fractional decimal number to binary.\n(b) Convert (98.46)_10 to binary.", questionTextTamil: "(அ) மிதப்புப் புள்ளி பதின்ம எண்ணை, இருநிலை எண்ணாக மாற்றுவதற்கான வழிமுறைகளை விவரி.\n(ஆ) (98.46)_10 க்கு நிகரான இருநிலை எண்ணாக மாற்றுக.",
+    answer: "(a) Method: Convert integer part by repeated division by 2. Convert fractional part by repeated multiplication by 2, recording the carry.\n(b) Integer part: 98_10 = (1100010)_2\nFractional part: 0.46 * 2 = 0.92 (0)\n0.92 * 2 = 1.84 (1)\n0.84 * 2 = 1.68 (1)\n0.68 * 2 = 1.36 (1)\nAnswer: (98.46)_10 = (1100010.0111...)_2",
+    answerTamil: "வழிமுறை: முழு எண் பகுதியை 2-ஆல் தொடர் வகுத்தல் செய்ய வேண்டும். பின்னப் பகுதியை 2-ஆல் தொடர் பெருக்கல் செய்து முழு எண்ணை எடுக்க வேண்டும்.\n(98.46)_10 = (1100010.0111...)_2", isBookBack: true, isCompulsoryEligible: true
+  },
+  {
+    id: "cs11-ch2-5m-2", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 5, type: "essay",
+    questionText: "Find 1's and 2's complement for the following decimal numbers:\n(a) -98\n(b) -135", questionTextTamil: "பின்வரும் பதின்ம எண்களுக்கு 1ன் நிரப்பி மற்றும் 2ன் நிரப்பிகளைக் காண்க:\n(அ) -98\n(ஆ) -135",
+    answer: "(a) -98:\n+98 in 8-bit binary = 01100010\n1's complement = 10011101\n2's complement = 10011101 + 1 = 10011110\n\n(b) -135 (requires 9 bits or 16 bits):\n+135 in 16-bit binary = 00000000 10000111\n1's complement = 11111111 01111000\n2's complement = 11111111 01111001",
+    answerTamil: "(அ) -98:\n+98 = 01100010\n1-ன் நிரப்பி = 10011101\n2-ன் நிரப்பி = 10011110\n\n(ஆ) -135:\n1-ன் நிரப்பி = 11111111 01111000\n2-ன் நிரப்பி = 11111111 01111001", isBookBack: true, isCompulsoryEligible: true
+  },
+  {
+    id: "cs11-ch2-5m-3", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 5, type: "essay",
+    questionText: "Perform the following binary operations:\n(a) Add: 1101010_2 + 101101_2\n(b) Subtract: 1101011_2 – 111010_2", questionTextTamil: "(அ) கூட்டுக: 1101010_2 + 101101_2\n(ஆ) கழிக்க: 1101011_2 – 111010_2",
+    answer: "(a) Addition:\n  1101010\n+  101101\n-----------\n 10010111_2\n\n(b) Subtraction:\n  1101011\n-  0111010\n-----------\n  0110001_2 (or 110001_2)",
+    answerTamil: "(அ) கூட்டல்: 1101010 + 101101 = 10010111_2\n(ஆ) கழித்தல்: 1101011 - 111010 = 0110001_2", isBookBack: true, isCompulsoryEligible: true
+  },
+  {
+    id: "cs11-ch2-5m-4", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 5, type: "essay",
+    questionText: "Explain fundamental logic gates (AND, OR, NOT) with their symbols, truth tables, and Boolean equations.", questionTextTamil: "அடிப்படை வாயில்களை அதன் குறியீடு மற்றும் மெய்ப்பட்டியலுடன் விளக்குக.",
+    answer: "1. AND Gate: Logic multiplication. Output Y = A.B (1 only if both A and B are 1).\n2. OR Gate: Logic addition. Output Y = A+B (1 if either A or B is 1).\n3. NOT Gate: Logic inverter. Output Y = A' (Inverts the input signal).",
+    answerTamil: "1. AND வாயில்: தருக்கப் பெருக்கல். சமன்பாடு Y = A . B (இரு உள்ளீடும் 1 எனில் 1).\n2. OR வாயில்: தருக்கக் கூட்டல். சமன்பாடு Y = A + B (ஏதேனும் ஒரு உள்ளீடு 1 எனில் 1).\n3. NOT வாயில்: தருக்கத் தலைகீழி. சமன்பாடு Y = A' (உள்ளீட்டை மாற்றும்).", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-5m-5", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 5, type: "essay",
+    questionText: "Explain how AND and OR gates can be constructed using only NAND and NOR gates.", questionTextTamil: "NAND மற்றும் NOR வாயில்களின் மூலம் AND மற்றும் OR வாயில்களை எவ்வாறு அறிவிப்பாய் என்பதை விளக்குக.",
+    answer: "1. AND from NAND: Pass inputs into NAND gate, then invert output with another NAND.\n   (A.B)' -> NAND inverter -> A.B\n2. OR from NAND: Invert A and B using NAND, then pass to a NAND gate.\n   (A'.B')' = A'' + B'' = A + B\n3. OR from NOR: Pass inputs to NOR, then invert output with another NOR.\n4. AND from NOR: Invert A and B using NOR, then pass to a NOR gate: (A'+B')' = A.B.",
+    answerTamil: "1. NAND மூலம் AND: NAND-ன் வெளியீட்டை மற்றொரு NAND-ல் செலுத்தினால் AND வாயில் கிடைக்கும்.\n2. NAND மூலம் OR: A மற்றும் B-ஐ தனித்தனி NAND மூலம் தலைகீழாக்கி, NAND வாயிலில் செலுத்தினால் OR வாயில் கிடைக்கும்.\n3. NOR மூலம் OR மற்றும் AND வாயில்களையும் இதேபோன்று பெறலாம்.", isBookBack: true
+  },
+  {
+    id: "cs11-ch2-5m-6", chapterNo: 2, chapterName: "Number Systems", chapterNameTamil: "எண் முறைகள்", marks: 5, type: "essay",
+    questionText: "Explain derived gates (NAND, NOR, XOR, XNOR) with symbols and truth tables.", questionTextTamil: "தருவிக்கப்பட்ட வாயில்களை அதன் குறியீடு மற்றும் மெய்ப்பட்டியலுடன் விளக்குக.",
+    answer: "1. NAND: AND + NOT, Y = (A.B)'\n2. NOR: OR + NOT, Y = (A+B)'\n3. XOR (Exclusive-OR): Y = A.B' + A'.B = A ⊕ B (1 when inputs differ)\n4. XNOR (Exclusive-NOR): Y = (A ⊕ B)' (1 when inputs are equal)",
+    answerTamil: "1. NAND வாயில்: Y = (A . B)'\n2. NOR வாயில்: Y = (A + B)'\n3. XOR வாயில்: Y = A ⊕ B (உள்ளீடுகள் மாறுபட்டால் 1)\n4. XNOR வாயில்: Y = (A ⊕ B)' (உள்ளீடுகள் சமமாக இருந்தால் 1)", isBookBack: true
+  }
+];
+
+fs.writeFileSync('./scripts/ch2.json', JSON.stringify(ch2, null, 2));
+console.log('Ch2 built:', ch2.length);

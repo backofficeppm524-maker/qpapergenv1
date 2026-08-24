@@ -1,0 +1,431 @@
+[
+  {
+    "id": "ca12-ch5-1m-1",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A_________is a block of code that performs a specific task.",
+    "questionTextTamil": "ஒரு குறிப்பிட்ட பணியைச் செய்யக்கூடிய குறிமுறைத் தொகுதி எது?",
+    "options": {
+      "A": "parameter",
+      "B": "function",
+      "C": "class",
+      "D": "label"
+    },
+    "optionsTamil": {
+      "A": "அளவுரு (parameter)",
+      "B": "செயற்கூறு (function)",
+      "C": "இனம் (class)",
+      "D": "பெயர்ச்சீட்டு (label)"
+    },
+    "correctOption": "B",
+    "answer": "B) function",
+    "answerTamil": "B) செயற்கூறு (function)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-2",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Pre-defined functions are also called _________.",
+    "questionTextTamil": "முன்னரே வரையறுக்கப்பட்ட செயற்கூறுகள் எவ்வாறு அழைக்கப்படுகின்றன?",
+    "options": {
+      "A": "user-defined functions",
+      "B": "recursive functions",
+      "C": "built-in functions",
+      "D": "lambda functions"
+    },
+    "optionsTamil": {
+      "A": "பயனர் வரையறுத்த செயற்கூறுகள்",
+      "B": "தற்சுழற்சி செயற்கூறுகள்",
+      "C": "உள்ளமைந்த செயற்கூறுகள் (built-in functions)",
+      "D": "லாம்ப்டா செயற்கூறுகள்"
+    },
+    "correctOption": "C",
+    "answer": "C) built-in functions",
+    "answerTamil": "C) உள்ளமைந்த செயற்கூறுகள் (built-in functions)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-3",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which one of the following is the right way of defining a function in PHP?",
+    "questionTextTamil": "PHP-ல் செயற்கூறை வரையறுக்கும் சரியான முறை எது?",
+    "options": {
+      "A": "function functionname() { // code to be executed }",
+      "B": "function() {}",
+      "C": "def myFunction():",
+      "D": "None of the above"
+    },
+    "optionsTamil": {
+      "A": "function functionname() { // code to be executed }",
+      "B": "function() {}",
+      "C": "def myFunction():",
+      "D": "மேற்கண்ட எதுவுமில்லை"
+    },
+    "correctOption": "A",
+    "answer": "A) function functionname() { // code to be executed }",
+    "answerTamil": "A) function functionname() { // code to be executed }",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-4",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A user-defined function in PHP starts with the keyword _________.",
+    "questionTextTamil": "PHP-ல் பயனர் வரையறுக்கும் செயற்கூறு எந்த சிறப்புச் சொல்லுடன் தொடங்குகிறது?",
+    "options": {
+      "A": "function",
+      "B": "def",
+      "C": "defined",
+      "D": "funct"
+    },
+    "optionsTamil": {
+      "A": "function",
+      "B": "def",
+      "C": "defined",
+      "D": "funct"
+    },
+    "correctOption": "A",
+    "answer": "A) function",
+    "answerTamil": "A) function",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-5",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a correct way to call a function in PHP?",
+    "questionTextTamil": "PHP-ல் ஒரு செயற்கூறை அழைக்கும் சரியான வழி எது?",
+    "options": {
+      "A": "functionName();",
+      "B": "call functionName;",
+      "C": "execute functionName;",
+      "D": "run functionName();"
+    },
+    "optionsTamil": {
+      "A": "functionName();",
+      "B": "call functionName;",
+      "C": "execute functionName;",
+      "D": "run functionName();"
+    },
+    "correctOption": "A",
+    "answer": "A) functionName();",
+    "answerTamil": "A) functionName();",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-6",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is an array in PHP?",
+    "questionTextTamil": "PHP-ல் அணி (Array) என்றால் என்ன?",
+    "options": {
+      "A": "An array is a special data type.",
+      "B": "It can hold many values under a single variable name.",
+      "C": "An array element can be any type of data.",
+      "D": "All of the above"
+    },
+    "optionsTamil": {
+      "A": "அணி என்பது ஒரு சிறப்புத் தரவினம்",
+      "B": "ஒரே மாறி பெயரின் கீழ் பல மதிப்புகளைக் கொண்டிருக்கும்",
+      "C": "அணியின் உறுப்பு எந்த தரவினமாகவும் இருக்கலாம்",
+      "D": "இவை அனைத்தும் (All of the above)"
+    },
+    "correctOption": "D",
+    "answer": "D) All of the above",
+    "answerTamil": "D) இவை அனைத்தும் (All of the above)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-7",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many types of arrays are there in PHP?",
+    "questionTextTamil": "PHP-ல் எத்தனை வகையான அணிகள் உள்ளன?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "optionsTamil": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctOption": "B",
+    "answer": "B) 3",
+    "answerTamil": "B) 3",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-8",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the index of the first element in an indexed array in PHP?",
+    "questionTextTamil": "சுட்டு எண் அணியில் (Indexed array) முதல் உறுப்பின் சுட்டெண் என்ன?",
+    "options": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "optionsTamil": {
+      "A": "0",
+      "B": "1",
+      "C": "2",
+      "D": "3"
+    },
+    "correctOption": "A",
+    "answer": "A) 0",
+    "answerTamil": "A) 0",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-9",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the index of the third element in an indexed array in PHP with 5 elements?",
+    "questionTextTamil": "5 உறுப்புகளைக் கொண்ட சுட்டு எண் அணியில் மூன்றாவது உறுப்பின் சுட்டெண் என்ன?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "optionsTamil": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctOption": "A",
+    "answer": "A) 2",
+    "answerTamil": "A) 2",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-10",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How do you create an indexed array in PHP?",
+    "questionTextTamil": "PHP-ல் ஒரு சுட்டு எண் அணியை எவ்வாறு உருவாக்கலாம்?",
+    "options": {
+      "A": "By enclosing a comma-separated list of values in square brackets",
+      "B": "By using the array() function",
+      "C": "By enclosing a comma-separated list of values in curly braces",
+      "D": "Both A and B"
+    },
+    "optionsTamil": {
+      "A": "சதுர அடைப்புக்குறிக்குள் கமாவால் பிரிக்கப்பட்ட மதிப்புகளை அமைத்து",
+      "B": "array() செயற்கூறைப் பயன்படுத்தி",
+      "C": "நெளிவு அடைப்புக்குறிக்குள் அமைத்து",
+      "D": "A மற்றும் B இரண்டும் (Both A and B)"
+    },
+    "correctOption": "D",
+    "answer": "D) Both A and B",
+    "answerTamil": "D) A மற்றும் B இரண்டும் (Both A and B)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-1m-11",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How do you access the elements of an indexed array in PHP?",
+    "questionTextTamil": "PHP-ல் சுட்டு எண் அணியின் உறுப்புகளை எவ்வாறு அணுகுவாய்?",
+    "options": {
+      "A": "By using the array index in square brackets",
+      "B": "By using the array key in square brackets",
+      "C": "By using the array index in curly braces",
+      "D": "By using the array key in curly braces"
+    },
+    "optionsTamil": {
+      "A": "சதுர அடைப்புக்குறிக்குள் சுட்டெண்ணைப் பயன்படுத்தி",
+      "B": "சதுர அடைப்புக்குறிக்குள் திறவுகோலைப் பயன்படுத்தி",
+      "C": "நெளிவு அடைப்புக்குறிக்குள் சுட்டெண்ணைப் பயன்படுத்தி",
+      "D": "நெளிவு அடைப்புக்குறிக்குள் திறவுகோலைப் பயன்படுத்தி"
+    },
+    "correctOption": "A",
+    "answer": "A) By using the array index in square brackets",
+    "answerTamil": "A) சதுர அடைப்புக்குறிக்குள் சுட்டெண்ணைப் பயன்படுத்தி",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-2m-1",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a function?",
+    "questionTextTamil": "செயற்கூறு என்றால் என்ன?",
+    "answer": "A function is a self-contained, reusable block of statements designed to perform a specific task when called in a program.",
+    "answerTamil": "செயற்கூறு என்பது நிரலில் அழைக்கப்படும் போது ஒரு குறிப்பிட்ட பணியைச் செய்ய வடிவமைக்கப்பட்ட மறுபயன்பாட்டுக்குரிய கூற்றுகளின் தொகுப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-2m-2",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the different types of functions in PHP?",
+    "questionTextTamil": "PHP-ல் உள்ள பல்வேறு வகையான செயற்கூறுகள் யாவை?",
+    "answer": "PHP functions are categorized into:\n1. User-Defined Functions: Created by the programmer.\n2. Built-in (Pre-defined) Functions: Provided in PHP core (e.g., strlen(), count(), date()).\n3. Parameterized Functions: Accept input arguments.\n4. Recursive Functions: Call themselves.",
+    "answerTamil": "PHP செயற்கூறுகளின் வகைகள்:\n1. பயனர் வரையறுத்த செயற்கூறுகள் (User-defined functions)\n2. கணினி உள்ளமைந்த செயற்கூறுகள் (Built-in functions)\n3. அளபுருக்களைக் கொண்ட செயற்கூறுகள் (Parameterized functions)\n4. தற்சுழற்சி செயற்கூறுகள் (Recursive functions).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-2m-3",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write short notes on built-in functions in PHP?",
+    "questionTextTamil": "PHP-ன் உள்ளமைந்த செயற்கூறுகள் (Built-in functions) பற்றி சிறுகுறிப்பு வரைக.",
+    "answer": "PHP provides over 1000 built-in functions for string handling, math, arrays, database queries, date/time, and file operations ready for immediate use without requiring explicit definitions.",
+    "answerTamil": "PHP-ல் சரம் கையாளுதல், கணிதம், அணிகள், தரவுத்தள இணைப்பு மற்றும் கோப்பு செயல்பாடுகளுக்காக 1000-க்கும் மேற்பட்ட முன்னரே வரையறுக்கப்பட்ட உள்ளமைந்த செயற்கூறுகள் உள்ளன.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-2m-4",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an array in PHP and what are its main types?",
+    "questionTextTamil": "PHP-ல் அணி என்றால் என்ன? அதன் முக்கிய வகைகள் யாவை?",
+    "answer": "An array is a composite data structure that can store multiple values under a single variable name.\nTypes:\n1. Indexed Arrays\n2. Associative Arrays\n3. Multidimensional Arrays.",
+    "answerTamil": "அணி என்பது ஒரே மாறியில் பல மதிப்புகளைச் சேமித்து வைக்கும் ஒரு கூட்டுத் தரவு அமைப்பாகும்.\nவகைகள்:\n1. சுட்டு எண் அணிகள் (Indexed Arrays)\n2. தொடர்பு அணிகள் (Associative Arrays)\n3. பல பரிமாண அணிகள் (Multidimensional Arrays).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-2m-5",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "How do you create an indexed array in PHP?",
+    "questionTextTamil": "PHP-ல் ஒரு சுட்டு எண் அணியை எவ்வாறு உருவாக்குவாய்?",
+    "answer": "An indexed array can be created using either the array() function or bracket syntax:\n$colors = array(\"Red\", \"Green\", \"Blue\");\nor\n$colors = [\"Red\", \"Green\", \"Blue\"];",
+    "answerTamil": "சுட்டு எண் அணியை array() செயற்கூறு அல்லது அடைப்புக்குறியைப் பயன்படுத்தி உருவாக்கலாம்:\n$colors = array(\"Red\", \"Green\", \"Blue\");\nஅல்லது\n$colors = [\"Red\", \"Green\", \"Blue\"];",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-3m-1",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the advantages of using functions in PHP?",
+    "questionTextTamil": "PHP-ல் செயற்கூறுகளைப் பயன்படுத்துவதால் ஏற்படும் நன்மைகள் யாவை?",
+    "answer": "Advantages of functions:\n1. Code Reusability: Write code once and execute it anywhere.\n2. Modular Programming: Decomposes large programs into small, manageable modules.\n3. Easier Debugging: Errors can be easily isolated and fixed.\n4. Readability and Maintenance: Improves overall program clarity.",
+    "answerTamil": "செயற்கூறுகளின் நன்மைகள்:\n1. குறிமுறையின் மறுபயன்பாடு (Reusability).\n2. பெரிய நிரலை சிறிய தொகுதிகளாகப் பிரித்து எளிமையாக்குதல்.\n3. பிழைத்திருத்தம் செய்வது மிக எளிது.\n4. நிரலைப் புரிந்துகொள்ளுதல் மற்றும் பராமரித்தல் எளிதாகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-3m-2",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is the syntax for defining a function in PHP?",
+    "questionTextTamil": "PHP-ல் ஒரு செயற்கூறை வரையறுப்பதற்கான தொடரியல் யாது?",
+    "answer": "Syntax:\nfunction functionName(parameter1, parameter2, ...) {\n    // Code block to be executed\n    return $value; // optional\n}",
+    "answerTamil": "செயற்கூறு தொடரியல்:\nfunction functionName(parameter1, parameter2, ...) {\n    // செயல்படுத்த வேண்டிய குறிமுறை\n    return $value; // விருப்பத்திற்கேற்ப\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-3m-3",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "How do you call a function in PHP?",
+    "questionTextTamil": "PHP-ல் ஒரு செயற்கூறை எவ்வாறு அழைப்பாய்?",
+    "answer": "A function is invoked simply by writing its name followed by parentheses containing any required argument values:\nExample:\nfunction greet($name) {\n    echo \"Hello, \" . $name;\n}\ngreet(\"Kavitha\"); // Function call",
+    "answerTamil": "ஒரு செயற்கூறானது அதன் பெயரை எழுதி, அடைப்புக்குறிக்குள் தேவைப்படும் செயலுருபுகளைக் கொடுத்து அழைக்கப்படுகிறது:\nஎடுத்துக்காட்டு:\nfunction greet($name) {\n    echo \"வணக்கம், \" . $name;\n}\ngreet(\"கவிதா\"); // செயற்கூறு அழைப்பு",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-3m-4",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write short notes on an Associative array.",
+    "questionTextTamil": "தொடர்பு அணி (Associative Array) பற்றி சிறுகுறிப்பு வரைக.",
+    "answer": "An Associative array stores data in Key-Value pairs where keys are named strings rather than numeric indices.\nSyntax / Example:\n$marks = array(\"Tamil\" => 95, \"English\" => 90, \"CS\" => 98);\necho $marks[\"CS\"]; // Outputs 98",
+    "answerTamil": "தொடர்பு அணி என்பது எண்களுக்குப் பதிலாக பெயர் சூட்டப்பட்ட திறவுகோல்-மதிப்பு (Key-Value) இணைகளாகத் தரவைச் சேமிக்கும் அணியாகும்.\nஎடுத்துக்காட்டு:\n$marks = array(\"Tamil\" => 95, \"English\" => 90, \"CS\" => 98);\necho $marks[\"CS\"]; // 98 என அச்சிடும்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-5m-1",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the user-defined function with suitable examples.",
+    "questionTextTamil": "பயனர் வரையறுத்த செயற்கூறை தகுந்த மாதிரி நிரலுடன் விரிவாக விளக்குக.",
+    "answer": "A user-defined function is custom logic declared by the programmer using the 'function' keyword.\n\nStructure:\n1. Declaration: function keyword followed by function name and parentheses.\n2. Body: Statements enclosed in curly braces {}.\n3. Parameters / Arguments: Values passed into the function.\n4. Return statement: Sends back computed result to the caller.\n\nWorking Example:\n<?php\nfunction calculateTotal($mark1, $mark2, $mark3) {\n    $total = $mark1 + $mark2 + $mark3;\n    return $total;\n}\n\n$studentTotal = calculateTotal(95, 90, 100);\necho \"Total Marks = \" . $studentTotal;\n?>",
+    "answerTamil": "பயனர் வரையறுத்த செயற்கூறு என்பது நிரலாளரால் தனது தேவைக்கேற்ப 'function' சிறப்புச் சொல்லைப் பயன்படுத்தி உருவாக்கப்படும் செயற்கூறாகும்.\n\nஅமைப்பு:\n1. function என்ற சொல்லுடன் செயற்கூறு பெயர் தொடங்கும்.\n2. செயலுருபுகளை ஏற்றுக்கொள்ளும் அடைப்புக்குறிகள் ().\n3. நெளிவு அடைப்புக்குறிக்குள் குறிமுறைத் தொகுதி {}.\n4. return கூற்று மூலம் கணக்கிடப்பட்ட விடையைத் திரும்ப அனுப்புதல்.\n\nமாதிரி நிரல்:\n<?php\nfunction findSum($a, $b) {\n    $sum = $a + $b;\n    return $sum;\n}\n$result = findSum(50, 45);\necho \"கூடுதல் = \" . $result;\n?>",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch5-5m-2",
+    "chapterNo": 5,
+    "chapterName": "Functions and Arrays in PHP",
+    "chapterNameTamil": "PHP செயற்கூறுகள் மற்றும் அணிகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain indexed array and associative array in PHP.",
+    "questionTextTamil": "PHP-ல் சுட்டு எண் அணி மற்றும் தொடர்பு அணி பற்றி விரிவாக விளக்குக.",
+    "answer": "1. Indexed Array:\n- Uses numeric indices automatically or explicitly starting from 0.\n- Example:\n<?php\n$fruits = array(\"Apple\", \"Mango\", \"Banana\");\necho $fruits[0]; // Apple\nfor($i=0; $i<count($fruits); $i++) {\n    echo $fruits[$i] . \" \";\n}\n?>\n\n2. Associative Array:\n- Uses named custom keys associated with values (Key => Value mapping).\n- Example:\n<?php\n$age = array(\"Ravi\" => 18, \"Priya\" => 17, \"Arun\" => 19);\necho \"Priya's age is \" . $age[\"Priya\"];\nforeach($age as $name => $val) {\n    echo \"$name : $val<br>\";\n}\n?>",
+    "answerTamil": "1. சுட்டு எண் அணி (Indexed Array):\n- எண்களைக் கொண்ட சுட்டெண்களைக் கொண்டு உறுப்புகளை அணுகும் (0-ல் தொடங்கும்).\n- எடுத்துக்காட்டு:\n<?php\n$colors = array(\"Red\", \"Green\", \"Blue\");\necho $colors[0]; // Red\n?>\n\n2. தொடர்பு அணி (Associative Array):\n- எண்களுக்குப் பதிலாக பெயரிடப்பட்ட திறவுகோல்களைக் (Keys) கொண்டு மதிப்புகளைச் சேமிக்கும்.\n- எடுத்துக்காட்டு:\n<?php\n$marks = array(\"தமிழ்\" => 95, \"ஆங்கிலம்\" => 90);\necho $marks[\"தமிழ்\"]; // 95\n?>",
+    "isBookBack": true
+  }
+]

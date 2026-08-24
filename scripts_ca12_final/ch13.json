@@ -1,0 +1,444 @@
+[
+  {
+    "id": "ca12-ch13-1m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "ARPANET stands for",
+    "questionTextTamil": "ARPANET என்பதன் விரிவாக்கம்:",
+    "options": {
+      "A": "Advanced Research Projects Agency Network",
+      "B": "American Research Projects Agency Network",
+      "C": "Advanced Research Program Agency Network",
+      "D": "Advanced Radio Projects Agency Network"
+    },
+    "optionsTamil": {
+      "A": "Advanced Research Projects Agency Network",
+      "B": "American Research Projects Agency Network",
+      "C": "Advanced Research Program Agency Network",
+      "D": "Advanced Radio Projects Agency Network"
+    },
+    "correctOption": "A",
+    "answer": "A) Advanced Research Projects Agency Network",
+    "answerTamil": "A) Advanced Research Projects Agency Network",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "WWW was invented by",
+    "questionTextTamil": "WWW (World Wide Web) யாரால் கண்டுபிடிக்கப்பட்டது?",
+    "options": {
+      "A": "Tim Berners-Lee",
+      "B": "Vint Cerf",
+      "C": "Charles Babbage",
+      "D": "Bill Gates"
+    },
+    "optionsTamil": {
+      "A": "டிம் பெர்னர்ஸ்-லீ (Tim Berners-Lee)",
+      "B": "வின்ட் செர்ப்",
+      "C": "சார்லஸ் பாபேஜ்",
+      "D": "பில் கேட்ஸ்"
+    },
+    "correctOption": "A",
+    "answer": "A) Tim Berners-Lee",
+    "answerTamil": "A) டிம் பெர்னர்ஸ்-லீ (Tim Berners-Lee)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which cable is used in cable TV?",
+    "questionTextTamil": "கேபிள் டிவியில் பயன்படுத்தப்படும் வடம் எது?",
+    "options": {
+      "A": "Coaxial Cable",
+      "B": "Twisted Pair Cable",
+      "C": "Fiber Optic Cable",
+      "D": "USB Cable"
+    },
+    "optionsTamil": {
+      "A": "இணை அச்சு வடம் (Coaxial Cable)",
+      "B": "முறுக்கப்பட்ட இணை வடம்",
+      "C": "ஒளியிழை வடம்",
+      "D": "USB வடம்"
+    },
+    "correctOption": "A",
+    "answer": "A) Coaxial Cable",
+    "answerTamil": "A) இணை அச்சு வடம் (Coaxial Cable)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-4",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Expansion of UTP is",
+    "questionTextTamil": "UTP என்பதன் விரிவாக்கம்:",
+    "options": {
+      "A": "Unshielded Twisted Pair",
+      "B": "Universal Twisted Pair",
+      "C": "Uniform Twisted Pair",
+      "D": "Unshielded Transmission Pair"
+    },
+    "optionsTamil": {
+      "A": "Unshielded Twisted Pair",
+      "B": "Universal Twisted Pair",
+      "C": "Uniform Twisted Pair",
+      "D": "Unshielded Transmission Pair"
+    },
+    "correctOption": "A",
+    "answer": "A) Unshielded Twisted Pair",
+    "answerTamil": "A) Unshielded Twisted Pair",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-5",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which medium is used in the optical fibre cables to transmit data?",
+    "questionTextTamil": "ஒளியிழை வடங்களில் தரவை அனுப்ப எந்த ஊடகம் பயன்படுகிறது?",
+    "options": {
+      "A": "Light pulses",
+      "B": "Electrical signals",
+      "C": "Radio waves",
+      "D": "Sound waves"
+    },
+    "optionsTamil": {
+      "A": "ஒளி துடிப்புகள் (Light pulses)",
+      "B": "மின் சமிக்ஞைகள்",
+      "C": "ரேடியோ அலைகள்",
+      "D": "ஒலி அலைகள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Light pulses",
+    "answerTamil": "A) ஒளி துடிப்புகள் (Light pulses)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-6",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a small peripheral device with a sim slot to connect the computers to Internet?",
+    "questionTextTamil": "கணினியை இணையத்துடன் இணைக்க சிம் கார்டு ஸ்லாட்டுடன் கூடிய சிறிய சாதனம் எது?",
+    "options": {
+      "A": "Dongles",
+      "B": "Switch",
+      "C": "Hub",
+      "D": "Bridge"
+    },
+    "optionsTamil": {
+      "A": "டாங்கிள்ஸ் (Dongles)",
+      "B": "சுவிட்ச்",
+      "C": "ஹப்",
+      "D": "பிரிட்ஜ்"
+    },
+    "correctOption": "A",
+    "answer": "A) Dongles",
+    "answerTamil": "A) டாங்கிள்ஸ் (Dongles)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-7",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which connector is used in the Ethernet cables?",
+    "questionTextTamil": "ஈதர்நெட் வடங்களில் பயன்படுத்தப்படும் இணைப்பு முனையம் எது?",
+    "options": {
+      "A": "RJ45",
+      "B": "RJ11",
+      "C": "RJ21",
+      "D": "USB"
+    },
+    "optionsTamil": {
+      "A": "RJ45",
+      "B": "RJ11",
+      "C": "RJ21",
+      "D": "USB"
+    },
+    "correctOption": "A",
+    "answer": "A) RJ45",
+    "answerTamil": "A) RJ45",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-8",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following connector is called as champ connector?",
+    "questionTextTamil": "பின்வருவனவற்றுள் சாம்ப் (Champ) இணைப்பான் என்று அழைக்கப்படுவது எது?",
+    "options": {
+      "A": "RJ21",
+      "B": "RJ45",
+      "C": "RJ11",
+      "D": "RJ14"
+    },
+    "optionsTamil": {
+      "A": "RJ21 (50-pin)",
+      "B": "RJ45",
+      "C": "RJ11",
+      "D": "RJ14"
+    },
+    "correctOption": "A",
+    "answer": "A) RJ21",
+    "answerTamil": "A) RJ21",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-9",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many pins are used in RJ45 cables?",
+    "questionTextTamil": "RJ45 வடங்களில் எத்தனை ஊசிகள் (Pins) பயன்படுத்தப்படுகின்றன?",
+    "options": {
+      "A": "8",
+      "B": "4",
+      "C": "6",
+      "D": "2"
+    },
+    "optionsTamil": {
+      "A": "8",
+      "B": "4",
+      "C": "6",
+      "D": "2"
+    },
+    "correctOption": "A",
+    "answer": "A) 8",
+    "answerTamil": "A) 8",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-1m-10",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which wiring standard is used for connecting two computers directly?",
+    "questionTextTamil": "இரண்டு கணினிகளை நேரடியாக இணைக்க எந்த கம்பி இணைப்பு முறை பயன்படுகிறது?",
+    "options": {
+      "A": "Crossover wiring",
+      "B": "Straight-through wiring",
+      "C": "Rollover wiring",
+      "D": "Loopback wiring"
+    },
+    "optionsTamil": {
+      "A": "குறுக்கு இணைப்பு (Crossover wiring)",
+      "B": "நேரடி இணைப்பு (Straight-through)",
+      "C": "ரோல்ஓவர் இணைப்பு",
+      "D": "லூப்பேக் இணைப்பு"
+    },
+    "correctOption": "A",
+    "answer": "A) Crossover wiring",
+    "answerTamil": "A) குறுக்கு இணைப்பு (Crossover wiring)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write a note on co-axial cable.",
+    "questionTextTamil": "இணை அச்சு வடம் (Co-axial cable) பற்றி குறிப்பு வரைக.",
+    "answer": "A coaxial cable has a central copper conductor surrounded by an insulating dielectric layer, metallic foil/braided shielding, and an outer protective jacket. Widely used in cable TV and broadband networks.",
+    "answerTamil": "இணை அச்சு வடம் மையத்தில் ஒரு தாமிர கம்பியையும், அதைச் சுற்றி மின்காப்பு அடுக்கு, உலோக கவச வலை மற்றும் வெளி உரையையும் கொண்டுள்ளது. இது கேபிள் டிவி மற்றும் இணைய இணைப்புகளுக்கு பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the uses of USB cables?",
+    "questionTextTamil": "USB வடங்களின் பயன்பாடுகள் யாவை?",
+    "answer": "USB (Universal Serial Bus) cables connect peripheral devices (mouse, keyboard, printer, flash drive, smartphone) to computers for high-speed data transfer and electrical power charging.",
+    "answerTamil": "USB வடங்கள் சுட்டி, விசைப்பலகை, அச்சுப்பொறி மற்றும் ஸ்மார்ட்போன்களை கணினியுடன் இணைத்து அதிவேக தரவு பரிமாற்றம் மற்றும் மின்சாரம் வழங்க பயன்படுகின்றன.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Ethernet port?",
+    "questionTextTamil": "ஈதர்நெட் போர்ட் (Ethernet port) என்றால் என்ன?",
+    "answer": "An Ethernet port (RJ45 socket) is an opening on computer network cards, routers, and switches used to plug in an Ethernet network cable for wired LAN connectivity.",
+    "answerTamil": "ஈதர்நெட் போர்ட் என்பது கம்பிவழியான LAN இணைப்பை ஏற்படுத்த RJ45 வடத்தை செருகுவதற்கு கணினி மற்றும் ரூட்டர்களில் உள்ள ஒரு இணைப்பியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-4",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the use of Crimping tool?",
+    "questionTextTamil": "கிரிம்பிங் கருவியின் (Crimping tool) பயன்பாடு என்ன?",
+    "answer": "A crimping tool is a physical hand tool used to crimp/join an RJ45 modular plug onto the stripped ends of an 8-wire twisted-pair cable securely.",
+    "answerTamil": "கிரிம்பிங் கருவி என்பது முறுக்கப்பட்ட இணை வடங்களின் முனைகளில் RJ45 இணைப்பிகளை உறுதியாக இணைத்து பூட்ட பயன்படும் கை கருவியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-5",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the types of twisted pair cables?",
+    "questionTextTamil": "முறுக்கப்பட்ட இணை வடங்களின் வகைகள் யாவை?",
+    "answer": "Two types of twisted pair cables:\n1. UTP (Unshielded Twisted Pair)\n2. STP (Shielded Twisted Pair).",
+    "answerTamil": "முறுக்கப்பட்ட இணை வடங்களின் இரண்டு வகைகள்:\n1. கவசமற்ற முறுக்கப்பட்ட இணை வடம் (UTP)\n2. கவசமிட்ட முறுக்கப்பட்ட இணை வடம் (STP).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-2m-6",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is meant by champ connector?",
+    "questionTextTamil": "சாம்ப் இணைப்பான் (Champ connector) என்றால் என்ன?",
+    "answer": "A champ connector is an RJ21 telecommunications connector containing 50 pins used to connect up to 25 telephone/data lines simultaneously.",
+    "answerTamil": "சாம்ப் இணைப்பான் (RJ21) என்பது 50 பின்களைக் கொண்ட ஒரு தொலைத்தொடர்பு இணைப்பானாகும். இது ஒரே நேரத்தில் 25 தொலைபேசி இணைப்புகளை இணைக்க பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on crossover cables.",
+    "questionTextTamil": "குறுக்கு இணைப்பு வடங்கள் (Crossover cables) பற்றி குறிப்பு வரைக.",
+    "answer": "A crossover cable has transmit pins on one end crossed over to receive pins on the other end (T568A on one end, T568B on the other). Used to connect two similar devices directly (e.g. computer to computer, switch to switch) without a hub.",
+    "answerTamil": "குறுக்கு இணைப்பு வடத்தில் ஒரு முனையின் T568A தரநிலையும் மற்றொரு முனையில் T568B தரநிலையும் இணைக்கப்பட்டிருக்கும். இது இடைநிலை சாதனம் இன்றி இரண்டு கணினிகளை நேரடியாக இணைக்க பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a short note on RJ45 connector.",
+    "questionTextTamil": "RJ45 இணைப்பான் பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "RJ45 (Registered Jack 45) is an 8-pin/8-contact plastic modular connector used with twisted-pair Ethernet cables (Cat5e/Cat6) for high-speed local area networks.",
+    "answerTamil": "RJ45 என்பது 8-ஊசிகளைக் கொண்ட ஒரு பிளாஸ்டிக் இணைப்பானாகும். இது ஈதர்நெட் முறுக்கப்பட்ட இணை வடங்களுடன் LAN இணைப்புகளுக்காகப் பயன்படுத்தப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is meant by null modem cable? Give the examples.",
+    "questionTextTamil": "நல் மோடம் வடம் என்றால் என்ன? எடுத்துக்காட்டுகள் தருக.",
+    "answer": "A null modem cable is a specially wired RS-232 serial cable where transmit and receive lines are cross-linked, allowing direct communication between two DTE devices without a modem.\nExample: Serial cable connecting two PCs for direct file transfer or console debugging.",
+    "answerTamil": "நல் மோடம் வடம் என்பது மோடம் போன்ற சாதனம் ஏதுமின்றி இரண்டு கணினிகளை தொடர் தொடர்பு போர்ட் (RS-232) வழியாக நேரடியாக இணைக்கும் சிறப்பு வடமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-4",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the components involved in Ethernet cabling?",
+    "questionTextTamil": "ஈதர்நெட் வடமிடுதலில் உள்ள கூறுகள் யாவை?",
+    "answer": "Key components in Ethernet cabling:\n1. Twisted Pair Cable (Cat5/Cat6/Cat7)\n2. RJ45 Connectors\n3. Network Interface Card (NIC / Ethernet Port)\n4. Crimping Tool\n5. Network Cable Tester / Stripper.",
+    "answerTamil": "ஈதர்நெட் வடமிடுதலின் முக்கிய கூறுகள்:\n1. முறுக்கப்பட்ட இணை வடம் (Cat 5/6)\n2. RJ45 இணைப்பிகள்\n3. பிணைய இடைமுக அட்டை (NIC / Ethernet Port)\n4. கிரிம்பிங் கருவி\n5. வடம் சோதிப்பான் (Cable Tester).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-3m-5",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the types of Fibre optic cables?",
+    "questionTextTamil": "ஒளியிழை வடங்களின் வகைகள் யாவை?",
+    "answer": "Two types of Optical Fibre cables:\n1. Single-Mode Fibre (SMF): Narrow core (~9 microns) transmits a single light path over long distances with minimal attenuation.\n2. Multi-Mode Fibre (MMF): Wider core (~50–62.5 microns) transmits multiple light paths over short-to-medium distances (e.g. within buildings).",
+    "answerTamil": "ஒளியிழை வடங்களின் இரண்டு வகைகள்:\n1. ஒற்றை-முறை ஒளியிழை (Single-Mode Fiber): நீண்ட தூரத்திற்கு ஒளியை அனுப்பும் குறுகிய மையக் கம்பி கொண்டவை.\n2. பல-முறை ஒளியிழை (Multi-Mode Fiber): குறுகிய தூரத்திற்கு பல ஒளிக்கற்றைகளை அனுப்பும் தடிமனான மையக் கம்பி கொண்டவை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-5m-1",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "What is meant by Registered Jack? Explain briefly the types of Jacks.",
+    "questionTextTamil": "Registered Jack (RJ) என்றால் என்ன? அதன் வகைகளை சுருக்கமாக விளக்குக.",
+    "answer": "Registered Jack (RJ) is a standardized telecommunication network interface for connecting voice and data equipment.\n\nKey RJ Types:\n1. RJ-11: 4-pin/6-position modular connector used for single-line analog telephone wiring.\n2. RJ-14: 6-position/4-conductor jack used for two telephone lines.\n3. RJ-45: 8-pin/8-conductor connector widely used for computer Ethernet LAN connections.\n4. RJ-61: 8-position jack used for multi-line (up to 4 lines) telephone wiring.\n5. RJ-21 (Champ): 50-pin connector handling up to 25 telephone lines in telecom switchboards.",
+    "answerTamil": "Registered Jack (RJ) என்பது குரல் மற்றும் தரவு பரிமாற்றத்திற்கான நிலையான தொலைத்தொடர்பு இடைமுக அமைப்பாகும்.\n\nமுக்கிய வகைகள்:\n1. RJ11: ஒற்றை வரி தொலைபேசி இணைப்புக்கான 4-பின் இணைப்பான்.\n2. RJ14: இரண்டு தொலைபேசி வரிகளுக்கான இணைப்பான்.\n3. RJ45: கணினி ஈதர்நெட் நெட்வொர்க்குகளுக்கான 8-பின் இணைப்பான்.\n4. RJ61: நான்கு தொலைபேசி வரிகளுக்கான இணைப்பான்.\n5. RJ21 (சாம்பின் இணைப்பான்): 25 தொலைபேசி வரிகளை கையாளும் 50-பின் இணைப்பான்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-5m-2",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the components used in Ethernet cabling.",
+    "questionTextTamil": "ஈதர்நெட் வடமிடுதலில் பயன்படுத்தப்படும் கூறுகளை விரிவாக விளக்குக.",
+    "answer": "Components used in Ethernet Cabling:\n\n1. Twisted Pair Cable: 8 color-coded copper wires arranged in 4 twisted pairs to cancel electromagnetic interference (Cat5e, Cat6, Cat7).\n2. RJ45 Connector: Standard 8-pin clear plastic modular plug that connects the cable end to network devices.\n3. Ethernet Port / NIC: Hardware interface on PCs, routers, and switches accepting the RJ45 jack.\n4. Crimping Tool: Hand tool that presses metal connector pins onto wire conductors and fastens the plug jacket.\n5. Wire Stripper & Cable Tester: Removes outer insulation jackets safely and verifies 8-pin pinout connectivity.",
+    "answerTamil": "ஈதர்நெட் வடமிடுதலின் முக்கிய கூறுகள்:\n1. முறுக்கப்பட்ட இணை வடம்: 8 வண்ண கம்பிகளைக் கொண்ட 4 ஜோடிகள்.\n2. RJ45 இணைப்பான்: 8-ஊசிகள் கொண்ட பிளாஸ்டிக் முனை.\n3. ஈதர்நெட் போர்ட் (NIC): கணினியில் RJ45 செருகப்படும் துளை.\n4. கிரிம்பிங் கருவி: கம்பிகளை RJ45 உடன் இணைக்கும் கருவி.\n5. வடம் சோதிப்பான்: இணைப்பு சரியாக உள்ளதா என்பதை சரிபார்க்கும் சாதனம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch13-5m-3",
+    "chapterNo": 13,
+    "chapterName": "Network Cabling",
+    "chapterNameTamil": "வலையமைப்பு வடமிடுதல்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the types of network cables",
+    "questionTextTamil": "பல்வேறு வகையான பிணைய வடங்களை (Network Cables) விரிவாக விளக்குக.",
+    "answer": "Types of Network Cables:\n\n1. Coaxial Cable: Copper core surrounded by insulation and metallic braid shield. Resistant to interference, used in Cable TV.\n2. Twisted Pair Cable:\n- UTP (Unshielded Twisted Pair): Flexible, inexpensive, standard for LANs.\n- STP (Shielded Twisted Pair): Additional foil shielding against external noise.\n3. Fibre Optic Cable: Core made of glass/plastic fibres transmitting data as light pulses. Ultra-fast speeds (Gbps/Tbps), immune to EMI, used for internet backbones.\n4. USB Cables: Connects local peripherals and external devices to computers.\n5. Serial / Null Modem Cables: Transmits data sequentially for direct machine-to-machine communications.",
+    "answerTamil": "பிணைய வடங்களின் வகைகள்:\n1. இணை அச்சு வடம் (Coaxial Cable): கேபிள் டிவி மற்றும் பிராட்பேண்ட் பயன்பாடு.\n2. முறுக்கப்பட்ட இணை வடம் (Twisted Pair): UTP மற்றும் STP என இருவகை, உள்ளூர் வலையமைப்பிற்கு சிறந்தது.\n3. ஒளியிழை வடம் (Fibre Optic Cable): கண்ணாடி இழைகள் வழியே ஒளி அலைகளாக தரவை அதிவேகமாக கொண்டு செல்லும் வடம்.\n4. USB வடம்: புற சாதனங்களை இணைக்க பயன்படுவது.\n5. தொடர் வடம் (Serial Cable): நேரடி சாதன தகவல்தொடர்புக்கு பயன்படுவது.",
+    "isBookBack": true
+  }
+]

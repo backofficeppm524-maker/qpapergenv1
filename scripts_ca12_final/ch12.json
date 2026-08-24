@@ -1,0 +1,457 @@
+[
+  {
+    "id": "ca12-ch12-1m-1",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is used to maintain all the directories of domain names?",
+    "questionTextTamil": "டொமைன் பெயர்களின் அனைத்து அடைவுகளையும் பராமரிக்க பின்வருவனவற்றில் எது பயன்படுகிறது?",
+    "options": {
+      "A": "Domain name system",
+      "B": "Domain name space",
+      "C": "Name space",
+      "D": "IP address"
+    },
+    "optionsTamil": {
+      "A": "டொமைன் பெயர் அமைப்பு (DNS)",
+      "B": "டொமைன் பெயர் இடைவெளி (Domain name space)",
+      "C": "பெயர் இடைவெளி (Name space)",
+      "D": "IP முகவரி"
+    },
+    "correctOption": "A",
+    "answer": "A) Domain name system",
+    "answerTamil": "A) டொமைன் பெயர் அமைப்பு (DNS)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-2",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following notation is used to denote IPv4 addresses?",
+    "questionTextTamil": "IPv4 முகவரிகளைக் குறிக்க பின்வரும் எந்த குறியீட்டு முறை பயன்படுகிறது?",
+    "options": {
+      "A": "Binary",
+      "B": "Dotted-decimal",
+      "C": "Hexadecimal",
+      "D": "a and b"
+    },
+    "optionsTamil": {
+      "A": "இருநிலை (Binary)",
+      "B": "புள்ளி-பதின்ம (Dotted-decimal)",
+      "C": "பதினாறும முறை",
+      "D": "a மற்றும் b"
+    },
+    "correctOption": "D",
+    "answer": "D) a and b",
+    "answerTamil": "D) a மற்றும் b",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-3",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many bits are used in the IPv6 addresses?",
+    "questionTextTamil": "IPv6 முகவரிகளில் எத்தனை பிட்டுகள் பயன்படுத்தப்படுகின்றன?",
+    "options": {
+      "A": "32",
+      "B": "64",
+      "C": "128",
+      "D": "16"
+    },
+    "optionsTamil": {
+      "A": "32",
+      "B": "64",
+      "C": "128",
+      "D": "16"
+    },
+    "correctOption": "C",
+    "answer": "C) 128",
+    "answerTamil": "C) 128",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-4",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Expansion of URL is",
+    "questionTextTamil": "URL என்பதன் விரிவாக்கம் யாது?",
+    "options": {
+      "A": "Uniform Resource Location",
+      "B": "Universal Resource Location",
+      "C": "Uniform Resource Locator",
+      "D": "Universal Resource Locator"
+    },
+    "optionsTamil": {
+      "A": "Uniform Resource Location",
+      "B": "Universal Resource Location",
+      "C": "Uniform Resource Locator",
+      "D": "Universal Resource Locator"
+    },
+    "correctOption": "C",
+    "answer": "C) Uniform Resource Locator",
+    "answerTamil": "C) Uniform Resource Locator",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-5",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "How many types are available in URL?",
+    "questionTextTamil": "URL-ல் எத்தனை வகைகள் உள்ளன?",
+    "options": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "optionsTamil": {
+      "A": "2",
+      "B": "3",
+      "C": "4",
+      "D": "5"
+    },
+    "correctOption": "A",
+    "answer": "A) 2",
+    "answerTamil": "A) 2 (Absolute URL, Relative URL)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-6",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Maximum characters used in the label of a node?",
+    "questionTextTamil": "ஒரு முனையத்தின் லேபிளில் பயன்படுத்தப்படும் அதிகபட்ச எழுத்துக்களின் எண்ணிக்கை என்ன?",
+    "options": {
+      "A": "255",
+      "B": "128",
+      "C": "63",
+      "D": "32"
+    },
+    "optionsTamil": {
+      "A": "255",
+      "B": "128",
+      "C": "63",
+      "D": "32"
+    },
+    "correctOption": "C",
+    "answer": "C) 63",
+    "answerTamil": "C) 63",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-7",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In the domain name, the sequence of labels is separated by",
+    "questionTextTamil": "டொமைன் பெயரில், லேபிள்களின் வரிசை எதனால் பிரிக்கப்படுகிறது?",
+    "options": {
+      "A": "semicolon (;)",
+      "B": "dot (.)",
+      "C": "colon (:)",
+      "D": "NULL"
+    },
+    "optionsTamil": {
+      "A": "அரைப்புள்ளி (;)",
+      "B": "புள்ளி (.)",
+      "C": "முக்காற்புள்ளி (:)",
+      "D": "NULL"
+    },
+    "correctOption": "B",
+    "answer": "B) dot (.)",
+    "answerTamil": "B) புள்ளி (.)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-8",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following initiates the mapping of domain name to IP address?",
+    "questionTextTamil": "டொமைன் பெயரை IP முகவரியாக மாற்றுவதை பின்வருவனவற்றில் எது தொடக்குகிறது?",
+    "options": {
+      "A": "Zone",
+      "B": "Domain",
+      "C": "Resolver",
+      "D": "Name servers"
+    },
+    "optionsTamil": {
+      "A": "மண்டலம் (Zone)",
+      "B": "டொமைன்",
+      "C": "தீர்வி (Resolver)",
+      "D": "பெயர் சேவையகங்கள்"
+    },
+    "correctOption": "C",
+    "answer": "C) Resolver",
+    "answerTamil": "C) தீர்வி (Resolver)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-9",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which is the contiguous area up to which the server has access?",
+    "questionTextTamil": "சேவையகம் அணுகக்கூடிய தொடர்ச்சியான பகுதி எது?",
+    "options": {
+      "A": "Zone",
+      "B": "Domain",
+      "C": "Resolver",
+      "D": "Name servers"
+    },
+    "optionsTamil": {
+      "A": "மண்டலம் (Zone)",
+      "B": "டொமைன்",
+      "C": "தீர்வி",
+      "D": "பெயர் சேவையகங்கள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Zone",
+    "answerTamil": "A) மண்டலம் (Zone)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-1m-10",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Root Name servers are maintained by",
+    "questionTextTamil": "ரூட் பெயர் சேவையகங்கள் யாரால் பராமரிக்கப்படுகின்றன?",
+    "options": {
+      "A": "IANA",
+      "B": "ICANN",
+      "C": "WHOIS",
+      "D": "DNS"
+    },
+    "optionsTamil": {
+      "A": "IANA",
+      "B": "ICANN",
+      "C": "WHOIS",
+      "D": "DNS"
+    },
+    "correctOption": "B",
+    "answer": "B) ICANN",
+    "answerTamil": "B) ICANN",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-1",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List any four domain names.",
+    "questionTextTamil": "ஏதேனும் நான்கு டொமைன் பெயர்களைப் பட்டியலிடுக.",
+    "answer": "Four examples of domain names:\n1. google.com\n2. wikipedia.org\n3. tnschools.gov.in\n4. yahoo.co.in",
+    "answerTamil": "நான்கு டொமைன் பெயர்கள்:\n1. google.com\n2. wikipedia.org\n3. tnschools.gov.in\n4. yahoo.co.in",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-2",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an IP address?",
+    "questionTextTamil": "IP முகவரி (IP address) என்றால் என்ன?",
+    "answer": "An IP (Internet Protocol) address is a unique numerical label assigned to each device connected to a computer network that uses the Internet Protocol for communication (e.g., 192.168.1.1).",
+    "answerTamil": "IP முகவரி என்பது இணைய நெறிமுறையைப் பயன்படுத்தி தொடர்புகொள்ளும் வலையமைப்பில் உள்ள ஒவ்வொரு கணினி அல்லது சாதனத்திற்கும் ஒதுக்கப்படும் தனித்துவமான எண் முகவரியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-3",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an URL?",
+    "questionTextTamil": "URL என்றால் என்ன?",
+    "answer": "URL stands for Uniform Resource Locator. It is the global unique address of a specific web resource (such as a webpage, image, or document) on the World Wide Web.",
+    "answerTamil": "URL என்பது Uniform Resource Locator என்பதன் சுருக்கமாகும். இது உலகளாவிய வலையில் (WWW) உள்ள ஒரு குறிப்பிட்ட வலைப்பக்கம் அல்லது வளத்தின் தனித்துவமான முகவரியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-4",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List out four URLs you know.",
+    "questionTextTamil": "உங்களுக்குத் தெரிந்த நான்கு URL-களைப் பட்டியலிடுக.",
+    "answer": "Four examples of URLs:\n1. https://www.google.com\n2. https://www.tn.gov.in\n3. http://www.wikipedia.org\n4. https://www.youtube.com",
+    "answerTamil": "நான்கு URL எடுத்துக்காட்டுகள்:\n1. https://www.google.com\n2. https://www.tn.gov.in\n3. http://www.wikipedia.org\n4. https://www.youtube.com",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-5",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a zone?",
+    "questionTextTamil": "மண்டலம் (Zone) என்றால் என்ன?",
+    "answer": "A zone is a contiguous administrative sub-tree of the domain name space over which a specific DNS server has authoritative administrative control and responsibility.",
+    "answerTamil": "மண்டலம் (Zone) என்பது ஒரு குறிப்பிட்ட DNS சேவையகத்தால் முழுமையாக நிர்வகிக்கப்பட்டு கட்டுப்படுத்தப்படும் டொமைன் பெயர் இடைவெளியின் தொடர்ச்சியான பகுதியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-6",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a resolver?",
+    "questionTextTamil": "தீர்வி (Resolver) என்றால் என்ன?",
+    "answer": "A DNS Resolver is a client-side program on an operating system that initiates DNS queries by requesting domain name translations into numerical IP addresses from DNS name servers.",
+    "answerTamil": "தீர்வி (Resolver) என்பது கிளையன்ட் கணினியில் இயங்கும் ஒரு நிரலாகும். இது பயனரின் வேண்டுகோளின்படி டொமைன் பெயரை IP முகவரியாக மாற்ற பெயர் சேவையகங்களுக்கு கோரிக்கையை அனுப்புகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-7",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write any four generic Top Level Domain.",
+    "questionTextTamil": "ஏதேனும் நான்கு பொது மேல் நிலை டொமைன்களை (gTLD) எழுதுக.",
+    "answer": "Four generic Top-Level Domains (gTLD):\n1. `.com` - Commercial organizations\n2. `.org` - Non-profit organizations\n3. `.edu` - Educational institutions\n4. `.net` - Network infrastructure providers.",
+    "answerTamil": "நான்கு பொது மேல் நிலை டொமைன்கள் (gTLD):\n1. `.com` - வணிக நிறுவனங்கள்\n2. `.org` - இலாப நோக்கற்ற அமைப்புகள்\n3. `.edu` - கல்வி நிறுவனங்கள்\n4. `.net` - வலையமைப்பு நிறுவனங்கள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-2m-8",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Mention the components of DNS.",
+    "questionTextTamil": "DNS-ன் கூறுகளைக் குறிப்பிடுக.",
+    "answer": "The three primary components of DNS are:\n1. Domain Name Space\n2. Name Server\n3. Resolver.",
+    "answerTamil": "DNS அமைப்பின் மூன்று முக்கிய கூறுகள்:\n1. டொமைன் பெயர் இடைவெளி (Domain Name Space)\n2. பெயர் சேவையகம் (Name Server)\n3. தீர்வி (Resolver).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-1",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on URL and its types.",
+    "questionTextTamil": "URL மற்றும் அதன் வகைகள் பற்றி குறிப்பு வரைக.",
+    "answer": "URL (Uniform Resource Locator) is the unique address of a web resource. It consists of Protocol, Hostname/Domain name, and Path.\n\nTwo types of URLs:\n1. Absolute URL: Contains the complete address including protocol, domain, and full path (e.g., `https://www.example.com/images/pic.png`).\n2. Relative URL: Contains only the partial path relative to current page location (e.g., `images/pic.png`).",
+    "answerTamil": "URL (Uniform Resource Locator) என்பது இணையத்தில் ஒரு வளத்தின் முழுமையான முகவரியாகும்.\n\nURL-ன் இரண்டு வகைகள்:\n1. முழுமையான URL (Absolute URL): நெறிமுறை, டொமைன் பெயர் மற்றும் முழு பாதையைக் கொண்ட முழுமையான முகவரி.\n2. சார்பு URL (Relative URL): தற்போதைய பக்கத்தின் இருப்பிடத்தைப் பொறுத்து அமையும் பகுதி முகவரி.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-2",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate IPv4 and IPv6.",
+    "questionTextTamil": "IPv4 மற்றும் IPv6 வேறுபடுத்துக.",
+    "answer": "1. IPv4 (Internet Protocol version 4):\n- 32-bit address size (4 bytes).\n- Written in dotted-decimal format (e.g., 192.168.1.1).\n- Provides approximately 4.3 billion unique addresses.\n\n2. IPv6 (Internet Protocol version 6):\n- 128-bit address size (16 bytes).\n- Written in hexadecimal colon notation (e.g., 2001:0db8::ff00:42:8329).\n- Provides an enormous address space (approx. 3.4 x 10^38 addresses).",
+    "answerTamil": "1. IPv4:\n- 32 பிட் முகவரி அளவு (4 பைட்டுகள்).\n- புள்ளி-பதின்ம வடிவில் எழுதப்படும் (எ.கா: 192.168.1.1).\n- சுமார் 4.3 பில்லியன் முகவரிகளை மட்டுமே வழங்க முடியும்.\n\n2. IPv6:\n- 128 பிட் முகவரி அளவு (16 பைட்டுகள்).\n- பதினாறும முக்காற்புள்ளி வடிவில் எழுதப்படும்.\n- எண்ணிலடங்காத (3.4 x 10^38) முகவரிகளை வழங்க முடியும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-3",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the differences between Absolute URL and Relative URL?",
+    "questionTextTamil": "முழுமையான URL மற்றும் சார்பு URL இடையே உள்ள வேறுபாடுகள் யாவை?",
+    "answer": "1. Absolute URL:\n- Specifies the complete path starting from protocol scheme (e.g., `https://`).\n- Contains protocol, domain name, directory path, and filename.\n- Can be used independently anywhere.\n\n2. Relative URL:\n- Specifies only a relative path from the current directory.\n- Omits protocol and domain name.\n- Valid only within the same host website.",
+    "answerTamil": "1. முழுமையான URL (Absolute URL):\n- நெறிமுறை (`https://`) முதல் தொடங்கும் முழுமையான பாதையைக் குறிக்கும்.\n- நெறிமுறை, டொமைன் பெயர், கோப்புப் பெயர் அனைத்தையும் கொண்டிருக்கும்.\n- எங்கு வேண்டுமானாலும் நேரடியாகப் பயன்படுத்தலாம்.\n\n2. சார்பு URL (Relative URL):\n- தற்போதைய கோப்பகத்திலிருந்து உள்ள பாதையை மட்டுமே குறிக்கும்.\n- நெறிமுறை மற்றும் டொமைன் பெயரைக் கொண்டிருக்காது.\n- அதே தளத்திற்குள் மட்டுமே செயல்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-3m-4",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on domain name.",
+    "questionTextTamil": "டொமைன் பெயர் பற்றி குறிப்பு வரைக.",
+    "answer": "A domain name is a human-readable text name mapped to a numerical IP address on the Internet.\n\nCharacteristics:\n1. Organized in a hierarchical tree structure with labels separated by dots (e.g., `mail.google.com`).\n2. Read from right to left (Root -> Top-Level Domain -> Second-Level Domain -> Subdomain).\n3. Maximum length of a label is 63 characters, and total domain name cannot exceed 253 characters.",
+    "answerTamil": "டொமைன் பெயர் என்பது இணையத்தில் நினைவில் வைத்துக்கொள்ள கடினமான எண் வடிவிலான IP முகவரிகளுக்குப் பதிலாகப் பயன்படுத்தப்படும் மனிதர்கள் எளிதில் வாசிக்கக்கூடிய பெயராகும்.\n\nசிறப்பம்சங்கள்:\n1. இது புள்ளிகளால் பிரிக்கப்பட்ட படிநிலை மர அமைப்பில் ஒழுங்கமைக்கப்பட்டுள்ளது (எ.கா: mail.google.com).\n2. வலமிருந்து இடமாக வாசிக்கப்படுகிறது (Top-Level Domain -> Second-Level Domain -> Subdomain).\n3. ஒரு லேபிளின் அதிகபட்ச நீளம் 63 எழுத்துகள் மற்றும் முழு டொமைனின் நீளம் 253 எழுத்துகளுக்கு மிகாமல் இருக்க வேண்டும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-5m-1",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Classify and Explain the IP address and its classification.",
+    "questionTextTamil": "IP முகவரி மற்றும் அதன் வகைப்பாடுகளை விளக்குக.",
+    "answer": "An IP (Internet Protocol) address uniquely identifies every node on a TCP/IP network.\n\n1. Versions of IP Address:\n- IPv4 (32-bit): 4 octets separated by dots (e.g., 192.168.1.1).\n- IPv6 (128-bit): 8 groups of 4 hexadecimal digits separated by colons.\n\n2. IPv4 Address Classes:\n- Class A: First octet 1 - 126 (Large networks with millions of hosts).\n- Class B: First octet 128 - 191 (Medium networks; 65,534 hosts).\n- Class C: First octet 192 - 223 (Small local LAN networks; 254 hosts).\n- Class D: First octet 224 - 239 (Reserved for Multicast).\n- Class E: First octet 240 - 255 (Reserved for experimental/research purposes).",
+    "answerTamil": "IP முகவரி என்பது வலையமைப்பில் உள்ள கணினிகளை அடையாளம் காணும் தனித்துவ முகவரியாகும்.\n\n1. IP முகவரியின் பதிப்புகள்:\n- IPv4 (32 பிட்டுகள்): புள்ளிகளால் பிரிக்கப்பட்ட 4 பகுதிகள் (எ.கா: 192.168.1.1).\n- IPv6 (128 பிட்டுகள்): முக்காற்புள்ளிகளால் பிரிக்கப்பட்ட 8 குழும பதினாறும எண்கள்.\n\n2. IPv4 முகவரிப் பிரிவுகள் (Classes):\n- Class A (1 - 126): லட்சக்கணக்கான கணினிகளைக் கொண்ட மிகப்பெரிய வலையமைப்புகளுக்கு.\n- Class B (128 - 191): நடுத்தர வலையமைப்புகளுக்கு (65,534 கணினிகள்).\n- Class C (192 - 223): சிறிய லோக்கல் ஏரியா நெட்வொர்க்குகளுக்கு (254 கணினிகள்).\n- Class D (224 - 239): மல்டிகாஸ்ட் (Multicast) குழுமங்களுக்கு ஒதுக்கப்பட்டுள்ளது.\n- Class E (240 - 255): ஆராய்ச்சி மற்றும் எதிர்காலப் பயன்பாட்டிற்கு ஒதுக்கப்பட்டுள்ளது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-5m-2",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the Name server and its types.",
+    "questionTextTamil": "பெயர் சேவையகம் (Name server) மற்றும் அதன் வகைகளை விளக்குக.",
+    "answer": "A Name Server is a specialized computer running DNS server software that stores DNS records (Zone files) and translates domain names into numerical IP addresses.\n\nTypes of Name Servers:\n\n1. Root Name Servers:\n- Topmost level in the DNS hierarchy managed by ICANN/IANA.\n- Directs queries to the appropriate Top Level Domain (TLD) name servers.\n\n2. Top Level Domain (TLD) Name Servers:\n- Manages all information for a specific TLD extension such as `.com`, `.org`, `.in`.\n\n3. Authoritative Name Servers:\n- Holds the actual definitive zone file mapping records for a specific domain name and provides the final IP answer.\n\n4. Primary (Master) & Secondary (Slave) Name Servers:\n- Primary server holds the master writable zone file.\n- Secondary servers maintain a read-only copy synchronized via zone transfers for load balancing and fault tolerance.",
+    "answerTamil": "பெயர் சேவையகம் (Name server) என்பது டொமைன் பெயர்களை அதற்குரிய IP முகவரிகளாக மாற்றும் பதிவேடுகளை (Zone files) சேமித்து வைத்துள்ள சேவையகக் கணினியாகும்.\n\nபெயர் சேவையகத்தின் வகைகள்:\n\n1. ரூட் பெயர் சேவையகம் (Root Name Server):\n- DNS படிநிலையின் உச்சியில் உள்ளது. TLD சேவையகங்களின் முகவரிகளை வழங்குகிறது.\n\n2. மேல் நிலை டொமைன் சேவையகம் (TLD Name Server):\n- `.com`, `.org`, `.in` போன்ற குறிப்பிட்ட TLD நீட்டிப்புகளின் பதிவுகளை நிர்வகிக்கிறது.\n\n3. அங்கீகரிக்கப்பட்ட பெயர் சேவையகம் (Authoritative Name Server):\n- குறிப்பிட்ட டொமைனின் உண்மையான IP முகவரிப் பதிவுகளைக் கொண்டு இறுதிப் பதிலை வழங்கும்.\n\n4. முதன்மை (Primary) மற்றும் இரண்டாம் நிலை (Secondary) சேவையகங்கள்:\n- முதன்மை சேவையகம் மாற்றங்களைச் செய்யக்கூடிய முதன்மை கோப்பைக் கொண்டிருக்கும்.\n- இரண்டாம் நிலை சேவையகம் காப்புநகல் மற்றும் பணிச்சுமையைக் குறைக்கப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch12-5m-3",
+    "chapterNo": 12,
+    "chapterName": "Domain Name System (DNS)",
+    "chapterNameTamil": "டொமைன் பெயர் அமைப்பு (DNS)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain how the DNS is working.",
+    "questionTextTamil": "DNS எவ்வாறு செயல்படுகிறது என்பதை விளக்குக.",
+    "answer": "DNS resolution follows a step-by-step hierarchical lookup process:\n\n1. Query Initiation:\nWhen a user enters a domain name (e.g., `www.google.com`) in a web browser, the local client Resolver checks its local cache.\n\n2. Recursive Resolver Query:\nIf not cached, the resolver forwards the query to the ISP's Recursive DNS server.\n\n3. Root Server Query:\nThe Recursive resolver queries a Root Name Server (`.`), which responds with the IP address of the `.com` TLD Name Server.\n\n4. TLD Server Query:\nThe resolver queries the `.com` TLD server, which responds with the IP of the authoritative name server for `google.com`.\n\n5. Authoritative Server Query:\nThe resolver queries the Authoritative Name Server, which returns the actual IP address (e.g., `142.250.190.46`).\n\n6. Response & Caching:\nThe recursive resolver returns the IP to the browser, caches it for future requests, and the browser establishes the HTTP/HTTPS connection.",
+    "answerTamil": "DNS செயல்படும் படிநிலைகள்:\n\n1. கோரிக்கையைத் தொடங்குதல்:\nபயனர் உலாவியில் ஒரு டொமைன் பெயரைத் தட்டச்சு செய்யும்போது (எ.கா: `www.google.com`), தீர்வி (Resolver) தனது நினைவகத்தில் சரிபார்க்கிறது.\n\n2. இணைய சேவை வழங்குநர் சேவையகம் (ISP DNS):\nநினைவகத்தில் இல்லை எனில், கோரிக்கை உள்ளூர் ISP-ன் DNS சேவையகத்திற்கு அனுப்பப்படுகிறது.\n\n3. ரூட் சேவையக அணுகல்:\nரூட் சேவையகம் `.com` TLD சேவையகத்தின் முகவரியைத் திருப்பி அனுப்புகிறது.\n\n4. TLD சேவையக அணுகல்:\nTLD சேவையகம் குறிப்பிட்ட டொமைனின் அதிகாரப்பூர்வ சேவையக முகவரியைத் தருகிறது.\n\n5. அதிகாரப்பூர்வ சேவையகம் (Authoritative Server):\nஇது குறிப்பிட்ட தளத்தின் உண்மையான IP முகவரியை (எ.கா: `142.250.190.46`) வழங்குகிறது.\n\n6. பதில் மற்றும் இணைப்பு:\nபெறப்பட்ட IP முகவரியைக் கொண்டு உலாவி உடனடியாக அந்த வலைப்பக்கத்துடன் தொடர்பை ஏற்படுத்துகிறது.",
+    "isBookBack": true
+  }
+]

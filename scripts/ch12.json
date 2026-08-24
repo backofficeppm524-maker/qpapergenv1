@@ -1,0 +1,263 @@
+[
+  {
+    "id": "cs11-ch12-1m-1",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "An array is a collection of variables of:",
+    "questionTextTamil": "அணி (Array) என்பது எத்தகைய மாறிகளின் தொகுப்பு ஆகும்?",
+    "options": {
+      "A": "Same data type",
+      "B": "Different data types",
+      "C": "Only characters",
+      "D": "Only integers"
+    },
+    "optionsTamil": {
+      "A": "ஒரே தரவினம் (Same data type)",
+      "B": "வெவ்வேறு தரவினங்கள்",
+      "C": "உருக்கள் மட்டும்",
+      "D": "முழு எண்கள் மட்டும்"
+    },
+    "correctOption": "A",
+    "answer": "A) Same data type",
+    "answerTamil": "A) ஒரே தரவினம்",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-1m-2",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the index of the first element in an array in C++?",
+    "questionTextTamil": "C++ மொழியில் அணியின் முதல் உறுப்பின் சுட்டெண் (Index) என்ன?",
+    "options": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "Size of array"
+    },
+    "optionsTamil": {
+      "A": "1",
+      "B": "0",
+      "C": "-1",
+      "D": "அணியின் அளவு"
+    },
+    "correctOption": "B",
+    "answer": "B) 0",
+    "answerTamil": "B) 0",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-1m-3",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "For an array declared as int a[5]; what is the index of the last element?",
+    "questionTextTamil": "int a[5]; என அறிவிக்கப்பட்ட அணியின் கடைசி உறுப்பின் சுட்டெண் என்ன?",
+    "options": {
+      "A": "5",
+      "B": "4",
+      "C": "0",
+      "D": "6"
+    },
+    "optionsTamil": {
+      "A": "5",
+      "B": "4",
+      "C": "0",
+      "D": "6"
+    },
+    "correctOption": "B",
+    "answer": "B) 4",
+    "answerTamil": "B) 4",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-1m-4",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which keyword is used to declare a user-defined heterogeneous data structure in C++?",
+    "questionTextTamil": "வெவ்வேறு தரவினங்களைக் கொண்ட பயனரால் வரையறுக்கப்படும் கட்டமைப்பை உருவாக்கப் பயன்படும் சிறப்புச்சொல் எது?",
+    "options": {
+      "A": "array",
+      "B": "struct",
+      "C": "record",
+      "D": "type"
+    },
+    "optionsTamil": {
+      "A": "array",
+      "B": "struct",
+      "C": "record",
+      "D": "type"
+    },
+    "correctOption": "B",
+    "answer": "B) struct",
+    "answerTamil": "B) struct",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-1m-5",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which operator is used to access structure members through a structure variable?",
+    "questionTextTamil": "கட்டமைப்பு மாறியின் மூலம் அதன் உறுப்புகளை அணுகப் பயன்படும் செயற்குறி எது?",
+    "options": {
+      "A": "Arrow operator (->)",
+      "B": "Dot operator (.)",
+      "C": "Scope resolution (::)",
+      "D": "Comma (,)"
+    },
+    "optionsTamil": {
+      "A": "அம்பு செயற்குறி (->)",
+      "B": "புள்ளி செயற்குறி (.)",
+      "C": "வரையெல்லை தீர்வு (::)",
+      "D": "காற்புள்ளி (,)"
+    },
+    "correctOption": "B",
+    "answer": "B) Dot operator (.)",
+    "answerTamil": "B) புள்ளி செயற்குறி (.)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-2m-1",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Array? Write syntax to declare a 1-D array.",
+    "questionTextTamil": "அணி என்றால் என்ன? ஒரு பரிமாண அணியை அறிவிக்கும் தொடரியலை எழுதுக.",
+    "answer": "An array is a homogeneous collection of elements of the same data type stored in contiguous memory locations referenced by a common name.\nSyntax: data_type array_name[size]; (e.g. int marks[5];).",
+    "answerTamil": "அணி (Array) என்பது ஒரே தரவினத்தைச் சேர்ந்த தொடர்ச்சியான நினைவக இடங்களில் சேமிக்கப்படும் மாறிகளின் தொகுப்பாகும்.\nதொடரியல்: தரவினம் அணிப்பெயர்[அளவு]; (எ.கா: int mark[5];).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-2m-2",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a 2-Dimensional (2D) Array?",
+    "questionTextTamil": "இரு பரிமாண அணி (2D Array) என்றால் என்ன?",
+    "answer": "A 2D array is an array of 1D arrays organized in rows and columns (matrix form).\nSyntax: data_type array_name[row_size][col_size]; (e.g. int matrix[3][3];).",
+    "answerTamil": "இரு பரிமாண அணி என்பது தரவுகளை நிறைகள் (Rows) மற்றும் நிரல்களாக (Columns) கொண்ட அணி வடிவ அமைப்பாகும்.\nதொடரியல்: தரவினம் அணிப்பெயர்[நிறை_அளவு][நிரல்_அளவு]; (எ.கா: int a[3][3];).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-2m-3",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Structure (struct) in C++?",
+    "questionTextTamil": "C++ கட்டமைப்புகள் (Structures) என்றால் என்ன?",
+    "answer": "A structure is a user-defined composite data type that groups logically related heterogeneous variables (different data types) under a single name.",
+    "answerTamil": "கட்டமைப்பு (Structure) என்பது வெவ்வேறு தரவினங்களைச் சார்ந்த ஒன்றுக்கொன்று தொடர்புடைய மாறிகளை ஒரே பெயரின் கீழ் இணைக்கும் பயனர் வரையறுத்த தரவினமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-2m-4",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "How are structure members referenced / accessed?",
+    "questionTextTamil": "கட்டமைப்பின் உறுப்புகள் எவ்வாறு அணுகப்படுகின்றன?",
+    "answer": "Structure members are accessed using the dot operator (period '.') between the structure variable and member name.\nSyntax: structure_variable.member_name; (e.g. stud1.roll_no;).",
+    "answerTamil": "கட்டமைப்பின் உறுப்புகள் புள்ளி செயற்குறி (.) மூலம் அணுகப்படுகின்றன.\nதொடரியல்: கட்டமைப்பு_மாறி.உறுப்பு_பெயர்; (எ.கா: s1.roll_no).",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-3m-1",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate between Array and Structure.",
+    "questionTextTamil": "அணி மற்றும் கட்டமைப்பு வேறுபடுத்துக.",
+    "answer": "Array:\n1. Homogeneous: Collection of elements of the SAME data type.\n2. Elements accessed using integer subscripts/indices [i].\n3. Contiguous built-in structure.\n\nStructure:\n1. Heterogeneous: Collection of elements of DIFFERENT data types.\n2. Elements accessed using member names with dot operator (.).\n3. User-defined composite type using 'struct' keyword.",
+    "answerTamil": "அணி (Array):\n1. ஒரே வகையான தரவினங்களின் தொகுப்பு (Homogeneous).\n2. சுட்டெண் [i] மூலம் உறுப்புகள் அணுகப்படுகின்றன.\n\nகட்டமைப்பு (Structure):\n1. வெவ்வேறு வகையான தரவினங்களின் தொகுப்பு (Heterogeneous).\n2. புள்ளி செயற்குறி (.) மற்றும் உறுப்பு பெயர் மூலம் அணுகப்படுகின்றன.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-3m-2",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain Array of Structures with an example declaration.",
+    "questionTextTamil": "கட்டமைப்புகளின் அணி (Array of Structures) பற்றி எடுத்துக்காட்டுடன் விளக்குக.",
+    "answer": "An Array of Structures is an array where each individual element is a structure holding multiple fields.\n\nExample:\nstruct Student {\n    int roll_no;\n    char name[30];\n    float marks;\n};\nStudent class11[50]; // Array of 50 student structures",
+    "answerTamil": "கட்டமைப்புகளின் அணி என்பது ஒவ்வொரு உறுப்பும் ஒரு முழுமையான கட்டமைப்பாகக் கொண்ட அணியாகும்.\n\nஎடுத்துக்காட்டு:\nstruct Student {\n    int roll;\n    char name[20];\n    float marks;\n};\nStudent s[50]; // 50 மாணவர்களுக்கான கட்டமைப்பு அணி",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-3m-3",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain Nested Structures in C++.",
+    "questionTextTamil": "பின்னலான கட்டமைப்பு (Nested Structure) என்றால் என்ன? விளக்குக.",
+    "answer": "A nested structure is a structure defined inside another structure as one of its data members.\n\nExample:\nstruct Date {\n    int day, month, year;\n};\nstruct Employee {\n    int id;\n    char name[30];\n    Date dob; // Nested structure member\n};",
+    "answerTamil": "ஒரு கட்டமைப்பிற்குள் மற்றொரு கட்டமைப்பு ஒரு உறுப்பாக அமைந்திருப்பது பின்னலான கட்டமைப்பு எனப்படும்.\n\nஎடுத்துக்காட்டு:\nstruct Date { int d, m, y; };\nstruct Employee {\n    int id;\n    char name[20];\n    Date dob; // பின்னலான கட்டமைப்பு உறுப்பு\n};",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-5m-1",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain One-Dimensional and Two-Dimensional Arrays in C++ with syntax and complete working program for Matrix Addition.",
+    "questionTextTamil": "C++ மொழியில் ஒரு பரிமாண மற்றும் இரு பரிமாண அணிகளை விளக்கி, இரு அணிகளைக் கூட்டும் முழுமையான மாதிரி நிரலை எழுதுக.",
+    "answer": "1D Array: Stores linear list of elements.\nSyntax: type name[size];\n\n2D Array: Stores grid of elements in rows and columns.\nSyntax: type name[rows][cols];\n\nMatrix Addition Program:\n#include <iostream>\nusing namespace std;\nint main() {\n    int a[2][2], b[2][2], sum[2][2];\n    cout << \"Enter 4 elements of matrix A: \";\n    for(int i=0; i<2; i++) for(int j=0; j<2; j++) cin >> a[i][j];\n    cout << \"Enter 4 elements of matrix B: \";\n    for(int i=0; i<2; i++) for(int j=0; j<2; j++) cin >> b[i][j];\n    for(int i=0; i<2; i++) for(int j=0; j<2; j++) sum[i][j] = a[i][j] + b[i][j];\n    cout << \"Sum Matrix:\\n\";\n    for(int i=0; i<2; i++) {\n        for(int j=0; j<2; j++) cout << sum[i][j] << \" \";\n        cout << endl;\n    }\n    return 0;\n}",
+    "answerTamil": "ஒரு பரிமாண அணி: நேர்கோட்டு வரிசையில் தரவுகளைச் சேமிக்கும் (type name[size]).\nஇரு பரிமாண அணி: அட்டவணை வடிவில் நிறைகள், நிரல்களாகச் சேமிக்கும் (type name[r][c]).\n\nஅணி கூட்டல் நிரல்:\n#include <iostream>\nusing namespace std;\nint main() {\n    int a[2][2], b[2][2], sum[2][2];\n    cout << \"அணி A உறுப்புகள்: \";\n    for(int i=0; i<2; i++) for(int j=0; j<2; j++) cin >> a[i][j];\n    cout << \"அணி B உறுப்புகள்: \";\n    for(int i=0; i<2; i++) for(int j=0; j<2; j++) cin >> b[i][j];\n    for(int i=0; i<2; i++) for(int j=0; j<2; j++) sum[i][j] = a[i][j] + b[i][j];\n    cout << \"கூடுதல் அணி:\\n\";\n    for(int i=0; i<2; i++) {\n        for(int j=0; j<2; j++) cout << sum[i][j] << \" \";\n        cout << endl;\n    }\n    return 0;\n}",
+    "isBookBack": true,
+    "isCompulsoryEligible": true
+  },
+  {
+    "id": "cs11-ch12-5m-2",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain Structure declaration, definition, variable creation, and initialization in C++ with an example program.",
+    "questionTextTamil": "C++ மொழியில் கட்டமைப்பு அறிவிப்பு, மாறிகள் உருவாக்கம் மற்றும் தொடக்கமதிப்பிருத்தல் ஆகியவற்றை முழுமையான நிரலுடன் விளக்குக.",
+    "answer": "A structure allows defining a composite data type comprising heterogeneous fields.\n\nComplete Program:\n#include <iostream>\nusing namespace std;\nstruct Employee {\n    int emp_id;\n    char name[30];\n    float salary;\n};\nint main() {\n    Employee e1 = {101, \"Ramesh\", 45000.50}; // Initializing structure\n    Employee e2;\n    cout << \"Enter Employee 2 ID, Name, Salary: \";\n    cin >> e2.emp_id >> e2.name >> e2.salary;\n    cout << \"\\n--- Employee Details ---\\n\";\n    cout << \"E1: ID=\" << e1.emp_id << \", Name=\" << e1.name << \", Salary=\" << e1.salary << endl;\n    cout << \"E2: ID=\" << e2.emp_id << \", Name=\" << e2.name << \", Salary=\" << e2.salary << endl;\n    return 0;\n}",
+    "answerTamil": "கட்டமைப்பு என்பது பல்வேறு வகையான தரவுகளை ஒரே பெயரின் கீழ் நிர்வகிக்கும் பயனர் வரையறுத்த தரவினமாகும்.\n\nநிரல்:\n#include <iostream>\nusing namespace std;\nstruct Employee {\n    int emp_id;\n    char name[30];\n    float salary;\n};\nint main() {\n    Employee e1 = {101, \"ரமேஷ்\", 45000.50};\n    cout << \"பணியாளர் விவரம்: \" << e1.emp_id << \", \" << e1.name << \", \" << e1.salary;\n    return 0;\n}",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch12-5m-3",
+    "chapterNo": 12,
+    "chapterName": "Arrays and Structures",
+    "chapterNameTamil": "அணிகள் மற்றும் கட்டமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain how Structures can be passed to functions in C++: Passing by Value and Passing by Reference.",
+    "questionTextTamil": "C++ மொழியில் கட்டமைப்புகளை செயற்கூறுகளுக்கு அனுப்புதல் (Passing structures to functions) - மதிப்பு மூலம் மற்றும் குறிப்பு மூலம் அனுப்புதலை விளக்குக.",
+    "answer": "Structures can be passed to functions as arguments in two ways:\n1. Pass by Value: A copy of entire structure is passed; modifications inside function do not affect original structure variable.\n2. Pass by Reference: Address of structure is passed with '&'; modifications directly update original structure, saving copying overhead.\n\nExample Program:\n#include <iostream>\nusing namespace std;\nstruct Rectangle {\n    int length, width;\n};\nvoid printArea(Rectangle r) { // Passed by value\n    cout << \"Area = \" << r.length * r.width << endl;\n}\nvoid scale(Rectangle &r, int factor) { // Passed by reference\n    r.length *= factor;\n    r.width *= factor;\n}\nint main() {\n    Rectangle rect = {10, 5};\n    printArea(rect);\n    scale(rect, 2);\n    printArea(rect); // Area is now 400\n    return 0;\n}",
+    "answerTamil": "கட்டமைப்புகளை செயற்கூறுகளுக்கு இரண்டு வழிகளில் அனுப்பலாம்:\n1. மதிப்பு மூலம் அனுப்புதல்: கட்டமைப்பின் முழு நகல் அனுப்பப்படும்.\n2. குறிப்பு மூலம் அனுப்புதல்: கட்டமைப்பின் நினைவக முகவரி (&) அனுப்பப்படும்; இதனால் செயல்திறன் கூடும்.\n\nமாதிரி நிரல்:\nstruct Rect { int l, w; };\nvoid printArea(Rect r) { cout << \"பரப்பளவு = \" << r.l * r.w; }\nvoid scale(Rect &r) { r.l *= 2; r.w *= 2; }",
+    "isBookBack": true
+  }
+]

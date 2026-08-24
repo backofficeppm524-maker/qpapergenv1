@@ -1,0 +1,315 @@
+[
+  {
+    "id": "cs11-ch8-1m-1",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A loop invariant need NOT be true:",
+    "questionTextTamil": "மடங்கு மாற்றமிலி உண்மையாக இருக்கவேண்டிய அவசியம் இல்லை எப்போது?",
+    "options": {
+      "A": "At the start of the loop",
+      "B": "At the start of each iteration",
+      "C": "At the end of each iteration",
+      "D": "While the loop condition is evaluated"
+    },
+    "optionsTamil": {
+      "A": "மடங்கின் தொடக்கத்தில்",
+      "B": "ஒவ்வொரு சுழற்சியின் தொடக்கத்தில்",
+      "C": "ஒவ்வொரு சுழற்சியின் முடிவில்",
+      "D": "மடங்கின் நடுவில் இயங்கும் போது"
+    },
+    "correctOption": "D",
+    "answer": "D) While the loop body statements are being executed",
+    "answerTamil": "D) மடங்கின் உடற்பகுதி இயக்கத்தில் இருக்கும் போது",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-1m-2",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Covering a chessboard with dominoes where b is black squares and w is white squares covered. Which assignment represents placing a domino?",
+    "questionTextTamil": "ஒரு சதுரங்கப்பலகையை டோமினோஸ் என்ற செவ்வக கட்டையைக் கொண்டு மூட விரும்புகிறோம். b என்பது டோமினோஸ் எத்தனை கருப்புக் கட்டங்களை மூடுகிறது என்பதையும், w என்பது டோமினோஸ் எத்தனை வெள்ளைக் கட்டங்களை மூடுகிறது என்பதையும் குறிக்கின்றன என்றால், பின்வரும் எந்த மாதிரியின்படி ஒரு டோமினோவை வைக்கலாம்?",
+    "options": {
+      "A": "b := b + 2",
+      "B": "w := w + 2",
+      "C": "b, w := b + 1, w + 1",
+      "D": "b := w"
+    },
+    "optionsTamil": {
+      "A": "b := b + 2",
+      "B": "w := w + 2",
+      "C": "b, w := b + 1, w + 1",
+      "D": "b := w"
+    },
+    "correctOption": "C",
+    "answer": "C) b, w := b + 1, w + 1",
+    "answerTamil": "C) b, w : = b + 1, w + 1",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-1m-3",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "If m*a + n*b is an invariant for the assignment a, b := a + 8, b + 7, the values of m, n are:",
+    "questionTextTamil": "m x a + n x b என்பது a, b := a + 8, b + 7 என்ற மதிப்பிருத்தலின் மாற்றமிலி என்றால், m, n வின் மதிப்புகள்:",
+    "options": {
+      "A": "m=8, n=7",
+      "B": "m=7, n=-8",
+      "C": "m=-7, n=8",
+      "D": "m=8, n=-7"
+    },
+    "optionsTamil": {
+      "A": "m=8, n=7",
+      "B": "m=7, n=-8",
+      "C": "m=-7, n=8",
+      "D": "m=8, n=-7"
+    },
+    "correctOption": "B",
+    "answer": "B) m=7, n=-8",
+    "answerTamil": "B) m=7, n=-8",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-1m-4",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is NOT an invariant for the assignment m, n := m+2, n+3?",
+    "questionTextTamil": "கீழே கொடுக்கப்பட்டுள்ளவைகளில் எது m, n : = m+2, n+3 என்ற மதிப்பிருத்தலின் மாற்றமிலி இல்லை?",
+    "options": {
+      "A": "m mod 2",
+      "B": "n mod 3",
+      "C": "3*m - 2*n",
+      "D": "2*m - 3*n"
+    },
+    "optionsTamil": {
+      "A": "m mod 2",
+      "B": "n mod 3",
+      "C": "3 x m – 2 x n",
+      "D": "2xm – 3 x n"
+    },
+    "correctOption": "D",
+    "answer": "D) 2*m - 3*n",
+    "answerTamil": "D) 2xm – 3 x n",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-1m-5",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "If Fibonacci is defined recursively as F(n) = {0 if n=0, 1 if n=1, F(n-1)+F(n-2) otherwise}, how many times is F() evaluated to evaluate F(4)?",
+    "questionTextTamil": "பிபோனாச்சி எண்ணைத் தற்சுழற்சியின்படி பின்வருமாறு வரையறுத்தால் F(n)= {0 if n=0, 1 if n=1, F(n-1)+F(n-2) otherwise}, F(4) யை மதிப்பிட எத்தனை F() பயன்படுத்த வேண்டும்?",
+    "options": {
+      "A": "3",
+      "B": "4",
+      "C": "9",
+      "D": "8"
+    },
+    "optionsTamil": {
+      "A": "3",
+      "B": "4",
+      "C": "9",
+      "D": "8"
+    },
+    "correctOption": "C",
+    "answer": "C) 9",
+    "answerTamil": "C) 9",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-1m-6",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Using the recursive definition a^n = { 1 if n = 0, a * a^(n-1) otherwise }, how many multiplications are needed to evaluate a^10?",
+    "questionTextTamil": "தற்சுழற்சியின் பின்வரும் வரையறையைப் பயன்படுத்தி a^10 யை மதிப்பிட எத்தனைமுறை பெருக்க வேண்டும்?",
+    "options": {
+      "A": "10",
+      "B": "9",
+      "C": "4",
+      "D": "5"
+    },
+    "optionsTamil": {
+      "A": "10",
+      "B": "9",
+      "C": "4",
+      "D": "5"
+    },
+    "correctOption": "A",
+    "answer": "A) 10 multiplications (or 4 using binary exponentiation)",
+    "answerTamil": "A) 10 (அல்லது 4)",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-2m-1",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is an Invariant?",
+    "questionTextTamil": "மாற்றமிலி என்றால் என்ன?",
+    "answer": "An invariant is a condition involving program variables that remains True throughout the execution of an algorithm or loop.",
+    "answerTamil": "மாற்றமிலி (Invariant) என்பது ஒரு நெறிமுறையின் செயல்பாட்டின் போது மாறிகளின் மதிப்புகள் மாறினாலும், எப்போதும் உண்மையாகவே (True) இருக்கும் ஒரு நிபந்தனை அல்லது சமன்பாடாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-2m-2",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define Loop Invariant.",
+    "questionTextTamil": "மடுக்கு மாற்றமிலியை வரையறுக்கவும்.",
+    "answer": "A loop invariant is a condition that is True before the loop starts, remains True before and after each iteration, and is True when the loop terminates.",
+    "answerTamil": "மடங்கு மாற்றமிலி என்பது சுழற்சி தொடங்குவதற்கு முன்பும், ஒவ்வொரு சுழற்சியின் தொடக்கத்திலும் முடிவிலும், மற்றும் சுழற்சி முடிந்த பின்பும் மெய்யாக இருக்கும் நிபந்தனையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-2m-3",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Does testing loop condition affect the loop invariant? Why?",
+    "questionTextTamil": "மாற்றமிலியின் நிலையமைப்பைச் சோதிப்பது மடங்கு மாற்றமிலியை பாதிக்குமா? ஏன்?",
+    "answer": "No, evaluating or testing the loop condition only checks variable values for branching; it does not alter the values of variables or affect the invariant.",
+    "answerTamil": "பாதிக்காது. ஏனெனில் நிபந்தனையை சோதிப்பது மாறிகளின் மதிப்புகளை மாற்றுவதில்லை; அது வெறும் உண்மை/பொய் மதிப்பீடே ஆகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-2m-4",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the relationship between loop invariant, loop condition, and input-output relation?",
+    "questionTextTamil": "மடங்கு மாற்றமிலிக்கும், மடங்கு நிலையமைக்கும், உள்ளீட்டு வெளியீட்டு தொடர்புக்கும் என்ன உறவு?",
+    "answer": "When the loop terminates, the loop condition C becomes False, and the loop invariant L remains True. Together (L and not C), they establish the desired output relation (postcondition).",
+    "answerTamil": "மடங்கு முடிவடையும் போது நிபந்தனை C பொய்யாகவும், மாற்றமிலி L மெய்யாகவும் இருக்கும். இரண்டும் இணைந்து (L and not C) விரும்பிய வெளியீட்டுத் தொடர்பை உறுதிப்படுத்துகின்றன.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-2m-5",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is solving a problem using recursion?",
+    "questionTextTamil": "தற்சுழற்சி முறையில் சிக்கலை தீர்ப்பது என்றால் என்ன?",
+    "answer": "Recursion solves a problem by defining the solution in terms of smaller instances of the exact same problem until a trivial base case is reached.",
+    "answerTamil": "தற்சுழற்சி என்பது ஒரு சிக்கலை அதே போன்ற சிறிய துணைச் சிக்கல்களாகப் பிரித்து, அடிப்படை நிலையை (Base case) அடையும் வரை தன்னைத்தானே அழைத்துத் தீர்வு காண்பதாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-2m-6",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define factorial of a natural number recursively.",
+    "questionTextTamil": "இயல் எண்ணின் தொடர் பெருக்கத்தை தற்சுழற்சி முறையில் வரையறுக்கவும்.",
+    "answer": "factorial (n) = { 1, if n = 0 (Base case)\n                  n * factorial(n - 1), if n > 0 (Recursive case) }",
+    "answerTamil": "factorial (n) = { 1, n = 0 எனில் (அடிப்படை நிலை)\n                  n * factorial(n-1), n > 0 எனில் (தற்சுழற்சி நிலை) }",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-3m-1",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "7 cups are placed upside down on a table. You can turn any two cups at a time. Can you reach a state where all cups are upright? (Hint: Parity of upside down cups remains invariant).",
+    "questionTextTamil": "ஒரு மேஜையில் 7 குவளைகள் தலைகீழாக இருக்கின்றன. எந்த இரண்டு குவளைகளையும் நீங்கள் ஒரே நேரத்தில் திருப்புவதற்கு உங்களுக்கு அனுமதி உண்டு. எல்லா குவளைகளும் நேராக இருக்கக்கூடிய நிலையை எட்டுவது சாத்தியமா? (குறிப்பு: தலைகீழாக இருக்கும் குவளைகளுடைய எண்ணிக்கையின் சமநிலை மாறாது).",
+    "answer": "No, it is impossible.\nReason: Initially, 7 cups are upside down (an odd number). Turning 2 cups changes the count of upside down cups by +2, -2, or 0. Thus, parity of upside-down cups remains odd forever. All cups upright requires 0 upside down cups (an even number), which can never be reached.",
+    "answerTamil": "சாத்தியமில்லை.\nகாரணம்: தொடக்கத்தில் 7 குவளைகள் தலைகீழாக உள்ளன (ஒற்றைப்படை). 2 குவளைகளைத் திருப்பும்போது தலைகீழ் குவளைகளின் எண்ணிக்கை 2 கூடும், 2 குறையும் அல்லது மாறாது. எனவே ஒற்றைப்படை சமநிலை மாறாது. அனைத்தும் நேராக வர 0 குவளைகள் (இரட்டைப்படை) தேவை, இதை அடைய முடியாது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-3m-2",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "In a single-elimination tournament with 1234 players where a loser is immediately eliminated in each match, how many matches must be played to determine the winner?",
+    "questionTextTamil": "தோற்றால் வெளியேறிவிட வேண்டும் என்ற நிபந்தனையுள்ள ஒரு விளையாட்டு போட்டியில் வரிசையாக போட்டிகள் நடக்கின்றன. ஒவ்வொரு போட்டியிலும் இரண்டு விளையாட்டு வீரர்கள் போட்டியிடுகிறார்கள் தோற்றவர் வெளியேறிவிட வேண்டும். வெற்றிபெற்றவர் தொடர்ந்து போட்டியில் பங்கேற்பார். எல்லா விளையாட்டு வீரர்களும் இவ்வாறு வெளியேற்றப்பட்டபின், கடைசியில் எஞ்சியிருக்கும் வீரரே போட்டியில் வெற்றிபெற்றவர். ஒரு விளையாட்டுப்போட்டியில் 1234 வீரர்கள் இருக்கிறார்கள் என்று வைத்துக்கொள்வோம். வெற்றிவீரரை தீர்மானிப்பதற்கு எத்தனை போட்டிகள் நடத்தப்பட வேண்டும்?",
+    "answer": "Number of matches = 1233 matches.\nInvariant: Each match eliminates exactly 1 player.\nTo find 1 winner among 1234 players, exactly 1233 players must be eliminated. Hence, exactly 1234 - 1 = 1233 matches must be played.",
+    "answerTamil": "நடத்தப்பட வேண்டிய போட்டிகள் = 1233.\nகாரணம்: ஒவ்வொரு போட்டியிலும் சரியாக ஒரு வீரர் வெளியேற்றப்படுகிறார். 1234 வீரர்களில் 1 வெற்றியாளரைத் தீர்மானிக்க 1233 வீரர்கள் வெளியேற்றப்பட வேண்டும். எனவே 1234 - 1 = 1233 போட்டிகள் நடத்தப்பட வேண்டும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-3m-3",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "King Vikramaditya has two magic swords to cut heads of a demon: Sword 1 cuts 19 heads but 13 grow back (+6 diff); Sword 2 cuts 7 heads but 22 grow back (+15 diff). If demon starts with 1000 heads, can he ever kill the demon (reduce heads to 0)? (Hint: head mod 3 is invariant).",
+    "questionTextTamil": "மன்னன் விக்கிரமாதித்தனிடம் இரண்டு மந்திர வாள்கள் இருக்கின்றன. ஒரு வாளை வைத்து அவனால் வேதாளத்தின் 19 தலைகளை வெட்டிஎறிய முடியும். ஆனால், அதன்பின் வேதாளத்துக்கு 13 தலைகள் முளைக்கின்றன. இன்னொரு வாளை வைத்து 7 தலைகளை வெட்டிஎறிய முடியும். ஆனால், அதற்குப்பின் 22 புதிய தலைகள் முளைக்கின்றன. எல்லா தலைகளையும் வெட்டிவிட்டால், வேதாளம் செத்துவிடும். வேதாளத்துக்கு ஆரம்பத்தில் 1000 தலைகள் இருந்தால், அது சாகிற வாய்ப்பு உண்டா? (குறிப்பு: தலை mod 3 –ன் எண்ணிக்கை மாறாது).",
+    "answer": "No, the demon can never be killed.\nReason:\nInitial heads = 1000 -> 1000 mod 3 = 1.\nSword 1 changes heads by -19 + 13 = -6 (multiple of 3, mod 3 is 0).\nSword 2 changes heads by -7 + 22 = +15 (multiple of 3, mod 3 is 0).\nThus, (heads mod 3) remains 1 forever. For demon to die, heads must be 0 (0 mod 3 = 0), which is impossible.",
+    "answerTamil": "சாக வாய்ப்பில்லை.\nகாரணம்: தொடக்க தலைகள் = 1000 -> 1000 mod 3 = 1.\nவாள் 1 நிகர மாற்றம் = -6 (3-ன் மடங்கு).\nவாள் 2 நிகர மாற்றம் = +15 (3-ன் மடங்கு).\nஎனவே (தலைகள் mod 3) எப்போதும் 1 ஆகவே இருக்கும். வேதாளம் சாக 0 தலைகள் (0 mod 3 = 0) தேவை, இதை அடைய முடியாது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-5m-1",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Prove that an 8x8 chessboard with alternately colored squares cannot be transformed to have only 1 black square by repeatedly inverting rows and columns.",
+    "questionTextTamil": "வழக்கமான நிறமுடைய 8 x 8 அளவிலான ஒரு சதுரங்கப்பலகையை எடுத்துக்கொள்ளுங்கள். குறுக்குவரிசை மற்றும் நேர்வரிசையின் எல்லா கட்டங்களுக்கும் வேறு நிறமிட்டு அவைகளின் நிறத்தை மாற்றிவிடுவோம். திரும்பதிரும்ப வேறு நிறமிடலாம். இப்படிச் செய்வதால், கடைசியில் ஒரேயொரு கருப்புக் கட்டடம் மட்டுமே வர வேண்டும் என்பது இலக்கு. இந்த இலக்கை அடைய முடியாது என்று நிரூபிக்கவும் (குறிப்பு : ஒரு குறுக்கு வரிசையில் அல்லது நேர்வரிசையில் b கருப்பு கட்டங்கள் இருந்தால் அது |(8-b)-b| என்று மாறுகிறது).",
+    "answer": "Proof using Invariant Parity:\n1. In standard 8x8 board, total black squares = 32 (an even number).\n2. When any row/col with 'b' black squares is inverted, new black squares = 8 - b.\n3. Change in black squares = (8 - b) - b = 8 - 2b, which is always an EVEN integer.\n4. Therefore, total number of black squares remains EVEN after any number of inversions.\n5. Target has 1 black square (an ODD number). An even number can never equal an odd number. Hence, the target state is impossible.",
+    "answerTamil": "நிரூபணம்:\n1. 8x8 பலகையில் தொடக்க கருப்பு கட்டங்கள் = 32 (இரட்டைப்படை).\n2. ஒரு வரிசையில் 'b' கருப்பு கட்டங்களை மாற்றினால் புதிய எண்ணிக்கை (8 - b) ஆகும்.\n3. ஏற்படும் மாற்றம் = 8 - 2b (எப்போதும் இரட்டைப்படை).\n4. எனவே எத்தனை முறை மாற்றினாலும் மொத்த கருப்பு கட்டங்களின் எண்ணிக்கை இரட்டைப்படையாகவே இருக்கும்.\n5. இலக்கு = 1 கருப்பு கட்டம் (ஒற்றைப்படை). எனவே இந்த இலக்கை அடைய முடியாது.",
+    "isBookBack": true
+  },
+  {
+    "id": "cs11-ch8-5m-2",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Define power(a, n) recursively as: a^n = { 1 if n=0, a * a^(n-1) if n is odd, a^(n/2) * a^(n/2) if n is even }. Write algorithm and find number of multiplications to compute a^10.",
+    "questionTextTamil": "power தற்சுழற்சியை பின்வருமாறு வரையறுக்கலாம்: an = { 1 if n = 0, a x an-1 if n is odd, an/2 x an/2 if n is even. இந்த வரையறையைப் பயன்படுத்தி தற்சுழற்சி நெறிமுறையை உருவாக்கவும். a^10 யைக் கணக்கிட எத்தனை முறை பெருக்க வேண்டும்?",
+    "answer": "Algorithm:\npower (a, n)\nif n = 0 return 1\nelse if n is odd return a * power(a, n - 1)\nelse\n  p := power(a, n / 2)\n  return p * p\n\nComputation trace for a^10:\n1. power(a, 10) = power(a, 5)^2  -> 1 mult\n2. power(a, 5) = a * power(a, 4) -> 1 mult\n3. power(a, 4) = power(a, 2)^2   -> 1 mult\n4. power(a, 2) = power(a, 1)^2   -> 1 mult\n5. power(a, 1) = a * power(a, 0) -> 1 mult (power(a,0)=1)\nTotal multiplications = 4 (or 5 including base steps).",
+    "answerTamil": "நெறிமுறை:\npower (a, n)\nif n = 0 return 1\nelse if n % 2 != 0 return a * power(a, n-1)\nelse\n  p := power(a, n/2)\n  return p * p\n\na^10 கணக்கிட ஆகும் பெருக்கல்கள் = 4 முறை.",
+    "isBookBack": true,
+    "isCompulsoryEligible": true
+  },
+  {
+    "id": "cs11-ch8-5m-3",
+    "chapterNo": 8,
+    "chapterName": "Iteration and Recursion",
+    "chapterNameTamil": "சுழற்சியும், தற்சுழற்சியும்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Show that a 2^n x 2^n square board with one missing square can be tiled using L-shaped trominoes using recursion.",
+    "questionTextTamil": "2^n x 2^n சதுர அமைப்பைக் கொண்ட ஒரு சதுர மூலை மூடப்பட்ட அட்டையில், ஒரு மூலைச் சதுரம் ஒரு தனிச் சதுர ஒட்டியினால் மூடப்பட்டிருக்கிறது. ஒன்றின்மேல் ஒன்று இல்லாமல் முக்கோண/L-வடிவ ஒட்டு அட்டையை மூட முடியும் என்பதை காண்பிக்கவும்.",
+    "answer": "Proof by Mathematical Induction (Recursive Divide & Conquer):\nBase Case (n = 1): A 2x2 board with 1 missing square leaves 3 squares, which is exactly covered by 1 L-shaped tromino.\nInductive Step:\nDivide the 2^n x 2^n board into 4 equal quadrants of size 2^(n-1) x 2^(n-1).\nOne quadrant contains the original missing square.\nPlace 1 L-shaped tromino at the center touching the other three quadrants. Now, every quadrant has exactly one covered/missing square.\nBy recursion, each of the four 2^(n-1) x 2^(n-1) sub-boards can be completely tiled. Hence proved.",
+    "answerTamil": "கணித தொகுத்தறிதல் முறை (தற்சுழற்சி):\nஅடிப்படை நிலை (n=1): 2x2 பலகையில் 1 கட்டம் விடுபட்டால் மீதமுள்ள 3 கட்டங்களை 1 L-வடிவ ஓட்டினால் மூடலாம்.\nதற்சுழற்சி படிநிலை:\n2^n x 2^n பலகையை நான்கு 2^(n-1) x 2^(n-1) கால்பகுதிகளாகப் பிரிக்கவும். ஒரு பகுதியில் விடுபட்ட கட்டம் இருக்கும். மற்ற மூன்று பகுதிகளின் மையத்தில் 1 L-ஓட்டை வைத்தால், நான்கு பகுதிகளும் தலா 1 விடுபட்ட கட்டத்தைப் பெறும். தற்சுழற்சி முறையில் அனைத்தையும் முழுமையாக மூடலாம்.",
+    "isBookBack": true
+  }
+]

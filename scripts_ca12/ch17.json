@@ -1,0 +1,418 @@
+[
+  {
+    "id": "ca12-ch17-1m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The process of converting plain readable text into unreadable ciphertext is known as _________.",
+    "questionTextTamil": "வாசிக்கக்கூடிய எளிய உரையை வாசிக்க முடியாத மறைமுக உரையாக மாற்றும் செயல்முறை எது?",
+    "options": {
+      "A": "Encryption",
+      "B": "Decryption",
+      "C": "Authentication",
+      "D": "Authorization"
+    },
+    "optionsTamil": {
+      "A": "குறியாக்கம் (Encryption)",
+      "B": "குறிவிலக்கம்",
+      "C": "அங்கீகாரம்",
+      "D": "அனுமதி"
+    },
+    "correctOption": "A",
+    "answer": "A) Encryption",
+    "answerTamil": "A) குறியாக்கம் (Encryption)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The process of restoring ciphertext back to original plaintext is called _________.",
+    "questionTextTamil": "மறைமுக உரையை மீண்டும் அசல் எளிய உரையாக மாற்றும் செயல்முறை எது?",
+    "options": {
+      "A": "Encryption",
+      "B": "Decryption",
+      "C": "Hashing",
+      "D": "Phishing"
+    },
+    "optionsTamil": {
+      "A": "குறியாக்கம்",
+      "B": "குறிவிலக்கம் (Decryption)",
+      "C": "ஹேஷிங்",
+      "D": "ஃபிஷிங்"
+    },
+    "correctOption": "B",
+    "answer": "B) Decryption",
+    "answerTamil": "B) குறிவிலக்கம் (Decryption)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which encryption type uses the exact same single secret key for both encryption and decryption?",
+    "questionTextTamil": "குறியாக்கம் மற்றும் குறிவிலக்கம் இரண்டிற்கும் ஒரே ஒரு இரகசியத் திறவுகோலைப் பயன்படுத்தும் முறை எது?",
+    "options": {
+      "A": "Symmetric Encryption",
+      "B": "Asymmetric Encryption",
+      "C": "Public Key Cryptography",
+      "D": "Digital Certificate"
+    },
+    "optionsTamil": {
+      "A": "சமச்சீர் குறியாக்கம் (Symmetric Encryption)",
+      "B": "சமச்சீரற்ற குறியாக்கம்",
+      "C": "பொதுத் திறவுகோல் முறை",
+      "D": "டிஜிட்டல் சான்றிதழ்"
+    },
+    "correctOption": "A",
+    "answer": "A) Symmetric Encryption",
+    "answerTamil": "A) சமச்சீர் குறியாக்கம் (Symmetric Encryption)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-4",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Asymmetric encryption uses a mathematically linked pair of keys known as _________.",
+    "questionTextTamil": "சமச்சீரற்ற குறியாக்கம் பயன்படுத்தும் ஜோடி திறவுகோல்கள் எவை?",
+    "options": {
+      "A": "Public key and Private key",
+      "B": "Master key and Slave key",
+      "C": "Open key and Closed key",
+      "D": "Local key and Remote key"
+    },
+    "optionsTamil": {
+      "A": "பொதுத் திறவுகோல் மற்றும் தனியார் திறவுகோல்",
+      "B": "முதன்மை மற்றும் துணைத் திறவுகோல்",
+      "C": "திறந்த மற்றும் மூடிய திறவுகோல்",
+      "D": "உள்ளூர் மற்றும் தொலைத் திறவுகோல்"
+    },
+    "correctOption": "A",
+    "answer": "A) Public key and Private key",
+    "answerTamil": "A) பொதுத் திறவுகோல் மற்றும் தனியார் திறவுகோல்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-5",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does SSL stand for in web security?",
+    "questionTextTamil": "இணையப் பாதுகாப்பில் SSL என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Secure Sockets Layer",
+      "B": "System Security Layer",
+      "C": "Server Socket Link",
+      "D": "Safe Socket Lock"
+    },
+    "optionsTamil": {
+      "A": "Secure Sockets Layer",
+      "B": "System Security Layer",
+      "C": "Server Socket Link",
+      "D": "Safe Socket Lock"
+    },
+    "correctOption": "A",
+    "answer": "A) Secure Sockets Layer",
+    "answerTamil": "A) Secure Sockets Layer",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-6",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A mathematical scheme for demonstrating the authenticity and non-repudiation of digital messages is a(n) _________.",
+    "questionTextTamil": "மின்னணு செய்திகளின் நம்பகத்தன்மை மற்றும் மறுக்கமுடியாமையை உறுதி செய்யும் கணிதத் திட்டம் எது?",
+    "options": {
+      "A": "Digital Signature",
+      "B": "Barcode",
+      "C": "Serial Number",
+      "D": "Watermark"
+    },
+    "optionsTamil": {
+      "A": "மின்னணு கையொப்பம் (Digital Signature)",
+      "B": "பார்கோடு",
+      "C": "வரிசை எண்",
+      "D": "நீர்க்குறி"
+    },
+    "correctOption": "A",
+    "answer": "A) Digital Signature",
+    "answerTamil": "A) மின்னணு கையொப்பம் (Digital Signature)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-7",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which electronic document binds a person's public key to their identity, issued by a trusted CA?",
+    "questionTextTamil": "அங்கீகரிக்கப்பட்ட அமைப்பால் (CA) ஒருவரின் பொதுத் திறவுகோலை அவரது அடையாளத்துடன் இணைத்து வழங்கப்படும் மின்னணு ஆவணம் எது?",
+    "options": {
+      "A": "Digital Certificate",
+      "B": "Identity Card",
+      "C": "Driving License",
+      "D": "PAN Card"
+    },
+    "optionsTamil": {
+      "A": "டிஜிட்டல் சான்றிதழ் (Digital Certificate)",
+      "B": "அடையாள அட்டை",
+      "C": "ஓட்டுநர் உரிமம்",
+      "D": "பான் கார்டு"
+    },
+    "correctOption": "A",
+    "answer": "A) Digital Certificate",
+    "answerTamil": "A) டிஜிட்டல் சான்றிதழ் (Digital Certificate)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-8",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does PGP stand for in email encryption?",
+    "questionTextTamil": "மின்னஞ்சல் குறியாக்கத்தில் PGP என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Pretty Good Privacy",
+      "B": "Public Gateway Protocol",
+      "C": "Private Guard Protection",
+      "D": "Packet Generic Protocol"
+    },
+    "optionsTamil": {
+      "A": "Pretty Good Privacy",
+      "B": "Public Gateway Protocol",
+      "C": "Private Guard Protection",
+      "D": "Packet Generic Protocol"
+    },
+    "correctOption": "A",
+    "answer": "A) Pretty Good Privacy",
+    "answerTamil": "A) Pretty Good Privacy",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-9",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which security protocol was developed by Visa and MasterCard specifically for securing online bankcard transactions?",
+    "questionTextTamil": "ஆன்லைன் வங்கி அட்டை பரிவர்த்தனைகளைப் பாதுகாக்க Visa மற்றும் MasterCard இணைந்து உருவாக்கிய நெறிமுறை எது?",
+    "options": {
+      "A": "SET (Secure Electronic Transaction)",
+      "B": "FTP",
+      "C": "SNMP",
+      "D": "TELNET"
+    },
+    "optionsTamil": {
+      "A": "SET (Secure Electronic Transaction)",
+      "B": "FTP",
+      "C": "SNMP",
+      "D": "TELNET"
+    },
+    "correctOption": "A",
+    "answer": "A) SET (Secure Electronic Transaction)",
+    "answerTamil": "A) SET (Secure Electronic Transaction)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-1m-10",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The principle ensuring that neither sender nor receiver can deny having sent or received a message is _________.",
+    "questionTextTamil": "அனுப்பியவரோ அல்லது பெற்றவரோ செய்தியை அனுப்பவில்லை அல்லது பெறவில்லை என்று மறுக்க முடியாத பாதுகாப்பு தத்துவம் எது?",
+    "options": {
+      "A": "Non-repudiation",
+      "B": "Confidentiality",
+      "C": "Integrity",
+      "D": "Availability"
+    },
+    "optionsTamil": {
+      "A": "மறுக்கமுடியாமை (Non-repudiation)",
+      "B": "ரகசியத்தன்மை",
+      "C": "ஒருமைப்பாடு",
+      "D": "கிடைக்கும் தன்மை"
+    },
+    "correctOption": "A",
+    "answer": "A) Non-repudiation",
+    "answerTamil": "A) மறுக்கமுடியாமை (Non-repudiation)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Cryptography?",
+    "questionTextTamil": "கிரிப்டோகிராபி (மறைsecret குறியீட்டியல்) என்றால் என்ன?",
+    "answer": "Cryptography is the science and art of protecting confidential information by transforming readable text into unintelligible ciphertext using mathematical algorithms.",
+    "answerTamil": "கிரிப்டோகிராபி என்பது ரகசியத் தகவல்களை கணித வழிமுறைகள் மூலம் வாசிக்க முடியாத மறைமுக உரையாக மாற்றி பாதுகாக்கும் அறிவியல் கலையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Encryption and Decryption?",
+    "questionTextTamil": "குறியாக்கம் (Encryption) மற்றும் குறிவிலக்கம் (Decryption) என்றால் என்ன?",
+    "answer": "Encryption converts readable Plaintext into encrypted Ciphertext. Decryption is the reverse process that converts Ciphertext back into original readable Plaintext.",
+    "answerTamil": "குறியாக்கம் என்பது எளிய உரையை மறைமுக உரையாக மாற்றுவதாகும். குறிவிலக்கம் என்பது மறைமுக உரையை மீண்டும் அசல் எளிய உரையாக மாற்றுவதாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Symmetric Key Encryption?",
+    "questionTextTamil": "சமச்சீர் திறவுகோல் குறியாக்கம் என்றால் என்ன?",
+    "answer": "Symmetric key encryption uses a single shared secret key for both encrypting and decrypting data between communicating parties (e.g., DES, AES).",
+    "answerTamil": "சமச்சீர் குறியாக்கம் என்பது தகவலை குறியாக்கம் செய்வதற்கும் குறிவிலக்கம் செய்வதற்கும் ஒரே ஒரு இரகசியத் திறவுகோலைப் பயன்படுத்தும் முறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-4",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Asymmetric Key Encryption?",
+    "questionTextTamil": "சமச்சீரற்ற திறவுகோல் குறியாக்கம் என்றால் என்ன?",
+    "answer": "Asymmetric encryption uses a paired set of keys: a Public Key (distributed openly for encryption) and a Private Key (kept strictly confidential for decryption; e.g., RSA).",
+    "answerTamil": "சமச்சீரற்ற குறியாக்கம் என்பது ஒரு ஜோடி திறவுகோல்களைப் பயன்படுத்துகிறது: குறியாக்கம் செய்ய பொதுத் திறவுகோல் மற்றும் குறிவிலக்க தனியார் திறவுகோல் (எ.கா: RSA).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-2m-5",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Digital Signature?",
+    "questionTextTamil": "மின்னணு கையொப்பம் (Digital Signature) என்றால் என்ன?",
+    "answer": "A digital signature is a mathematical cryptographic mechanism that verifies the authentic identity of the sender and guarantees the integrity and non-repudiation of a digital document.",
+    "answerTamil": "மின்னணு கையொப்பம் என்பது ஆவணத்தை அனுப்பியவரின் அடையாளத்தை உறுதிப்படுத்தவும், ஆவணம் மாற்றப்படவில்லை என்பதை நிரூபிக்கவும் பயன்படும் கணித குறியீட்டு முறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate Symmetric and Asymmetric Key Encryption.",
+    "questionTextTamil": "சமச்சீர் மற்றும் சமச்சீரற்ற திறவுகோல் குறியாக்கத்தை வேறுபடுத்துக.",
+    "answer": "1. Symmetric: Uses one single identical key for encryption and decryption; fast speed; key distribution is a challenge.\n2. Asymmetric: Uses two separate mathematically linked keys (Public & Private); slower computational speed; highly secure key management.",
+    "answerTamil": "1. சமச்சீர்: குறியாக்கம் மற்றும் குறிவிலக்கம் இரண்டிற்கும் ஒரே சாவி; அதிவேகமானது; சாவியைப் பகிர்வதில் சவால் உண்டு.\n2. சமச்சீரற்ற: பொது மற்றும் தனியார் என இரு வெவ்வேறு சாவிகள்; அதிக பாதுகாப்பு கொண்டது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the core security principles of E-Commerce?",
+    "questionTextTamil": "மின்-வணிகத்தின் முக்கிய பாதுகாப்பு தத்துவங்கள் யாவை?",
+    "answer": "The core principles are:\n1. Confidentiality: Protecting data from unauthorized viewing.\n2. Integrity: Ensuring data is not altered in transit.\n3. Authentication: Verifying user/server genuine identities.\n4. Non-repudiation: Preventing parties from denying valid transactions.",
+    "answerTamil": "முக்கிய தத்துவங்கள்:\n1. ரகசியத்தன்மை (Confidentiality): பிறர் பார்க்காமல் பாதுகாத்தல்.\n2. ஒருமைப்பாடு (Integrity): தகவல்கள் இடையில் மாற்றப்படாமல் இருத்தல்.\n3. அங்கீகாரம் (Authentication): உண்மையான அடையாளத்தை சரிபார்த்தல்.\n4. மறுக்கமுடியாமை (Non-repudiation): பரிவர்த்தனையை மறுக்க இயலாமை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is a Digital Certificate? What details does it contain?",
+    "questionTextTamil": "டிஜிட்டல் சான்றிதழ் என்றால் என்ன? அதில் இடம்பெறும் விவரங்கள் யாவை?",
+    "answer": "A digital certificate is an electronic passport issued by a Certification Authority (CA). It contains:\n- Owner's name and organization\n- Owner's public key\n- Certificate serial number and expiration date\n- Digital signature of the issuing CA.",
+    "answerTamil": "டிஜிட்டல் சான்றிதழ் என்பது சான்றளிக்கும் அதிகாரியால் (CA) வழங்கப்படும் மின்னணு பாஸ்போர்ட் ஆகும். இதில் உரிமையாளர் பெயர், பொதுத் திறவுகோல், காலாவதி தேதி மற்றும் CA-ன் கையொப்பம் இருக்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-3m-4",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain Secure Electronic Transaction (SET) protocol.",
+    "questionTextTamil": "SET (Secure Electronic Transaction) நெறிமுறையை விளக்குக.",
+    "answer": "SET is a communications protocol designed by Visa and MasterCard using digital certificates and cryptography to secure credit card transactions over open networks without exposing card numbers to merchants.",
+    "answerTamil": "SET என்பது ஆன்லைனில் கடன் அட்டை மூலம் பணம் செலுத்தும் போது கார்டு விவரங்களை வணிகருக்குக் காட்டாமல் பாதுகாப்பாக வங்கிக்கு அனுப்ப உருவாக்கப்பட்ட நெறிமுறையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-5m-1",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain in detail Symmetric Key Encryption and Asymmetric Key Encryption with diagrams/examples.",
+    "questionTextTamil": "சமச்சீர் மற்றும் சமச்சீரற்ற குறியாக்க முறைகளை வரைபட விளக்கத்துடன் விரிவாக விளக்குக.",
+    "answer": "1. Symmetric Key Encryption (Private Key Cryptography):\n- Uses a single shared key for both encrypting Plaintext into Ciphertext and decrypting Ciphertext into Plaintext.\n- Advantage: Extremely fast computational speed, ideal for bulk file encryption.\n- Examples: DES (Data Encryption Standard), 3DES, AES (Advanced Encryption Standard).\n- Weakness: Securely transmitting the secret key to the receiver without interception.\n\n2. Asymmetric Key Encryption (Public Key Cryptography):\n- Uses two mathematically connected keys:\n  a) Public Key: Shared with everyone; used by sender to encrypt message.\n  b) Private Key: Kept strictly secret by receiver; only this key can decrypt the message.\n- Advantage: Eliminates key transmission risk; provides digital signatures and authentication.\n- Examples: RSA, ECC, Diffie-Hellman algorithms.",
+    "answerTamil": "1. சமச்சீர் திறவுகோல் குறியாக்கம் (Symmetric):\n- எளிய உரையை குறியாக்கம் செய்யவும், மறைமுக உரையை குறிவிலக்கம் செய்யவும் ஒரே ஒரு பொது இரகசிய சாவியைப் பயன்படுத்துகிறது.\n- நன்மை: மிக அதிக வேகம், பெரிய கோப்புகளை குறியாக்கம் செய்ய சிறந்தது.\n- எடுத்துக்காட்டுகள்: DES, AES.\n- குறைபாடு: இருவருக்குமிடையே சாவியைப் பகிர்வது கடினம்.\n\n2. சமச்சீரற்ற திறவுகோல் குறியாக்கம் (Asymmetric):\n- கணிதவியல் ரீதியாக இணைக்கப்பட்ட இரு வெவ்வேறு சாவிகளைப் பயன்படுத்துகிறது:\n  அ) பொதுச் சாவி (Public Key): அனைவருக்கும் பகிரப்படும்; தகவலைப் பூட்டப் பயன்படும்.\n  ஆ) தனியார் சாவி (Private Key): பெறுநரிடம் மட்டுமே ரகசியமாக இருக்கும்; பூட்டைத் திறக்கப் பயன்படும்.\n- நன்மை: சாவியைப் பகிரும் ஆபத்து இல்லை; டிஜிட்டல் கையொப்பத்திற்கு ஏற்றது (எ.கா: RSA).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-5m-2",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the architecture, working mechanism, and importance of Digital Signatures in E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தில் மின்னணு கையொப்பத்தின் (Digital Signature) கட்டமைப்பு, செயல்படும் விதம் மற்றும் முக்கியத்துவத்தை விளக்குக.",
+    "answer": "Digital Signature Mechanism:\n\n1. Signature Generation (Signing at Sender End):\n- Original message is processed through a cryptographic Hash Function (e.g., SHA-256) to produce a fixed-length Message Digest.\n- The sender encrypts this Message Digest with their own Private Key to create the Digital Signature.\n- The message and Digital Signature are transmitted together.\n\n2. Signature Verification (at Receiver End):\n- Receiver computes a new hash digest of the incoming message.\n- Receiver decrypts the attached Digital Signature using the sender's Public Key to retrieve the original hash digest.\n- If both hash digests match exactly, the message is confirmed authentic and unmodified.\n\n3. Core Security Pillars Provided:\n- Authentication (verifies sender identity)\n- Integrity (detects message tampering)\n- Non-repudiation (sender cannot deny signing).",
+    "answerTamil": "மின்னணு கையொப்பம் செயல்படும் வழிமுறை:\n\n1. கையொப்பம் உருவாக்குதல் (அனுப்புநர்):\n- அசல் செய்தி ஹாஷிங் (Hashing) மூலம் சுருக்கப்பட்டு மெசேஜ் டைஜஸ்ட் உருவாக்கப்படுகிறது.\n- அனுப்புநர் தனது சொந்த தனியார் சாவியைக் (Private Key) கொண்டு இந்த சுருக்கத்தை குறியாக்கம் செய்து மின்னணு கையொப்பத்தை உருவாக்குகிறார்.\n\n2. கையொப்பத்தை சரிபார்த்தல் (பெறுநர்):\n- பெறுநர் பெறப்பட்ட செய்தியிலிருந்து புதிய ஹாஷ் சுருக்கத்தை கணக்கிடுகிறார்.\n- பின் அனுப்புநரின் பொதுச் சாவியைக் (Public Key) கொண்டு கையொப்பத்தை குறிவிலக்கி அசல் ஹாஷ் சுருக்கத்தைப் பெறுகிறார்.\n- இரண்டும் சமமாக இருந்தால் செய்தி உண்மை மற்றும் மாற்றப்படாதது என உறுதியாகிறது.\n\nமுக்கிய நன்மைகள்: அனுப்புநரின் உண்மையான அடையாளம், செய்தியின் ஒருமைப்பாடு மற்றும் மறுக்கமுடியாமை உறுதி செய்யப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch17-5m-3",
+    "chapterNo": 17,
+    "chapterName": "E-Commerce Security Systems",
+    "chapterNameTamil": "மின்-வணிக பாதுகாப்பு அமைப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the security protocols used in E-Commerce (SSL/TLS, SET, S/MIME, PGP).",
+    "questionTextTamil": "மின்-வணிகத்தில் பயன்படுத்தப்படும் பாதுகாப்பு நெறிமுறைகளை (SSL/TLS, SET, S/MIME, PGP) விரிவாக விளக்குக.",
+    "answer": "Security Protocols in E-Commerce:\n\n1. SSL / TLS (Secure Sockets Layer / Transport Layer Security):\n- Encrypts web traffic between browser and web server (HTTPS on port 443).\n- Uses hybrid encryption: asymmetric handshake to negotiate symmetric session keys.\n\n2. SET (Secure Electronic Transaction):\n- Developed by Visa and MasterCard for credit card security.\n- Uses dual signatures ensuring merchants cannot view card numbers and banks cannot view order item lists.\n\n3. S/MIME (Secure/Multipurpose Internet Mail Extensions):\n- Public-key encryption and signing protocol for email messages and MIME attachments.\n\n4. PGP (Pretty Good Privacy):\n- Hybrid cryptographic program providing cryptographic privacy and authentication for email messages and data files.",
+    "answerTamil": "மின்-வணிக பாதுகாப்பு நெறிமுறைகள்:\n\n1. SSL / TLS:\n- உலாவி மற்றும் சேவையகத்திற்கு இடையே செல்லும் இணையத் தரவை குறியாக்கம் செய்கிறது (HTTPS).\n\n2. SET (Secure Electronic Transaction):\n- விசா மற்றும் மாஸ்டர்கார்டு இணைந்து உருவாக்கியது; வங்கி அட்டை விவரங்களை வணிகரிடமிருந்து மறைத்து பாதுகாக்கிறது.\n\n3. S/MIME:\n- மின்னஞ்சல் மற்றும் இணைப்புக் கோப்புகளை பாதுகாப்பாக குறியாக்கம் செய்யும் நெறிமுறை.\n\n4. PGP (Pretty Good Privacy):\n- மின்னஞ்சல்கள் மற்றும் கோப்புகளைப் பாதுகாக்க சமச்சீர் மற்றும் சமச்சீரற்ற குறியாக்கத்தை இணைத்துப் பயன்படுத்தும் பிரபல நிரலாகும்.",
+    "isBookBack": true
+  }
+]

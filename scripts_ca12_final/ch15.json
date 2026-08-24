@@ -1,0 +1,431 @@
+[
+  {
+    "id": "ca12-ch15-1m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "A company involved in E-Business if",
+    "questionTextTamil": "ஒரு நிறுவனம் எப்போது மின்-வணிகத்தில் (E-Business) ஈடுபட்டிருப்பதாகக் கருதப்படும்?",
+    "options": {
+      "A": "it conducts business over Internet",
+      "B": "it has physical stores",
+      "C": "it accepts cash only",
+      "D": "it manufactures goods only"
+    },
+    "optionsTamil": {
+      "A": "இணையம் வழியாக வணிக நடவடிக்கைகளை நடத்தும்போது",
+      "B": "நேரடி கடைகளை மட்டுமே கொண்டிருக்கும் போது",
+      "C": "ரொக்கத்தை மட்டுமே ஏற்கும் போது",
+      "D": "பொருட்களை மட்டுமே உற்பத்தி செய்யும் போது"
+    },
+    "correctOption": "A",
+    "answer": "A) it conducts business over Internet",
+    "answerTamil": "A) இணையம் வழியாக வணிக நடவடிக்கைகளை நடத்தும்போது",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is not a tangible good?",
+    "questionTextTamil": "பின்வருவனவற்றுள் எது தொட்டுணரக்கூடிய பொருள் (Tangible good) அல்ல?",
+    "options": {
+      "A": "Mobile Apps",
+      "B": "Laptop",
+      "C": "Mobile Phone",
+      "D": "Book"
+    },
+    "optionsTamil": {
+      "A": "மொபைல் செயலிகள் (Mobile Apps)",
+      "B": "மடிக்கணினி",
+      "C": "கைபேசி",
+      "D": "புத்தகம்"
+    },
+    "correctOption": "A",
+    "answer": "A) Mobile Apps",
+    "answerTamil": "A) மொபைல் செயலிகள் (Mobile Apps)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "SME stands for",
+    "questionTextTamil": "SME என்பதன் விரிவாக்கம்:",
+    "options": {
+      "A": "Small and Medium Enterprises",
+      "B": "Small and Micro Enterprises",
+      "C": "State and Medium Enterprises",
+      "D": "Small Medium Economics"
+    },
+    "optionsTamil": {
+      "A": "Small and Medium Enterprises",
+      "B": "Small and Micro Enterprises",
+      "C": "State and Medium Enterprises",
+      "D": "Small Medium Economics"
+    },
+    "correctOption": "A",
+    "answer": "A) Small and Medium Enterprises",
+    "answerTamil": "A) Small and Medium Enterprises",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "The dotcom phenomenon deals with ________",
+    "questionTextTamil": "டாட்காம் நிகழ்வு எதனுடன் தொடர்புடையது?",
+    "options": {
+      "A": "rapid rise and fall of internet startups",
+      "B": "manufacturing of computers",
+      "C": "development of internet protocols",
+      "D": "space technology"
+    },
+    "optionsTamil": {
+      "A": "இணைய தொடக்க நிறுவனங்களின் அதிவேக வளர்ச்சியும் வீழ்ச்சியும்",
+      "B": "கணினி உற்பத்தி",
+      "C": "இணைய நெறிமுறைகள் உருவாக்கம்",
+      "D": "விண்வெளி தொழில்நுட்பம்"
+    },
+    "correctOption": "A",
+    "answer": "A) rapid rise and fall of internet startups",
+    "answerTamil": "A) இணைய தொடக்க நிறுவனங்களின் அதிவேக வளர்ச்சியும் வீழ்ச்சியும்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-5",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is not correctly matched",
+    "questionTextTamil": "பின்வருவனவற்றுள் எது தவறாகப் பொருத்தப்பட்டுள்ளது?",
+    "options": {
+      "A": "B2B - Consumer to Consumer",
+      "B": "B2C - Business to Consumer",
+      "C": "C2C - Consumer to Consumer",
+      "D": "G2C - Government to Citizen"
+    },
+    "optionsTamil": {
+      "A": "B2B - Consumer to Consumer",
+      "B": "B2C - Business to Consumer",
+      "C": "C2C - Consumer to Consumer",
+      "D": "G2C - Government to Citizen"
+    },
+    "correctOption": "A",
+    "answer": "A) B2B - Consumer to Consumer",
+    "answerTamil": "A) B2B - Consumer to Consumer",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-6",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Assertion (A): The websites of first wave dotcom companies were only in English Reason (R): The dotcom companies of first wave are mostly American companies.",
+    "questionTextTamil": "கூற்று (A): முதல் அலை டாட்காம் நிறுவனங்களின் வலைத்தளங்கள் ஆங்கிலத்தில் மட்டுமே இருந்தன. காரணம் (R): முதல் அலை டாட்காம் நிறுவனங்கள் பெரும்பாலும் அமெரிக்க நிறுவனங்கள் ஆகும்.",
+    "options": {
+      "A": "Both A and R are correct and R is the correct explanation of A",
+      "B": "Both A and R are correct but R is not the correct explanation of A",
+      "C": "A is correct but R is wrong",
+      "D": "A is wrong but R is correct"
+    },
+    "optionsTamil": {
+      "A": "A மற்றும் R இரண்டும் சரி, R என்பது A-வின் சரியான விளக்கம்",
+      "B": "A மற்றும் R இரண்டும் சரி, ஆனால் R என்பது A-வின் சரியான விளக்கம் அல்ல",
+      "C": "A சரி ஆனால் R தவறு",
+      "D": "A தவறு ஆனால் R சரி"
+    },
+    "correctOption": "A",
+    "answer": "A) Both A and R are correct and R is the correct explanation of A",
+    "answerTamil": "A) A மற்றும் R இரண்டும் சரி, R என்பது A-வின் சரியான விளக்கம்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-7",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Off-shoring means",
+    "questionTextTamil": "ஆஃப்-ஷோரிங் (Off-shoring) என்றால் என்ன?",
+    "options": {
+      "A": "relocating business processes abroad",
+      "B": "selling products locally",
+      "C": "closing a business",
+      "D": "buying goods in cash"
+    },
+    "optionsTamil": {
+      "A": "வணிக செயல்முறைகளை வெளிநாடுகளுக்கு மாற்றுவது",
+      "B": "உள்ளூரில் பொருட்களை விற்பது",
+      "C": "வணிகத்தை மூடுவது",
+      "D": "ரொக்கமாக பொருட்களை வாங்குவது"
+    },
+    "correctOption": "A",
+    "answer": "A) relocating business processes abroad",
+    "answerTamil": "A) வணிக செயல்முறைகளை வெளிநாடுகளுக்கு மாற்றுவது",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-8",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "G2G systems are classified into",
+    "questionTextTamil": "G2G அமைப்புகள் எவ்வாறாக வகைப்படுத்தப்படுகின்றன?",
+    "options": {
+      "A": "Internal and External",
+      "B": "Local and Global",
+      "C": "Public and Private",
+      "D": "Direct and Indirect"
+    },
+    "optionsTamil": {
+      "A": "உள் மற்றும் வெளிப்புற அமைப்புகள் (Internal and External)",
+      "B": "உள்ளூர் மற்றும் உலகளாவிய",
+      "C": "பொது மற்றும் தனியார்",
+      "D": "நேரடி மற்றும் மறைமுக"
+    },
+    "correctOption": "A",
+    "answer": "A) Internal and External",
+    "answerTamil": "A) உள் மற்றும் வெளிப்புற அமைப்புகள் (Internal and External)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-9",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "____ host the e-books on their websites.",
+    "questionTextTamil": "மின்-புத்தகங்களை தங்கள் வலைத்தளங்களில் தொகுத்து வழங்குவது யார்?",
+    "options": {
+      "A": "Digital libraries / Publishers",
+      "B": "Banks",
+      "C": "Factories",
+      "D": "Couriers"
+    },
+    "optionsTamil": {
+      "A": "டிஜிட்டல் நூலகங்கள் / வெளியீட்டாளர்கள்",
+      "B": "வங்கிகள்",
+      "C": "தொழிற்சாலைகள்",
+      "D": "கூரியர்கள்"
+    },
+    "correctOption": "A",
+    "answer": "A) Digital libraries / Publishers",
+    "answerTamil": "A) டிஜிட்டல் நூலகங்கள் / வெளியீட்டாளர்கள்",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-1m-10",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which of the following is a characteristics of E-Commerce",
+    "questionTextTamil": "மின்-வணிகத்தின் முக்கிய பண்புக்கூறு எது?",
+    "options": {
+      "A": "Global reach and 24/7 availability",
+      "B": "Cash only payment",
+      "C": "Geographic limits",
+      "D": "Manual ledger"
+    },
+    "optionsTamil": {
+      "A": "உலகளாவிய அணுகல் மற்றும் 24/7 கிடைக்கும் தன்மை",
+      "B": "ரொக்க கட்டணம் மட்டுமே",
+      "C": "புவியியல் எல்லைகள்",
+      "D": "கைமுறை ஏடு"
+    },
+    "correctOption": "A",
+    "answer": "A) Global reach and 24/7 availability",
+    "answerTamil": "A) உலகளாவிய அணுகல் மற்றும் 24/7 கிடைக்கும் தன்மை",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define E-Commerce.",
+    "questionTextTamil": "மின்-வணிகம் (E-Commerce) - வரையறுக்கவும்.",
+    "answer": "E-Commerce (Electronic Commerce) is the buying and selling of goods, products, and services, or the transmission of funds and data, over an electronic network, primarily the Internet.",
+    "answerTamil": "மின்-வணிகம் என்பது இணையம் போன்ற மின்னணு நெட்வொர்க் வழியாக பொருட்கள் மற்றும் சேவைகளை வாங்குதல் மற்றும் விற்பனை செய்தல் ஆகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Distinguish between E-Business and E-Commerce",
+    "questionTextTamil": "மின்-தொழில் (E-Business) மற்றும் மின்-வணிகம் (E-Commerce) இடையே உள்ள வேறுபாடுகள் யாவை?",
+    "answer": "1. E-Commerce: Specifically covers commercial transactions (buying/selling) between business and customers over the Internet.\n2. E-Business: Broader concept encompassing all business activities including production, procurement, internal supply chain, and customer service.",
+    "answerTamil": "1. மின்-வணிகம்: இணையம் வழியே பொருட்கள் மற்றும் சேவைகளை வாங்குதல் மற்றும் விற்பனை செய்தலை மட்டுமே குறிக்கும்.\n2. மின்-தொழில்: உற்பத்தி, சரக்கு கொள்முதல், வாடிக்கையாளர் சேவை உள்ளிட்ட அனைத்து வணிக நடவடிக்கைகளையும் உள்ளடக்கிய பரந்த சொல்லாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Differentiate tangible goods and intangible goods with example of your own.",
+    "questionTextTamil": "தொட்டுணரக்கூடிய மற்றும் தொட்டுணர முடியாத பொருட்களை சொந்த எடுத்துக்காட்டுகளுடன் வேறுபடுத்துக.",
+    "answer": "1. Tangible Goods: Physical items that can be touched and physically delivered (e.g. Laptop, Clothes, Mobile phone).\n2. Intangible Goods: Digital products that cannot be touched, delivered electronically (e.g. Antivirus software, E-books, Music download).",
+    "answerTamil": "1. தொட்டுணரக்கூடிய பொருட்கள் (Tangible): தொடக்கூடிய மற்றும் நேரடி விநியோகம் செய்யப்படும் பொருட்கள் (எ.கா. மடிக்கணினி, ஆடைகள்).\n2. தொட்டுணர முடியாத பொருட்கள் (Intangible): மின்னணு முறையில் தரவிறக்கம் செய்யப்படும் டிஜிட்டல் பொருட்கள் (எ.கா. மென்பொருள், மின்-புத்தகம்).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is dotcom bubble and dotcom burst?",
+    "questionTextTamil": "டாட்காம் குமிழி (Dotcom bubble) மற்றும் டாட்காம் வெடிப்பு (Dotcom burst) என்றால் என்ன?",
+    "answer": "1. Dotcom Bubble: Rapid stock market speculation and massive investment surge in Internet companies between 1995 and 2000.\n2. Dotcom Burst: The market crash (2000–2002) where hundreds of unprofitable tech startups failed.",
+    "answerTamil": "1. டாட்காம் குமிழி: 1995 முதல் 2000 வரை இணைய நிறுவனங்களின் பங்குச் சந்தை மதிப்பில் ஏற்பட்ட அபரிமிதமான வளர்ச்சி.\n2. டாட்காம் வெடிப்பு: 2000-2002-ல் லாபமில்லாத பல இணைய நிறுவனங்கள் முடங்கி சந்தை சரிவடைந்த நிகழ்வு.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-2m-5",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Write a short note on out-sourcing.",
+    "questionTextTamil": "வெளிப்பணி ஒப்படைத்தல் (Out-sourcing) பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "Outsourcing is the business practice of hiring an external third-party company to perform services or create goods that traditionally were performed in-house (e.g., customer call centers, software development).",
+    "answerTamil": "வெளிப்பணி ஒப்படைத்தல் என்பது நிறுவனத்தின் குறிப்பிட்ட பணிகளை (வாடிக்கையாளர் சேவை, மென்பொருள் தயாரிப்பு) குறைந்த செலவில் செய்ய வெளிப்புற மூன்றாம் தரப்பு நிறுவனங்களிடம் ஒப்படைப்பதாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Describe how E-Commerce is related to socio-technological changes.",
+    "questionTextTamil": "மின்-வணிகம் எவ்வாறு சமூக-தொழில்நுட்ப மாற்றங்களுடன் தொடர்புடையது என்பதை விவரிக்கவும்.",
+    "answer": "E-Commerce evolved alongside broadband Internet, smartphones, and secure digital banking, completely transforming consumer habits from physical store shopping to 24/7 anywhere mobile shopping and instant digital payments.",
+    "answerTamil": "மின்-வணிகம் என்பது அதிவேக இணையம், ஸ்மார்ட்போன்கள் மற்றும் டிஜிட்டல் கட்டண முறைகளின் வளர்ச்சியால் மக்களின் ஷாப்பிங் பழக்கவழக்கங்களை 24 மணி நேரமும் எங்கிருந்தும் வாங்கும் வகையில் மாற்றியுள்ளது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a short note on the third wave of E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தின் மூன்றாம் அலை (Third wave) பற்றி சிறு குறிப்பு வரைக.",
+    "answer": "The Third Wave of E-Commerce (2010 onwards) is characterized by:\n1. Mobile Commerce (Smartphones/Apps)\n2. Cloud Computing and AI-driven recommendations\n3. Integration with Social Media networks\n4. Global cross-border trade in localized languages.",
+    "answerTamil": "மின்-வணிகத்தின் மூன்றாம் அலை (2010 முதல்):\n1. மொபைல் வணிகம் (ஸ்மார்ட்போன் செயலிகள்)\n2. கிளவுட் கம்ப்யூட்டிங் மற்றும் AI பரிந்துரைகள்\n3. சமூக ஊடக ஒருங்கிணைப்பு\n4. பிராந்திய மொழிகளில் உலகளாவிய வர்த்தகம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain B2B module in E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தில் B2B மாதிரியை விளக்குக.",
+    "answer": "B2B (Business-to-Business) E-Commerce involves commercial transactions and bulk trade between two businesses, such as a manufacturer selling raw materials to a wholesaler or distributor (e.g. IndiaMART, Alibaba).",
+    "answerTamil": "B2B (Business-to-Business) என்பது இரண்டு வணிக நிறுவனங்களுக்கு இடையே நடைபெறும் மொத்த வர்த்தகமாகும் (எ.கா. உற்பத்தியாளர் மொத்த விற்பனையாளருக்கு மூலப்பொருட்களை விற்பனை செய்தல் - Alibaba, IndiaMART).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-4",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on name-your-own-price websites.",
+    "questionTextTamil": "உங்கள்-விலையை-நீங்களே-கூறும் வலைத்தளங்கள் (Name-your-own-price) பற்றி குறிப்பு வரைக.",
+    "answer": "Name-your-own-price websites (C2B model, e.g. Priceline) allow buyers to specify the price they are willing to pay for travel, airline tickets, or hotel rooms, which sellers can choose to accept or decline.",
+    "answerTamil": "பயண டிக்கெட்டுகள் அல்லது ஹோட்டல் அறைகளுக்கு நுகர்வோரே தங்களுக்கு விருப்பமான விலையைக் குறிப்பிட அனுமதிக்கும் வலைத்தளங்களாகும் (C2B மாதிரி, எ.கா. Priceline).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-3m-5",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Write a note on physical product dispute of E-Commerce.",
+    "questionTextTamil": "மின்-வணிகத்தில் இயற்பியல் பொருள் தகராறு (Physical product dispute) பற்றி குறிப்பு வரைக.",
+    "answer": "Physical product disputes arise in E-Commerce when the delivered physical good is damaged, defective, counterfeit, or differs significantly from the catalog image and description, requiring return/refund policies.",
+    "answerTamil": "மின்-வணிகத்தில் விநியோகிக்கப்பட்ட பொருள் சேதமடைந்திருந்தாலோ, போலியானதாக இருந்தாலோ அல்லது வலைத்தள விளக்கத்திலிருந்து மாறுபட்டிருந்தாலோ எழும் நுகர்வோர் தகராறுகளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-1",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "List all the E-Commerce business models and explain any four briefly.",
+    "questionTextTamil": "மின்-வணிக வணிக மாதிரிகளைப் பட்டியலிட்டு ஏதேனும் நான்கினை விரிவாக விளக்குக.",
+    "answer": "E-Commerce Business Models:\n\n1. B2C (Business-to-Consumer): Businesses sell retail goods directly to consumers (Amazon, Flipkart).\n2. B2B (Business-to-Business): Commercial trade between businesses (Alibaba, IndiaMART).\n3. C2C (Consumer-to-Consumer): Consumers sell goods to other consumers via auction/classifieds (eBay, OLX).\n4. C2B (Consumer-to-Business): Consumers offer products/services or bids to businesses (Freelance portals, Priceline).\n5. G2C (Government-to-Citizen): Government services provided online to citizens (Tax payment, Certificate portals).\n6. B2G (Business-to-Government): Businesses selling goods/services to government agencies.",
+    "answerTamil": "மின்-வணிக வணிக மாதிரிகள்:\n1. B2C (வணிகம் - நுகர்வோர்): நேரடியாக நுகர்வோருக்கு பொருட்களை விற்பனை செய்தல் (Amazon, Flipkart).\n2. B2B (வணிகம் - வணிகம்): இரண்டு நிறுவனங்களுக்கு இடையே நடைபெறும் மொத்த வர்த்தகம் (Alibaba).\n3. C2C (நுகர்வோர் - நுகர்வோர்): நுகர்வோர் தங்களுக்குள் பொருட்களை விற்பது (OLX, eBay).\n4. G2C (அரசு - குடிமக்கள்): அரசு சேவைகளை இணையம் மூலம் குடிமக்களுக்கு வழங்குதல் (e-Sevai).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-2",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain any five E-Commerce revenue models.",
+    "questionTextTamil": "ஏதேனும் ஐந்து மின்-வணிக வருவாய் மாதிரிகளை (Revenue models) விளக்குக.",
+    "answer": "Five Major E-Commerce Revenue Models:\n\n1. Sales Revenue Model: Revenue earned directly by selling goods/services online (e.g. Amazon).\n2. Advertising Revenue Model: Earning fees by displaying ads and banners on websites (e.g. Google, Yahoo).\n3. Subscription Revenue Model: Charging users a recurring fee for access to premium content or streaming services (e.g. Netflix, Spotify).\n4. Transaction Fee / Commission Model: Charging a percentage fee for enabling transactions between buyers and sellers (e.g. eBay, PayPal).\n5. Affiliate Revenue Model: Receiving commission fees by steering consumers to affiliated merchant websites.",
+    "answerTamil": "ஐந்து மின்-வணிக வருவாய் மாதிரிகள்:\n1. விற்பனை வருவாய் மாதிரி (Sales): பொருட்களை விற்பதன் மூலம் நேரடியாக வருமானம் ஈட்டுதல்.\n2. விளம்பர வருவாய் மாதிரி (Advertising): வலைத்தளத்தில் விளம்பரங்களை வெளியிட்டு கட்டணம் பெறுதல்.\n3. சந்தா வருவாய் மாதிரி (Subscription): குறிப்பிட்ட காலத்திற்கு சேவை வழங்க சந்தா கட்டணம் வசூலித்தல் (Netflix).\n4. பரிவர்த்தனை கட்டண மாதிரி (Transaction Fee): வாங்குபவர்-விற்பவர் பரிவர்த்தனைகளுக்கு கமிஷன் பெறுதல்.\n5. அஃபிலியேட் வருவாய் மாதிரி (Affiliate): பிற நிறுவனங்களின் பொருட்களை பரிந்துரைத்து கமிஷன் பெறுதல்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch15-5m-3",
+    "chapterNo": 15,
+    "chapterName": "E-Commerce",
+    "chapterNameTamil": "மின்னணு வணிகம்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "How would you differentiate a traditional commerce and E-Commerce?",
+    "questionTextTamil": "பாரம்பரிய வணிகம் மற்றும் மின்-வணிகம் ஆகியவற்றை எவ்வாறு வேறுபடுத்துவீர்கள்?",
+    "answer": "Differences between Traditional Commerce and E-Commerce:\n\n1. Market Reach: Traditional is geographically local/limited; E-Commerce has global reach.\n2. Operating Hours: Traditional is limited to store business hours (e.g., 9am-9pm); E-Commerce operates 24/7/365.\n3. Physical Interaction: Traditional allows touching and testing products before purchase; E-Commerce relies on digital photos, reviews, and specifications.\n4. Cost of Operation: Traditional has high overhead (rent, electricity, large staff); E-Commerce has lower operating costs.\n5. Transaction Speed: Traditional uses cash/card at checkout counters; E-Commerce uses electronic fund transfers, cards, and UPI instantly.",
+    "answerTamil": "பாரம்பரிய வணிகம் vs மின்-வணிகம்:\n1. சந்தை பரப்பு: பாரம்பரிய வணிகம் குறிப்பிட்ட பகுதிக்கு மட்டுமே; மின்-வணிகம் உலகளாவியது.\n2. இயங்கும் நேரம்: பாரம்பரிய வணிகம் குறிப்பிட்ட நேரம் மட்டுமே; மின்-வணிகம் 24 மணி நேரமும் செயல்படும்.\n3. தொட்டுணர்தல்: பாரம்பரியத்தில் பொருட்களை நேரில் பார்த்து வாங்கலாம்; மின்-வணிகத்தில் டிஜிட்டல் படங்கள் மூலமே பார்க்க முடியும்.\n4. செயல்பாட்டுச் செலவு: பாரம்பரியத்தில் வாடகை, பராமரிப்பு அதிகம்; மின்-வணிகத்தில் குறைவான செலவு.\n5. கட்டண முறை: பாரம்பரியத்தில் ரொக்கம்; மின்-வணிகத்தில் ஆன்லைன் கட்டண முறைகள்.",
+    "isBookBack": true
+  }
+]

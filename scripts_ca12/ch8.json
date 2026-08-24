@@ -1,0 +1,392 @@
+[
+  {
+    "id": "ca12-ch8-1m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "When you use the $_GET variable to collect data, the data is visible to..",
+    "questionTextTamil": "$_GET மாறியைப் பயன்படுத்தி தரவைச் சேகரிக்கும் போது, தரவு யாருக்குத் தெரியும்?",
+    "options": {
+      "A": "none",
+      "B": "only you",
+      "C": "everyone",
+      "D": "selected few"
+    },
+    "optionsTamil": {
+      "A": "யாருக்கும் இல்லை",
+      "B": "உங்களுக்கு மட்டும்",
+      "C": "அனைவருக்கும் (URL-ல் தெரியும்)",
+      "D": "தேர்ந்தெடுக்கப்பட்ட சிலருக்கு"
+    },
+    "correctOption": "C",
+    "answer": "C) everyone",
+    "answerTamil": "C) அனைவருக்கும் (URL-ல் தெரியும்)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which method is suitable for sending sensitive information like passwords?",
+    "questionTextTamil": "கடவுச்சொல் போன்ற முக்கியமான தகவல்களை அனுப்ப ஏற்ற முறை எது?",
+    "options": {
+      "A": "GET",
+      "B": "POST",
+      "C": "REQUEST",
+      "D": "FILE"
+    },
+    "optionsTamil": {
+      "A": "GET",
+      "B": "POST",
+      "C": "REQUEST",
+      "D": "FILE"
+    },
+    "correctOption": "B",
+    "answer": "B) POST",
+    "answerTamil": "B) POST",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-3",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function in PHP is used to open a file?",
+    "questionTextTamil": "PHP-ல் ஒரு கோப்பைத் திறக்கப் பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "open()",
+      "B": "file_open()",
+      "C": "fopen()",
+      "D": "readfile()"
+    },
+    "optionsTamil": {
+      "A": "open()",
+      "B": "file_open()",
+      "C": "fopen()",
+      "D": "readfile()"
+    },
+    "correctOption": "C",
+    "answer": "C) fopen()",
+    "answerTamil": "C) fopen()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-4",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function in PHP is used to close an open file?",
+    "questionTextTamil": "PHP-ல் திறக்கப்பட்ட கோப்பை மூடப் பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "close()",
+      "B": "fclose()",
+      "C": "file_close()",
+      "D": "endfile()"
+    },
+    "optionsTamil": {
+      "A": "close()",
+      "B": "fclose()",
+      "C": "file_close()",
+      "D": "endfile()"
+    },
+    "correctOption": "B",
+    "answer": "B) fclose()",
+    "answerTamil": "B) fclose()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-5",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function reads a single line from an open file in PHP?",
+    "questionTextTamil": "திறந்த கோப்பிலிருந்து ஒரு வரியை மட்டும் படிக்க பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "fgetc()",
+      "B": "fgets()",
+      "C": "fread()",
+      "D": "readfile()"
+    },
+    "optionsTamil": {
+      "A": "fgetc()",
+      "B": "fgets()",
+      "C": "fread()",
+      "D": "readfile()"
+    },
+    "correctOption": "B",
+    "answer": "B) fgets()",
+    "answerTamil": "B) fgets()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-6",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function reads a single character from a file in PHP?",
+    "questionTextTamil": "கோப்பிலிருந்து ஒரு எழுத்தை மட்டும் படிக்க பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "fgetc()",
+      "B": "fgets()",
+      "C": "fread()",
+      "D": "fchar()"
+    },
+    "optionsTamil": {
+      "A": "fgetc()",
+      "B": "fgets()",
+      "C": "fread()",
+      "D": "fchar()"
+    },
+    "correctOption": "A",
+    "answer": "A) fgetc()",
+    "answerTamil": "A) fgetc()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-7",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which mode is used to open a file for write only and truncates file to zero length?",
+    "questionTextTamil": "கோப்பை எழுத மட்டும் திறந்து, அதன் பழைய உள்ளடக்கத்தை அழிக்கப் பயன்படும் முறைமை எது?",
+    "options": {
+      "A": "r",
+      "B": "w",
+      "C": "a",
+      "D": "x"
+    },
+    "optionsTamil": {
+      "A": "r",
+      "B": "w",
+      "C": "a",
+      "D": "x"
+    },
+    "correctOption": "B",
+    "answer": "B) w",
+    "answerTamil": "B) w",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-8",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which mode opens a file for appending data at the end of file?",
+    "questionTextTamil": "கோப்பின் இறுதியில் புதிய தரவைச் சேர்க்க (append) பயன்படும் முறைமை எது?",
+    "options": {
+      "A": "w",
+      "B": "r",
+      "C": "a",
+      "D": "r+"
+    },
+    "optionsTamil": {
+      "A": "w",
+      "B": "r",
+      "C": "a",
+      "D": "r+"
+    },
+    "correctOption": "C",
+    "answer": "C) a",
+    "answerTamil": "C) a",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-9",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which global superglobal array contains submitted form values from both GET and POST?",
+    "questionTextTamil": "GET மற்றும் POST இரண்டிலிருந்தும் பெறப்படும் படிவ மதிப்புகளைக் கொண்ட சூப்பர் குளோபல் அணி எது?",
+    "options": {
+      "A": "$_SERVER",
+      "B": "$_REQUEST",
+      "C": "$_ENV",
+      "D": "$_SESSION"
+    },
+    "optionsTamil": {
+      "A": "$_SERVER",
+      "B": "$_REQUEST",
+      "C": "$_ENV",
+      "D": "$_SESSION"
+    },
+    "correctOption": "B",
+    "answer": "B) $_REQUEST",
+    "answerTamil": "B) $_REQUEST",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-1m-10",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which function is used to write data to an open file in PHP?",
+    "questionTextTamil": "PHP-ல் திறக்கப்பட்ட கோப்பில் தரவை எழுத பயன்படும் செயற்கூறு எது?",
+    "options": {
+      "A": "file_write()",
+      "B": "fwrite()",
+      "C": "write()",
+      "D": "putfile()"
+    },
+    "optionsTamil": {
+      "A": "file_write()",
+      "B": "fwrite()",
+      "C": "write()",
+      "D": "putfile()"
+    },
+    "correctOption": "B",
+    "answer": "B) fwrite()",
+    "answerTamil": "B) fwrite()",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are HTML Forms in PHP web development?",
+    "questionTextTamil": "HTML படிவங்கள் (Forms) என்றால் என்ன?",
+    "answer": "HTML Forms collect user inputs (text fields, radio buttons, checkboxes, dropdowns) on the client browser and send them to server-side PHP scripts for processing.",
+    "answerTamil": "HTML படிவங்கள் என்பது இணையப் பயனரின் உள்ளீடுகளைப் பெற்று (உரைப் பெட்டி, தேர்வுப் பெட்டி போன்றவை) சேவையகத்தில் உள்ள PHP ஸ்கிரிப்டிற்கு செயலாக்க அனுப்பும் ஊடகமாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What are the two common HTTP methods for submitting form data?",
+    "questionTextTamil": "படிவத் தரவை அனுப்பும் இரண்டு முக்கிய HTTP முறைகள் யாவை?",
+    "answer": "The two main HTTP form submission methods are:\n1. GET method\n2. POST method.",
+    "answerTamil": "படிவத் தரவை அனுப்பும் இரு முக்கிய முறைகள்:\n1. GET முறை\n2. POST முறை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-3",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is fopen() function in PHP?",
+    "questionTextTamil": "PHP-ல் fopen() செயற்கூறு என்றால் என்ன?",
+    "answer": "The fopen() function opens a local file or external URL resource for reading, writing, or appending.\nSyntax: fopen(\"filename.txt\", \"mode\");",
+    "answerTamil": "fopen() செயற்கூறானது ஒரு குறிப்பிட்ட கோப்பை படிக்கவோ, எழுதவோ அல்லது சேர்க்கவோ திறக்கப் பயன்படுகிறது.\nதொடரியல்: fopen(\"filename.txt\", \"mode\");",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-4",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is fclose() function in PHP?",
+    "questionTextTamil": "PHP-ல் fclose() செயற்கூறு என்றால் என்ன?",
+    "answer": "The fclose() function closes an open file pointer previously returned by fopen(), releasing system memory resources.",
+    "answerTamil": "fclose() செயற்கூறானது fopen() மூலம் திறக்கப்பட்ட கோப்பை பாதுகாப்பாக மூடி நினைவக வளங்களை விடுவிக்கப் பயன்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-2m-5",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is the purpose of $_FILES array in PHP?",
+    "questionTextTamil": "PHP-ல் $_FILES அணியின் நோக்கம் என்ன?",
+    "answer": "$_FILES is a two-dimensional superglobal array holding all metadata of uploaded files (name, type, tmp_name, error, size).",
+    "answerTamil": "$_FILES என்பது சேவையகத்திற்கு பதிவேற்றம் செய்யப்படும் கோப்புகளின் தகவல்களை (பெயர், வகை, தற்காலிகப் பெயர், அளவு) சேமிக்கும் இரு பரிமாண சூப்பர் குளோபல் அணியாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-3m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate GET and POST methods in PHP forms.",
+    "questionTextTamil": "PHP படிவங்களில் GET மற்றும் POST முறைகளை வேறுபடுத்துக.",
+    "answer": "1. GET appends form data to the URL visible in browser address bar; POST sends data enclosed in the HTTP request body invisibly.\n2. GET has length restrictions (~2048 characters) and is not secure for passwords; POST has no size limit and is secure for sensitive data.",
+    "answerTamil": "1. GET முறையானது தரவை URL முகவரிப் பட்டையில் வெளிப்படையாக இணைத்து அனுப்பும்; POST முறையானது HTTP கோரிக்கையின் உடற்பகுதியில் மறைமுகமாக அனுப்பும்.\n2. GET-ல் தரவு அளவு வரம்பு உண்டு; கடவுச்சொற்களுக்கு ஏற்றதல்ல. POST-ல் தரவு அளவு வரம்பு இல்லை; ரகசியத் தகவல்களுக்கு மிகவும் பாதுகாப்பானது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-3m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain file opening modes 'r', 'w', and 'a' in PHP.",
+    "questionTextTamil": "PHP கோப்பு திறப்பு முறைமைகளான 'r', 'w', 'a' ஆகியவற்றை விளக்குக.",
+    "answer": "1. 'r' (Read only): Opens file for reading; file pointer placed at beginning. Fails if file does not exist.\n2. 'w' (Write only): Opens file for writing, erases existing content or creates a new file.\n3. 'a' (Append only): Opens file for writing, places pointer at the end preserving old data, or creates file if not existing.",
+    "answerTamil": "1. 'r' (படிக்க மட்டும்): கோப்பைப் படிக்க திறக்கிறது; சுட்டு தொடக்கத்தில் இருக்கும்.\n2. 'w' (எழுத மட்டும்): கோப்பில் எழுதத் திறக்கும்; பழைய உள்ளடக்கங்களை அழித்து புதிய கோப்பை உருவாக்கும்.\n3. 'a' (சேர்க்க மட்டும்): பழைய தரவை அழிக்காமல் கோப்பின் இறுதியில் புதிய தரவைச் சேர்க்கும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-3m-3",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the steps involved in file uploading in PHP?",
+    "questionTextTamil": "PHP-ல் கோப்பு பதிவேற்றத்தில் உள்ள படிநிலைகள் யாவை?",
+    "answer": "Steps for file uploading in PHP:\n1. Create HTML form with method=\"POST\" and enctype=\"multipart/form-data\".\n2. Add input element with type=\"file\".\n3. In PHP, access file details using $_FILES superglobal and move file using move_uploaded_file() to permanent server directory.",
+    "answerTamil": "கோப்பு பதிவேற்ற படிகள்:\n1. HTML படிவத்தில் method=\"POST\" மற்றும் enctype=\"multipart/form-data\" அமைக்க வேண்டும்.\n2. <input type=\"file\"> என்ற உள்ளீட்டுப் புலத்தை உருவாக்க வேண்டும்.\n3. PHP ஸ்கிரிப்ட்டில் $_FILES மற்றும் move_uploaded_file() செயற்கூறைப் பயன்படுத்தி கோப்பை சேவையக அடைவில் சேமிக்க வேண்டும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-5m-1",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain Form handling in PHP with HTML form and PHP processing script.",
+    "questionTextTamil": "HTML படிவம் மற்றும் PHP செயலாக்க நிரலுடன் படிவ கையாளுதலை விரிவாக விளக்குக.",
+    "answer": "Form handling is the core of web interactivity where HTML collects inputs and PHP processes them.\n\n1. HTML Form (form.html):\n<form action=\"process.php\" method=\"POST\">\n    Name: <input type=\"text\" name=\"username\"><br>\n    Email: <input type=\"email\" name=\"email\"><br>\n    <input type=\"submit\" value=\"Submit\">\n</form>\n\n2. PHP Processing Script (process.php):\n<?php\nif ($_SERVER[\"REQUEST_METHOD\"] == \"POST\") {\n    $name = $_POST[\"username\"];\n    $email = $_POST[\"email\"];\n    echo \"Welcome \" . htmlspecialchars($name) . \"<br>\";\n    echo \"Your email is: \" . htmlspecialchars($email);\n}\n?>",
+    "answerTamil": "படிவ கையாளுதல் என்பது HTML மூலம் பயனர் உள்ளீடுகளைப் பெற்று PHP மூலம் சேவையகத்தில் செயலாக்குவதாகும்.\n\n1. HTML படிவம் (form.html):\n<form action=\"process.php\" method=\"POST\">\n    பெயர்: <input type=\"text\" name=\"username\"><br>\n    மின்னஞ்சல்: <input type=\"email\" name=\"email\"><br>\n    <input type=\"submit\" value=\"சமர்ப்பி\">\n</form>\n\n2. PHP செயலாக்க நிரல் (process.php):\n<?php\nif ($_SERVER[\"REQUEST_METHOD\"] == \"POST\") {\n    $name = $_POST[\"username\"];\n    $email = $_POST[\"email\"];\n    echo \"நல்வரவு \" . $name . \"<br>\";\n    echo \"உங்கள் மின்னஞ்சல்: \" . $email;\n}\n?>",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch8-5m-2",
+    "chapterNo": 8,
+    "chapterName": "Forms and Files",
+    "chapterNameTamil": "படிவங்கள் மற்றும் கோப்புகள்",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain file handling operations in PHP (Opening, Reading, Writing, Closing).",
+    "questionTextTamil": "PHP-ல் கோப்பு கையாளுதல் செயல்பாடுகளை (திறத்தல், படித்தல், எழுதுதல், மூடுதல்) விரிவாக விளக்குக.",
+    "answer": "File handling in PHP allows manipulating files directly on the server:\n\n1. Opening a file: fopen(\"test.txt\", \"w\");\n2. Writing to a file: fwrite($fileHandle, $data);\n3. Reading from a file:\n- fread($fileHandle, filesize(\"test.txt\"))\n- fgets($fileHandle) reads line-by-line\n4. Closing a file: fclose($fileHandle);\n\nComplete Working Example:\n<?php\n$file = fopen(\"sample.txt\", \"w\");\nfwrite($file, \"Learning PHP File Handling.\\n\");\nfclose($file);\n\n$file = fopen(\"sample.txt\", \"r\");\necho fread($file, filesize(\"sample.txt\"));\nfclose($file);\n?>",
+    "answerTamil": "PHP கோப்பு கையாளுதல் செயல்பாடுகள்:\n\n1. கோப்பைத் திறத்தல்: fopen(\"test.txt\", \"w\");\n2. கோப்பில் எழுதுதல்: fwrite($fileHandle, $data);\n3. கோப்பைப் படித்தல்: fread() அல்லது fgets() மூலம் வரிகளைப் படிக்கலாம்.\n4. கோப்பை மூடுதல்: fclose($fileHandle);\n\nமுழுமையான மாதிரி நிரல்:\n<?php\n$file = fopen(\"demo.txt\", \"w\");\nfwrite($file, \"வணக்கம்! PHP கோப்பு கையாளுதல்.\\n\");\nfclose($file);\n\n$file = fopen(\"demo.txt\", \"r\");\necho fread($file, filesize(\"demo.txt\"));\nfclose($file);\n?>",
+    "isBookBack": true
+  }
+]

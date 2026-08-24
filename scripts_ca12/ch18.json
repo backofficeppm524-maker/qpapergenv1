@@ -1,0 +1,418 @@
+[
+  {
+    "id": "ca12-ch18-1m-1",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "EDI stands for _________.",
+    "questionTextTamil": "EDI என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Electronic Data Interchange",
+      "B": "Electronic Device Interface",
+      "C": "Electronic Document Integration",
+      "D": "Encrypted Data Information"
+    },
+    "optionsTamil": {
+      "A": "Electronic Data Interchange",
+      "B": "Electronic Device Interface",
+      "C": "Electronic Document Integration",
+      "D": "Encrypted Data Information"
+    },
+    "correctOption": "A",
+    "answer": "A) Electronic Data Interchange",
+    "answerTamil": "A) Electronic Data Interchange",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-2",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Who is widely recognized as the 'Father of EDI'?",
+    "questionTextTamil": "EDI-ன் தந்தை எனப் போற்றப்படுபவர் யார்?",
+    "options": {
+      "A": "Ed Guilbert",
+      "B": "Tim Berners-Lee",
+      "C": "Charles Babbage",
+      "D": "Linus Torvalds"
+    },
+    "optionsTamil": {
+      "A": "எட் கில்பர்ட் (Ed Guilbert)",
+      "B": "டிம் பெர்னர்ஸ்-லீ",
+      "C": "சார்லஸ் பாபேஜ்",
+      "D": "லினஸ் டோர்வால்ட்ஸ்"
+    },
+    "correctOption": "A",
+    "answer": "A) Ed Guilbert",
+    "answerTamil": "A) எட் கில்பர்ட் (Ed Guilbert)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-3",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which EDI standard was developed under the United Nations (UN) for global international trade?",
+    "questionTextTamil": "சர்வதேச வர்த்தகத்திற்காக ஐக்கிய நாடுகள் சபையால் (UN) உருவாக்கப்பட்ட EDI தரநிலை எது?",
+    "options": {
+      "A": "UN/EDIFACT",
+      "B": "ANSI X12",
+      "C": "TRADACOMS",
+      "D": "ODETTE"
+    },
+    "optionsTamil": {
+      "A": "UN/EDIFACT",
+      "B": "ANSI X12",
+      "C": "TRADACOMS",
+      "D": "ODETTE"
+    },
+    "correctOption": "A",
+    "answer": "A) UN/EDIFACT",
+    "answerTamil": "A) UN/EDIFACT",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-4",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which EDI standard is predominantly used across North American industries?",
+    "questionTextTamil": "வட அமெரிக்க நாடுகளில் பரவலாகப் பயன்படும் EDI தரநிலை எது?",
+    "options": {
+      "A": "ANSI X12",
+      "B": "TRADACOMS",
+      "C": "ODETTE",
+      "D": "VDA"
+    },
+    "optionsTamil": {
+      "A": "ANSI ASC X12",
+      "B": "TRADACOMS",
+      "C": "ODETTE",
+      "D": "VDA"
+    },
+    "correctOption": "A",
+    "answer": "A) ANSI X12",
+    "answerTamil": "A) ANSI ASC X12",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-5",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "Which EDI standard was developed specifically for the retail sector in the United Kingdom?",
+    "questionTextTamil": "இங்கிலாந்தின் சில்லறை வர்த்தகத்திற்காக உருவாக்கப்பட்ட EDI தரநிலை எது?",
+    "options": {
+      "A": "TRADACOMS",
+      "B": "ANSI X12",
+      "C": "UN/EDIFACT",
+      "D": "HIPAA"
+    },
+    "optionsTamil": {
+      "A": "TRADACOMS",
+      "B": "ANSI X12",
+      "C": "UN/EDIFACT",
+      "D": "HIPAA"
+    },
+    "correctOption": "A",
+    "answer": "A) TRADACOMS",
+    "answerTamil": "A) TRADACOMS",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-6",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What does VAN stand for in EDI telecommunications?",
+    "questionTextTamil": "EDI தொலைத்தொடர்பில் VAN என்பதன் விரிவாக்கம் என்ன?",
+    "options": {
+      "A": "Value Added Network",
+      "B": "Virtual Access Node",
+      "C": "Variable Area Network",
+      "D": "Verified Account Name"
+    },
+    "optionsTamil": {
+      "A": "மதிப்பு கூட்டப்பட்ட வலையமைப்பு (Value Added Network)",
+      "B": "Virtual Access Node",
+      "C": "Variable Area Network",
+      "D": "Verified Account Name"
+    },
+    "correctOption": "A",
+    "answer": "A) Value Added Network",
+    "answerTamil": "A) மதிப்பு கூட்டப்பட்ட வலையமைப்பு (Value Added Network)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-7",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "In EDIFACT structure, the smallest data component representing a single piece of information is a(n) _________.",
+    "questionTextTamil": "EDIFACT கட்டமைப்பில் ஒரு தகவலைக் குறிக்கும் மிகச்சிறிய கூறு எது?",
+    "options": {
+      "A": "Data Element",
+      "B": "Segment",
+      "C": "Interchange",
+      "D": "Message"
+    },
+    "optionsTamil": {
+      "A": "தரவுக் கூறு (Data Element)",
+      "B": "பிரிவு (Segment)",
+      "C": "பரிமாற்றம் (Interchange)",
+      "D": "செய்தி (Message)"
+    },
+    "correctOption": "A",
+    "answer": "A) Data Element",
+    "answerTamil": "A) தரவுக் கூறு (Data Element)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-1m-8",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 1,
+    "type": "mcq",
+    "questionText": "What is the modern markup language widely used in Web-based EDI alongside JSON?",
+    "questionTextTamil": "இணைய அடிப்படையிலான EDI-ல் பரவலாகப் பயன்படும் நவீன குறிமுறை மொழி எது?",
+    "options": {
+      "A": "XML",
+      "B": "C++",
+      "C": "Assembly",
+      "D": "BASIC"
+    },
+    "optionsTamil": {
+      "A": "XML (Extensible Markup Language)",
+      "B": "C++",
+      "C": "அசெம்பிளி",
+      "D": "BASIC"
+    },
+    "correctOption": "A",
+    "answer": "A) XML",
+    "answerTamil": "A) XML (Extensible Markup Language)",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-1",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "Define EDI (Electronic Data Interchange).",
+    "questionTextTamil": "மின்னணு தரவு பரிமாற்றம் (EDI) - வரையறுக்கவும்.",
+    "answer": "EDI is the computer-to-computer electronic transmission of standard structured business documents (invoices, purchase orders, shipping notices) between trading partners without human intervention.",
+    "answerTamil": "EDI என்பது வணிகக் கூட்டாளர்களுக்கு இடையே மனித தலையீடின்றி கணினிகளுக்கு இடையே தரப்படுத்தப்பட்ட வணிக ஆவணங்களை மின்னணு முறையில் பரிமாறிக்கொள்ளும் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-2",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "List any four common business documents exchanged via EDI.",
+    "questionTextTamil": "EDI மூலம் பரிமாறப்படும் ஏதேனும் நான்கு வணிக ஆவணங்களைக் குறிப்பிடுக.",
+    "answer": "1. Purchase Orders (PO)\n2. Invoices\n3. Advanced Shipping Notices (ASN)\n4. Payment Confirmations.",
+    "answerTamil": "1. கொள்முதல் ஆணைகள் (Purchase Orders)\n2. விலைப்பட்டியல்கள் (Invoices)\n3. ஏற்றுமதி அறிவிப்புகள் (Shipping Notices)\n4. கட்டண ஒப்புகைச் சீட்டுகள்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-3",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is UN/EDIFACT?",
+    "questionTextTamil": "UN/EDIFACT என்றால் என்ன?",
+    "answer": "UN/EDIFACT (United Nations Electronic Data Interchange for Administration, Commerce and Transport) is the international standard governing electronic data interchange globally.",
+    "answerTamil": "UN/EDIFACT என்பது ஐக்கிய நாடுகள் சபையால் உருவாக்கப்பட்ட சர்வதேச மின்னணு தரவு பரிமாற்றத்திற்கான உலகளாவிய தரநிலையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-4",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is ANSI ASC X12?",
+    "questionTextTamil": "ANSI ASC X12 என்றால் என்ன?",
+    "answer": "ANSI ASC X12 is the primary cross-industry standard developed by the American National Standards Institute for EDI transactions across North America.",
+    "answerTamil": "ANSI ASC X12 என்பது வட அமெரிக்க நாடுகளில் வணிக பரிவர்த்தனைகளுக்காக உருவாக்கப்பட்ட முன்னணி EDI தரநிலையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-5",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is a Value Added Network (VAN) in EDI?",
+    "questionTextTamil": "EDI-ல் மதிப்பு கூட்டப்பட்ட வலையமைப்பு (VAN) என்றால் என்ன?",
+    "answer": "A Value Added Network (VAN) is a secure third-party private telecommunications network service that routes, audits, and stores EDI transmissions between trading companies.",
+    "answerTamil": "VAN என்பது வணிக நிறுவனங்களுக்கு இடையே EDI தரவு பரிமாற்றங்களை பாதுகாப்பாக ரூட்டிங் செய்து தபால் பெட்டி போல சேமித்து வழங்கும் தனியார் பிணைய சேவையாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-6",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Direct EDI (Point-to-Point EDI)?",
+    "questionTextTamil": "நேரடி EDI (Direct EDI) என்றால் என்ன?",
+    "answer": "Direct EDI is a point-to-point connection established directly between two business partners over the secure Internet using protocols like AS2 without third-party VAN brokers.",
+    "answerTamil": "நேரடி EDI என்பது மூன்றாம் நபர் இடைத்தரகர் இன்றி இணையத்தின் வழியே இரு நிறுவனங்களின் கணினிகளை நேரடியாக இணைக்கும் அமைப்பாகும் (எ.கா: AS2).",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-2m-7",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 2,
+    "type": "short",
+    "questionText": "What is Web-based EDI?",
+    "questionTextTamil": "இணைய அடிப்படையிலான EDI (Web-based EDI) என்றால் என்ன?",
+    "answer": "Web-based EDI allows small businesses to create, transmit, and receive standard EDI documents using simple standard web browser forms without expensive proprietary software.",
+    "answerTamil": "இணைய அடிப்படையிலான EDI என்பது சிறு வணிகர்கள் அதிக செலவில்லாத எளிய வலை உலாவிகள் மூலம் EDI ஆவணங்களை உருவாக்க மற்றும் அனுப்ப உதவும் அமைப்பாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-3m-1",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Differentiate Traditional Paper-based Document Exchange and EDI.",
+    "questionTextTamil": "பாரம்பரிய காகித ஆவண பரிமாற்றம் மற்றும் EDI ஆகியவற்றை வேறுபடுத்துக.",
+    "answer": "1. Traditional: Requires manual data entry, printing, physical postal/courier shipping; takes days/weeks with high error rates.\n2. EDI: Completely automated electronic computer-to-computer transfer; executes within seconds with zero manual data entry errors.",
+    "answerTamil": "1. பாரம்பரிய முறை: காகித அச்சு, மனித உள்ளீடு மற்றும் தபால் செலவு; பல நாட்கள் ஆகும்; பிழைகள் ஏற்பட வாய்ப்பு அதிகம்.\n2. EDI: கணினிகளுக்கு இடையே நொடிகளில் தானாக பரிமாற்றம்; காகிதமற்றது; பிழைகள் இல்லாத துல்லியமான பரிமாற்றம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-3m-2",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What are the major advantages of EDI for businesses?",
+    "questionTextTamil": "வணிக நிறுவனங்களுக்கு EDI வழங்கு நன்மைகள் யாவை?",
+    "answer": "Advantages:\n1. Dramatic speed improvement from days to instantaneous seconds.\n2. Significant cost savings by eliminating paper, printing, postal, and manual labor expenses.\n3. Error reduction through automated standardized validation.\n4. Enhanced supply chain integration and inventory optimization.",
+    "answerTamil": "நன்மைகள்:\n1. பரிவர்த்தனை வேகம் அதிகரிப்பு (நாட்களிலிருந்து நொடிகளுக்கு).\n2. காகிதம், அச்சு மற்றும் தபால் செலவுகள் முற்றிலும் சேமிக்கப்படுதல்.\n3. மனித பிழைகள் களையப்படுதல்.\n4. விநியோகச் சங்கிலி மேலாண்மை மற்றும் சரக்கு இருப்பு மேம்பாடு.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-3m-3",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "Explain the hierarchical components of EDIFACT structure.",
+    "questionTextTamil": "EDIFACT கட்டமைப்பின் படிநிலைக் கூறுகளை விளக்குக.",
+    "answer": "EDIFACT Structure Hierarchy:\n1. Data Element: Individual piece of data (e.g., price, date, product code).\n2. Component Data Element: Sub-elements grouped together.\n3. Segment: A single row of logically related data elements (e.g., BGM, DTM).\n4. Message: Complete business transaction (e.g., ORDERS, INVOIC).\n5. Interchange: Entire transmission enveloped between UNB and UNZ headers.",
+    "answerTamil": "EDIFACT படிநிலைக் கூறுகள்:\n1. தரவுக் கூறு (Data Element): மிகச்சிறிய ஒற்றை மதிப்பு (எ.கா: விலை, தேதி).\n2. பிரிவு (Segment): தொடர்புடைய தரவுக் கூறுகளின் ஒரு வரிசை.\n3. செய்தி (Message): ஒரு முழுமையான ஆவணம் (எ.கா: ORDERS, INVOIC).\n4. பரிமாற்றம் (Interchange): UNB மற்றும் UNZ உறைகளுக்குள் அடைக்கப்பட்ட முழு பரிமாற்றம்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-3m-4",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "List and briefly explain any three international EDI standards.",
+    "questionTextTamil": "ஏதேனும் மூன்று சர்வதேச EDI தரநிலைகளை சுருக்கமாக விளக்குக.",
+    "answer": "1. UN/EDIFACT: United Nations global cross-industry standard used worldwide.\n2. ANSI ASC X12: Official standard in North America covering healthcare, retail, and manufacturing.\n3. TRADACOMS: UK retail industry standard forerunner of modern electronic commerce.",
+    "answerTamil": "1. UN/EDIFACT: ஐக்கிய நாடுகள் சபையின் உலகளாவிய வர்த்தக தரநிலை.\n2. ANSI X12: வட அமெரிக்க தொழில் நிறுவனங்களின் தரநிலை.\n3. TRADACOMS: இங்கிலாந்து சில்லறை வர்த்தகத் துறையின் தரநிலை.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-3m-5",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 3,
+    "type": "brief",
+    "questionText": "What is an EDI Translator software?",
+    "questionTextTamil": "EDI மொழிபெயர்ப்பாளர் மென்பொருள் (EDI Translator) என்றால் என்ன?",
+    "answer": "An EDI Translator is specialized software that converts internal enterprise ERP database data into standardized EDI formats (like EDIFACT/X12) and vice versa.",
+    "answerTamil": "EDI மொழிபெயர்ப்பாளர் என்பது நிறுவனத்தின் ERP தரவை தரப்படுத்தப்பட்ட EDI வடிவமாகவும், பெறப்பட்ட EDI கோப்புகளை ERP வடிவமாகவும் மாற்றும் மென்பொருளாகும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-5m-1",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the step-by-step working process of an EDI transaction flow with an illustrative diagram description.",
+    "questionTextTamil": "EDI பரிவர்த்தனை ஓட்டம் செயல்படும் வழிமுறையை படிநிலைகளுடன் விரிவாக விளக்குக.",
+    "answer": "EDI Working Process Workflow:\n\n1. Document Preparation at Sender (Buyer):\n- The buyer enters a purchase order into their internal ERP / inventory software.\n\n2. EDI Translation (Outbound):\n- The ERP export data is fed into an EDI Translator which converts it into standard EDI format (e.g., EDIFACT ORDERS message).\n\n3. Transmission & Communication:\n- The standardized EDI file is securely transmitted over the Internet (AS2 protocol) or through a Value Added Network (VAN) mailbox.\n\n4. EDI Translation at Receiver (Supplier - Inbound):\n- The supplier's computer receives the EDI file and passes it through their EDI Translator to convert it into their internal database format.\n\n5. ERP Ingestion & Processing:\n- Supplier's ERP automatically generates a sales order and schedules dispatch without manual intervention.\n\n6. Functional Acknowledgment:\n- An automated acknowledgment receipt (e.g., CONTRL / 997) is sent back to the buyer confirming error-free processing.",
+    "answerTamil": "EDI செயல்படும் படிநிலைகள்:\n\n1. ஆவணம் தயாரித்தல் (வாங்குபவர்): வாங்குபவர் தனது ERP மென்பொருளில் கொள்முதல் ஆணையை உருவாக்குகிறார்.\n2. EDI மொழிபெயர்ப்பு: இந்த தரவு EDI மொழிபெயர்ப்பாளர் மூலம் சர்வதேச தரநிலைக்கு (ORDERS) மாற்றப்படுகிறது.\n3. பரிமாற்றம்: கோப்பு இணையம் அல்லது VAN மூலம் விற்பனையாளருக்கு அனுப்பப்படுகிறது.\n4. பெறுநரின் மொழிபெயர்ப்பு (விற்பனையாளர்): பெறப்பட்ட EDI கோப்பு விற்பனையாளரின் உள் தரவுத்தள வடிவத்திற்கு மாற்றப்படுகிறது.\n5. ERP செயலாக்கம்: விற்பனையாளரின் கணினி தானாகவே விற்பனை ஆர்டரை உருவாக்கி ஏற்றுமதிக்கு தயார் செய்கிறது.\n6. ஒப்புகைச் சீட்டு (Acknowledgment): ஆவணம் பெறப்பட்டதற்கான ஒப்புகைச் செய்தி மீண்டும் வாங்குபவருக்கு தானாக அனுப்பப்படுகிறது.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-5m-2",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Explain the various types of EDI (Direct EDI, VAN EDI, Web EDI, Mobile EDI).",
+    "questionTextTamil": "EDI-ன் பல்வேறு வகைகளை (Direct EDI, VAN EDI, Web EDI, Mobile EDI) விரிவாக விளக்குக.",
+    "answer": "Types of EDI Implementation Models:\n\n1. Direct EDI (Point-to-Point EDI):\n- Establishes a dedicated direct connection between two partners over the Internet using secure protocols (AS2, FTP over SSL).\n- Fast, zero third-party fees, but requires custom setup per partner.\n\n2. EDI via VAN (Value Added Network):\n- Uses a managed third-party service provider acting like an electronic post office with secure mailboxes.\n- Simplifies connecting to hundreds of partners, handles protocol translations, but incurs ongoing subscription/byte fees.\n\n3. Web-based EDI:\n- Conducts EDI via standard web browsers where small suppliers fill in online web forms that generate compliant backend EDI messages.\n- Affordable and accessible for small vendors.\n\n4. Mobile EDI:\n- Leverages mobile smartphones and tablet applications to monitor, approve, and track EDI logistics and orders on the go.",
+    "answerTamil": "EDI-ன் வகைகள்:\n\n1. நேரடி EDI (Direct / Point-to-Point):\n- இரு நிறுவனங்கள் இணையம் வழியே நேரடியாக இணைதல் (AS2 முறை). கூடுதல் தரகர் கட்டணம் இல்லை.\n\n2. மதிப்பு கூட்டப்பட்ட வலையமைப்பு (VAN EDI):\n- மூன்றாம் நபர் தொலைத்தொடர்பு சேவை மூலம் தபால் பெட்டி போல பல நிறுவனங்களை எளிதாக இணைத்தல்.\n\n3. இணைய அடிப்படையிலான EDI (Web EDI):\n- சிறு வணிகர்கள் எளிய இணையப் படிவங்கள் வழியே உலாவியிலேயே ஆவணங்களை உருவாக்கி அனுப்புதல்.\n\n4. மொபைல் EDI (Mobile EDI):\n- ஸ்மார்ட்போன் செயலிகள் மூலம் எங்கிருந்தும் ஆர்டர்களை கண்காணித்து ஒப்புதல் அளிக்கும் வசதி.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-5m-3",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Discuss the structural framework and components of UN/EDIFACT standard in detail.",
+    "questionTextTamil": "UN/EDIFACT தரநிலையின் கட்டமைப்பு மற்றும் முக்கிய கூறுகளை விரிவாக விவாதிக்கவும்.",
+    "answer": "UN/EDIFACT Structural Framework:\n\n1. Characters & Syntax Rules:\nDefines alphanumeric character sets, delimiters (e.g., '+' component separator, ''' segment terminator, '?' release character).\n\n2. Data Elements:\n- Simple Data Element: Single unit value (e.g., Currency = \"INR\").\n- Composite Data Element: Multi-part value separated by colons (e.g., Date:Time).\n\n3. Segments:\nPredefined collections of functionally related data elements identified by a 3-letter tag:\n- BGM: Beginning of Message\n- DTM: Date and Time\n- NAD: Name and Address\n- LIN: Line Item details.\n\n4. Messages (Transaction Sets):\nComposed of an ordered sequence of segments starting with UNH (header) and ending with UNT (trailer):\n- ORDERS: Purchase Order\n- INVOIC: Invoice\n- DESADV: Despatch Advice.\n\n5. Interchange Envelopes:\nEnclosed by UNB (Interchange Header) and UNZ (Interchange Trailer).",
+    "answerTamil": "UN/EDIFACT கட்டமைப்பு:\n\n1. தொடரியல் மற்றும் குறியீடுகள்: பிரிக்க பயன்படும் குறியீடுகள் (+ , ' போன்றவை).\n2. தரவுக் கூறுகள்: ஒற்றை மதிப்பு கொண்ட எளிய கூறுகள் மற்றும் கூட்டு கூறுகள்.\n3. பிரிவுகள் (Segments): மூன்று எழுத்து குறியீடு கொண்ட வரிகள் (எ.கா: BGM - செய்தி தொடக்கம், DTM - தேதி, NAD - பெயர் முகவரி).\n4. செய்திகள் (Messages): UNH தொடக்கக் குறி மற்றும் UNT முடிவுக் குறிக்கு இடையே அமையும் முழு ஆவணம் (எ.கா: ORDERS, INVOIC).\n5. பரிமாற்ற உறை (Envelopes): UNB தொடக்கம் மற்றும் UNZ முடிவுக்குள் அனைத்து செய்திகளும் அடைக்கப்படும்.",
+    "isBookBack": true
+  },
+  {
+    "id": "ca12-ch18-5m-4",
+    "chapterNo": 18,
+    "chapterName": "EDI-Electronic Data Interchange",
+    "chapterNameTamil": "மின்னணு தரவு பரிமாற்றம் (EDI)",
+    "marks": 5,
+    "type": "essay",
+    "questionText": "Discuss the business benefits, economic impacts, and barriers to implementation of EDI.",
+    "questionTextTamil": "EDI-ன் வணிக நன்மைகள், பொருளாதார தாக்கம் மற்றும் அதை செயல்படுத்துவதில் உள்ள தடைகளை விரிவாக விவாதிக்கவும்.",
+    "answer": "Business Benefits of EDI:\n1. Direct Cost Reduction: Drastic reduction in paper, printing, postal mailing, and physical storage costs.\n2. High Speed & Efficiency: Orders transmitted in seconds instead of 4-7 days by post.\n3. Elimination of Human Errors: Automation removes data re-entry typographical mistakes.\n4. Just-In-Time (JIT) Inventory: Tight supply chain synchronization minimizes warehouse storage costs.\n\nBarriers to EDI Implementation:\n1. High initial hardware, software, and ERP customization investment costs.\n2. Complexity of standard adherence across multiple international trading formats.\n3. Requirement for all supply chain vendors and trading partners to adopt matching systems.",
+    "answerTamil": "வணிக நன்மைகள் மற்றும் பொருளாதார தாக்கம்:\n1. செலவு மிச்சம்: காகிதம், அச்சு, தபால் மற்றும் சேமிப்புச் செலவுகள் முற்றிலும் குறைகிறது.\n2. அதிக வேகம்: வணிக ஆவணங்கள் சில நொடிகளில் கடத்தப்படுகின்றன.\n3. பிழைகள் இல்லாத நிலை: கைமுறை உள்ளீட்டுப் பிழைகள் தவிர்க்கப்படுகின்றன.\n4. துல்லியமான விநியோகச் சங்கிலி: சரக்கு இருப்பு தேவையை உடனடியாக பூர்த்தி செய்கிறது.\n\nசெயல்படுத்துவதில் உள்ள தடைகள்:\n1. ஆரம்ப கட்ட மென்பொருள் மற்றும் வன்பொருள் முதலீட்டுச் செலவு அதிகம்.\n2. சர்வதேச தரநிலைகளைப் பின்பற்றுவதில் உள்ள தொழில்நுட்ப சிக்கல்கள்.\n3. விநியோகச் சங்கிலியில் உள்ள அனைத்து கூட்டாளர்களும் இந்த அமைப்பிற்கு மாற வேண்டிய கட்டாயம்.",
+    "isBookBack": true
+  }
+]
