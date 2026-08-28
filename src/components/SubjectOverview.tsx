@@ -24,6 +24,7 @@ import {
 import { SubjectData, Chapter, Question, LanguageMode } from '../types';
 import { validateSubject, SubjectValidationReport, ChapterValidationResult } from '../utils/textbookValidator';
 import { exportSubjectQuestionsToCSV } from '../utils/csvExport';
+import { DashboardWidget } from './DashboardWidget';
 
 interface SubjectOverviewProps {
   subject: SubjectData;
@@ -217,6 +218,14 @@ export const SubjectOverview: React.FC<SubjectOverviewProps> = ({
           <p className="text-[10px] text-stone-500 mt-1">Chapters with 0 5M essays</p>
         </div>
       </div>
+
+      {/* Dashboard Widget for Mark Distribution & Low-Count Analyzer */}
+      <DashboardWidget
+        subject={subject}
+        onSelectChapter={onSelectChapter}
+        onSelectChapterForBrowser={onSelectChapterForBrowser}
+        onNavigate={onNavigate}
+      />
 
       {/* Content Gap Diagnosis Alert Banner */}
       {chaptersWithout5M.length > 0 && (

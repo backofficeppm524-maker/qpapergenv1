@@ -6,6 +6,8 @@ import { CS12_CH13_TO_CH16_QUESTIONS } from './cs12_ch13_to_ch16';
 import { CA12_CHAPTERS, CA12_QUESTIONS } from './ca12_questions';
 import { CS11_CHAPTERS, CS11_QUESTIONS } from './cs11_questions';
 import { CA11_CHAPTERS, CA11_QUESTIONS } from './ca11_questions';
+import { ES12_CHAPTERS, ES12_QUESTIONS } from './es12_questions';
+import { ES11_CHAPTERS, ES11_QUESTIONS } from './es11_questions';
 
 // 12th Standard Computer Science Chapters
 export const CS12_CHAPTERS: Chapter[] = [
@@ -35,7 +37,18 @@ export const CS12_QUESTIONS: Question[] = [
   ...CS12_CH13_TO_CH16_QUESTIONS
 ];
 
-export { CA12_CHAPTERS, CA12_QUESTIONS, CS11_CHAPTERS, CS11_QUESTIONS, CA11_CHAPTERS, CA11_QUESTIONS };
+export { 
+  CA12_CHAPTERS, 
+  CA12_QUESTIONS, 
+  CS11_CHAPTERS, 
+  CS11_QUESTIONS, 
+  CA11_CHAPTERS, 
+  CA11_QUESTIONS,
+  ES12_CHAPTERS,
+  ES12_QUESTIONS,
+  ES11_CHAPTERS,
+  ES11_QUESTIONS
+};
 
 // Initial subject list with calculated question counts
 export const PRELOADED_SUBJECTS: SubjectData[] = [
@@ -84,6 +97,28 @@ export const PRELOADED_SUBJECTS: SubjectData[] = [
     questions: CA12_QUESTIONS
   },
   {
+    id: "es-12",
+    name: "Employability Skills",
+    nameTamil: "வேலைவாய்ப்புத் திறன்கள்",
+    standard: "12th Standard",
+    board: "Tamil Nadu State Board",
+    code: "12ES",
+    chapters: ES12_CHAPTERS.map(c => {
+      const qInCh = ES12_QUESTIONS.filter(q => q.chapterNo === c.no);
+      return {
+        ...c,
+        questionCount: {
+          1: qInCh.filter(q => q.marks === 1).length,
+          2: qInCh.filter(q => q.marks === 2).length,
+          3: qInCh.filter(q => q.marks === 3).length,
+          5: qInCh.filter(q => q.marks === 5).length,
+          total: qInCh.length
+        }
+      };
+    }),
+    questions: ES12_QUESTIONS
+  },
+  {
     id: "cs-11",
     name: "Computer Science",
     nameTamil: "கணினி அறிவியல்",
@@ -126,6 +161,28 @@ export const PRELOADED_SUBJECTS: SubjectData[] = [
       };
     }),
     questions: CA11_QUESTIONS
+  },
+  {
+    id: "es-11",
+    name: "Employability Skills",
+    nameTamil: "பணியமர்த்தல் திறன்கள்",
+    standard: "11th Standard",
+    board: "Tamil Nadu State Board",
+    code: "11ES",
+    chapters: ES11_CHAPTERS.map(c => {
+      const qInCh = ES11_QUESTIONS.filter(q => q.chapterNo === c.no);
+      return {
+        ...c,
+        questionCount: {
+          1: qInCh.filter(q => q.marks === 1).length,
+          2: qInCh.filter(q => q.marks === 2).length,
+          3: qInCh.filter(q => q.marks === 3).length,
+          5: qInCh.filter(q => q.marks === 5).length,
+          total: qInCh.length
+        }
+      };
+    }),
+    questions: ES11_QUESTIONS
   }
 ];
 

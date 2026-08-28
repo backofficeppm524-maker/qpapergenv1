@@ -22,7 +22,16 @@ import {
   Flag,
   Loader2,
   BrainCircuit,
-  MessageSquarePlus
+  MessageSquarePlus,
+  Edit3,
+  Trash2,
+  CheckSquare,
+  Square,
+  AlertTriangle,
+  FolderInput,
+  Sliders,
+  Settings2,
+  CheckCheck
 } from 'lucide-react';
 import { SubjectData, Question, MarkType, LanguageMode } from '../types';
 import { BulkImportModal } from './BulkImportModal';
@@ -38,6 +47,8 @@ interface FullQuestionBankProps {
   onAddNewCustomQuestion?: (question: Question) => void;
   onBulkAddQuestions?: (questions: Question[]) => void;
   onReportQuestion?: (question: Question) => void;
+  onBatchUpdateQuestions?: (updatedQuestions: Question[]) => void;
+  onBatchDeleteQuestions?: (questionIds: string[]) => void;
   showAddButton?: boolean;
 }
 
@@ -49,6 +60,8 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
   onAddNewCustomQuestion,
   onBulkAddQuestions,
   onReportQuestion,
+  onBatchUpdateQuestions,
+  onBatchDeleteQuestions,
   showAddButton = true
 }) => {
   const searchInputRef = useRef<HTMLInputElement>(null);
@@ -68,6 +81,15 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
   const [addedIds, setAddedIds] = useState<Record<string, boolean>>({});
   const [showTopicCloud, setShowTopicCloud] = useState<boolean>(true);
   const [exportSuccess, setExportSuccess] = useState<boolean>(false);
+
+  // Bulk Edit Mode State
+  const [isBulkEditMode, setIsBulkEditMode] = useState<boolean>(false);
+  const [selectedQuestionIds, setSelectedQuestionIds] = useState<string[]>([]);
+  const [showBatchDeleteModal, setShowBatchDeleteModal] = useState<boolean>(false);
+  const [showBatchTagModal, setShowBatchTagModal] = useState<boolean>(false);
+  const [showBatchMoveModal, setShowBatchMoveModal] = useState<boolean>(false);
+  const [batchMoveTargetChapter, setBatchMoveTargetChapter] = useState<number>(subject.chapters[0]?.no || 1);
+  const [isBatchAIProcessing, setIsBatchAIProcessing] = useState<boolean>(false);
 
   // Custom question modal & Bulk Import state
   const [showAddModal, setShowAddModal] = useState(false);
@@ -206,6 +228,178 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
     }
   };
 
+  // Batch Tag Form State
+  const [batchTagBookBack, setBatchTagBookBack] = useState<'keep' | 'yes' | 'no'>('keep');
+  const [batchTagCompulsory, setBatchTagCompulsory] = useState<'keep' | 'yes' | 'no'>('keep');
+  const [batchTagCreative, setBatchTagCreative] = useState<'keep' | 'yes' | 'no'>('keep');
+  const [batchCustomTag, setBatchCustomTag] = useState<string>('');
+
+  // Batch Selection Handlers
+  const toggleSelectQuestion = (qId: string) => {
+    setSelectedQuestionIds(prev => 
+      prev.includes(qId) ? prev.filter(id => id !== qId) : [...prev, qId]
+    );
+  };
+
+  const handleSelectAllFiltered = () => {
+    setSelectedQuestionIds(filteredQuestions.map(q => q.id));
+  };
+
+  const handleDeselectAllSelected = () => {
+    setSelectedQuestionIds([]);
+  };
+
+  // Batch Difficulty Update
+  const handleBatchSetDifficulty = (diff: 'Easy' | 'Medium' | 'Hard') => {
+    if (selectedQuestionIds.length === 0) return;
+    const selectedSet = new Set(selectedQuestionIds);
+    const updated = subject.questions
+      .filter(q => selectedSet.has(q.id))
+      .map(q => ({
+        ...q,
+        difficulty: diff,
+        difficultyReasoning: `Difficulty batch-updated to ${diff} by educator.`
+      }));
+
+    if (onBatchUpdateQuestions) {
+      onBatchUpdateQuestions(updated);
+    }
+    setToastMessage(`Updated difficulty of ${updated.length} questions to ${diff}.`);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
+
+  // Batch AI Auto-Detect Difficulty
+  const handleBatchAIDetectDifficulty = async () => {
+    if (selectedQuestionIds.length === 0) return;
+    setIsBatchAIProcessing(true);
+    try {
+      const selectedSet = new Set(selectedQuestionIds);
+      const toProcess = subject.questions.filter(q => selectedSet.has(q.id));
+      const updated: Question[] = [];
+
+      for (const q of toProcess) {
+        const res = await classifyQuestionDifficultyAI({
+          questionText: q.questionText,
+          marks: q.marks,
+          type: q.type,
+          answer: q.answer,
+          subjectName: subject.name,
+          chapterName: q.chapterName,
+          options: q.options
+        });
+        updated.push({
+          ...q,
+          difficulty: res.difficulty,
+          difficultyReasoning: res.reasoning,
+          subTopic: res.subTopic || q.subTopic
+        });
+      }
+
+      if (onBatchUpdateQuestions) {
+        onBatchUpdateQuestions(updated);
+      }
+      setToastMessage(`AI analyzed and assigned difficulty for ${updated.length} questions.`);
+      setTimeout(() => setToastMessage(null), 4000);
+    } catch (e) {
+      console.error(e);
+      setToastMessage('Error executing AI difficulty classification.');
+    } finally {
+      setIsBatchAIProcessing(false);
+    }
+  };
+
+  // Batch Tags & Attributes Update
+  const handleBatchUpdateTags = () => {
+    if (selectedQuestionIds.length === 0) return;
+    const selectedSet = new Set(selectedQuestionIds);
+    const updated = subject.questions
+      .filter(q => selectedSet.has(q.id))
+      .map(q => {
+        const newTags = batchCustomTag && batchCustomTag.trim() 
+          ? Array.from(new Set([...(q.tags || []), batchCustomTag.trim()]))
+          : q.tags;
+        return {
+          ...q,
+          isBookBack: batchTagBookBack === 'keep' ? q.isBookBack : batchTagBookBack === 'yes',
+          isCompulsoryEligible: batchTagCompulsory === 'keep' ? q.isCompulsoryEligible : batchTagCompulsory === 'yes',
+          isCreative: batchTagCreative === 'keep' ? q.isCreative : batchTagCreative === 'yes',
+          tags: newTags
+        };
+      });
+
+    if (onBatchUpdateQuestions) {
+      onBatchUpdateQuestions(updated);
+    }
+    setShowBatchTagModal(false);
+    setToastMessage(`Updated tags/attributes for ${updated.length} questions.`);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
+
+  // Batch Move Chapter
+  const handleBatchMoveChapter = () => {
+    if (selectedQuestionIds.length === 0) return;
+    const targetChapter = subject.chapters.find(c => c.no === batchMoveTargetChapter);
+    if (!targetChapter) return;
+
+    const selectedSet = new Set(selectedQuestionIds);
+    const updated = subject.questions
+      .filter(q => selectedSet.has(q.id))
+      .map(q => ({
+        ...q,
+        chapterNo: batchMoveTargetChapter,
+        chapterName: targetChapter.name,
+        chapterNameTamil: targetChapter.nameTamil
+      }));
+
+    if (onBatchUpdateQuestions) {
+      onBatchUpdateQuestions(updated);
+    }
+    setShowBatchMoveModal(false);
+    setToastMessage(`Moved ${updated.length} questions to Chapter ${batchMoveTargetChapter}: ${targetChapter.name}.`);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
+
+  // Batch Delete Questions
+  const handleConfirmBatchDelete = () => {
+    if (selectedQuestionIds.length === 0) return;
+    if (onBatchDeleteQuestions) {
+      onBatchDeleteQuestions(selectedQuestionIds);
+    }
+    const count = selectedQuestionIds.length;
+    setSelectedQuestionIds([]);
+    setShowBatchDeleteModal(false);
+    setToastMessage(`Deleted ${count} questions from question bank.`);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
+
+  // Batch Add to Paper
+  const handleBatchAddToPaper = () => {
+    if (selectedQuestionIds.length === 0) return;
+    const selectedSet = new Set(selectedQuestionIds);
+    const questionsToAdd = subject.questions.filter(q => selectedSet.has(q.id));
+    if (onBulkAddQuestions) {
+      onBulkAddQuestions(questionsToAdd);
+    } else if (onAddQuestionToPaper) {
+      questionsToAdd.forEach(q => onAddQuestionToPaper(q));
+    }
+    setToastMessage(`Added ${questionsToAdd.length} questions to Manual Question Paper!`);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
+
+  // Batch Export CSV
+  const handleExportSelectedCSV = () => {
+    if (selectedQuestionIds.length === 0) return;
+    const selectedSet = new Set(selectedQuestionIds);
+    const subset = subject.questions.filter(q => selectedSet.has(q.id));
+    const dummySubject: SubjectData = {
+      ...subject,
+      questions: subset
+    };
+    exportSubjectQuestionsToCSV(dummySubject);
+    setToastMessage(`Exported ${subset.length} selected questions to CSV.`);
+    setTimeout(() => setToastMessage(null), 3500);
+  };
+
   const handleSaveCustomQuestion = (e: React.FormEvent) => {
     e.preventDefault();
     if (!newQText.trim()) return;
@@ -341,6 +535,25 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
               className="text-xs bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-slate-200 px-2.5 py-1 rounded transition cursor-pointer font-medium"
             >
               Deselect All
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                const nextState = !isBulkEditMode;
+                setIsBulkEditMode(nextState);
+                if (!nextState) {
+                  setSelectedQuestionIds([]);
+                }
+              }}
+              className={`inline-flex items-center gap-1.5 text-xs font-bold px-3 py-1 rounded transition cursor-pointer shadow border ${
+                isBulkEditMode
+                  ? 'bg-amber-400 text-stone-950 border-amber-300 ring-2 ring-amber-400/50'
+                  : 'bg-slate-800 hover:bg-slate-700 text-slate-200 border-slate-600'
+              }`}
+              title="Toggle Bulk Edit Mode to select and batch-update or delete multiple questions"
+            >
+              <Edit3 className="w-3.5 h-3.5" />
+              {isBulkEditMode ? `Bulk Edit ON (${selectedQuestionIds.length})` : 'Bulk Edit'}
             </button>
             <button
               type="button"
@@ -578,12 +791,52 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
                   {qList.map((q, qIndex) => {
                     const isAnswerVisible = revealedAnswers[q.id];
                     const isAdded = addedIds[q.id];
+                    const isSelected = selectedQuestionIds.includes(q.id);
 
                     return (
-                      <div key={q.id} className="p-4 hover:bg-stone-50/70 transition space-y-3">
+                      <div 
+                        key={q.id} 
+                        onClick={e => {
+                          if (isBulkEditMode) {
+                            const target = e.target as HTMLElement;
+                            if (target.closest('button') || target.closest('input') || target.closest('a')) return;
+                            toggleSelectQuestion(q.id);
+                          }
+                        }}
+                        className={`p-4 transition space-y-3 ${
+                          isSelected
+                            ? 'bg-amber-50/90 border-l-4 border-amber-500 shadow-xs ring-1 ring-amber-300/60'
+                            : isBulkEditMode
+                            ? 'hover:bg-amber-50/30 cursor-pointer'
+                            : 'hover:bg-stone-50/70'
+                        }`}
+                      >
                         {/* Header of Question */}
                         <div className="flex items-start justify-between gap-3">
                           <div className="flex items-center gap-2 flex-wrap">
+                            {/* Bulk Selection Checkbox */}
+                            {isBulkEditMode && (
+                              <button
+                                type="button"
+                                onClick={e => {
+                                  e.stopPropagation();
+                                  toggleSelectQuestion(q.id);
+                                }}
+                                className={`p-1 rounded-md transition cursor-pointer flex items-center justify-center shrink-0 ${
+                                  isSelected 
+                                    ? 'bg-amber-500 text-stone-950 font-bold' 
+                                    : 'bg-stone-100 hover:bg-stone-200 text-stone-400 border border-stone-300'
+                                }`}
+                                title={isSelected ? 'Deselect question' : 'Select question for bulk edit'}
+                              >
+                                {isSelected ? (
+                                  <CheckSquare className="w-4 h-4 text-stone-950" />
+                                ) : (
+                                  <Square className="w-4 h-4 text-stone-400" />
+                                )}
+                              </button>
+                            )}
+
                             <span className={`text-[11px] font-bold px-2 py-0.5 rounded ${
                               q.marks === 1
                                 ? 'bg-blue-100 text-blue-800'
@@ -675,16 +928,16 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
                         {/* Question Text in English and/or Tamil */}
                         <div className="space-y-1.5 text-stone-900 text-sm leading-relaxed">
                           {languageMode === 'english' && (
-                            <p className="font-medium">{q.questionText}</p>
+                            <p className="font-medium whitespace-pre-line">{q.questionText}</p>
                           )}
                           {languageMode === 'tamil' && (
-                            <p className="font-medium text-stone-900">{q.questionTextTamil || q.questionText}</p>
+                            <p className="font-medium text-stone-900 whitespace-pre-line">{q.questionTextTamil || q.questionText}</p>
                           )}
                           {languageMode === 'bilingual' && (
                             <>
-                              <p className="font-medium">{q.questionText}</p>
+                              <p className="font-medium whitespace-pre-line">{q.questionText}</p>
                               {q.questionTextTamil && (
-                                <p className="font-medium text-stone-800">{q.questionTextTamil}</p>
+                                <p className="font-medium text-stone-800 whitespace-pre-line">{q.questionTextTamil}</p>
                               )}
                             </>
                           )}
@@ -764,6 +1017,360 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
               </div>
             );
           })}
+        </div>
+      )}
+
+      {/* Floating Sticky Bulk Actions Bar */}
+      {isBulkEditMode && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-full max-w-4xl px-4 animate-in fade-in slide-in-from-bottom-5 duration-200 no-print">
+          <div className="bg-[#0f172a] text-white rounded-2xl shadow-2xl border border-amber-500/50 p-3 sm:p-4 backdrop-blur-md">
+            <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+              {/* Counter & Select All Controls */}
+              <div className="flex items-center gap-3">
+                <div className="bg-amber-400 text-stone-950 font-black text-xs px-3 py-1.5 rounded-xl flex items-center gap-1.5 shrink-0 shadow">
+                  <CheckCheck className="w-4 h-4" />
+                  <span>{selectedQuestionIds.length} Selected</span>
+                </div>
+                <div className="flex items-center gap-1.5 text-xs">
+                  <button
+                    type="button"
+                    onClick={handleSelectAllFiltered}
+                    className="text-amber-300 hover:text-amber-200 font-bold hover:underline cursor-pointer"
+                  >
+                    Select All Filtered ({filteredQuestions.length})
+                  </button>
+                  <span className="text-slate-500">•</span>
+                  <button
+                    type="button"
+                    onClick={handleDeselectAllSelected}
+                    className="text-slate-400 hover:text-white font-medium hover:underline cursor-pointer"
+                  >
+                    Clear Selection
+                  </button>
+                </div>
+              </div>
+
+              {/* Batch Action Buttons */}
+              <div className="flex items-center gap-2 flex-wrap">
+                {/* Difficulty Selector Dropdown / Buttons */}
+                <div className="flex items-center bg-slate-800 rounded-lg p-1 border border-slate-700">
+                  <span className="text-[11px] font-bold text-slate-400 px-2 flex items-center gap-1">
+                    <Sliders className="w-3 h-3 text-amber-400" />
+                    Diff:
+                  </span>
+                  <button
+                    type="button"
+                    disabled={selectedQuestionIds.length === 0}
+                    onClick={() => handleBatchSetDifficulty('Easy')}
+                    className="text-[10px] font-bold px-2 py-1 bg-emerald-900/60 hover:bg-emerald-800 text-emerald-200 rounded mr-1 disabled:opacity-40 transition cursor-pointer"
+                    title="Set difficulty to Easy for all selected questions"
+                  >
+                    Easy
+                  </button>
+                  <button
+                    type="button"
+                    disabled={selectedQuestionIds.length === 0}
+                    onClick={() => handleBatchSetDifficulty('Medium')}
+                    className="text-[10px] font-bold px-2 py-1 bg-amber-900/60 hover:bg-amber-800 text-amber-200 rounded mr-1 disabled:opacity-40 transition cursor-pointer"
+                    title="Set difficulty to Medium for all selected questions"
+                  >
+                    Med
+                  </button>
+                  <button
+                    type="button"
+                    disabled={selectedQuestionIds.length === 0}
+                    onClick={() => handleBatchSetDifficulty('Hard')}
+                    className="text-[10px] font-bold px-2 py-1 bg-rose-900/60 hover:bg-rose-800 text-rose-200 rounded mr-1 disabled:opacity-40 transition cursor-pointer"
+                    title="Set difficulty to Hard for all selected questions"
+                  >
+                    Hard
+                  </button>
+                  <button
+                    type="button"
+                    disabled={selectedQuestionIds.length === 0 || isBatchAIProcessing}
+                    onClick={handleBatchAIDetectDifficulty}
+                    className="text-[10px] font-bold px-2 py-1 bg-purple-800 hover:bg-purple-700 text-purple-100 rounded flex items-center gap-1 disabled:opacity-40 transition cursor-pointer"
+                    title="AI Auto-Detect Difficulty for all selected questions"
+                  >
+                    {isBatchAIProcessing ? <Loader2 className="w-3 h-3 animate-spin" /> : <BrainCircuit className="w-3 h-3 text-purple-300" />}
+                    <span>AI Auto</span>
+                  </button>
+                </div>
+
+                {/* Tags & Attributes Modal Button */}
+                <button
+                  type="button"
+                  disabled={selectedQuestionIds.length === 0}
+                  onClick={() => setShowBatchTagModal(true)}
+                  className="text-xs font-bold px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 rounded-lg flex items-center gap-1.5 disabled:opacity-40 transition cursor-pointer"
+                  title="Batch update tags, book-back, or compulsory attributes"
+                >
+                  <Tag className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Tags</span>
+                </button>
+
+                {/* Move Chapter Modal Button */}
+                <button
+                  type="button"
+                  disabled={selectedQuestionIds.length === 0}
+                  onClick={() => setShowBatchMoveModal(true)}
+                  className="text-xs font-bold px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 rounded-lg flex items-center gap-1.5 disabled:opacity-40 transition cursor-pointer"
+                  title="Move selected questions to another chapter"
+                >
+                  <FolderInput className="w-3.5 h-3.5 text-blue-400" />
+                  <span>Move</span>
+                </button>
+
+                {/* Add All to QP */}
+                <button
+                  type="button"
+                  disabled={selectedQuestionIds.length === 0}
+                  onClick={handleBatchAddToPaper}
+                  className="text-xs font-bold px-3 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-lg flex items-center gap-1.5 disabled:opacity-40 transition cursor-pointer shadow"
+                  title="Stage selected questions into manual paper"
+                >
+                  <Plus className="w-3.5 h-3.5" />
+                  <span>Add to QP</span>
+                </button>
+
+                {/* Export Selected CSV */}
+                <button
+                  type="button"
+                  disabled={selectedQuestionIds.length === 0}
+                  onClick={handleExportSelectedCSV}
+                  className="text-xs font-bold px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-600 rounded-lg flex items-center gap-1.5 disabled:opacity-40 transition cursor-pointer"
+                  title="Download selected questions as CSV"
+                >
+                  <Download className="w-3.5 h-3.5 text-amber-400" />
+                  <span>CSV</span>
+                </button>
+
+                {/* Batch Delete */}
+                <button
+                  type="button"
+                  disabled={selectedQuestionIds.length === 0}
+                  onClick={() => setShowBatchDeleteModal(true)}
+                  className="text-xs font-bold px-3 py-1.5 bg-rose-800 hover:bg-rose-700 text-white rounded-lg flex items-center gap-1.5 disabled:opacity-40 transition cursor-pointer shadow"
+                  title="Batch delete selected questions"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  <span>Delete</span>
+                </button>
+
+                {/* Exit Bulk Mode */}
+                <button
+                  type="button"
+                  onClick={() => {
+                    setIsBulkEditMode(false);
+                    setSelectedQuestionIds([]);
+                  }}
+                  className="text-xs font-bold px-2 py-1.5 text-slate-400 hover:text-white rounded-lg transition cursor-pointer"
+                  title="Exit Bulk Edit Mode"
+                >
+                  <X className="w-4 h-4" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Batch Tag / Attributes Update Modal */}
+      {showBatchTagModal && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-lg w-full p-6 space-y-4 my-8 border border-stone-200 text-xs">
+            <div className="flex items-center justify-between border-b border-stone-200 pb-3">
+              <h3 className="font-bold text-base text-stone-900 flex items-center gap-2">
+                <Tag className="w-5 h-5 text-amber-600" />
+                Batch Update Attributes ({selectedQuestionIds.length} Questions)
+              </h3>
+              <button
+                onClick={() => setShowBatchTagModal(false)}
+                className="text-stone-400 hover:text-stone-700 text-lg font-bold cursor-pointer"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="space-y-4">
+              {/* Book Back Tag */}
+              <div className="flex items-center justify-between p-3 bg-stone-50 rounded-xl border border-stone-200">
+                <div>
+                  <p className="font-bold text-stone-800">Book-Back Question Tag</p>
+                  <p className="text-[11px] text-stone-500">Mark questions as official textbook back exercise</p>
+                </div>
+                <select
+                  value={batchTagBookBack}
+                  onChange={e => setBatchTagBookBack(e.target.value as any)}
+                  className="bg-white border border-stone-300 rounded px-2.5 py-1 text-xs font-bold text-stone-800"
+                >
+                  <option value="keep">Keep Existing</option>
+                  <option value="yes">Set YES (Book-Back)</option>
+                  <option value="no">Set NO (Outside/Self)</option>
+                </select>
+              </div>
+
+              {/* Compulsory Tag */}
+              <div className="flex items-center justify-between p-3 bg-stone-50 rounded-xl border border-stone-200">
+                <div>
+                  <p className="font-bold text-stone-800">Compulsory Candidate</p>
+                  <p className="text-[11px] text-stone-500">Eligible for mandatory compulsory question slot (Q24/Q33)</p>
+                </div>
+                <select
+                  value={batchTagCompulsory}
+                  onChange={e => setBatchTagCompulsory(e.target.value as any)}
+                  className="bg-white border border-stone-300 rounded px-2.5 py-1 text-xs font-bold text-stone-800"
+                >
+                  <option value="keep">Keep Existing</option>
+                  <option value="yes">Set YES (Compulsory Eligible)</option>
+                  <option value="no">Set NO (Standard Question)</option>
+                </select>
+              </div>
+
+              {/* Creative Tag */}
+              <div className="flex items-center justify-between p-3 bg-stone-50 rounded-xl border border-stone-200">
+                <div>
+                  <p className="font-bold text-stone-800">Creative / Application Question</p>
+                  <p className="text-[11px] text-stone-500">Mark as conceptual thinking or problem-solving</p>
+                </div>
+                <select
+                  value={batchTagCreative}
+                  onChange={e => setBatchTagCreative(e.target.value as any)}
+                  className="bg-white border border-stone-300 rounded px-2.5 py-1 text-xs font-bold text-stone-800"
+                >
+                  <option value="keep">Keep Existing</option>
+                  <option value="yes">Set YES (Creative)</option>
+                  <option value="no">Set NO (Direct Theory)</option>
+                </select>
+              </div>
+
+              {/* Custom Tag */}
+              <div className="space-y-1.5 p-3 bg-stone-50 rounded-xl border border-stone-200">
+                <label className="font-bold text-stone-800 block">Add Custom Keyword / Sub-Topic Tag</label>
+                <input
+                  type="text"
+                  placeholder="e.g. Unit Test 1, Revision 2026, Important Formula..."
+                  value={batchCustomTag}
+                  onChange={e => setBatchCustomTag(e.target.value)}
+                  className="w-full p-2 bg-white border border-stone-300 rounded text-xs"
+                />
+                <p className="text-[10px] text-stone-400">This tag will be appended to the tag list of all selected questions.</p>
+              </div>
+            </div>
+
+            <div className="flex justify-end gap-2 pt-3 border-t border-stone-200">
+              <button
+                type="button"
+                onClick={() => setShowBatchTagModal(false)}
+                className="px-4 py-2 border border-stone-300 rounded-lg text-stone-700 hover:bg-stone-100 font-semibold cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleBatchUpdateTags}
+                className="px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-lg font-bold cursor-pointer shadow"
+              >
+                Apply Attributes to {selectedQuestionIds.length} Questions
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Batch Move Chapter Modal */}
+      {showBatchMoveModal && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-4 my-8 border border-stone-200 text-xs">
+            <div className="flex items-center justify-between border-b border-stone-200 pb-3">
+              <h3 className="font-bold text-base text-stone-900 flex items-center gap-2">
+                <FolderInput className="w-5 h-5 text-blue-600" />
+                Move Questions to Chapter
+              </h3>
+              <button
+                onClick={() => setShowBatchMoveModal(false)}
+                className="text-stone-400 hover:text-stone-700 text-lg font-bold cursor-pointer"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="space-y-3">
+              <p className="text-stone-600">
+                Select the target chapter where you want to reassign all <strong>{selectedQuestionIds.length}</strong> selected questions:
+              </p>
+
+              <select
+                value={batchMoveTargetChapter}
+                onChange={e => setBatchMoveTargetChapter(Number(e.target.value))}
+                className="w-full p-2.5 bg-white border border-stone-300 rounded-xl text-xs font-bold text-stone-800"
+              >
+                {subject.chapters.map(ch => (
+                  <option key={ch.no} value={ch.no}>
+                    Chapter {ch.no}: {ch.name} {ch.nameTamil ? `(${ch.nameTamil})` : ''}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            <div className="flex justify-end gap-2 pt-3 border-t border-stone-200">
+              <button
+                type="button"
+                onClick={() => setShowBatchMoveModal(false)}
+                className="px-4 py-2 border border-stone-300 rounded-lg text-stone-700 hover:bg-stone-100 font-semibold cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleBatchMoveChapter}
+                className="px-4 py-2 bg-blue-700 hover:bg-blue-800 text-white rounded-lg font-bold cursor-pointer shadow"
+              >
+                Move {selectedQuestionIds.length} Questions
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Batch Delete Confirmation Modal */}
+      {showBatchDeleteModal && (
+        <div className="fixed inset-0 z-50 bg-black/60 flex items-center justify-center p-4 overflow-y-auto">
+          <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-6 space-y-4 my-8 border border-rose-200 text-xs">
+            <div className="flex items-center gap-3 text-rose-700 border-b border-stone-200 pb-3">
+              <div className="p-2 bg-rose-100 rounded-xl shrink-0">
+                <AlertTriangle className="w-6 h-6 text-rose-600" />
+              </div>
+              <div>
+                <h3 className="font-extrabold text-base text-stone-900">
+                  Delete {selectedQuestionIds.length} Questions?
+                </h3>
+                <p className="text-[11px] text-stone-500">This batch action is irreversible.</p>
+              </div>
+            </div>
+
+            <p className="text-stone-700 leading-relaxed">
+              Are you sure you want to permanently delete <strong>{selectedQuestionIds.length}</strong> selected questions from <strong>{subject.name}</strong>?
+            </p>
+
+            <div className="flex justify-end gap-2 pt-3 border-t border-stone-200">
+              <button
+                type="button"
+                onClick={() => setShowBatchDeleteModal(false)}
+                className="px-4 py-2 border border-stone-300 rounded-lg text-stone-700 hover:bg-stone-100 font-semibold cursor-pointer"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={handleConfirmBatchDelete}
+                className="px-4 py-2 bg-rose-700 hover:bg-rose-800 text-white rounded-lg font-bold cursor-pointer shadow flex items-center gap-1.5"
+              >
+                <Trash2 className="w-4 h-4" />
+                <span>Yes, Delete Questions</span>
+              </button>
+            </div>
+          </div>
         </div>
       )}
 

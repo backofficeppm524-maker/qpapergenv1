@@ -27,8 +27,15 @@
   .no-print, 
   .print-hidden, 
   [class*="print:hidden"],
-  [class*="print\\:hidden"] {
+  [class*="print\\:hidden"],
+  .toast-container,
+  .modal-backdrop {
     display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    overflow: hidden !important;
   }
   
   /* Ensure printable sheet spans cleanly across pages */
@@ -43,20 +50,46 @@
     width: 100% !important;
   }
   
-  /* Avoid broken questions or split option blocks across pages */
+  /* Page break controls: never split a question across two pages */
   .print-avoid-break,
   .print-question-item,
-  .print-section-header {
+  .question-item,
+  .question-container,
+  .either-or-question,
+  .print-paper-header {
     break-inside: avoid !important;
+    break-inside: avoid-page !important;
+    page-break-inside: avoid !important;
+  }
+
+  /* Section header page break rules: never orphan a section title at the bottom of a page */
+  .print-section-header,
+  .section-header-block {
+    break-inside: avoid !important;
+    break-after: avoid !important;
+    break-after: avoid-page !important;
+    page-break-inside: avoid !important;
+    page-break-after: avoid !important;
+  }
+
+  /* Multi-choice options and grid: keep options glued together with question text */
+  .print-options-grid,
+  .mcq-options-container,
+  .mcq-option-item,
+  .print-mcq-grid {
+    break-inside: avoid !important;
+    break-inside: avoid-page !important;
     page-break-inside: avoid !important;
   }
 
   /* Table formatting for Answer Keys */
   table {
     page-break-inside: auto;
+    break-inside: auto;
   }
   tr {
-    page-break-inside: avoid;
+    page-break-inside: avoid !important;
+    break-inside: avoid !important;
     page-break-after: auto;
   }
   thead {

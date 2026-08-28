@@ -10,22 +10,23 @@ import {
   Edit3, 
   Files, 
   FolderArchive,
-  ChevronRight,
   GraduationCap,
   Info,
-  UserCheck,
   Sparkles,
   BarChart3,
   Trophy
 } from 'lucide-react';
-import { SubjectData } from '../types';
+import { SubjectData, QuestionPaper } from '../types';
 import { getSubjectStats } from './HomeOverview';
 
 interface SidebarProps {
   activeSubject: SubjectData;
+  allSubjects?: SubjectData[];
+  savedPapers?: QuestionPaper[];
   activeView: string;
   onNavigate: (view: string) => void;
   savedPapersCount: number;
+  onExportData?: () => void;
 }
 
 interface NavItem {
@@ -118,7 +119,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
       </div>
 
       {/* Nav List */}
-      <div className="flex-1 py-3 px-2 space-y-5 overflow-y-auto">
+      <div className="flex-1 py-3 px-2 space-y-4 overflow-y-auto">
         {navItems.map((sec, idx) => (
           <div key={idx} className="space-y-1">
             <h3 className="px-3 text-[11px] font-bold text-slate-400 uppercase tracking-wider">

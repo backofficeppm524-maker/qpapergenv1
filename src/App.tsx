@@ -16,6 +16,8 @@ import { PracticeQuiz } from './components/PracticeQuiz';
 import { SubjectOverview } from './components/SubjectOverview';
 import { ChapterwiseQuizExam } from './components/ChapterwiseQuizExam';
 import { QuizLeaderboard } from './components/QuizLeaderboard';
+import { CheckCircle, BookmarkCheck } from 'lucide-react';
+import { exportBackupDataJSON } from './utils/dataBackup';
 
 export const App: React.FC = () => {
   // All Subjects (Preloaded + LocalStorage custom subjects)
@@ -36,10 +38,30 @@ export const App: React.FC = () => {
   const [activeSubject, setActiveSubject] = useState<SubjectData>(INITIAL_SUBJECTS[0]);
 
   // View state: 'home' | 'question-bank' | 'browse-chapter' | 'answers-overview' | 'qp-25' | 'qp-50' | 'qp-70' | 'qp-custom' | 'qp-manual' | 'qp-custom-manual' | 'saved-papers' | 'saved-keys' | 'view-qp' | 'view-key'
-  const [activeView, setActiveView] = useState<string>('home');
+  const [activeView, setActiveViewState] = useState<string>('home');
+  const [previousView, setPreviousView] = useState<string>('home');
+
+  const setActiveView = (nextView: string) => {
+    setActiveViewState(current => {
+      if (current !== nextView) {
+        setPreviousView(current);
+      }
+      return nextView;
+    });
+  };
 
   // Language Mode: 'english' | 'tamil' | 'bilingual'
   const [languageMode, setLanguageMode] = useState<LanguageMode>('bilingual');
+
+  // App-level Toast Notification (for saves, alerts, etc.)
+  const [appToast, setAppToast] = useState<{ message: string; subMessage?: string; type: 'success' | 'info' } | null>(null);
+
+  const showToast = (message: string, subMessage?: string, type: 'success' | 'info' = 'success') => {
+    setAppToast({ message, subMessage, type });
+    setTimeout(() => {
+      setAppToast(null);
+    }, 4500);
+  };
 
   // Saved Question Papers
   const [savedPapers, setSavedPapers] = useState<QuestionPaper[]>(() => {
@@ -106,6 +128,45 @@ export const App: React.FC = () => {
     );
   };
 
+  const handleBatchUpdateQuestions = (updatedQuestions: Question[]) => {
+    const updatedMap = new Map(updatedQuestions.map(q => [q.id, q]));
+    const newQuestions = activeSubject.questions.map(q => updatedMap.get(q.id) || q);
+    const updatedSubject: SubjectData = {
+      ...activeSubject,
+      questions: newQuestions
+    };
+    setActiveSubject(updatedSubject);
+    setAllSubjects(prev =>
+      prev.map(s => (s.id === updatedSubject.id ? updatedSubject : s))
+    );
+    showToast(
+      'Questions Updated in Bulk!',
+      `Successfully updated ${updatedQuestions.length} questions in ${activeSubject.name}.`,
+      'success'
+    );
+  };
+
+  const handleBatchDeleteQuestions = (questionIds: string[]) => {
+    const idSet = new Set(questionIds);
+    const newQuestions = activeSubject.questions.filter(q => !idSet.has(q.id));
+    const updatedSubject: SubjectData = {
+      ...activeSubject,
+      questions: newQuestions
+    };
+    setActiveSubject(updatedSubject);
+    setAllSubjects(prev =>
+      prev.map(s => (s.id === updatedSubject.id ? updatedSubject : s))
+    );
+    showToast(
+      'Questions Deleted in Bulk!',
+      `Removed ${questionIds.length} questions from ${activeSubject.name}.`,
+      'success'
+    );
+  };
+
+  // Track last active generator view to allow seamless Back navigation
+  const [previousGeneratorView, setPreviousGeneratorView] = useState<string>('qp-25');
+
   const handleAddQuestionToManualPaper = (q: Question) => {
     setManualStagedQuestions(prev => {
       if (prev.some(item => item.id === q.id)) return prev;
@@ -114,9 +175,15 @@ export const App: React.FC = () => {
   };
 
   const handlePaperGenerated = (paper: QuestionPaper) => {
-    setSavedPapers(prev => [paper, ...prev]);
+    setSavedPapers(prev => [paper, ...prev.filter(p => p.id !== paper.id)]);
     setActivePaper(paper);
+    setPreviousGeneratorView(activeView);
     setActiveView('view-qp');
+    showToast(
+      "Question Paper saved to 'Saved Papers'!",
+      `${paper.examName} • ${paper.subject} (${paper.maxMarks} Marks, ${paper.timeAllowed})`,
+      'success'
+    );
   };
 
   const handleDeletePaper = (paperId: string) => {
@@ -155,9 +222,21 @@ export const App: React.FC = () => {
         <div className="hidden md:block print:hidden">
           <Sidebar
             activeSubject={activeSubject}
+            allSubjects={allSubjects}
+            savedPapers={savedPapers}
             activeView={activeView}
             onNavigate={setActiveView}
             savedPapersCount={savedPapers.length}
+            onExportData={() => {
+              const customOnes = allSubjects.filter(s => s.isCustomUploaded);
+              const res = exportBackupDataJSON(customOnes, savedPapers);
+              if (res.success) {
+                showToast(
+                  'Backup Exported Successfully!',
+                  `Downloaded ${res.filename} (${res.stats.savedPapersCount} papers, ${res.stats.customSubjectsCount} custom subjects).`
+                );
+              }
+            }}
           />
         </div>
 
@@ -236,6 +315,8 @@ export const App: React.FC = () => {
               selectedChapterNo={selectedChapterNo}
               onAddQuestionToPaper={handleAddQuestionToManualPaper}
               onAddNewCustomQuestion={handleAddNewCustomQuestion}
+              onBatchUpdateQuestions={handleBatchUpdateQuestions}
+              onBatchDeleteQuestions={handleBatchDeleteQuestions}
             />
           )}
 
@@ -276,6 +357,8 @@ export const App: React.FC = () => {
               languageMode={languageMode}
               selectedChapterNo={null}
               showAddButton={false}
+              onBatchUpdateQuestions={handleBatchUpdateQuestions}
+              onBatchDeleteQuestions={handleBatchDeleteQuestions}
             />
           )}
 
@@ -319,14 +402,43 @@ export const App: React.FC = () => {
             />
           )}
 
-          {/* 9. Manual Selection Paper & Custom QP with Manual */}
-          {(activeView === 'qp-manual' || activeView === 'qp-custom-manual') && (
+          {/* 9. Manual Selection Paper */}
+          {activeView === 'qp-manual' && (
             <ManualGenerator
               subject={activeSubject}
               languageMode={languageMode}
               manualSelectedQuestions={manualStagedQuestions}
               onPaperGenerated={handlePaperGenerated}
               onSyncStagedQuestions={setManualStagedQuestions}
+              onNavigate={setActiveView}
+              onBack={() => {
+                if (previousView && previousView !== 'qp-manual') {
+                  setActiveView(previousView);
+                } else {
+                  setActiveView('qp-25');
+                }
+              }}
+              mode="manual-simple"
+            />
+          )}
+
+          {/* 9.5 Custom QP with Manual */}
+          {activeView === 'qp-custom-manual' && (
+            <ManualGenerator
+              subject={activeSubject}
+              languageMode={languageMode}
+              manualSelectedQuestions={manualStagedQuestions}
+              onPaperGenerated={handlePaperGenerated}
+              onSyncStagedQuestions={setManualStagedQuestions}
+              onNavigate={setActiveView}
+              onBack={() => {
+                if (previousView && previousView !== 'qp-custom-manual') {
+                  setActiveView(previousView);
+                } else {
+                  setActiveView('qp-25');
+                }
+              }}
+              mode="custom-manual"
             />
           )}
 
@@ -376,7 +488,33 @@ export const App: React.FC = () => {
               languageMode={languageMode}
               onLanguageChange={setLanguageMode}
               onViewAnswerKey={() => setActiveView('view-key')}
-              onBack={() => setActiveView('overview')}
+              onBack={() => setActiveView(previousGeneratorView || 'overview')}
+              generatorViewName={
+                previousGeneratorView === 'qp-25'
+                  ? '25 Marks Question Paper Generator (Unit Test)'
+                  : previousGeneratorView === 'qp-50'
+                  ? '50 Marks Question Paper Generator (Mid-Term)'
+                  : previousGeneratorView === 'qp-70'
+                  ? '70 Marks Question Paper Generator (Half Yearly / Model)'
+                  : previousGeneratorView === 'qp-custom'
+                  ? 'Custom Blueprint Generator'
+                  : previousGeneratorView === 'qp-manual' || previousGeneratorView === 'qp-custom-manual'
+                  ? 'Manual Selection Generator'
+                  : 'Generator Panel'
+              }
+              onUpdatePaper={updatedPaper => {
+                setActivePaper(updatedPaper);
+                setSavedPapers(prev => prev.map(p => (p.id === updatedPaper.id ? updatedPaper : p)));
+              }}
+              onSavePaper={paperToSave => {
+                setSavedPapers(prev => [paperToSave, ...prev.filter(p => p.id !== paperToSave.id)]);
+                showToast(
+                  "Question Paper saved to 'Saved Papers'!",
+                  `${paperToSave.examName} • ${paperToSave.subject} (${paperToSave.maxMarks} Marks)`,
+                  'success'
+                );
+              }}
+              allSubjectQuestions={activeSubject.questions}
             />
           )}
 
@@ -391,6 +529,25 @@ export const App: React.FC = () => {
           )}
         </main>
       </div>
+
+      {/* Global Status / Save Confirmation Toast Indicator */}
+      {appToast && (
+        <div className="fixed bottom-6 right-6 z-50 bg-[#0f172a] text-white px-4 py-3 rounded-xl shadow-2xl border border-emerald-500/60 flex items-center gap-3 animate-fade-in no-print print:hidden">
+          <CheckCircle className="w-5 h-5 text-emerald-400 shrink-0" />
+          <div>
+            <p className="text-xs font-bold text-white">{appToast.message}</p>
+            {appToast.subMessage && (
+              <p className="text-[11px] text-slate-300">{appToast.subMessage}</p>
+            )}
+          </div>
+          <button
+            onClick={() => setActiveView('saved-papers')}
+            className="ml-2 text-[11px] bg-emerald-700 hover:bg-emerald-600 font-bold px-2.5 py-1 rounded text-white cursor-pointer transition shrink-0"
+          >
+            Saved Papers →
+          </button>
+        </div>
+      )}
     </div>
   );
 };
