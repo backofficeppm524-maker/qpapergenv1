@@ -40,7 +40,7 @@ export const Navbar: React.FC<NavbarProps> = ({
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-2 text-center md:text-left">
           <div>
             <h1 className="text-sm md:text-base font-bold tracking-wide uppercase">
-              Tamilnadu Higher Secondary Question Paper & Answer Key Generator
+              Tamilnadu Higher Secondary Question Paper and Answer Key Builder Studio
             </h1>
             <p className="text-xs text-red-200">
               Select a subject and standard below to start building a printable question paper and matching answer key
