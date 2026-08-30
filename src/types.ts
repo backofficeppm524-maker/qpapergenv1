@@ -11,6 +11,13 @@ export interface QuestionOptions {
   D: string;
 }
 
+export interface QuestionOptionImages {
+  A?: string;
+  B?: string;
+  C?: string;
+  D?: string;
+}
+
 export interface Question {
   id: string;
   chapterNo: number;
@@ -22,6 +29,8 @@ export interface Question {
   questionTextTamil?: string;
   options?: QuestionOptions;
   optionsTamil?: QuestionOptions;
+  optionImages?: QuestionOptionImages;
+  imageUrl?: string;
   correctOption?: 'A' | 'B' | 'C' | 'D';
   answer: string;
   answerTamil?: string;

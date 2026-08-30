@@ -1,4 +1,4 @@
-import { Question, QuestionOptions, QuestionPaper, GeneratedSection, GeneratedSectionQuestion } from '../types';
+import { Question, QuestionOptions, QuestionOptionImages, QuestionPaper, GeneratedSection, GeneratedSectionQuestion } from '../types';
 
 /**
  * Fisher-Yates shuffle algorithm for immutable arrays
@@ -23,6 +23,7 @@ export function shuffleQuestionOptions(question: Question): Question {
 
   const origOptions = question.options;
   const origOptionsTamil = question.optionsTamil;
+  const origOptionImages = question.optionImages;
   const origCorrect = question.correctOption || 'A';
 
   const optionKeys: ('A' | 'B' | 'C' | 'D')[] = ['A', 'B', 'C', 'D'];
@@ -33,6 +34,7 @@ export function shuffleQuestionOptions(question: Question): Question {
   // New 'A' gets old 'C', New 'B' gets old 'A', etc.
   const newOptions: Partial<QuestionOptions> = {};
   const newOptionsTamil: Partial<QuestionOptions> = {};
+  const newOptionImages: Partial<QuestionOptionImages> = {};
 
   let newCorrectOption: 'A' | 'B' | 'C' | 'D' = 'A';
 
@@ -42,6 +44,10 @@ export function shuffleQuestionOptions(question: Question): Question {
 
     if (origOptionsTamil && origOptionsTamil[oldKey]) {
       newOptionsTamil[newKey] = origOptionsTamil[oldKey];
+    }
+
+    if (origOptionImages && origOptionImages[oldKey]) {
+      newOptionImages[newKey] = origOptionImages[oldKey];
     }
 
     if (oldKey === origCorrect) {
@@ -62,6 +68,7 @@ export function shuffleQuestionOptions(question: Question): Question {
     ...question,
     options: newOptions as QuestionOptions,
     optionsTamil: origOptionsTamil ? (newOptionsTamil as QuestionOptions) : undefined,
+    optionImages: origOptionImages ? (newOptionImages as QuestionOptionImages) : undefined,
     correctOption: newCorrectOption,
     answer: updatedAnswer,
     answerTamil: updatedAnswerTamil

@@ -1123,6 +1123,16 @@ export const ChapterwiseQuizExam: React.FC<ChapterwiseQuizExamProps> = ({
                     {currentQuestion.questionTextTamil}
                   </p>
                 )}
+                {currentQuestion.imageUrl && (
+                  <div className="pt-2">
+                    <img
+                      src={currentQuestion.imageUrl}
+                      alt="Diagram"
+                      className="max-h-56 max-w-full rounded border border-stone-200 bg-white object-contain p-1"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                )}
               </div>
 
               {/* Multiple Choice Options (A, B, C, D) */}
@@ -1143,7 +1153,7 @@ export const ChapterwiseQuizExam: React.FC<ChapterwiseQuizExamProps> = ({
                           : 'bg-stone-50/60 hover:bg-stone-100/80 border-stone-200 hover:border-stone-300 text-stone-800'
                       }`}
                     >
-                      <div className="flex items-center gap-3">
+                      <div className="flex items-start gap-3">
                         <span className={`w-7 h-7 rounded-lg font-black text-xs flex items-center justify-center shrink-0 ${
                           isSelected
                             ? 'bg-amber-500 text-stone-950 shadow-xs'
@@ -1151,9 +1161,21 @@ export const ChapterwiseQuizExam: React.FC<ChapterwiseQuizExamProps> = ({
                         }`}>
                           {optKey}
                         </span>
-                        <span className={`text-xs sm:text-sm font-semibold ${isSelected ? 'text-stone-950 font-bold' : 'text-stone-800'}`}>
-                          {optText}
-                        </span>
+                        <div className="space-y-1">
+                          <span className={`text-xs sm:text-sm font-semibold block ${isSelected ? 'text-stone-950 font-bold' : 'text-stone-800'}`}>
+                            {optText}
+                          </span>
+                          {currentQuestion.optionImages?.[optKey] && (
+                            <div className="mt-2">
+                              <img
+                                src={currentQuestion.optionImages[optKey]}
+                                alt={`Option ${optKey}`}
+                                className="max-h-40 max-w-full rounded border border-stone-200 bg-white object-contain p-1 shadow-xs"
+                                referrerPolicy="no-referrer"
+                              />
+                            </div>
+                          )}
+                        </div>
                       </div>
 
                       <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center shrink-0 ${
@@ -1961,6 +1983,16 @@ export const ChapterwiseQuizExam: React.FC<ChapterwiseQuizExamProps> = ({
                   <p className="font-bold text-stone-900 text-sm leading-relaxed">
                     {qText}
                   </p>
+                  {q.imageUrl && (
+                    <div className="pt-1">
+                      <img
+                        src={q.imageUrl}
+                        alt="Diagram"
+                        className="max-h-44 max-w-full rounded border border-stone-200 bg-white object-contain p-1"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                  )}
 
                   {/* Options Evaluation Grid */}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
@@ -1983,7 +2015,7 @@ export const ChapterwiseQuizExam: React.FC<ChapterwiseQuizExamProps> = ({
                           key={optKey}
                           className={`p-2.5 rounded-xl border flex items-center justify-between gap-2 ${cardStyle}`}
                         >
-                          <div className="flex items-center gap-2">
+                          <div className="flex items-start gap-2">
                             <span className={`w-5 h-5 rounded font-black text-[11px] flex items-center justify-center shrink-0 ${
                               isCorrectChoice
                                 ? 'bg-emerald-700 text-white'
@@ -1993,7 +2025,19 @@ export const ChapterwiseQuizExam: React.FC<ChapterwiseQuizExamProps> = ({
                             }`}>
                               {optKey}
                             </span>
-                            <span>{text}</span>
+                            <div>
+                              <span>{text}</span>
+                              {q.optionImages?.[optKey] && (
+                                <div className="mt-1">
+                                  <img
+                                    src={q.optionImages[optKey]}
+                                    alt={`Option ${optKey}`}
+                                    className="max-h-28 max-w-full rounded border border-stone-200 bg-white object-contain p-1"
+                                    referrerPolicy="no-referrer"
+                                  />
+                                </div>
+                              )}
+                            </div>
                           </div>
 
                           <div className="shrink-0 text-[10px] font-black">

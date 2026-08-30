@@ -73,6 +73,9 @@ export function generateQuestionPaperHtml(paper: QuestionPaper, langMode: Langua
         if ((langMode === 'tamil' || langMode === 'bilingual') && q.questionTextTamil) {
           qTextHtml += `<div style="font-family: 'Noto Serif Tamil', serif; margin-top: 2px;">${q.questionTextTamil}</div>`;
         }
+        if (q.imageUrl) {
+          qTextHtml += `<div style="margin: 6px 0;"><img src="${q.imageUrl}" style="max-height: 180px; max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; padding: 2px; background: #fff;" /></div>`;
+        }
 
         let optionsHtml = '';
         if (isMCQ && q.options) {
@@ -80,6 +83,7 @@ export function generateQuestionPaperHtml(paper: QuestionPaper, langMode: Langua
           const items = optKeys.map(k => {
             const eng = q.options?.[k];
             const tam = q.optionsTamil?.[k];
+            const optImg = q.optionImages?.[k];
             let txt = '';
             if (langMode === 'english' || langMode === 'bilingual') {
               txt += `<span style="font-weight: bold;">${englishOptionLabels[k]}</span> ${eng || ''}`;
@@ -87,7 +91,10 @@ export function generateQuestionPaperHtml(paper: QuestionPaper, langMode: Langua
             if ((langMode === 'tamil' || langMode === 'bilingual') && tam) {
               txt += (langMode === 'bilingual' ? ' / ' : '') + `<span style="font-weight: bold; font-family: 'Noto Serif Tamil', serif;">${tamilOptionLabels[k]}</span> ${tam}`;
             }
-            return `<div style="flex: 1 1 45%; min-width: 200px; margin-bottom: 4px;">${txt}</div>`;
+            if (optImg) {
+              txt += `<div style="margin-top: 4px;"><img src="${optImg}" style="max-height: 120px; max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; padding: 2px; background: #fff;" /></div>`;
+            }
+            return `<div style="flex: 1 1 45%; min-width: 200px; margin-bottom: 8px;">${txt}</div>`;
           }).join('');
 
           optionsHtml = `<div style="display: flex; flex-wrap: wrap; margin-top: 6px; padding-left: 18px; font-size: 10pt;">${items}</div>`;
@@ -215,13 +222,16 @@ export function generateAnswerKeyHtml(paper: QuestionPaper, langMode: LanguageMo
           </div>
         `;
       } else if (isMCQ) {
+        const correctOptKey = q.correctOption || 'A';
+        const optImg = q.optionImages?.[correctOptKey];
         keyItemsHtml += `
           <div style="display: flex; align-items: baseline; justify-content: space-between; padding: 4px 0; border-bottom: 1px dotted #e2e8f0; font-size: 10.5pt; page-break-inside: avoid; break-inside: avoid;">
             <div>
               <span style="font-weight: bold; min-width: 32px; display: inline-block;">Q.${qNum}.</span>
-              <span style="font-weight: bold; color: #047857;">Option (${q.correctOption || 'A'}):</span>
-              <span style="margin-left: 6px;">${q.options?.[q.correctOption || 'A'] || q.answer}</span>
-              ${q.optionsTamil && (langMode === 'tamil' || langMode === 'bilingual') ? `<span style="margin-left: 6px; color: #475569; font-family: 'Noto Serif Tamil', serif;">(${q.optionsTamil[q.correctOption || 'A']})</span>` : ''}
+              <span style="font-weight: bold; color: #047857;">Option (${correctOptKey}):</span>
+              <span style="margin-left: 6px;">${q.options?.[correctOptKey] || q.answer}</span>
+              ${q.optionsTamil && (langMode === 'tamil' || langMode === 'bilingual') ? `<span style="margin-left: 6px; color: #475569; font-family: 'Noto Serif Tamil', serif;">(${q.optionsTamil[correctOptKey]})</span>` : ''}
+              ${optImg ? `<div style="margin-top: 4px;"><img src="${optImg}" style="max-height: 90px; max-width: 180px; border: 1px solid #cbd5e1; border-radius: 4px; padding: 2px; background: #fff;" /></div>` : ''}
             </div>
             <span style="font-weight: bold; font-size: 9.5pt; color: #334155;">1 Mark</span>
           </div>

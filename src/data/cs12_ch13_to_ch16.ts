@@ -1,4 +1,5 @@
 import { Question } from '../types';
+import { CS12_CH16_Q7_OPTION_IMAGES } from './cs12_ch16_images';
 
 export const CS12_CH13_TO_CH16_QUESTIONS: Question[] = [
   // ========================================================
@@ -1223,13 +1224,24 @@ export const CS12_CH13_TO_CH16_QUESTIONS: Question[] = [
     chapterNameTamil: "தரவு காட்சிப்படுத்துதல் – Pyplot பயன்படுத்தி கோட்டு, வட்ட மற்றும் பட்டை வரைபடங்கள் உருவாக்குதல்",
     marks: 1,
     type: "mcq",
-    questionText: "What is the default x-axis range for plt.plot([1,2,3,4])?",
-    questionTextTamil: "plt.plot([1,2,3,4]) என்பதற்கான இயல்புநிலை x-அச்சு வரம்பு என்ன?",
-    options: { A: "1 to 4", B: "0 to 3", C: "0 to 4", D: "1 to 3" },
-    optionsTamil: { A: "1 to 4", B: "0 to 3", C: "0 to 4", D: "1 to 3" },
-    correctOption: "B",
-    answer: "B) 0 to 3",
-    answerTamil: "ஆ) 0 to 3",
+    questionText: "Read the following code:\nimport matplotlib.pyplot as plt\nplt.plot(3,2)\nplt.show()\nChoose the correct output from the given options:",
+    questionTextTamil: "பின்வரும் குறியீட்டைப் படிக்கவும்:\nimport matplotlib.pyplot as plt\nplt.plot(3,2)\nplt.show()\nமேலே காணும் குறியீட்டின் வெளியீட்டைத் தேர்ந்தெடு.",
+    options: {
+      A: "Epic Info (Two line plots with grid)",
+      B: "Figure 1 (Chart with title, x-axis & y-axis labels 1, 2, 3)",
+      C: "Figure 1 (Single point coordinates at x=3, y=2 with x-range 2.85-3.15, y-range 1.900-2.100)",
+      D: "Figure 1 (Line plot y=x+1 with label 'some numbers')"
+    },
+    optionsTamil: {
+      A: "Epic Info (இரு கோட்டு வரைபடம் கட்டங்களுடன்)",
+      B: "Figure 1 (தலைப்பு, x மற்றும் y அச்சு பெயரிடப்பட்ட விளக்கப்படம்)",
+      C: "Figure 1 (x=3, y=2 ஆகிய புள்ளிகளை மையமாகக் கொண்ட அச்சு வரைபடம்)",
+      D: "Figure 1 ('some numbers' என்ற y-அச்சு கொண்ட கோட்டு வரைபடம்)"
+    },
+    optionImages: CS12_CH16_Q7_OPTION_IMAGES,
+    correctOption: "C",
+    answer: "C) Figure 1 [Output graph with single point (3,2) coordinate axes - range 2.85 to 3.15 and 1.900 to 2.100]",
+    answerTamil: "இ) Figure 1 [x-அச்சு 2.85 முதல் 3.15 வரையிலும், y-அச்சு 1.900 முதல் 2.100 வரையிலும் மையமாகக் கொண்ட வரைபடம்]",
     isBookBack: true
   },
   {

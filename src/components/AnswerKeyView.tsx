@@ -403,7 +403,19 @@ export const AnswerKeyView: React.FC<AnswerKeyViewProps> = ({
                             <td className="border border-black p-1.5 text-center font-bold">
                               {languageMode === 'tamil' ? optTamil : languageMode === 'bilingual' ? `${optEnglish} / ${optTamil}` : optEnglish}
                             </td>
-                            <td className="border border-black p-1.5">{ansText}</td>
+                            <td className="border border-black p-1.5">
+                              <div>{ansText}</div>
+                              {optKey && q.optionImages?.[optKey] && (
+                                <div className="mt-1">
+                                  <img
+                                    src={q.optionImages[optKey]}
+                                    alt={`Option ${optKey}`}
+                                    className="max-h-24 max-w-full rounded border border-stone-300 bg-white object-contain p-0.5"
+                                    referrerPolicy="no-referrer"
+                                  />
+                                </div>
+                              )}
+                            </td>
                             <td className="border border-black p-1.5 text-center font-bold">1</td>
                           </tr>
                         );

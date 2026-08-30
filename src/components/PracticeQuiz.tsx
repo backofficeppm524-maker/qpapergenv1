@@ -662,6 +662,17 @@ export const PracticeQuiz: React.FC<PracticeQuizProps> = ({
               {currentQ.questionTextTamil}
             </p>
           )}
+
+          {currentQ.imageUrl && (
+            <div className="pt-2">
+              <img
+                src={currentQ.imageUrl}
+                alt="Diagram"
+                className="max-h-56 max-w-full rounded border border-stone-200 dark:border-stone-700 bg-white object-contain p-1 shadow-xs"
+                referrerPolicy="no-referrer"
+              />
+            </div>
+          )}
         </div>
 
         {/* MCQ Options (If MCQ) */}
@@ -715,6 +726,16 @@ export const PracticeQuiz: React.FC<PracticeQuizProps> = ({
                       )}
                       {(localLangMode === 'tamil' || localLangMode === 'bilingual') && optTextTamil && (
                         <p className="text-stone-600 dark:text-stone-400 font-tamil text-xs">{optTextTamil}</p>
+                      )}
+                      {currentQ.optionImages?.[optKey] && (
+                        <div className="mt-2">
+                          <img
+                            src={currentQ.optionImages[optKey]}
+                            alt={`Option ${optKey}`}
+                            className="max-h-40 max-w-full rounded border border-stone-200 dark:border-stone-700 bg-white object-contain p-1 shadow-xs"
+                            referrerPolicy="no-referrer"
+                          />
+                        </div>
                       )}
                     </div>
                   </div>

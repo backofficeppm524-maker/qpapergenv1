@@ -840,6 +840,16 @@ export const QuestionPaperView: React.FC<QuestionPaperViewProps> = ({
                                     )}
                                   </>
                                 )}
+                                {q.imageUrl && (
+                                  <div className="mt-2 mb-1">
+                                    <img
+                                      src={q.imageUrl}
+                                      alt="Question Diagram"
+                                      className="max-h-48 max-w-full rounded border border-stone-300 bg-white object-contain p-1 shadow-xs"
+                                      referrerPolicy="no-referrer"
+                                    />
+                                  </div>
+                                )}
                               </div>
                               
                               <div className="flex items-center gap-1.5 shrink-0">
@@ -883,7 +893,7 @@ export const QuestionPaperView: React.FC<QuestionPaperViewProps> = ({
 
                             {/* 1-Mark MCQ 4 Choices in Standard Board Layout */}
                             {isPart1 && q.options && (
-                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-1 pt-1.5 text-xs">
+                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-2 pt-1.5 text-xs">
                                 {(['A', 'B', 'C', 'D'] as const).map(opt => {
                                   return (
                                     <div key={opt} className="flex items-start gap-1.5">
@@ -894,7 +904,7 @@ export const QuestionPaperView: React.FC<QuestionPaperViewProps> = ({
                                           ? `${englishOptionLabels[opt]} / ${tamilOptionLabels[opt]}`
                                           : englishOptionLabels[opt]}
                                       </span>
-                                      <div>
+                                      <div className="flex-1">
                                         {languageMode === 'english' && (
                                           <span className="whitespace-pre-line">{q.options![opt]}</span>
                                         )}
@@ -908,6 +918,16 @@ export const QuestionPaperView: React.FC<QuestionPaperViewProps> = ({
                                               <span className="ml-1 text-stone-800 whitespace-pre-line">/ {q.optionsTamil[opt]}</span>
                                             )}
                                           </span>
+                                        )}
+                                        {q.optionImages?.[opt] && (
+                                          <div className="mt-1.5">
+                                            <img
+                                              src={q.optionImages[opt]}
+                                              alt={`Option ${opt}`}
+                                              className="max-h-36 max-w-full rounded border border-stone-300 bg-white object-contain p-1 shadow-2xs"
+                                              referrerPolicy="no-referrer"
+                                            />
+                                          </div>
                                         )}
                                       </div>
                                     </div>

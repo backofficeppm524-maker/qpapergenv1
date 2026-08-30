@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" width="100%" height="100%">
+  <rect width="320" height="260" fill="#ffffff" />
+  <rect x="5" y="5" width="310" height="250" fill="none" stroke="#111827" stroke-width="2.5" />
+  <circle cx="313" cy="7" r="3" fill="#111827" />
+  <text x="175" y="32" font-family="'Times New Roman', serif, Georgia" font-size="16" font-weight="bold" fill="#1e293b" text-anchor="middle">Epic Info</text>
+  <text x="18" y="140" font-family="'Times New Roman', serif, Georgia" font-size="15" font-weight="normal" fill="#1e293b" transform="rotate(-90 18 140)" text-anchor="middle">Y axis</text>
+  <text x="175" y="250" font-family="'Times New Roman', serif, Georgia" font-size="15" font-weight="normal" fill="#1e293b" text-anchor="middle">X axis</text>
+  
+  <!-- Grid Lines -->
+  <line x1="42" y1="40" x2="270" y2="40" stroke="#334155" stroke-width="2" />
+  <line x1="42" y1="77" x2="270" y2="77" stroke="#334155" stroke-width="2" />
+  <line x1="42" y1="114" x2="270" y2="114" stroke="#334155" stroke-width="2" />
+  <line x1="42" y1="151" x2="270" y2="151" stroke="#334155" stroke-width="2" />
+  <line x1="42" y1="188" x2="270" y2="188" stroke="#334155" stroke-width="2" />
+  <line x1="42" y1="225" x2="270" y2="225" stroke="#334155" stroke-width="2" />
+  
+  <line x1="42" y1="40" x2="42" y2="225" stroke="#334155" stroke-width="2" />
+  <line x1="80" y1="40" x2="80" y2="225" stroke="#334155" stroke-width="2" />
+  <line x1="118" y1="40" x2="118" y2="225" stroke="#334155" stroke-width="2" />
+  <line x1="156" y1="40" x2="156" y2="225" stroke="#334155" stroke-width="2" />
+  <line x1="194" y1="40" x2="194" y2="225" stroke="#334155" stroke-width="2" />
+  <line x1="232" y1="40" x2="232" y2="225" stroke="#334155" stroke-width="2" />
+  <line x1="270" y1="40" x2="270" y2="225" stroke="#334155" stroke-width="2" />
+  
+  <!-- Ticks Y -->
+  <text x="36" y="44" font-family="'Times New Roman', serif" font-size="13" fill="#1e293b" text-anchor="end">16</text>
+  <text x="36" y="81" font-family="'Times New Roman', serif" font-size="13" fill="#1e293b" text-anchor="end">14</text>
+  <text x="36" y="118" font-family="'Times New Roman', serif" font-size="13" fill="#1e293b" text-anchor="end">12</text>
+  <text x="36" y="155" font-family="'Times New Roman', serif" font-size="13" fill="#1e293b" text-anchor="end">10</text>
+  <text x="36" y="192" font-family="'Times New Roman', serif" font-size="13" fill="#1e293b" text-anchor="end">8</text>
+  <text x="36" y="228" font-family="'Times New Roman', serif" font-size="13" fill="#1e293b" text-anchor="end">6</text>
+  
+  <!-- Ticks X -->
+  <text x="42" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">5</text>
+  <text x="80" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">6</text>
+  <text x="118" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">7</text>
+  <text x="156" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">8</text>
+  <text x="194" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">9</text>
+  <text x="232" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">10</text>
+  <text x="270" y="238" font-family="'Times New Roman', serif" font-size="12" fill="#1e293b" text-anchor="middle">11</text>
+  
+  <!-- Green Line -->
+  <polyline points="42,112 156,40 232,225" fill="none" stroke="#22c55e" stroke-width="2.5" stroke-linejoin="round" />
+  <!-- Blue Line -->
+  <polyline points="80,225 194,58 270,205" fill="none" stroke="#00a2e8" stroke-width="2.5" stroke-linejoin="round" />
+</svg>

@@ -165,7 +165,7 @@ export const PRELOADED_SUBJECTS: SubjectData[] = [
   {
     id: "es-11",
     name: "Employability Skills",
-    nameTamil: "பணியமர்த்தல் திறன்கள்",
+    nameTamil: "வேலைவாய்ப்புத் திறன்கள்",
     standard: "11th Standard",
     board: "Tamil Nadu State Board",
     code: "11ES",

@@ -941,6 +941,16 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
                               )}
                             </>
                           )}
+                          {q.imageUrl && (
+                            <div className="mt-2">
+                              <img
+                                src={q.imageUrl}
+                                alt="Diagram"
+                                className="max-h-48 max-w-full rounded border border-stone-200 bg-white object-contain p-1"
+                                referrerPolicy="no-referrer"
+                              />
+                            </div>
+                          )}
                         </div>
 
                         {/* MCQ Options (If 1-Mark) */}
@@ -963,7 +973,7 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
                                   <span className={`font-bold shrink-0 ${isAnswerVisible && isCorrect ? 'text-emerald-700' : 'text-stone-500'}`}>
                                     {languageMode === 'tamil' ? tamilOptLabel : languageMode === 'bilingual' ? `${engOptLabel} / ${tamilOptLabel}` : engOptLabel}
                                   </span>
-                                  <div>
+                                  <div className="flex-1">
                                     {languageMode === 'english' && (
                                       <p>{q.options![optKey]}</p>
                                     )}
@@ -977,6 +987,16 @@ export const FullQuestionBank: React.FC<FullQuestionBankProps> = ({
                                           <p className="text-stone-700 mt-0.5">{q.optionsTamil[optKey]}</p>
                                         )}
                                       </>
+                                    )}
+                                    {q.optionImages?.[optKey] && (
+                                      <div className="mt-1.5">
+                                        <img
+                                          src={q.optionImages[optKey]}
+                                          alt={`Option ${optKey}`}
+                                          className="max-h-36 max-w-full rounded border border-stone-200 bg-white object-contain p-1 shadow-2xs"
+                                          referrerPolicy="no-referrer"
+                                        />
+                                      </div>
                                     )}
                                   </div>
                                 </div>
